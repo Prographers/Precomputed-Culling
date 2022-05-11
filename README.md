@@ -83,4 +83,4 @@ For more advanced usages visit https://prographers.com/Precomputed-Culling/ or r
  - Set runtime pixel requirement to 0 - 25 pixels
  - Allow for baking transparents between 1 or 2 layers
 
-More dence areas should have bigger priority then less dence areas.
+More dense areas should have bigger priority then less dense areas.
