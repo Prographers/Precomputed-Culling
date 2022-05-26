@@ -1,4 +1,5 @@
 # Precomputed Culling
+![Precomputed_Culling_Logo](https://user-images.githubusercontent.com/5092066/170501889-39cf1828-8557-4f1b-9e9c-2856f41bd3d2.png)
 Pixel perfect occlusion system that will significantly improve the performance of your scenes, without almost any overhead.
 
 Using time of your computer, precompute/bake your scenes to gain a significant performance boost. The occlusion culling algorithm will find all visible meshes from each point on your scene, using the color-coding algorithm. Then it will save them efficiently and load only when needed.
