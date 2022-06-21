@@ -34,7 +34,7 @@
         ]
       }
     ],
-    "dest": "../docs",
+    "dest": "_site",
     "globalMetadataFiles": ["meta.json"],
     "fileMetadataFiles": [],
     "template": [
