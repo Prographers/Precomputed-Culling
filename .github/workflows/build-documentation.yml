@@ -6,6 +6,9 @@ on:
     branches:
       - main  # We don't want branches in doc to trigger builds
 
+permissions: 
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
