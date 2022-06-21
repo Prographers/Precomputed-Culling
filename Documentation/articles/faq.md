@@ -10,8 +10,8 @@ Frustum culling does not remove from the rendering objects that are behind of ot
 
 | Type | Visualsation | 
 | --- | --- |
-| **Precomputed culling off** | <img src="/images/culing_off.png" width="200" />|
-| **Precomputed culling on** | <img src="/images/culing_on.png" width="200" /> |
+| **Precomputed culling off** | <img src="../images/culing_off.png" width="200" />|
+| **Precomputed culling on** | <img src="../images/culing_on.png" width="200" /> |
 
 # When should I use precomputed culling
 
