@@ -755,7 +755,7 @@ body .toc{
   max-height: 200px;
 }
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
