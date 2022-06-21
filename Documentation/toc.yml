@@ -3,3 +3,7 @@
 - name: Api Documentation
   href: api/
   homepage: api/index.md
+- name: $GitHub
+  href: https://github.com/Prographers/Precomputed-Culling
+- name: $Prographers
+  href: https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar

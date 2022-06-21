@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/Projects/Other/XmlToMdForJustTheDocs/docfx_project",
+  "source_base_path": "D:/Projects/Other/Precomputed-Culling/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html",
-          "hash": "pb+0c7SPByBe+LYajtUEfxukPwudPchSUHBun8aBwhQ="
+          "hash": "CgpDPgN+C12pl0dx1fBwQw8tX0KiZ7ksELNLo/qEfd0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html",
-          "hash": "1Qu+dFdQxQipFCSoTH65cMyUoSwdcEqDlXcAD8k9vGY="
+          "hash": "zb+1hPySCi3NjsVdPYP6sdZdpHR8VtRdGJSCZNcsqD0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html",
-          "hash": "hPyBVCwtOsPlVrgW6OQLzHsz1iBaVo+TklyrSIwGO3w="
+          "hash": "Nvyp4C2iSoWRGLmUNnWkDwE4mpyxUfBg/2Fx+EywP30="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.html",
-          "hash": "PaoYCKogRS0z9xAvCoDzHOb6q4ahJlUtDBcWmMBNKXI="
+          "hash": "xVmS2C4mZMG6Jq4Vin0eOQ5gXCGxDZ/7hC0+GE3CIvE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant.html",
-          "hash": "5s13FJgXWrQTlf2QsvYMch7FfiQZRXU2KVhxk8b3UnI="
+          "hash": "OUuHz6CRb4ZS5z9Lj0Op7VOK5RuoV6vyUqgbNh+Ln5Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData.html",
-          "hash": "N/KgqHRUm74yqpk+v50zzEnFJtqaGoMfkYXcRA+5EZk="
+          "hash": "eNKpURRCWlrcx6rbJOUq6jZ+sBv3TA+XujrAYs1OMqY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.html",
-          "hash": "X8oGT8LoJLFxVpP1z5rQhVtnYU25f1rJZiOQlse/mhE="
+          "hash": "3BT3gKDubCBeKBLP86cETHazq3jhd65O/TMrno/bbA4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html",
-          "hash": "qiNS2aIoNmJwrg1jjFTQtL6MNJUE1PunEgXL/mltghk="
+          "hash": "3SOWkZMY5mycPQoKzlhGj9pD3Q0dugGaDpUtaUvSIms="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html",
-          "hash": "kPd36oEL6n38W31z+B7+Jtp/YM4kW94iD34GHASYVhk="
+          "hash": "xoI17WfSs9DPGtcoMkXsk9crqrJBv2YE/YodZGWi2AM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html",
-          "hash": "jHwoFmAzjGRmv6CIBuU//Q+OLqSGEZbNF2cZyalXnlc="
+          "hash": "81bV5YWOhtzcpvqOc0wYxt7W8Q6zg3w/QBKayH0fAlQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html",
-          "hash": "2779uUYN8+gmFp7ZsWcFFzbvEw6zBJUUzeBmO1zh6gY="
+          "hash": "AZxb6cpFNl4WUnsLY+u+0cgPJeTZiQo5ncrihcVE9Ug="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html",
-          "hash": "jaImceyI+wvuslrwebQ0pI1Sq31bBctFkon9uPurMh8="
+          "hash": "T7PE5ofMz30izXvXfIZA0Hj3cRGI8ud9fH6JIDamRpo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.html",
-          "hash": "ChTSI2c8RCFMsaTw1iCnCVjEBf3UbqvHntsWBdYNhCs="
+          "hash": "7zLfKrRPJTlZf0ek6hpONMkpHwXTei0JGmPZLAtveGI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.html",
-          "hash": "EIL2Pev9xHAnP/eZtgeZ8E8uavzOWLYo+Y4nC0CatlU="
+          "hash": "W8e8dmSFg2nhSCPy3ZbV2kzN5qgIhtsrfZPRKaOsQpM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.html",
-          "hash": "LsePhIN2pWDczuZ60+GDn2tRBH79cH6eZ3qILfQ3+k4="
+          "hash": "f+6+cBvEfTl5IE6vMM+c0RufmXkwWLZSI9pgcW2kgDI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData.html",
-          "hash": "X0AyIvH5mkJc+05le/H01PFb//kgFPa1vLDSyBNIbmE="
+          "hash": "CkDHdCYN/GCZp0pZIALvOntGGtefMaPRNJmeJ4MT2bM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html",
-          "hash": "OXb8tD9+0aGanCSNEn0jLHCyP1tg9oLIm/SmLEMTTZM="
+          "hash": "e+mOX82EZvkGpf5GqNLdyiMNXLy9U6DYxPJJHSbLaM8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.html",
-          "hash": "aJoS6Fjh8tDndfAzUHYAnWbtI/bjgigleZUObClKfZQ="
+          "hash": "DxmeWr0TuWQOFB4YfpKKIl6D8jMgIZIO63HFRdgubyI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.html",
-          "hash": "zpj+kzmfl/sHaOzJLdntznOL7HoQ5ieeoc8gvMATpuo="
+          "hash": "G5yjnao6UjB5lnp+kGSss9+eY8pC0MWbMuJmndnDwyg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.html",
-          "hash": "+/Ncg1kjhlANfPQ8h5NNOhwfr7nrCX3OsZ/4UY40XvU="
+          "hash": "CxmDWHZ46GqzAQzb14B3j33xPudrBODZGxuWzhpPbfg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.html",
-          "hash": "dndwoCm4aB5heXUKHqps1xQNjLYl1F5MyHYj5xdftDg="
+          "hash": "QBJT/AkhgvGasL6k5+QEsQ/eLRj12MnV9Z12yARoufE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer.html",
-          "hash": "B1nBKc1RHvPWVnlViW7c1FJdo+JdIhb4O1fHG6dW37M="
+          "hash": "+l5jXsIs+JpY4k4V4Toa/albwOZRzKeWbeH+sPqsS2Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline.html",
-          "hash": "TC4MHEs+CUxK6UdusvahMT47GnumxJSVnMQIQIIk/UA="
+          "hash": "4cZPowJY6FezMdks3zgKq/YSerEDLs6ko/fyesaoe+k="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset.html",
-          "hash": "+36+36EfWeS1Z9qv93XSoyC+s12+4++rzgBQrBwon9k="
+          "hash": "jzsxOBPsPdhMANxGH54vslWxvPNde3u9jHHfepe5rHU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.html",
-          "hash": "rmIuvPP3Oj3Ax9M/ZhAWOiNyGsWRFPhJ3WcOt+Om9SQ="
+          "hash": "JNmZq0clHzP6sSrv2nInnIpiyrPlhQLungDZ2Phe7Dg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.html",
-          "hash": "ZQOo34LfyHhvKR+hwOaj7Ff0Vcvw4w/HGG74QgjHUMo="
+          "hash": "rwiChsC2HHjCIcFRwmK9nY3Dc1MsyRPESdYbYeRiDxg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera.html",
-          "hash": "LUtb2C+qxncUCG/PGnX1vc5vWq3Vj9+59kO04v1fQ9Y="
+          "hash": "l1X3YSh3OmwzfTcIhlRBSktMVamUmAoWeJjf+2GKTkc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.html",
-          "hash": "CM1Xiev/fuws4mhR6NrEwWy4XIIoaqMl6t8gEeDz7xU="
+          "hash": "DsYQ+viBPQNMOUupnmvhl0vVxnqtJHaclwdElL5a9vU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester-1.html",
-          "hash": "V/QK+F66iAdWBM/cT09VVkeYfrzpFjlk7mULEFE7Jtg="
+          "hash": "4Py5nyTjpgn9pfPIdW82q2MHqjN4sKYtPuGrJEUuELI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester.html",
-          "hash": "SYoz2rnmPNwqPZzWiPmHbXabpfx0WFfVQyE4jGCzV3E="
+          "hash": "71vbdHU1eWD0EDadx1fRBDXht/cyZAbH5tbkIgxoyWU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera.html",
-          "hash": "YOtpxTGy2XUWBxlgoOj0IxbomR+Z68JBIqLj1GSJjJs="
+          "hash": "MrZfUOdUOFM807DRuY/e1TwTKO85PnBR7SP9ojGv5pk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea.html",
-          "hash": "AaX+4XMw61viIDiyThrF2PQNsiy0xluELAbg3ST3M/c="
+          "hash": "yjSEonzScYESFNbpcKP9pVbPGfgFIz56LKZxoEvttUo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId.html",
-          "hash": "4WAbroAr6rWylQzuF59aGDM7/fnw5O9OjNinYd6Qv7Y="
+          "hash": "4D3Pg0lF7nBgtnHpuSFg2TCiMEjwkr0Y+jf/Xnh5BE8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.html",
-          "hash": "WNfj9w5ZSelHMpDt8x98YLorouf22ntvlWsR88DB8aY="
+          "hash": "ZL8Ska68aPce/4t59MQav/2W7LUxf1Dp69YymNhkX20="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCamera.html",
-          "hash": "tSS5CnaM2juDzDkmMmkNGBE/c4xqEmJHpwRPYigO8E0="
+          "hash": "/zjuJ1KRIi70ay4Q8vSYwGPQdfis2M2iEYIM2JRzhug="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedController.html",
-          "hash": "vgzaeaoBUPtouzAGVRo6W0sCrUnHDuRXS2qDzBA6/+0="
+          "hash": "cp5906QDY9DHuJH/c03I0GMFMMFUm3iT0QalseAc2eM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.html",
-          "hash": "AqcsV25XxcexzwsVLtUOcZsKq3UCqDCpSo0vrDH2Wjk="
+          "hash": "uYJFgZHybol/SXR5tTRfa6S3H3CfnGI8o1HXDPZaA/0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.html",
-          "hash": "LUrjr9lbUJTmi3oeCsRzigVZS4p3G77JLDuegtRb20Y="
+          "hash": "8IddZIAs/wku4fcK99iPt/f1Y3O1zl+sRfu5EOgkHBw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.html",
-          "hash": "0zqTH+pIUQPjUJjLR7xK3tFduhxEGF6OzaN+ZCGo8ao="
+          "hash": "IkhubK9v4m6ap93WqnW/wuFi+DC+Vc9e1EK3FYC29lc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.html",
-          "hash": "eDrPZM+RwVf2ooh9MAjnhhNaQHPXTpqKCIpZFPOkiD0="
+          "hash": "yWw7WVBpV1Sbx4DBlspWX+8RxlQ5L+pzJh+xUNy1rNo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.html",
-          "hash": "2dyPgKSvqU26Fn5NYuuheukCaK09ZScvWiFW/9Eebek="
+          "hash": "3QLMv6RI1bUJQ/JV/WnWjY6Js4xKBS8QHHSU0J1HAYE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.html",
-          "hash": "9ewvrhfVf5o6txKgMq5XNVf+Pg5aXC5WWk0XTh5hcIY="
+          "hash": "DhmmVHsjpf+F4fJUnge6ObzTZkm0Fe9DdNqB149IdnQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.html",
-          "hash": "7nXXvuPtGRgkFw97X+Slte+aCDjEQGKOlZ89aHr4ErA="
+          "hash": "M/PoGhTkN2DiwvEqZ1oaZ1fyx4Yf/cxSnJE6qmaJh6Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.html",
-          "hash": "d+ZEqCdAAGhe3gePMD6s5NE+A/nZd0dFJ+CCGOvVV6Y="
+          "hash": "+oUy6RwyjE/nN5SBOOfuieMyy3wBTOSV0erTiwy47+o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.html",
-          "hash": "YOAkSec6nAukxlzmt1XQ+aflYoapCpyy3YTHlAO1buY="
+          "hash": "YKgX4dZLl0pFqWWCSMjR3hg2flAAj1TOpOkDjw3S/sI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -549,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.html",
-          "hash": "NuFys6HUOF4vfAfZPa8kYqCn8nU9fPb873bcUFJyi5M="
+          "hash": "EAlSBpWRq06Kdq132BaJJQ6CwCcFqGY7iEEXjUnnfTU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -561,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.html",
-          "hash": "FSi8VsHiNyFt27UHtl1qhMSK14KE5AtoxE1IfSm0Skg="
+          "hash": "Ugu0r+FCXmud58oR/5mVe8wDfHhY4UOJ9iNpX2exnG4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -573,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings.html",
-          "hash": "WlslfDnu6T1LSy8aGk2miggThMIDw7BXNIg3/3S9LbE="
+          "hash": "oDHTOQBLx7HPMz3IurB2nxdRutUKbJzkDRdAy3BEAvY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -585,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.html",
-          "hash": "+QYoDaoWSYtCydELunKE7E/xnUOphi/NKJnVOPe/bZs="
+          "hash": "9/UMk9aq2G5a7sT0Wl7xZwg2Fok2dPDn0hAukkUVaS0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -597,10 +597,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedManager.html",
-          "hash": "nzNcdPsEhORIpLh37MFTMwcdbrJLb78cG8bQ+owrOfE="
+          "hash": "pyxPB/MScVEwc/5Ay6WnpMWqUCtoT0yatpo+zXq3zUQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -609,10 +609,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData.html",
-          "hash": "zijyE4gyAsBJ939V+ENNuG+AwG2ee20pMCuhhPceLc8="
+          "hash": "84W/G8mEkrE/T9RyYMV4A8+G+y/MvTUkXAeLXOP8/jQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -621,10 +621,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.html",
-          "hash": "BD3n18MBJwM6iTrxU24FKNtiOQAbzck29dhinJU5d20="
+          "hash": "H790VOjlUqm23UI5TsJPYGoufOamVOFt7S0BlVcirYc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -633,10 +633,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.html",
-          "hash": "W6dJHI58ZksYgr9W/Vw0Fnhmi8C6oS94O9g1vrApfZE="
+          "hash": "DmdRknrtvcDn5La/0QQfRoa8u2wUcDf6nHD1dyraYsw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -645,10 +645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.html",
-          "hash": "rCrOCDmANBkao0NQtgExshu+Zp649wPTkMTdd+9OJ4Y="
+          "hash": "gvzD8KabphTsyoF3NpoD3lMAZHhI3+yxtnsmWB3xvpU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -657,10 +657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.html",
-          "hash": "nMSLA0LRXkhq9xuyelm1/uHtCqmZ6NkYyA++gmC5CWM="
+          "hash": "5ACUEUpd0mckh+sLFCXj76xXDkd4KiSGjoO+wf1p6IA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -669,10 +669,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings.html",
-          "hash": "nXc9lk7ANiDnG7uLdVg2Ry/EecN8hloMWKQAtu0XIDg="
+          "hash": "O/nawILrlNHWrYemoODw04Wn+xbCh9oedSWQuaJKYik="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -681,10 +681,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea.html",
-          "hash": "nEQVdD9XE34L76oJgyGCfBkvTw4UDEnmw8s2rKbg4Hc="
+          "hash": "MHtLxE4BrXvAogWHJvePmpl6AoFuYk8z7wc3O3zE3pA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -693,10 +693,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.html",
-          "hash": "1WRg0ao8A3QThZJGudszE8DagI2JsluFOz4S9l5ZZnc="
+          "hash": "6X7OPf83qjNdvAEeARNCoJUTkun6kCYmuccJTnsHeP0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -705,10 +705,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer.html",
-          "hash": "mGGm9ZDA+sNRbrIUUJG4i7nXpt12msPLgeOfWOyzySQ="
+          "hash": "gy+CMnAWybRHV13XKHPgKRPNkIbyJFI3Wy4rHKF7etM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -717,10 +717,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.html",
-          "hash": "CmbivXelXOl3prLxtrvCdMn4ymWQqRVubpTf+wbIiA4="
+          "hash": "rgawBIme1pb0LBy3k6H839cBTe6PPPnGQ+CZeSo0L/Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -729,10 +729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.html",
-          "hash": "WQ2wrdeA4P37eHJOpAewKFa41Of0ZQgscyzSBqW1wAs="
+          "hash": "j3us8avZXFI9wo+JU1wclqC/5I1CvaMGeKXGkyfseDM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -741,10 +741,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html",
-          "hash": "dXdQLlSx3Uxhp6t/3n0Mz9px7e4c/ikFdkOpfc9p0Ho="
+          "hash": "WZhQravyLDpCEWGwyYJKM39rkQURla3XPMlefYIg3LA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -753,10 +753,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.html",
-          "hash": "iEh/6Ak4FIZpixajt/ChaVlrElIiuzrlzJJtLGcxt/k="
+          "hash": "ALbRp0LAj4BtGUwRpr3GqKT9ZWJ7/Mg3Pyhyduf5FBQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -765,10 +765,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.html",
-          "hash": "qRsaJlMj2dXc1p3OSvGAJDRn5ynp3u3WO12o6pzzQ4c="
+          "hash": "1cY58XVLSK5hmBccuBr0H1xMVS5h81585p5aVksJBGs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -777,10 +777,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.html",
-          "hash": "By9hiEu/dGT3u/KQXZ3MG1tAl0PzhlnGNJ0sDQRgxrI="
+          "hash": "X0nfroYWu45Hg5HePR0Kwaor/wpihXBukZfyUD8NmyE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -789,10 +789,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.html",
-          "hash": "U6I3fUm6HJ091+T4Nn9MgChd34aiZhrfX8b956U+7Gg="
+          "hash": "ZqE8TWDd7dipsTrFVIlSLWfDMmd37NYR5egtKew/VPk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -801,10 +801,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.html",
-          "hash": "VF6p5uWeJoXlj8Lb+n/5gjbYVP+S9XWtxtiddsasJMQ="
+          "hash": "EWU5ESESUqfX9Src4CFQcq0O/oiijbIOOa7MjePRNsk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -813,10 +813,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html",
-          "hash": "vuczE4wIlaA8v+MDtQJMw5JJHX0SWYknn+QJkAUgsXo="
+          "hash": "0TSBGqiVG7OS0cE6g17j+DNPe0rvljnLtVKiBzE3oIk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -825,10 +825,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.html",
-          "hash": "tOLSgg+Gw1nAZwJ6oA+Zxm9q+BqXE8af5ULcwqVU/MI="
+          "hash": "bBXR0oSu65sHWfBbj7tKK84z28p9Bb4Aqnn3pZ7rZ98="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Zuomjxb+ZcYvkgxn+psevz1hXKzkccF+xDvgE5Nfdls="
+          "hash": "LDF3K+/w56Em/1OTsXWP/LFgCf3V+7rwCmHkDaHIr7I="
         }
       },
       "is_incremental": false,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "scRU1CN1sBDpOU4fPokHxkWRWw88rjYmWyP+vd30Slk="
+          "hash": "1LTZiOG9C+eBQlCsq9NB4Sphj++Dl2NzXHyliyMs098="
         }
       },
       "is_incremental": false,
@@ -873,7 +873,30 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+          "hash": "jhZjrm/VUfEedkyynCJoXqjig0XDEMZHkcbfsTwhO5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/wip.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/wip.html",
+          "hash": "a/gc4ZXRNpv/kXF3EZCbiqUaGk02UxfZlNu6lp6eZHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
         }
       },
       "is_incremental": false,
@@ -885,10 +908,21 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "/A3EoNd7FHF+VRx9qri9bvBSf3E449KEqVj+pCGMygQ="
+          "hash": "BSI0jznF/1HEK3nD9tfRadAX6jpIYbqR2KTjLVdeAsc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -897,7 +931,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+          "hash": "9HVzhLjwRumh66ANLs9ECrTgIKsnzXgyXSs3a7f1KG0="
         }
       },
       "is_incremental": false,
@@ -916,14 +950,21 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 1
+          "total_file_count": 4,
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 69,
           "skipped_file_count": 69
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

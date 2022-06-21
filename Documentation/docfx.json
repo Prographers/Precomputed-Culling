@@ -34,11 +34,11 @@
         ]
       }
     ],
-    "dest": "_site",
+    "dest": "../docs",
     "globalMetadataFiles": ["meta.json"],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "template"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
