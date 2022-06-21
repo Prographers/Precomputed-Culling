@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  id: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+  name: PrecomputedCullingRendererId
+  nameWithType: PrecomputedCullingRendererId
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera
+  name: IdCubemapCamera
+  nameWithType: IdCubemapCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  name: IVisibilityTester<TSettings>
+  nameWithType: IVisibilityTester<TSettings>
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>
+  nameWithType.vb: IVisibilityTester(Of TSettings)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings)
+  name.vb: IVisibilityTester(Of TSettings)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+    name: IVisibilityTester
+    nameWithType: IVisibilityTester
+    fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TSettings
+    nameWithType: TSettings
+    fullName: TSettings
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+    name: IVisibilityTester
+    nameWithType: IVisibilityTester
+    fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TSettings
+    nameWithType: TSettings
+    fullName: TSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: IVisibilityTester
+  nameWithType: IVisibilityTester
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours

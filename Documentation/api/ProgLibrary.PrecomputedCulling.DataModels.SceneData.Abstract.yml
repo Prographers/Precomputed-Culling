@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  id: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  name: IPrecomputedRendererContainer
+  nameWithType: IPrecomputedRendererContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  name: PrecomputedRendererBaseContainer
+  nameWithType: PrecomputedRendererBaseContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+  name: PrecomputedRendererContainer<T>
+  nameWithType: PrecomputedRendererContainer<T>
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>
+  nameWithType.vb: PrecomputedRendererContainer(Of T)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T)
+  name.vb: PrecomputedRendererContainer(Of T)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+    name: PrecomputedRendererContainer
+    nameWithType: PrecomputedRendererContainer
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+    name: PrecomputedRendererContainer
+    nameWithType: PrecomputedRendererContainer
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract

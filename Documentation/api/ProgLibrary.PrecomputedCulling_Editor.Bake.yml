@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Bake
+  id: ProgLibrary.PrecomputedCulling_Editor.Bake
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling_Editor.Bake
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Bake
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
+  name: PrecomputedSaveTexture
+  nameWithType: PrecomputedSaveTexture
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture

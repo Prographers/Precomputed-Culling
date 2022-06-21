@@ -1,0 +1,934 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  id: ComputeShaderUtilities
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(``0[]@,UnityEngine.ComputeBufferType)
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(System.Int32,UnityEngine.ComputeBufferType)
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer``1(``0,UnityEngine.ComputeBufferType)
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer``1(UnityEngine.ComputeBuffer,System.Int32,System.Boolean)
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer``1(UnityEngine.ComputeBuffer,System.Boolean)
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0[]@,UnityEngine.ComputeBufferType)
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,System.Int32,UnityEngine.ComputeBufferType)
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0,UnityEngine.ComputeBufferType)
+  langs:
+  - csharp
+  - vb
+  name: ComputeShaderUtilities
+  nameWithType: ComputeShaderUtilities
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  type: Class
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: ComputeShaderUtilities
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 8
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nShader management for culling\n"
+  example: []
+  syntax:
+    content: public static class ComputeShaderUtilities
+    content.vb: Public Module ComputeShaderUtilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer``1(``0,UnityEngine.ComputeBufferType)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer``1(``0,UnityEngine.ComputeBufferType)
+  id: CreateValueBuffer``1(``0,UnityEngine.ComputeBufferType)
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateValueBuffer<T>(T, ComputeBufferType)
+  nameWithType: ComputeShaderUtilities.CreateValueBuffer<T>(T, ComputeBufferType)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer<T>(T, UnityEngine.ComputeBufferType)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: CreateValueBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 17
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nCreates compute buffer of given simple type T for single value\n"
+  example: []
+  syntax:
+    content: >-
+      public static ComputeBuffer CreateValueBuffer<T>(T startingValue = default(T), ComputeBufferType type = ComputeBufferType.Default)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: startingValue
+      type: '{T}'
+      description: Default starting value
+    - id: type
+      type: UnityEngine.ComputeBufferType
+      description: Type of compute buffer
+    typeParameters:
+    - id: T
+      description: Simple type
+    return:
+      type: UnityEngine.ComputeBuffer
+      description: ''
+    content.vb: Public Shared Function CreateValueBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(startingValue As T = Nothing, type As ComputeBufferType = ComputeBufferType.Default) As ComputeBuffer
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer*
+  nameWithType.vb: ComputeShaderUtilities.CreateValueBuffer(Of T)(T, ComputeBufferType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer(Of T)(T, UnityEngine.ComputeBufferType)
+  name.vb: CreateValueBuffer(Of T)(T, ComputeBufferType)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(System.Int32,UnityEngine.ComputeBufferType)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(System.Int32,UnityEngine.ComputeBufferType)
+  id: CreateArrayBuffer``1(System.Int32,UnityEngine.ComputeBufferType)
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateArrayBuffer<T>(Int32, ComputeBufferType)
+  nameWithType: ComputeShaderUtilities.CreateArrayBuffer<T>(Int32, ComputeBufferType)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer<T>(System.Int32, UnityEngine.ComputeBufferType)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: CreateArrayBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 38
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nCreates compute buffer of given simple type T for single value\n"
+  example: []
+  syntax:
+    content: >-
+      public static ComputeBuffer CreateArrayBuffer<T>(int count, ComputeBufferType type = ComputeBufferType.Default)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: count
+      type: System.Int32
+      description: Default starting value
+    - id: type
+      type: UnityEngine.ComputeBufferType
+      description: Type of compute buffer
+    typeParameters:
+    - id: T
+      description: Simple type
+    return:
+      type: UnityEngine.ComputeBuffer
+      description: ''
+    content.vb: Public Shared Function CreateArrayBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(count As Integer, type As ComputeBufferType = ComputeBufferType.Default) As ComputeBuffer
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer*
+  nameWithType.vb: ComputeShaderUtilities.CreateArrayBuffer(Of T)(Int32, ComputeBufferType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer(Of T)(System.Int32, UnityEngine.ComputeBufferType)
+  name.vb: CreateArrayBuffer(Of T)(Int32, ComputeBufferType)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(``0[]@,UnityEngine.ComputeBufferType)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(``0[]@,UnityEngine.ComputeBufferType)
+  id: CreateArrayBuffer``1(``0[]@,UnityEngine.ComputeBufferType)
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateArrayBuffer<T>(in T[], ComputeBufferType)
+  nameWithType: ComputeShaderUtilities.CreateArrayBuffer<T>(in T[], ComputeBufferType)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer<T>(in T[], UnityEngine.ComputeBufferType)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: CreateArrayBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 57
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nCreates compute buffer of given simple type T for single value\n"
+  example: []
+  syntax:
+    content: >-
+      public static ComputeBuffer CreateArrayBuffer<T>(in T[] initialArray, ComputeBufferType type = ComputeBufferType.Default)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: initialArray
+      type: '{T}[]'
+      description: Default starting array
+    - id: type
+      type: UnityEngine.ComputeBufferType
+      description: Type of compute buffer
+    typeParameters:
+    - id: T
+      description: Simple type
+    return:
+      type: UnityEngine.ComputeBuffer
+      description: ''
+    content.vb: Public Shared Function CreateArrayBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(ByRef initialArray As T(), type As ComputeBufferType = ComputeBufferType.Default) As ComputeBuffer
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer*
+  nameWithType.vb: ComputeShaderUtilities.CreateArrayBuffer(Of T)(ByRef T(), ComputeBufferType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer(Of T)(ByRef T(), UnityEngine.ComputeBufferType)
+  name.vb: CreateArrayBuffer(Of T)(ByRef T(), ComputeBufferType)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0,UnityEngine.ComputeBufferType)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0,UnityEngine.ComputeBufferType)
+  id: SetValueBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0,UnityEngine.ComputeBufferType)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: SetValueBuffer<T>(ComputeShader, Int32, String, T, ComputeBufferType)
+  nameWithType: ComputeShaderUtilities.SetValueBuffer<T>(ComputeShader, Int32, String, T, ComputeBufferType)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer<T>(UnityEngine.ComputeShader, System.Int32, System.String, T, UnityEngine.ComputeBufferType)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: SetValueBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 78
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nSet value for compute shader\n"
+  example: []
+  syntax:
+    content: >-
+      public static ComputeBuffer SetValueBuffer<T>(this ComputeShader computeShader, int kernelId, string name, T startingValue = default(T), ComputeBufferType type = ComputeBufferType.Default)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: computeShader
+      type: UnityEngine.ComputeShader
+      description: Compute shader
+    - id: kernelId
+      type: System.Int32
+      description: Kernel Id of the compute shader
+    - id: name
+      type: System.String
+      description: Name of the property
+    - id: startingValue
+      type: '{T}'
+      description: Default starting value
+    - id: type
+      type: UnityEngine.ComputeBufferType
+      description: Type of compute buffer
+    typeParameters:
+    - id: T
+      description: Simple type
+    return:
+      type: UnityEngine.ComputeBuffer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetValueBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(computeShader As ComputeShader, kernelId As Integer, name As String, startingValue As T = Nothing, type As ComputeBufferType = ComputeBufferType.Default) As ComputeBuffer
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer*
+  nameWithType.vb: ComputeShaderUtilities.SetValueBuffer(Of T)(ComputeShader, Int32, String, T, ComputeBufferType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer(Of T)(UnityEngine.ComputeShader, System.Int32, System.String, T, UnityEngine.ComputeBufferType)
+  name.vb: SetValueBuffer(Of T)(ComputeShader, Int32, String, T, ComputeBufferType)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0[]@,UnityEngine.ComputeBufferType)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0[]@,UnityEngine.ComputeBufferType)
+  id: SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0[]@,UnityEngine.ComputeBufferType)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: SetArrayBuffer<T>(ComputeShader, Int32, String, in T[], ComputeBufferType)
+  nameWithType: ComputeShaderUtilities.SetArrayBuffer<T>(ComputeShader, Int32, String, in T[], ComputeBufferType)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer<T>(UnityEngine.ComputeShader, System.Int32, System.String, in T[], UnityEngine.ComputeBufferType)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: SetArrayBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 96
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nSet value for compute shader\n"
+  example: []
+  syntax:
+    content: >-
+      public static ComputeBuffer SetArrayBuffer<T>(this ComputeShader computeShader, int kernelId, string name, in T[] initialArray, ComputeBufferType type = ComputeBufferType.Default)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: computeShader
+      type: UnityEngine.ComputeShader
+      description: Compute shader
+    - id: kernelId
+      type: System.Int32
+      description: Kernel Id of the compute shader
+    - id: name
+      type: System.String
+      description: Name of the property
+    - id: initialArray
+      type: '{T}[]'
+      description: Default starting array
+    - id: type
+      type: UnityEngine.ComputeBufferType
+      description: Type of compute buffer
+    typeParameters:
+    - id: T
+      description: Simple type
+    return:
+      type: UnityEngine.ComputeBuffer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetArrayBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(computeShader As ComputeShader, kernelId As Integer, name As String, ByRef initialArray As T(), type As ComputeBufferType = ComputeBufferType.Default) As ComputeBuffer
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer*
+  nameWithType.vb: ComputeShaderUtilities.SetArrayBuffer(Of T)(ComputeShader, Int32, String, ByRef T(), ComputeBufferType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer(Of T)(UnityEngine.ComputeShader, System.Int32, System.String, ByRef T(), UnityEngine.ComputeBufferType)
+  name.vb: SetArrayBuffer(Of T)(ComputeShader, Int32, String, ByRef T(), ComputeBufferType)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,System.Int32,UnityEngine.ComputeBufferType)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,System.Int32,UnityEngine.ComputeBufferType)
+  id: SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,System.Int32,UnityEngine.ComputeBufferType)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: SetArrayBuffer<T>(ComputeShader, Int32, String, Int32, ComputeBufferType)
+  nameWithType: ComputeShaderUtilities.SetArrayBuffer<T>(ComputeShader, Int32, String, Int32, ComputeBufferType)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer<T>(UnityEngine.ComputeShader, System.Int32, System.String, System.Int32, UnityEngine.ComputeBufferType)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: SetArrayBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 114
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nSet value for compute shader\n"
+  example: []
+  syntax:
+    content: >-
+      public static ComputeBuffer SetArrayBuffer<T>(this ComputeShader computeShader, int kernelId, string name, int count, ComputeBufferType type = ComputeBufferType.Default)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: computeShader
+      type: UnityEngine.ComputeShader
+      description: Compute shader
+    - id: kernelId
+      type: System.Int32
+      description: Kernel Id of the compute shader
+    - id: name
+      type: System.String
+      description: Name of the property
+    - id: count
+      type: System.Int32
+      description: Default starting value
+    - id: type
+      type: UnityEngine.ComputeBufferType
+      description: Type of compute buffer
+    typeParameters:
+    - id: T
+      description: Simple type
+    return:
+      type: UnityEngine.ComputeBuffer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetArrayBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(computeShader As ComputeShader, kernelId As Integer, name As String, count As Integer, type As ComputeBufferType = ComputeBufferType.Default) As ComputeBuffer
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer*
+  nameWithType.vb: ComputeShaderUtilities.SetArrayBuffer(Of T)(ComputeShader, Int32, String, Int32, ComputeBufferType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer(Of T)(UnityEngine.ComputeShader, System.Int32, System.String, System.Int32, UnityEngine.ComputeBufferType)
+  name.vb: SetArrayBuffer(Of T)(ComputeShader, Int32, String, Int32, ComputeBufferType)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer``1(UnityEngine.ComputeBuffer,System.Boolean)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer``1(UnityEngine.ComputeBuffer,System.Boolean)
+  id: GetValueViaBuffer``1(UnityEngine.ComputeBuffer,System.Boolean)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetValueViaBuffer<T>(ComputeBuffer, Boolean)
+  nameWithType: ComputeShaderUtilities.GetValueViaBuffer<T>(ComputeBuffer, Boolean)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer<T>(UnityEngine.ComputeBuffer, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetValueViaBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 130
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nGet value from compute buffer of single value\n"
+  example: []
+  syntax:
+    content: >-
+      public static T GetValueViaBuffer<T>(this ComputeBuffer buffer, bool clearBuffer = true)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: buffer
+      type: UnityEngine.ComputeBuffer
+      description: ''
+    - id: clearBuffer
+      type: System.Boolean
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValueViaBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(buffer As ComputeBuffer, clearBuffer As Boolean = True) As T
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer*
+  nameWithType.vb: ComputeShaderUtilities.GetValueViaBuffer(Of T)(ComputeBuffer, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer(Of T)(UnityEngine.ComputeBuffer, System.Boolean)
+  name.vb: GetValueViaBuffer(Of T)(ComputeBuffer, Boolean)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer``1(UnityEngine.ComputeBuffer,System.Int32,System.Boolean)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer``1(UnityEngine.ComputeBuffer,System.Int32,System.Boolean)
+  id: GetArrayViaBuffer``1(UnityEngine.ComputeBuffer,System.Int32,System.Boolean)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetArrayViaBuffer<T>(ComputeBuffer, Int32, Boolean)
+  nameWithType: ComputeShaderUtilities.GetArrayViaBuffer<T>(ComputeBuffer, Int32, Boolean)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer<T>(UnityEngine.ComputeBuffer, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetArrayViaBuffer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ComputeShaderUtilities.cs
+    startLine: 152
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nGet value from compute buffer of single value\n"
+  example: []
+  syntax:
+    content: >-
+      public static T[] GetArrayViaBuffer<T>(this ComputeBuffer buffer, int count, bool clearBuffer = true)
+
+          where T : struct, IComparable, IFormattable, IConvertible, IComparable<T>, IEquatable<T>
+    parameters:
+    - id: buffer
+      type: UnityEngine.ComputeBuffer
+      description: ''
+    - id: count
+      type: System.Int32
+      description: ''
+    - id: clearBuffer
+      type: System.Boolean
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}[]'
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetArrayViaBuffer(Of T As {Structure, IComparable, IFormattable, IConvertible, IComparable(Of T), IEquatable(Of T)})(buffer As ComputeBuffer, count As Integer, clearBuffer As Boolean = True) As T()
+  overload: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer*
+  nameWithType.vb: ComputeShaderUtilities.GetArrayViaBuffer(Of T)(ComputeBuffer, Int32, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer(Of T)(UnityEngine.ComputeBuffer, System.Int32, System.Boolean)
+  name.vb: GetArrayViaBuffer(Of T)(ComputeBuffer, Int32, Boolean)
+references:
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer
+  name: CreateValueBuffer
+  nameWithType: ComputeShaderUtilities.CreateValueBuffer
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.ComputeBufferType
+  commentId: T:UnityEngine.ComputeBufferType
+  parent: UnityEngine
+  isExternal: true
+  name: ComputeBufferType
+  nameWithType: ComputeBufferType
+  fullName: UnityEngine.ComputeBufferType
+- uid: UnityEngine.ComputeBuffer
+  commentId: T:UnityEngine.ComputeBuffer
+  parent: UnityEngine
+  isExternal: true
+  name: ComputeBuffer
+  nameWithType: ComputeBuffer
+  fullName: UnityEngine.ComputeBuffer
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer
+  name: CreateArrayBuffer
+  nameWithType: ComputeShaderUtilities.CreateArrayBuffer
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer
+  name: SetValueBuffer
+  nameWithType: ComputeShaderUtilities.SetValueBuffer
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer
+- uid: UnityEngine.ComputeShader
+  commentId: T:UnityEngine.ComputeShader
+  parent: UnityEngine
+  isExternal: true
+  name: ComputeShader
+  nameWithType: ComputeShader
+  fullName: UnityEngine.ComputeShader
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer
+  name: SetArrayBuffer
+  nameWithType: ComputeShaderUtilities.SetArrayBuffer
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer
+  name: GetValueViaBuffer
+  nameWithType: ComputeShaderUtilities.GetValueViaBuffer
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer
+  name: GetArrayViaBuffer
+  nameWithType: ComputeShaderUtilities.GetArrayViaBuffer
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer

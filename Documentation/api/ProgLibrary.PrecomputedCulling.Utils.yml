@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  id: ProgLibrary.PrecomputedCulling.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
+  - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  name: PrecomputedAreaExtensions
+  nameWithType: PrecomputedAreaExtensions
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  name: PrecomputedAreaExtensions.CameraIterator
+  nameWithType: PrecomputedAreaExtensions.CameraIterator
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  name: ComputeShaderUtilities
+  nameWithType: ComputeShaderUtilities
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+- uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
+  name: ArrayUtils
+  nameWithType: ArrayUtils
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils

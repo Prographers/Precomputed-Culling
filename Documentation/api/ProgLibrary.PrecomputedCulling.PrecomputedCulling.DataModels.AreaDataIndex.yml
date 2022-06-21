@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  id: AreaDataIndex
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.#ctor(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  langs:
+  - csharp
+  - vb
+  name: AreaDataIndex
+  nameWithType: AreaDataIndex
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  type: Struct
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: AreaDataIndex
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+    startLine: 27
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  summary: "\nRelated OcclusionArea with bake data index\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct AreaDataIndex
+    content.vb: >-
+      <Serializable>
+
+      Public Structure AreaDataIndex
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.#ctor(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.#ctor(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)
+  id: '#ctor(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)'
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  langs:
+  - csharp
+  - vb
+  name: AreaDataIndex(PrecomputedArea, Int32)
+  nameWithType: AreaDataIndex.AreaDataIndex(PrecomputedArea, Int32)
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.AreaDataIndex(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: .ctor
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+    startLine: 35
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  summary: "\nDefault constructor\n"
+  example: []
+  syntax:
+    content: public AreaDataIndex(PrecomputedArea precomputedArea, int dataIndex)
+    parameters:
+    - id: precomputedArea
+      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+      description: ''
+    - id: dataIndex
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(precomputedArea As PrecomputedArea, dataIndex As Integer)
+  overload: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  commentId: F:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  id: PrecomputedArea
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedArea
+  nameWithType: AreaDataIndex.PrecomputedArea
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PrecomputedArea
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+    startLine: 44
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  summary: "\nReference to <xref href=\"ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public PrecomputedArea PrecomputedArea
+    return:
+      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+    content.vb: Public PrecomputedArea As PrecomputedArea
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  commentId: F:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  id: DataIndex
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  langs:
+  - csharp
+  - vb
+  name: DataIndex
+  nameWithType: AreaDataIndex.DataIndex
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: DataIndex
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedSceneAreaData.cs
+    startLine: 49
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  summary: "\nIndex to <xref href=\"ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.Index\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public int DataIndex
+    return:
+      type: System.Int32
+    content.vb: Public DataIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.#ctor
+  name: AreaDataIndex
+  nameWithType: AreaDataIndex.AreaDataIndex
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.AreaDataIndex
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  commentId: F:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.Index
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.Index
+  isExternal: true

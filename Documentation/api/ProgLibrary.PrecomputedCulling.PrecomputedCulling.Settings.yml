@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  id: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  name: PrecomputedDataSettings
+  nameWithType: PrecomputedDataSettings
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings

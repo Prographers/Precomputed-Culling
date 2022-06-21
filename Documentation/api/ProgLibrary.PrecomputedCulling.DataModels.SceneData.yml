@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  id: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: ValidOccluderEnum
+  nameWithType: ValidOccluderEnum
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: PrecomputedRendererBakeContainer
+  nameWithType: PrecomputedRendererBakeContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer
+  name: PrecomputedMeshRendererContainer
+  nameWithType: PrecomputedMeshRendererContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: PrecomputedChunkElementData
+  nameWithType: PrecomputedChunkElementData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
+  name: PrecomputedSceneBakeData
+  nameWithType: PrecomputedSceneBakeData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  name: PrecomputedLODGroupContainer
+  nameWithType: PrecomputedLODGroupContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
+  name: PrecomputedSceneRuntimeData
+  nameWithType: PrecomputedSceneRuntimeData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: PrecomputedSceneData
+  nameWithType: PrecomputedSceneData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData

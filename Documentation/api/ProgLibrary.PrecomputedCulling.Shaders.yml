@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Shaders
+  commentId: N:ProgLibrary.PrecomputedCulling.Shaders
+  id: ProgLibrary.PrecomputedCulling.Shaders
+  children:
+  - ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer
+  - ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Shaders
+  nameWithType: ProgLibrary.PrecomputedCulling.Shaders
+  fullName: ProgLibrary.PrecomputedCulling.Shaders
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  commentId: T:ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  name: RendererBakeAlgorithm
+  nameWithType: RendererBakeAlgorithm
+  fullName: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+- uid: ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer
+  commentId: T:ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer
+  name: CustomOcclusionScriptableRenderer
+  nameWithType: CustomOcclusionScriptableRenderer
+  fullName: ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer

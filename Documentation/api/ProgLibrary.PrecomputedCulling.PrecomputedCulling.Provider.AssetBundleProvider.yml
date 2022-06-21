@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  id: AssetBundleProvider
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AssetBundleProvider
+  nameWithType: AssetBundleProvider
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  type: Class
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: AssetBundleProvider
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+    startLine: 13
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  summary: "\nProvider using Assetbundle for packing and loading data\n"
+  example: []
+  syntax:
+    content: 'public class AssetBundleProvider : IPrecomputedDataProvider'
+    content.vb: >-
+      Public Class AssetBundleProvider
+
+          Implements IPrecomputedDataProvider
+  inheritance:
+  - System.Object
+  implements:
+  - IPrecomputedDataProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  id: GenerateData
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: GenerateData()
+  nameWithType: AssetBundleProvider.GenerateData()
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GenerateData
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+    startLine: 23
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  summary: "\nBuild Assetbundle for current build target platform\n"
+  example: []
+  syntax:
+    content: public void GenerateData()
+    content.vb: Public Sub GenerateData
+  overload: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData*
+  implements:
+  - IPrecomputedDataProvider.GenerateData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize
+  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize
+  id: GetDataSize
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDataSize()
+  nameWithType: AssetBundleProvider.GetDataSize()
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetDataSize
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+    startLine: 40
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  summary: "\n<xref href=\"IPrecomputedDataProvider.GetDataSize\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public float GetDataSize()
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Function GetDataSize As Single
+  overload: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize*
+  implements:
+  - IPrecomputedDataProvider.GetDataSize
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime
+  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime
+  id: GetCreateTime
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCreateTime()
+  nameWithType: AssetBundleProvider.GetCreateTime()
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetCreateTime
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+    startLine: 54
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  summary: "\n<xref href=\"IPrecomputedDataProvider.GetCreateTime\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public DateTime GetCreateTime()
+    return:
+      type: System.DateTime
+      description: ''
+    content.vb: Public Function GetCreateTime As Date
+  overload: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime*
+  implements:
+  - IPrecomputedDataProvider.GetCreateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(System.Int32)
+  id: LoadData(System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadData(Int32)
+  nameWithType: AssetBundleProvider.LoadData(Int32)
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: LoadData
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Provider/AssetBundleProvider.cs
+    startLine: 71
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  summary: "\nChecks if asset bundle is already loaded.\nLoading the proper variant of the data from the assetbundle package\n"
+  example: []
+  syntax:
+    content: public PrecomputedDataVariant LoadData(int variantIndex)
+    parameters:
+    - id: variantIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+      description: ''
+    content.vb: Public Function LoadData(variantIndex As Integer) As PrecomputedDataVariant
+  overload: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData*
+  implements:
+  - IPrecomputedDataProvider.LoadData(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IPrecomputedDataProvider
+  commentId: T:IPrecomputedDataProvider
+  name: IPrecomputedDataProvider
+  nameWithType: IPrecomputedDataProvider
+  fullName: IPrecomputedDataProvider
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  name: GenerateData
+  nameWithType: AssetBundleProvider.GenerateData
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+- uid: IPrecomputedDataProvider.GenerateData
+  commentId: M:IPrecomputedDataProvider.GenerateData
+  parent: IPrecomputedDataProvider
+  name: GenerateData()
+  nameWithType: IPrecomputedDataProvider.GenerateData()
+  fullName: IPrecomputedDataProvider.GenerateData()
+  spec.csharp:
+  - uid: IPrecomputedDataProvider.GenerateData
+    name: GenerateData
+    nameWithType: IPrecomputedDataProvider.GenerateData
+    fullName: IPrecomputedDataProvider.GenerateData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IPrecomputedDataProvider.GenerateData
+    name: GenerateData
+    nameWithType: IPrecomputedDataProvider.GenerateData
+    fullName: IPrecomputedDataProvider.GenerateData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IPrecomputedDataProvider.GetDataSize
+  commentId: M:IPrecomputedDataProvider.GetDataSize
+  parent: IPrecomputedDataProvider
+  name: GetDataSize()
+  nameWithType: IPrecomputedDataProvider.GetDataSize()
+  fullName: IPrecomputedDataProvider.GetDataSize()
+  spec.csharp:
+  - uid: IPrecomputedDataProvider.GetDataSize
+    name: GetDataSize
+    nameWithType: IPrecomputedDataProvider.GetDataSize
+    fullName: IPrecomputedDataProvider.GetDataSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IPrecomputedDataProvider.GetDataSize
+    name: GetDataSize
+    nameWithType: IPrecomputedDataProvider.GetDataSize
+    fullName: IPrecomputedDataProvider.GetDataSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize
+  name: GetDataSize
+  nameWithType: AssetBundleProvider.GetDataSize
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetDataSize
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: IPrecomputedDataProvider.GetCreateTime
+  commentId: M:IPrecomputedDataProvider.GetCreateTime
+  parent: IPrecomputedDataProvider
+  name: GetCreateTime()
+  nameWithType: IPrecomputedDataProvider.GetCreateTime()
+  fullName: IPrecomputedDataProvider.GetCreateTime()
+  spec.csharp:
+  - uid: IPrecomputedDataProvider.GetCreateTime
+    name: GetCreateTime
+    nameWithType: IPrecomputedDataProvider.GetCreateTime
+    fullName: IPrecomputedDataProvider.GetCreateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IPrecomputedDataProvider.GetCreateTime
+    name: GetCreateTime
+    nameWithType: IPrecomputedDataProvider.GetCreateTime
+    fullName: IPrecomputedDataProvider.GetCreateTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime
+  name: GetCreateTime
+  nameWithType: AssetBundleProvider.GetCreateTime
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.GetCreateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData
+  name: LoadData
+  nameWithType: AssetBundleProvider.LoadData
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.LoadData
+- uid: IPrecomputedDataProvider.LoadData(System.Int32)
+  commentId: M:IPrecomputedDataProvider.LoadData(System.Int32)
+  parent: IPrecomputedDataProvider
+  isExternal: true
+  name: LoadData(Int32)
+  nameWithType: IPrecomputedDataProvider.LoadData(Int32)
+  fullName: IPrecomputedDataProvider.LoadData(System.Int32)
+  spec.csharp:
+  - uid: IPrecomputedDataProvider.LoadData(System.Int32)
+    name: LoadData
+    nameWithType: IPrecomputedDataProvider.LoadData
+    fullName: IPrecomputedDataProvider.LoadData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IPrecomputedDataProvider.LoadData(System.Int32)
+    name: LoadData
+    nameWithType: IPrecomputedDataProvider.LoadData
+    fullName: IPrecomputedDataProvider.LoadData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: PrecomputedDataVariant
+  nameWithType: PrecomputedDataVariant
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels

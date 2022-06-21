@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+  id: PrecomputedBakeIdCubemapSettings
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  children:
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedBakeIdCubemapSettings
+  nameWithType: PrecomputedBakeIdCubemapSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+  type: Class
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PrecomputedBakeIdCubemapSettings
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 37
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nBake camera settings used to precompute Occlusion Data\n"
+  example: []
+  syntax:
+    content: >-
+      [MovedFrom(false, "ProgLibrary.OcclusionCulling.Settings", "Prog_OclussionCulling", "PrecomputedBakeIdCubemapSettings")]
+
+      [Serializable]
+
+      public class PrecomputedBakeIdCubemapSettings : PrecomputedBakeCameraSettings
+    content.vb: >-
+      <MovedFrom(False, "ProgLibrary.OcclusionCulling.Settings", "Prog_OclussionCulling", "PrecomputedBakeIdCubemapSettings")>
+
+      <Serializable>
+
+      Public Class PrecomputedBakeIdCubemapSettings
+
+          Inherits PrecomputedBakeCameraSettings
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  inheritedMembers:
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: UnityEngine.Scripting.APIUpdating.MovedFromAttribute
+    ctor: UnityEngine.Scripting.APIUpdating.MovedFromAttribute.#ctor(System.Boolean,System.String,System.String,System.String)
+    arguments:
+    - type: System.Boolean
+      value: false
+    - type: System.String
+      value: ProgLibrary.OcclusionCulling.Settings
+    - type: System.String
+      value: Prog_OclussionCulling
+    - type: System.String
+      value: PrecomputedBakeIdCubemapSettings
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
+  id: CubemapResolution
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+  langs:
+  - csharp
+  - vb
+  name: CubemapResolution
+  nameWithType: PrecomputedBakeIdCubemapSettings.CubemapResolution
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: CubemapResolution
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 45
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nBase cube map resolution to generate\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int CubemapResolution
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public CubemapResolution As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
+  id: EquirectResolution
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+  langs:
+  - csharp
+  - vb
+  name: EquirectResolution
+  nameWithType: PrecomputedBakeIdCubemapSettings.EquirectResolution
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: EquirectResolution
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 51
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nEquirect resolution to be generated from the base cubemap\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public Vector2Int EquirectResolution
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <HideInInspector>
+
+      Public EquirectResolution As Vector2Int
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
+  id: ColorFormat
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+  langs:
+  - csharp
+  - vb
+  name: ColorFormat
+  nameWithType: PrecomputedBakeIdCubemapSettings.ColorFormat
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: ColorFormat
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 58
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\n Color format used to generate cube map and equirect texture.\n<p>Reduce only if encountering artifacts or your GPU do not support default R16G16B16A16_UNorm</p>\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public GraphicsFormat ColorFormat
+    return:
+      type: UnityEngine.Experimental.Rendering.GraphicsFormat
+    content.vb: >-
+      <HideInInspector>
+
+      Public ColorFormat As GraphicsFormat
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
+  id: ColorToFloatDivisor
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+  langs:
+  - csharp
+  - vb
+  name: ColorToFloatDivisor
+  nameWithType: PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: ColorToFloatDivisor
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 67
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nBecause all shaders are using float but colors in band of 0-255 int we need to divide index of the object\nto be a float 0-1. Keep default 32 unless your total amount of objects is above 262144 renderers or lower\nthe value for less complex scenes if you know you will have less renderers to decrease possibility of\nfloat rounding error.\n"
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int ColorToFloatDivisor
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public ColorToFloatDivisor As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ProgLibrary.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.Settings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: PrecomputedBaseBakeSettings
+  nameWithType: PrecomputedBaseBakeSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: PrecomputedBakeCameraSettings
+  nameWithType: PrecomputedBakeCameraSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  name: CellDepthTestDensity
+  nameWithType: PrecomputedBakeCameraSettings.CellDepthTestDensity
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  name: CellDepthTestDensityOffset
+  nameWithType: PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  name: VisibleTransparent
+  nameWithType: PrecomputedBakeCameraSettings.VisibleTransparent
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Experimental.Rendering.GraphicsFormat
+  commentId: T:UnityEngine.Experimental.Rendering.GraphicsFormat
+  parent: UnityEngine.Experimental.Rendering
+  isExternal: true
+  name: GraphicsFormat
+  nameWithType: GraphicsFormat
+  fullName: UnityEngine.Experimental.Rendering.GraphicsFormat
+- uid: UnityEngine.Experimental.Rendering
+  commentId: N:UnityEngine.Experimental.Rendering
+  isExternal: true
+  name: UnityEngine.Experimental.Rendering
+  nameWithType: UnityEngine.Experimental.Rendering
+  fullName: UnityEngine.Experimental.Rendering

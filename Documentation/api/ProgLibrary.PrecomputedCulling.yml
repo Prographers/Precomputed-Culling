@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling
+  commentId: N:ProgLibrary.PrecomputedCulling
+  id: ProgLibrary.PrecomputedCulling
+  children:
+  - ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
+  - ProgLibrary.PrecomputedCulling.PrecomputedCamera
+  - ProgLibrary.PrecomputedCulling.PrecomputedController
+  - ProgLibrary.PrecomputedCulling.PrecomputedManager
+  - ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling
+  nameWithType: ProgLibrary.PrecomputedCulling
+  fullName: ProgLibrary.PrecomputedCulling
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedController
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedController
+  parent: ProgLibrary.PrecomputedCulling
+  name: PrecomputedController
+  nameWithType: PrecomputedController
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
+  parent: ProgLibrary.PrecomputedCulling
+  name: PrecomputedSceneInfoData
+  nameWithType: PrecomputedSceneInfoData
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
+- uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
+  parent: ProgLibrary.PrecomputedCulling
+  name: BoundingBoxExtensions
+  nameWithType: BoundingBoxExtensions
+  fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCamera
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCamera
+  parent: ProgLibrary.PrecomputedCulling
+  name: PrecomputedCamera
+  nameWithType: PrecomputedCamera
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCamera
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedManager
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedManager
+  name: PrecomputedManager
+  nameWithType: PrecomputedManager
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedManager
+- uid: ProgLibrary.PrecomputedCulling
+  commentId: N:ProgLibrary.PrecomputedCulling
+  name: ProgLibrary.PrecomputedCulling
+  nameWithType: ProgLibrary.PrecomputedCulling
+  fullName: ProgLibrary.PrecomputedCulling

@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  id: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedSceneSettings
+  nameWithType: PrecomputedSceneSettings
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedLoadMethod
+  nameWithType: PrecomputedLoadMethod
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours

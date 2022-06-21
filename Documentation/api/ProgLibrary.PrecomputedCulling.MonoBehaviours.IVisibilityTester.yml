@@ -1,0 +1,50 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  id: IVisibilityTester
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IVisibilityTester
+  nameWithType: IVisibilityTester
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  type: Interface
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: IVisibilityTester
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+    startLine: 36
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  example: []
+  syntax:
+    content: public interface IVisibilityTester
+    content.vb: Public Interface IVisibilityTester
+  see:
+  - linkId: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+    commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: IVisibilityTester
+  nameWithType: IVisibilityTester
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours

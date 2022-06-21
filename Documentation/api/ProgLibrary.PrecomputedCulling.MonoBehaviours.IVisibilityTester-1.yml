@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  id: IVisibilityTester`1
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,UnityEngine.Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  langs:
+  - csharp
+  - vb
+  name: IVisibilityTester<TSettings>
+  nameWithType: IVisibilityTester<TSettings>
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>
+  type: Interface
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: IVisibilityTester
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+    startLine: 14
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nInterface to test visibility from bake spot\n"
+  example: []
+  syntax:
+    content: 'public interface IVisibilityTester<TSettings> : IVisibilityTester where TSettings : PrecomputedBaseBakeSettings'
+    typeParameters:
+    - id: TSettings
+      description: ''
+    content.vb: >-
+      Public Interface IVisibilityTester(Of TSettings As PrecomputedBaseBakeSettings)
+
+          Inherits IVisibilityTester
+  nameWithType.vb: IVisibilityTester(Of TSettings)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings)
+  name.vb: IVisibilityTester(Of TSettings)
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings
+  commentId: P:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings
+  id: Settings
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: IVisibilityTester<TSettings>.Settings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>.Settings
+  type: Property
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Settings
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+    startLine: 20
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nSettings used with current camera, can be null if not during testing visibility\n"
+  example: []
+  syntax:
+    content: TSettings Settings { get; }
+    parameters: []
+    return:
+      type: '{TSettings}'
+    content.vb: ReadOnly Property Settings As TSettings
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings*
+  nameWithType.vb: IVisibilityTester(Of TSettings).Settings
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings).Settings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,UnityEngine.Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,UnityEngine.Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  id: TestVisibility(`0,UnityEngine.Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  langs:
+  - csharp
+  - vb
+  name: TestVisibility(TSettings, Vector3, Int32, PrecomputedArea)
+  nameWithType: IVisibilityTester<TSettings>.TestVisibility(TSettings, Vector3, Int32, PrecomputedArea)
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>.TestVisibility(TSettings, UnityEngine.Vector3, System.Int32, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: TestVisibility
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/IVisibilityTester.cs
+    startLine: 30
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nPerforms visibility test over all cameras locations\n"
+  example: []
+  syntax:
+    content: IEnumerable<PrecomputedVisibilityIndices> TestVisibility(TSettings settings, Vector3 cameraPosition, int scriptableRendererIndex, PrecomputedArea precomputedArea)
+    parameters:
+    - id: settings
+      type: '{TSettings}'
+      description: Occlusion bake settings
+    - id: cameraPosition
+      type: UnityEngine.Vector3
+      description: ''
+    - id: scriptableRendererIndex
+      type: System.Int32
+      description: 'Renderer index for '
+    - id: precomputedArea
+      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
+      description: ''
+    content.vb: Function TestVisibility(settings As TSettings, cameraPosition As Vector3, scriptableRendererIndex As Integer, precomputedArea As PrecomputedArea) As IEnumerable(Of PrecomputedVisibilityIndices)
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility*
+  nameWithType.vb: IVisibilityTester(Of TSettings).TestVisibility(TSettings, Vector3, Int32, PrecomputedArea)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings).TestVisibility(TSettings, UnityEngine.Vector3, System.Int32, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings
+  name: Settings
+  nameWithType: IVisibilityTester<TSettings>.Settings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>.Settings
+  nameWithType.vb: IVisibilityTester(Of TSettings).Settings
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings).Settings
+- uid: '{TSettings}'
+  commentId: '!:TSettings'
+  definition: TSettings
+  name: TSettings
+  nameWithType: TSettings
+  fullName: TSettings
+- uid: TSettings
+  name: TSettings
+  nameWithType: TSettings
+  fullName: TSettings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility
+  name: TestVisibility
+  nameWithType: IVisibilityTester<TSettings>.TestVisibility
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>.TestVisibility
+  nameWithType.vb: IVisibilityTester(Of TSettings).TestVisibility
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings).TestVisibility
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+- uid: System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
+  commentId: T:System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PrecomputedVisibilityIndices>
+  nameWithType: IEnumerable<PrecomputedVisibilityIndices>
+  fullName: System.Collections.Generic.IEnumerable<ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices>
+  nameWithType.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
+  name.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+    name: PrecomputedVisibilityIndices
+    nameWithType: PrecomputedVisibilityIndices
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+    name: PrecomputedVisibilityIndices
+    nameWithType: PrecomputedVisibilityIndices
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

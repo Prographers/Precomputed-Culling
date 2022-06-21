@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  id: BakeAlgorithm
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  children:
+  - ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.ColorIdCubeMap
+  - ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.FrustumDepthTest
+  langs:
+  - csharp
+  - vb
+  name: BakeAlgorithm
+  nameWithType: BakeAlgorithm
+  fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  type: Enum
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedSettingsArea.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: BakeAlgorithm
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedSettingsArea.cs
+    startLine: 13
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nTypes of algorithms\n"
+  example: []
+  syntax:
+    content: public enum BakeAlgorithm
+    content.vb: Public Enum BakeAlgorithm
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.FrustumDepthTest
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.FrustumDepthTest
+  id: FrustumDepthTest
+  parent: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: FrustumDepthTest
+  nameWithType: BakeAlgorithm.FrustumDepthTest
+  fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.FrustumDepthTest
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedSettingsArea.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: FrustumDepthTest
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedSettingsArea.cs
+    startLine: 15
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  syntax:
+    content: FrustumDepthTest = 0
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.ColorIdCubeMap
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.ColorIdCubeMap
+  id: ColorIdCubeMap
+  parent: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: ColorIdCubeMap
+  nameWithType: BakeAlgorithm.ColorIdCubeMap
+  fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.ColorIdCubeMap
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedSettingsArea.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: ColorIdCubeMap
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedSettingsArea.cs
+    startLine: 19
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nMap texture colors based algorithm\n"
+  example: []
+  syntax:
+    content: ColorIdCubeMap = 1
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: ProgLibrary.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.Settings
+- uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: BakeAlgorithm
+  nameWithType: BakeAlgorithm
+  fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm

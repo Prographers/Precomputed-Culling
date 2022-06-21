@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  id: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  name: PrecomputedSceneVariantData
+  nameWithType: PrecomputedSceneVariantData
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  name: PrecomputedSceneAreaData
+  nameWithType: PrecomputedSceneAreaData
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  name: AreaDataIndex
+  nameWithType: AreaDataIndex
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels

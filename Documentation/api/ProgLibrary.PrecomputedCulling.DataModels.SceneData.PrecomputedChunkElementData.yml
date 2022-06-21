@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  id: PrecomputedChunkElementData
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor(System.Int32,System.Int32)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(System.Object)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Id
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PixelsVisibility
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedChunkElementData
+  nameWithType: PrecomputedChunkElementData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  type: Struct
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PrecomputedChunkElementData
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 9
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nData of single Renderer\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct PrecomputedChunkElementData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure PrecomputedChunkElementData
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Id
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Id
+  id: Id
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: PrecomputedChunkElementData.Id
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Id
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Id
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 16
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nId of the renderer\n"
+  example: []
+  syntax:
+    content: public int Id
+    return:
+      type: System.Int32
+    content.vb: Public Id As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PixelsVisibility
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PixelsVisibility
+  id: PixelsVisibility
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: PixelsVisibility
+  nameWithType: PrecomputedChunkElementData.PixelsVisibility
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PixelsVisibility
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PixelsVisibility
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 21
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nVisibility of the renderer in pixels\n"
+  example: []
+  syntax:
+    content: public int PixelsVisibility
+    return:
+      type: System.Int32
+    content.vb: Public PixelsVisibility As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor(System.Int32,System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedChunkElementData(Int32, Int32)
+  nameWithType: PrecomputedChunkElementData.PrecomputedChunkElementData(Int32, Int32)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PrecomputedChunkElementData(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: .ctor
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 28
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nEditor only constructor\n"
+  example: []
+  syntax:
+    content: public PrecomputedChunkElementData(int id, int pixelsVisibility)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: ''
+    - id: pixelsVisibility
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(id As Integer, pixelsVisibility As Integer)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  id: Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: Equals(PrecomputedChunkElementData)
+  nameWithType: PrecomputedChunkElementData.Equals(PrecomputedChunkElementData)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Equals
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 39
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nEquals\n"
+  example: []
+  syntax:
+    content: public bool Equals(PrecomputedChunkElementData other)
+    parameters:
+    - id: other
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function Equals(other As PrecomputedChunkElementData) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(System.Object)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: PrecomputedChunkElementData.Equals(Object)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Equals
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 45
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
+  id: GetHashCode
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PrecomputedChunkElementData.GetHashCode()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetHashCode
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 51
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  id: op_Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: Equality(PrecomputedChunkElementData, PrecomputedChunkElementData)
+  nameWithType: PrecomputedChunkElementData.Equality(PrecomputedChunkElementData, PrecomputedChunkElementData)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData, ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  type: Operator
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: op_Equality
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 62
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nComparison operator Equals\n"
+  example: []
+  syntax:
+    content: public static bool operator ==(PrecomputedChunkElementData left, PrecomputedChunkElementData right)
+    parameters:
+    - id: left
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+      description: ''
+    - id: right
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Operator =(left As PrecomputedChunkElementData, right As PrecomputedChunkElementData) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  id: op_Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  langs:
+  - csharp
+  - vb
+  name: Inequality(PrecomputedChunkElementData, PrecomputedChunkElementData)
+  nameWithType: PrecomputedChunkElementData.Inequality(PrecomputedChunkElementData, PrecomputedChunkElementData)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData, ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  type: Operator
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: op_Inequality
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedChunkElementData.cs
+    startLine: 73
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nComparison operator not Equals\n"
+  example: []
+  syntax:
+    content: public static bool operator !=(PrecomputedChunkElementData left, PrecomputedChunkElementData right)
+    parameters:
+    - id: left
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+      description: ''
+    - id: right
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Operator <>(left As PrecomputedChunkElementData, right As PrecomputedChunkElementData) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor
+  name: PrecomputedChunkElementData
+  nameWithType: PrecomputedChunkElementData.PrecomputedChunkElementData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PrecomputedChunkElementData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals
+  name: Equals
+  nameWithType: PrecomputedChunkElementData.Equals
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: PrecomputedChunkElementData
+  nameWithType: PrecomputedChunkElementData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
+  name: GetHashCode
+  nameWithType: PrecomputedChunkElementData.GetHashCode
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality
+  name: Equality
+  nameWithType: PrecomputedChunkElementData.Equality
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equality
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality
+  name: Inequality
+  nameWithType: PrecomputedChunkElementData.Inequality
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Inequality

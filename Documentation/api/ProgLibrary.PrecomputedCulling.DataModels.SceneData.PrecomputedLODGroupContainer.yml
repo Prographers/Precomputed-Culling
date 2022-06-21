@@ -1,0 +1,1172 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  id: PrecomputedLODGroupContainer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.#ctor(System.Int32,UnityEngine.LODGroup)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.LODGroup
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedLODGroupContainer
+  nameWithType: PrecomputedLODGroupContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  type: Class
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PrecomputedLODGroupContainer
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 11
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nLOD Group renderer for occlusion culling\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class PrecomputedLODGroupContainer : PrecomputedRendererBaseContainer, IPrecomputedRendererContainer
+    content.vb: >-
+      <Serializable>
+
+      Public Class PrecomputedLODGroupContainer
+
+          Inherits PrecomputedRendererBaseContainer
+
+          Implements IPrecomputedRendererContainer
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  implements:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  inheritedMembers:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.LODGroup
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.LODGroup
+  id: LODGroup
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: LODGroup
+  nameWithType: PrecomputedLODGroupContainer.LODGroup
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.LODGroup
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: LODGroup
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 17
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nLOD Group\n"
+  example: []
+  syntax:
+    content: public LODGroup LODGroup
+    return:
+      type: UnityEngine.LODGroup
+    content.vb: Public LODGroup As LODGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.#ctor(System.Int32,UnityEngine.LODGroup)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.#ctor(System.Int32,UnityEngine.LODGroup)
+  id: '#ctor(System.Int32,UnityEngine.LODGroup)'
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedLODGroupContainer(Int32, LODGroup)
+  nameWithType: PrecomputedLODGroupContainer.PrecomputedLODGroupContainer(Int32, LODGroup)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.PrecomputedLODGroupContainer(System.Int32, UnityEngine.LODGroup)
+  type: Constructor
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: .ctor
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 24
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nDefault constructor\n"
+  example: []
+  syntax:
+    content: public PrecomputedLODGroupContainer(int index, LODGroup lodGroup)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Unique index on the scene
+    - id: lodGroup
+      type: UnityEngine.LODGroup
+      description: Log group to assign
+    content.vb: Public Sub New(index As Integer, lodGroup As LODGroup)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject
+  commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject
+  id: GameObject
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: GameObject
+  nameWithType: PrecomputedLODGroupContainer.GameObject
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject
+  type: Property
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GameObject
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 30
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override GameObject GameObject { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Overrides ReadOnly Property GameObject As GameObject
+  overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GameObject
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show
+  id: Show
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: PrecomputedLODGroupContainer.Show()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Show
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 33
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override void Show()
+    content.vb: Public Overrides Sub Show
+  overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide
+  id: Hide
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: PrecomputedLODGroupContainer.Hide()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Hide
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 39
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override void Hide()
+    content.vb: Public Overrides Sub Hide
+  overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking
+  id: ShowForBaking
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: ShowForBaking()
+  nameWithType: PrecomputedLODGroupContainer.ShowForBaking()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: ShowForBaking
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 45
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override void ShowForBaking()
+    content.vb: Public Overrides Sub ShowForBaking
+  overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking
+  id: FinalizeBaking
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: FinalizeBaking()
+  nameWithType: PrecomputedLODGroupContainer.FinalizeBaking()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: FinalizeBaking
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 52
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override void FinalizeBaking()
+    content.vb: Public Overrides Sub FinalizeBaking
+  overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid
+  id: IsValid
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: IsValid()
+  nameWithType: PrecomputedLODGroupContainer.IsValid()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: IsValid
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 59
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override bool IsValid()
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function IsValid As Boolean
+  overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox
+  id: GetBoundingBox
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: GetBoundingBox()
+  nameWithType: PrecomputedLODGroupContainer.GetBoundingBox()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetBoundingBox
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 65
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  example: []
+  syntax:
+    content: public override BoundingBox GetBoundingBox()
+    return:
+      type: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+    content.vb: Public Overrides Function GetBoundingBox As BoundingBox
+  overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers
+  id: GetPrimaryRenderers
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+  langs:
+  - csharp
+  - vb
+  name: GetPrimaryRenderers()
+  nameWithType: PrecomputedLODGroupContainer.GetPrimaryRenderers()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetPrimaryRenderers
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedLODGroupContainer.cs
+    startLine: 83
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nGet primary LOD renderers\n"
+  example: []
+  syntax:
+    content: public IEnumerable<(MeshRenderer Renderer, MeshFilter Filter)> GetPrimaryRenderers()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{UnityEngine.MeshRenderer,UnityEngine.MeshFilter}}
+      description: ''
+    content.vb: Public Function GetPrimaryRenderers As IEnumerable(Of(Renderer As MeshRenderer, Filter As MeshFilter)(Of MeshRenderer , MeshFilter))
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  name: PrecomputedRendererBaseContainer
+  nameWithType: PrecomputedRendererBaseContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  name: IPrecomputedRendererContainer
+  nameWithType: IPrecomputedRendererContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
+  commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: RendererId
+  nameWithType: PrecomputedRendererBaseContainer.RendererId
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: Equals(PrecomputedRendererBaseContainer)
+  nameWithType: PrecomputedRendererBaseContainer.Equals(PrecomputedRendererBaseContainer)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+    name: Equals
+    nameWithType: PrecomputedRendererBaseContainer.Equals
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+    name: PrecomputedRendererBaseContainer
+    nameWithType: PrecomputedRendererBaseContainer
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+    name: Equals
+    nameWithType: PrecomputedRendererBaseContainer.Equals
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+    name: PrecomputedRendererBaseContainer
+    nameWithType: PrecomputedRendererBaseContainer
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: PrecomputedRendererBaseContainer.Equals(Object)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+    name: Equals
+    nameWithType: PrecomputedRendererBaseContainer.Equals
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+    name: Equals
+    nameWithType: PrecomputedRendererBaseContainer.Equals
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: GetHashCode()
+  nameWithType: PrecomputedRendererBaseContainer.GetHashCode()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+    name: GetHashCode
+    nameWithType: PrecomputedRendererBaseContainer.GetHashCode
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+    name: GetHashCode
+    nameWithType: PrecomputedRendererBaseContainer.GetHashCode
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+- uid: UnityEngine.LODGroup
+  commentId: T:UnityEngine.LODGroup
+  parent: UnityEngine
+  isExternal: true
+  name: LODGroup
+  nameWithType: LODGroup
+  fullName: UnityEngine.LODGroup
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.#ctor
+  name: PrecomputedLODGroupContainer
+  nameWithType: PrecomputedLODGroupContainer.PrecomputedLODGroupContainer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.PrecomputedLODGroupContainer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GameObject
+  commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GameObject
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: GameObject
+  nameWithType: PrecomputedRendererBaseContainer.GameObject
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GameObject
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject
+  name: GameObject
+  nameWithType: PrecomputedLODGroupContainer.GameObject
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GameObject
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: Show()
+  nameWithType: PrecomputedRendererBaseContainer.Show()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show
+    name: Show
+    nameWithType: PrecomputedRendererBaseContainer.Show
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show
+    name: Show
+    nameWithType: PrecomputedRendererBaseContainer.Show
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show
+  name: Show
+  nameWithType: PrecomputedLODGroupContainer.Show
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Show
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: Hide()
+  nameWithType: PrecomputedRendererBaseContainer.Hide()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide
+    name: Hide
+    nameWithType: PrecomputedRendererBaseContainer.Hide
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide
+    name: Hide
+    nameWithType: PrecomputedRendererBaseContainer.Hide
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Hide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide
+  name: Hide
+  nameWithType: PrecomputedLODGroupContainer.Hide
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.Hide
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: ShowForBaking()
+  nameWithType: PrecomputedRendererBaseContainer.ShowForBaking()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking
+    name: ShowForBaking
+    nameWithType: PrecomputedRendererBaseContainer.ShowForBaking
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking
+    name: ShowForBaking
+    nameWithType: PrecomputedRendererBaseContainer.ShowForBaking
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.ShowForBaking
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking
+  name: ShowForBaking
+  nameWithType: PrecomputedLODGroupContainer.ShowForBaking
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.ShowForBaking
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: FinalizeBaking()
+  nameWithType: PrecomputedRendererBaseContainer.FinalizeBaking()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking
+    name: FinalizeBaking
+    nameWithType: PrecomputedRendererBaseContainer.FinalizeBaking
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking
+    name: FinalizeBaking
+    nameWithType: PrecomputedRendererBaseContainer.FinalizeBaking
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.FinalizeBaking
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking
+  name: FinalizeBaking
+  nameWithType: PrecomputedLODGroupContainer.FinalizeBaking
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.FinalizeBaking
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: IsValid()
+  nameWithType: PrecomputedRendererBaseContainer.IsValid()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid
+    name: IsValid
+    nameWithType: PrecomputedRendererBaseContainer.IsValid
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid
+    name: IsValid
+    nameWithType: PrecomputedRendererBaseContainer.IsValid
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid
+  name: IsValid
+  nameWithType: PrecomputedLODGroupContainer.IsValid
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  name: GetBoundingBox()
+  nameWithType: PrecomputedRendererBaseContainer.GetBoundingBox()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+    name: GetBoundingBox
+    nameWithType: PrecomputedRendererBaseContainer.GetBoundingBox
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+    name: GetBoundingBox
+    nameWithType: PrecomputedRendererBaseContainer.GetBoundingBox
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox
+  name: GetBoundingBox
+  nameWithType: PrecomputedLODGroupContainer.GetBoundingBox
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetBoundingBox
+- uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: BoundingBox
+  nameWithType: BoundingBox
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers
+  name: GetPrimaryRenderers
+  nameWithType: PrecomputedLODGroupContainer.GetPrimaryRenderers
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.GetPrimaryRenderers
+- uid: System.Collections.Generic.IEnumerable{System.ValueTuple{UnityEngine.MeshRenderer,UnityEngine.MeshFilter}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.ValueTuple{UnityEngine.MeshRenderer,UnityEngine.MeshFilter}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<(T1, T2)<MeshRenderer, MeshFilter>>
+  nameWithType: IEnumerable<(T1, T2)<MeshRenderer, MeshFilter>>
+  fullName: System.Collections.Generic.IEnumerable<System.ValueTuple<UnityEngine.MeshRenderer, UnityEngine.MeshFilter>>
+  nameWithType.vb: IEnumerable(Of (T1, T2)(Of MeshRenderer, MeshFilter))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.ValueTuple(Of UnityEngine.MeshRenderer, UnityEngine.MeshFilter))
+  name.vb: IEnumerable(Of (T1, T2)(Of MeshRenderer, MeshFilter))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.MeshRenderer
+    name: MeshRenderer
+    nameWithType: MeshRenderer
+    fullName: UnityEngine.MeshRenderer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.MeshFilter
+    name: MeshFilter
+    nameWithType: MeshFilter
+    fullName: UnityEngine.MeshFilter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.MeshRenderer
+    name: MeshRenderer
+    nameWithType: MeshRenderer
+    fullName: UnityEngine.MeshRenderer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UnityEngine.MeshFilter
+    name: MeshFilter
+    nameWithType: MeshFilter
+    fullName: UnityEngine.MeshFilter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

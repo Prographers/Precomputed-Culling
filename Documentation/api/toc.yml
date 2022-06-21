@@ -1,0 +1,157 @@
+### YamlMime:TableOfContent
+- uid: ProgLibrary.PrecomputedCulling
+  name: ProgLibrary.PrecomputedCulling
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
+    name: BoundingBoxExtensions
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCamera
+    name: PrecomputedCamera
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedController
+    name: PrecomputedController
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedManager
+    name: PrecomputedManager
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
+    name: PrecomputedSceneInfoData
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+    name: BoundingBox
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
+    name: PrecomputedChunkData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData
+    name: PrecomputedData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData
+    name: PrecomputedGroupData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+    name: PrecomputedVisibilityIndices
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+    name: PrecomputedChunkElementData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer
+    name: PrecomputedLODGroupContainer
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer
+    name: PrecomputedMeshRendererContainer
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
+    name: PrecomputedRendererBakeContainer
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
+    name: PrecomputedSceneBakeData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+    name: PrecomputedSceneData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
+    name: PrecomputedSceneRuntimeData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
+    name: ValidOccluderEnum
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+    name: IPrecomputedRendererContainer
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+    name: PrecomputedRendererBaseContainer
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+    name: PrecomputedRendererContainer<T>
+    name.vb: PrecomputedRendererContainer(Of T)
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera
+    name: IdCubemapCamera
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+    name: IVisibilityTester
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+    name: IVisibilityTester<TSettings>
+    name.vb: IVisibilityTester(Of TSettings)
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+    name: PrecomputedArea
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+    name: PrecomputedCullingRendererId
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer
+    name: ColorIndexingCameraRenderer
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline
+    name: ColorIndexingRenderPipeline
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset
+    name: ColorIndexingRenderPipelineAsset
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
+    name: CameraMatrixUtils
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera
+    name: TargetedFrustumCamera
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+    name: AreaDataIndex
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+    name: PrecomputedSceneAreaData
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+    name: PrecomputedSceneVariantData
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+    name: PrecomputedSceneInfo
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+    name: PrecomputedLoadMethod
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+    name: PrecomputedSceneSettings
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+    name: AssetBundleProvider
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
+    name: PrecomputedDataSettings
+- uid: ProgLibrary.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.Settings
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+    name: BakeAlgorithm
+  - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+    name: PrecomputedBakeCameraSettings
+  - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
+    name: PrecomputedBakeIdCubemapSettings
+  - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
+    name: PrecomputedBakeTargetedFrustumSettings
+  - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+    name: PrecomputedBaseBakeSettings
+  - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+    name: PrecomputedSettingsArea
+- uid: ProgLibrary.PrecomputedCulling.Shaders
+  name: ProgLibrary.PrecomputedCulling.Shaders
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer
+    name: CustomOcclusionScriptableRenderer
+  - uid: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+    name: RendererBakeAlgorithm
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
+    name: ArrayUtils
+  - uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+    name: ComputeShaderUtilities
+  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+    name: PrecomputedAreaExtensions
+  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+    name: PrecomputedAreaExtensions.CameraIterator
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake
+  name: ProgLibrary.PrecomputedCulling_Editor.Bake
+  items:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
+    name: PrecomputedSaveTexture

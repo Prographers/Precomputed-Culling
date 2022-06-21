@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  id: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
+  name: CameraMatrixUtils
+  nameWithType: CameraMatrixUtils
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera
+  name: TargetedFrustumCamera
+  nameWithType: TargetedFrustumCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera

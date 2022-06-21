@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  commentId: T:ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  id: RendererBakeAlgorithm
+  parent: ProgLibrary.PrecomputedCulling.Shaders
+  children:
+  - ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.Algorithm
+  - ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.ScriptableRendererData
+  - ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.VisibilityTesterType
+  langs:
+  - csharp
+  - vb
+  name: RendererBakeAlgorithm
+  nameWithType: RendererBakeAlgorithm
+  fullName: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  type: Class
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: RendererBakeAlgorithm
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+    startLine: 28
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Shaders
+  summary: "\nBake algorithms data\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class RendererBakeAlgorithm
+    content.vb: >-
+      <Serializable>
+
+      Public Class RendererBakeAlgorithm
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.Algorithm
+  commentId: F:ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.Algorithm
+  id: Algorithm
+  parent: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: Algorithm
+  nameWithType: RendererBakeAlgorithm.Algorithm
+  fullName: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.Algorithm
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Algorithm
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+    startLine: 34
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Shaders
+  summary: "\nAlgorithm\n"
+  example: []
+  syntax:
+    content: public BakeAlgorithm Algorithm
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+    content.vb: Public Algorithm As BakeAlgorithm
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.ScriptableRendererData
+  commentId: F:ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.ScriptableRendererData
+  id: ScriptableRendererData
+  parent: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: ScriptableRendererData
+  nameWithType: RendererBakeAlgorithm.ScriptableRendererData
+  fullName: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.ScriptableRendererData
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: ScriptableRendererData
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+    startLine: 38
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Shaders
+  summary: "\nCustom renderer used to draw elements to the scene\n"
+  example: []
+  syntax:
+    content: public ScriptableRendererData ScriptableRendererData
+    return:
+      type: UnityEngine.Rendering.Universal.ScriptableRendererData
+    content.vb: Public ScriptableRendererData As ScriptableRendererData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.VisibilityTesterType
+  commentId: F:ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.VisibilityTesterType
+  id: VisibilityTesterType
+  parent: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: VisibilityTesterType
+  nameWithType: RendererBakeAlgorithm.VisibilityTesterType
+  fullName: ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.VisibilityTesterType
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: VisibilityTesterType
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Shaders/CustomOcclusionScriptableRenderer.cs
+    startLine: 46
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Shaders
+  summary: "\nVisibility tester type\n"
+  example: []
+  syntax:
+    content: >-
+      [ValueDropdown("GetFilteredVisibilityTester")]
+
+      public Type VisibilityTesterType
+    return:
+      type: System.Type
+    content.vb: >-
+      <ValueDropdown("GetFilteredVisibilityTester")>
+
+      Public VisibilityTesterType As Type
+  attributes:
+  - type: Sirenix.OdinInspector.ValueDropdownAttribute
+    ctor: Sirenix.OdinInspector.ValueDropdownAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: GetFilteredVisibilityTester
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ProgLibrary.PrecomputedCulling.Shaders
+  commentId: N:ProgLibrary.PrecomputedCulling.Shaders
+  name: ProgLibrary.PrecomputedCulling.Shaders
+  nameWithType: ProgLibrary.PrecomputedCulling.Shaders
+  fullName: ProgLibrary.PrecomputedCulling.Shaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: BakeAlgorithm
+  nameWithType: BakeAlgorithm
+  fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+- uid: ProgLibrary.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.Settings
+- uid: UnityEngine.Rendering.Universal.ScriptableRendererData
+  commentId: T:UnityEngine.Rendering.Universal.ScriptableRendererData
+  parent: UnityEngine.Rendering.Universal
+  isExternal: true
+  name: ScriptableRendererData
+  nameWithType: ScriptableRendererData
+  fullName: UnityEngine.Rendering.Universal.ScriptableRendererData
+- uid: UnityEngine.Rendering.Universal
+  commentId: N:UnityEngine.Rendering.Universal
+  isExternal: true
+  name: UnityEngine.Rendering.Universal
+  nameWithType: UnityEngine.Rendering.Universal
+  fullName: UnityEngine.Rendering.Universal
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

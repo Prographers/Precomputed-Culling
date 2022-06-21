@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  id: ProgLibrary.PrecomputedCulling.DataModels
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: BoundingBox
+  nameWithType: BoundingBox
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: PrecomputedDataVariant
+  nameWithType: PrecomputedDataVariant
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
+  name: PrecomputedChunkData
+  nameWithType: PrecomputedChunkData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData
+  name: PrecomputedGroupData
+  nameWithType: PrecomputedGroupData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: PrecomputedVisibilityIndices
+  nameWithType: PrecomputedVisibilityIndices
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: PrecomputedData
+  nameWithType: PrecomputedData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels

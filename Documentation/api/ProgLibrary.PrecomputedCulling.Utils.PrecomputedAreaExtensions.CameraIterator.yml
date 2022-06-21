@@ -1,0 +1,488 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  id: PrecomputedAreaExtensions.CameraIterator
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.#ctor(UnityEngine.Vector3Int@,UnityEngine.Vector3Int@,UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox@)
+  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.CameraPosition
+  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedAreaExtensions.CameraIterator
+  nameWithType: PrecomputedAreaExtensions.CameraIterator
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  type: Struct
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: CameraIterator
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+    startLine: 19
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nInformation about bake spots for visible test\n"
+  example: []
+  syntax:
+    content: public readonly struct CameraIterator
+    content.vb: Public Structure CameraIterator
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - readonly
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.CameraPosition
+  commentId: F:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.CameraPosition
+  id: CameraPosition
+  parent: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  langs:
+  - csharp
+  - vb
+  name: CameraPosition
+  nameWithType: PrecomputedAreaExtensions.CameraIterator.CameraPosition
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.CameraPosition
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: CameraPosition
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+    startLine: 27
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nBake spot position to set camera during bake\n"
+  example: []
+  syntax:
+    content: public readonly Vector3 CameraPosition
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public ReadOnly CameraPosition As Vector3
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex
+  id: GetClampedIndex
+  parent: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  langs:
+  - csharp
+  - vb
+  name: GetClampedIndex()
+  nameWithType: PrecomputedAreaExtensions.CameraIterator.GetClampedIndex()
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GetClampedIndex
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+    startLine: 34
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nFlatten index to know current bake progress\n"
+  example: []
+  syntax:
+    content: public readonly float GetClampedIndex()
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Function GetClampedIndex As Single
+  overload: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex*
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.#ctor(UnityEngine.Vector3Int@,UnityEngine.Vector3Int@,UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox@)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.#ctor(UnityEngine.Vector3Int@,UnityEngine.Vector3Int@,UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox@)
+  id: '#ctor(UnityEngine.Vector3Int@,UnityEngine.Vector3Int@,UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox@)'
+  parent: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  langs:
+  - csharp
+  - vb
+  name: CameraIterator(in Vector3Int, in Vector3Int, in Vector3, in BoundingBox)
+  nameWithType: PrecomputedAreaExtensions.CameraIterator.CameraIterator(in Vector3Int, in Vector3Int, in Vector3, in BoundingBox)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.CameraIterator(in UnityEngine.Vector3Int, in UnityEngine.Vector3Int, in UnityEngine.Vector3, in ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
+  type: Constructor
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: .ctor
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+    startLine: 48
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nConstructor\n"
+  example: []
+  syntax:
+    content: public CameraIterator(in Vector3Int index, in Vector3Int density, in Vector3 cameraPosition, in BoundingBox box)
+    parameters:
+    - id: index
+      type: UnityEngine.Vector3Int
+      description: ''
+    - id: density
+      type: UnityEngine.Vector3Int
+      description: ''
+    - id: cameraPosition
+      type: UnityEngine.Vector3
+      description: ''
+    - id: box
+      type: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+      description: ''
+    content.vb: Public Sub New(ByRef index As Vector3Int, ByRef density As Vector3Int, ByRef cameraPosition As Vector3, ByRef box As BoundingBox)
+  overload: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.#ctor*
+  nameWithType.vb: PrecomputedAreaExtensions.CameraIterator.CameraIterator(ByRef Vector3Int, ByRef Vector3Int, ByRef Vector3, ByRef BoundingBox)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.CameraIterator(ByRef UnityEngine.Vector3Int, ByRef UnityEngine.Vector3Int, ByRef UnityEngine.Vector3, ByRef ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
+  name.vb: CameraIterator(ByRef Vector3Int, ByRef Vector3Int, ByRef Vector3, ByRef BoundingBox)
+references:
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex
+  name: GetClampedIndex
+  nameWithType: PrecomputedAreaExtensions.CameraIterator.GetClampedIndex
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.GetClampedIndex
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.#ctor
+  name: CameraIterator
+  nameWithType: PrecomputedAreaExtensions.CameraIterator.CameraIterator
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.CameraIterator
+- uid: UnityEngine.Vector3Int
+  commentId: T:UnityEngine.Vector3Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: UnityEngine.Vector3Int
+- uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: BoundingBox
+  nameWithType: BoundingBox
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels

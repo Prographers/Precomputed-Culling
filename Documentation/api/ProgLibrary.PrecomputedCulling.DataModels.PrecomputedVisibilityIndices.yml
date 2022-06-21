@@ -1,0 +1,713 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  id: PrecomputedVisibilityIndices
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea@,System.Boolean,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.GroupRenderersData
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.IsValid
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.PrecomputedCamera
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.RenderersData
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.SettingsArea
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedVisibilityIndices
+  nameWithType: PrecomputedVisibilityIndices
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  type: Struct
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PrecomputedVisibilityIndices
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 10
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nStruct to pass index result from <xref href=\"ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3%40%2cProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea%40%2cProgLibrary.PrecomputedCulling.PrecomputedCamera%40)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public readonly struct PrecomputedVisibilityIndices
+    content.vb: >-
+      <Serializable>
+
+      Public Structure PrecomputedVisibilityIndices
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - readonly
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.IsValid
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.IsValid
+  id: IsValid
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: PrecomputedVisibilityIndices.IsValid
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.IsValid
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: IsValid
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 17
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nIs visibility indices empty or everything from this visibility indices is invisible\n"
+  example: []
+  syntax:
+    content: public readonly bool IsValid
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly IsValid As Boolean
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.GroupRenderersData
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.GroupRenderersData
+  id: GroupRenderersData
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: GroupRenderersData
+  nameWithType: PrecomputedVisibilityIndices.GroupRenderersData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.GroupRenderersData
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: GroupRenderersData
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 22
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nGroup indexes of the renderers\n"
+  example: []
+  syntax:
+    content: public readonly PrecomputedChunkElementData[] GroupRenderersData
+    return:
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]
+    content.vb: Public ReadOnly GroupRenderersData As PrecomputedChunkElementData()
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.RenderersData
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.RenderersData
+  id: RenderersData
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: RenderersData
+  nameWithType: PrecomputedVisibilityIndices.RenderersData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.RenderersData
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: RenderersData
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 27
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nIndexes of the renderers\n"
+  example: []
+  syntax:
+    content: public readonly PrecomputedChunkElementData[] RenderersData
+    return:
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]
+    content.vb: Public ReadOnly RenderersData As PrecomputedChunkElementData()
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.SettingsArea
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.SettingsArea
+  id: SettingsArea
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: SettingsArea
+  nameWithType: PrecomputedVisibilityIndices.SettingsArea
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.SettingsArea
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: SettingsArea
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 32
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nSettings for given indices\n"
+  example: []
+  syntax:
+    content: public readonly PrecomputedSettingsArea SettingsArea
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+    content.vb: Public ReadOnly SettingsArea As PrecomputedSettingsArea
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.PrecomputedCamera
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.PrecomputedCamera
+  id: PrecomputedCamera
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedCamera
+  nameWithType: PrecomputedVisibilityIndices.PrecomputedCamera
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.PrecomputedCamera
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PrecomputedCamera
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 37
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nOcclusion Camera Settings\n"
+  example: []
+  syntax:
+    content: public readonly PrecomputedCamera PrecomputedCamera
+    return:
+      type: ProgLibrary.PrecomputedCulling.PrecomputedCamera
+    content.vb: Public ReadOnly PrecomputedCamera As PrecomputedCamera
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea@,System.Boolean,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea@,System.Boolean,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  id: '#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]@,ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea@,System.Boolean,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)'
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedVisibilityIndices(in PrecomputedChunkElementData[], in PrecomputedChunkElementData[], in PrecomputedSettingsArea, Boolean, in PrecomputedCamera)
+  nameWithType: PrecomputedVisibilityIndices.PrecomputedVisibilityIndices(in PrecomputedChunkElementData[], in PrecomputedChunkElementData[], in PrecomputedSettingsArea, Boolean, in PrecomputedCamera)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.PrecomputedVisibilityIndices(in ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[], in ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[], in ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea, System.Boolean, in ProgLibrary.PrecomputedCulling.PrecomputedCamera)
+  type: Constructor
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: .ctor
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 47
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nConstructor\n"
+  example: []
+  syntax:
+    content: public PrecomputedVisibilityIndices(in PrecomputedChunkElementData[] renderers, in PrecomputedChunkElementData[] groupRenderers, in PrecomputedSettingsArea settingsArea = null, bool isValid = true, in PrecomputedCamera precomputedCamera = null)
+    parameters:
+    - id: renderers
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]
+      description: Indexes of the renderers
+    - id: groupRenderers
+      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]
+      description: Group indexes of the renderers
+    - id: settingsArea
+      type: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+      description: Settings
+    - id: isValid
+      type: System.Boolean
+      description: Are indices empty and thus invalid
+    - id: precomputedCamera
+      type: ProgLibrary.PrecomputedCulling.PrecomputedCamera
+      description: current precomputed camera settings
+    content.vb: Public Sub New(ByRef renderers As PrecomputedChunkElementData(), ByRef groupRenderers As PrecomputedChunkElementData(), ByRef settingsArea As PrecomputedSettingsArea = Nothing, isValid As Boolean = True, ByRef precomputedCamera As PrecomputedCamera = Nothing)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.#ctor*
+  nameWithType.vb: PrecomputedVisibilityIndices.PrecomputedVisibilityIndices(ByRef PrecomputedChunkElementData(), ByRef PrecomputedChunkElementData(), ByRef PrecomputedSettingsArea, Boolean, ByRef PrecomputedCamera)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.PrecomputedVisibilityIndices(ByRef ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData(), ByRef ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData(), ByRef ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea, System.Boolean, ByRef ProgLibrary.PrecomputedCulling.PrecomputedCamera)
+  name.vb: PrecomputedVisibilityIndices(ByRef PrecomputedChunkElementData(), ByRef PrecomputedChunkElementData(), ByRef PrecomputedSettingsArea, Boolean, ByRef PrecomputedCamera)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty
+  id: Empty
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: Empty()
+  nameWithType: PrecomputedVisibilityIndices.Empty()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Empty
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 61
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nGenerates empty result\n"
+  example: []
+  syntax:
+    content: public static PrecomputedVisibilityIndices Empty()
+    return:
+      type: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+      description: ''
+    content.vb: Public Shared Function Empty As PrecomputedVisibilityIndices
+  overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid
+  id: Invalid
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  langs:
+  - csharp
+  - vb
+  name: Invalid()
+  nameWithType: PrecomputedVisibilityIndices.Invalid()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid()
+  type: Method
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: Invalid
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/PrecomputedVisibilityIndices.cs
+    startLine: 70
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nGenerates invalid result\n"
+  example: []
+  syntax:
+    content: public static PrecomputedVisibilityIndices Invalid()
+    return:
+      type: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+      description: ''
+    content.vb: Public Shared Function Invalid As PrecomputedVisibilityIndices
+  overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]
+  isExternal: true
+  name: PrecomputedChunkElementData[]
+  nameWithType: PrecomputedChunkElementData[]
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[]
+  nameWithType.vb: PrecomputedChunkElementData()
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData()
+  name.vb: PrecomputedChunkElementData()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+    name: PrecomputedChunkElementData
+    nameWithType: PrecomputedChunkElementData
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+    name: PrecomputedChunkElementData
+    nameWithType: PrecomputedChunkElementData
+    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: PrecomputedSettingsArea
+  nameWithType: PrecomputedSettingsArea
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+- uid: ProgLibrary.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.Settings
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCamera
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCamera
+  parent: ProgLibrary.PrecomputedCulling
+  name: PrecomputedCamera
+  nameWithType: PrecomputedCamera
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCamera
+- uid: ProgLibrary.PrecomputedCulling
+  commentId: N:ProgLibrary.PrecomputedCulling
+  name: ProgLibrary.PrecomputedCulling
+  nameWithType: ProgLibrary.PrecomputedCulling
+  fullName: ProgLibrary.PrecomputedCulling
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.#ctor
+  name: PrecomputedVisibilityIndices
+  nameWithType: PrecomputedVisibilityIndices.PrecomputedVisibilityIndices
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.PrecomputedVisibilityIndices
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty
+  name: Empty
+  nameWithType: PrecomputedVisibilityIndices.Empty
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Empty
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: PrecomputedVisibilityIndices
+  nameWithType: PrecomputedVisibilityIndices
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid
+  name: Invalid
+  nameWithType: PrecomputedVisibilityIndices.Invalid
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.Invalid

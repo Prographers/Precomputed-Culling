@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
+  id: PrecomputedBakeTargetedFrustumSettings
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  children:
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.DepthMapResolution
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.FrustumCalculationsNumber
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.TargetItemTooCloseTreshold
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedBakeTargetedFrustumSettings
+  nameWithType: PrecomputedBakeTargetedFrustumSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
+  type: Class
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: PrecomputedBakeTargetedFrustumSettings
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 11
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nBake settings used to compute Occlusion Data vis <xref href=\"ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class PrecomputedBakeTargetedFrustumSettings : PrecomputedBakeCameraSettings
+    content.vb: >-
+      <Serializable>
+
+      Public Class PrecomputedBakeTargetedFrustumSettings
+
+          Inherits PrecomputedBakeCameraSettings
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  inheritedMembers:
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.DepthMapResolution
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.DepthMapResolution
+  id: DepthMapResolution
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
+  langs:
+  - csharp
+  - vb
+  name: DepthMapResolution
+  nameWithType: PrecomputedBakeTargetedFrustumSettings.DepthMapResolution
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.DepthMapResolution
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: DepthMapResolution
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 17
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nResolution of depth screenshot\n"
+  example: []
+  syntax:
+    content: public Vector2Int DepthMapResolution
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: Public DepthMapResolution As Vector2Int
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.TargetItemTooCloseTreshold
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.TargetItemTooCloseTreshold
+  id: TargetItemTooCloseTreshold
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
+  langs:
+  - csharp
+  - vb
+  name: TargetItemTooCloseTreshold
+  nameWithType: PrecomputedBakeTargetedFrustumSettings.TargetItemTooCloseTreshold
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.TargetItemTooCloseTreshold
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: TargetItemTooCloseTreshold
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 24
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nSome objects that are close are not possible to cover in camera view frustum.\nUse this value to determine how close is too close\n"
+  example: []
+  syntax:
+    content: public float TargetItemTooCloseTreshold
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public TargetItemTooCloseTreshold As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.FrustumCalculationsNumber
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.FrustumCalculationsNumber
+  id: FrustumCalculationsNumber
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
+  langs:
+  - csharp
+  - vb
+  name: FrustumCalculationsNumber
+  nameWithType: PrecomputedBakeTargetedFrustumSettings.FrustumCalculationsNumber
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.FrustumCalculationsNumber
+  type: Field
+  source:
+    remote:
+      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+      branch: develop
+      repo: git@bitbucket.org:prographers/perfect-culling.git
+    id: FrustumCalculationsNumber
+    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 31
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  summary: "\nNumber of frustum calculations to get proper frustum value over an object.\nDefault 2 number should be more then enough and does not require change,\nunless you are experiencing critical errors with the bake generation.\n"
+  example: []
+  syntax:
+    content: public int FrustumCalculationsNumber
+    return:
+      type: System.Int32
+    content.vb: Public FrustumCalculationsNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera
+  name: TargetedFrustumCamera
+  nameWithType: TargetedFrustumCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera
+- uid: ProgLibrary.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.Settings
+  name: ProgLibrary.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.Settings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: PrecomputedBaseBakeSettings
+  nameWithType: PrecomputedBaseBakeSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: PrecomputedBakeCameraSettings
+  nameWithType: PrecomputedBakeCameraSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  name: CellDepthTestDensity
+  nameWithType: PrecomputedBakeCameraSettings.CellDepthTestDensity
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  name: CellDepthTestDensityOffset
+  nameWithType: PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  name: VisibleTransparent
+  nameWithType: PrecomputedBakeCameraSettings.VisibleTransparent
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
