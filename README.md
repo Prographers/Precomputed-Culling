@@ -7,15 +7,14 @@ Using time on your computer, precompute/bake your scenes to gain a significant p
 Heavily occluded scenes like a two-story house with the interior on all floors gained us up to 240% in frame rate!. From 30fps to 72fps on Quest 2.
 Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60fps on low-end mobile.
 
-**Documentation:**
+**Links:**
 
-https://prographers.com/Precomputed-Culling/ (WIP)
-
-https://github.com/Prographers/Precomputed-Culling/
-
-**Asset Store:**
-
-https://assetstore.unity.com/packages/slug/221372
+| Name | Link |
+| ---- | ---- |
+| Documentation and API reference | https://prographers.github.io/Precomputed-Culling |
+| Project page | https://prographers.com/Precomputed-Culling/ |
+| Documentation repository | https://github.com/Prographers/Precomputed-Culling/ |
+| **Asset Store** | https://assetstore.unity.com/packages/slug/221372 |
 
 ### Features:
 - Support for URP
