@@ -1,0 +1,1015 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/Precomputed-Culling/Precomputed-Culling/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html",
+          "hash": "31ZqfNZaRUiqZyNqE4nunS4M0XN3lKgiyK7zi8cGs6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html",
+          "hash": "psq3xNwCcai/6QIi4Rwb+3XyI5MP28ybJP4dGE67hBc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html",
+          "hash": "aNltHk1hqNZ5wpmGxpGCVDv4aiL0v3GLGerF7NIVHbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.html",
+          "hash": "t2rsvNA90nCo6bAZ32uZb9JygeGWS/bhsDJDvnAgTwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedDataVariant.html",
+          "hash": "ZEYmtMd7MWWU7wUdCXLlsZnV9tsQmWGHeOfvu9YVSB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData.html",
+          "hash": "qoD3rfyBxDo5OA51qXrrI1VAglsFOgqGjmbu++y49wg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.html",
+          "hash": "8hrMwFwiFFgKtZTmiTlT2scRg+LM6fx/gcUtJ9b7wBs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html",
+          "hash": "R+ZYUWPEp37dFdER+KuECKlpbyHwTAuVqpKrowrPX3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html",
+          "hash": "n7MCj2NkUjfJMlh4BC+rm/P25HfLg6RhgRjOOgQ2OmY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html",
+          "hash": "ISPzdqIN96tIyen3QrvKJumf4Tpb0cBIzXxpf5sVYFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html",
+          "hash": "TvlhuVIbyY2oPk7hgfNyLQtuKXT8Op833bROPazjMbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html",
+          "hash": "6PcqW48U/dTGMCsP5JskVg7xLrtp18Lj9HJZk/2uR1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedLODGroupContainer.html",
+          "hash": "S9BCPduS83NeIFH09+naPe3bwOGmBaGPvQytmOWx3f4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.html",
+          "hash": "2nyy3v5yJWecp52OQJmuHmHGnz1fC70rkLBuX5qMlkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.html",
+          "hash": "fGeFpKIhJZD1z+fEzOt8X0HPXRMH0VIbbcU3UVoJ6yA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData.html",
+          "hash": "NtdWsTYsOEjPNR00PrnJHy5AJrXMW9fTePsf54UAdEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html",
+          "hash": "VqeowTVJoHcgb1UPy9QTqSL//1Bk3RNJ/XAMxaT7+kA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.html",
+          "hash": "LlZmDVtFGo3jhaV11IMaEGXcOwNK8mfH4tDsf/r/J7I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.html",
+          "hash": "p670x85ttF4X5VgATAM0uc+QoADEwTnDYOsXNGHjBBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.html",
+          "hash": "j2RPK4KMVrSyUav3u01VA0k1CM77lOZC2Zhpi3XNP3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.DataModels.html",
+          "hash": "TuGQ1H56qOVC23CmnDZLFAliO7xY7IweRYFnDXWUuVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer.html",
+          "hash": "zoS+n64UGOR8YdKhIBNYcG3LBQ0UqEpAIGvrDLo3HkM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline.html",
+          "hash": "cLiKdk7T+TMMVfz1gwPe8Vg4ll7McUJeYYoVwPebHAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset.html",
+          "hash": "K/j33gD65fIwuxM7ASLkW3ZDDeBDQMvjYRpFmyYuLCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.html",
+          "hash": "FT5RwwZGG02/+3PXg073ZO44Q72DaQet7hmFJaEc/s8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.html",
+          "hash": "qWRd0nLPRhHwCs7geEg9i2COu1BPIX8aSxedRKg0feU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.TargetedFrustumCamera.html",
+          "hash": "DeSYCb+g5R6k7n5S585961Vet3H2npFPPV4inu+pIEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.html",
+          "hash": "0APG3BLCdO8va1tgLLc4wRAgKuY8ZOZQxG26MURHao8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester-1.html",
+          "hash": "UgyKxC7RQlyJQUwQl/eKMQpbcGM7/gPhFQ/w66OOV2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester.html",
+          "hash": "92VPV0Dyz8F24Le4iMWomWAg8ZFshsOrFjTu0Ir0Pik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.IdCubemapCamera.html",
+          "hash": "EdV+ymJyCKaILnir+k5tISq2L81nsK1YhvQZpm5ZU1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea.html",
+          "hash": "xK0rZ+ezBAfijpnsoAIFt/bAduedcQ7Erwt+RT7Uq1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId.html",
+          "hash": "plyJiEqTQZ2loOUnadXVZY0w8TjHx489T+DmQClTp9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.MonoBehaviours.html",
+          "hash": "xjUvn1tynJ2vXMrbe6kW6Z10BdJmWIswO1fDQ+5BjM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCamera.html",
+          "hash": "JQxbiNGKrC+wmlJ/BsCh64+wZlHg2K3VhyQagnOdAzM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedController.html",
+          "hash": "oFIebk440ETfIYyvOahzETkIlVJqWMH/IMeVpx2v80A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.html",
+          "hash": "+W1UoXGFzyh3UHHS90nclUAJg0yDGcm40XWev5OFYP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.html",
+          "hash": "2PMZWJRddRR6aJ/1RyhWefZFjU4Ym4ZCJvvQ6q3n1ds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.html",
+          "hash": "1IZIqQlKRts2zUVZq85WeE6U8ROK+AWb0YwxMKI0Cok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.html",
+          "hash": "pZRDHbnTMpscwP21nvrkX/3lUq5/xtREyW/i1BJOu5k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.html",
+          "hash": "wfeX+Y2FpzEbUfYRVqM3LniZOpmTj1eRYq0IwEnZbHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.html",
+          "hash": "hhZW+YTAAHw/5BAWpbVVEkEiu05HM0qJlc0UxYmaVek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.html",
+          "hash": "J1wYaFURILpzuHQb8vi+dsZ8nQ6QB21l1KmwB4DKPCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.html",
+          "hash": "9MMns7OWA1ME1iMX9VqZaBkTGss3GE3VUXJ+Wsu0DkM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.html",
+          "hash": "424zNZHVvyd4OxWlsS0gIxfMbSEds8SW9r6q9AlCGZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.html",
+          "hash": "6V4r/UJ/a75qJVIuL4gyM3VOC8Z8MjhCigf1n07LsDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.html",
+          "hash": "u0w01ABt0L+G5gYF2GJH9fePEk2gk2GMIf/dAbLjDaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings.html",
+          "hash": "575EJ5PbYQmF96Oa7O4Dfen+Lq9lMDx8cL92TWRpQb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.html",
+          "hash": "WUpx2f5JjptymoQ/iEykTcGt5s+khGZABYyRyDIB3+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedManager.html",
+          "hash": "3UHk6zXFh/BanEOHSJd9uGEZXLurXjwvDmVCzBEe6Bc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData.html",
+          "hash": "GDBC4EUi044BauxhnZC7J0wLvv5S7GqNN62FcSoAFMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.html",
+          "hash": "KiIng8VjjG/IcN0QNPqSXsFqLMsSrE/JOogDSI1AgXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.html",
+          "hash": "NC74jwd4I+OyXQX26oaQx/AcqfCuvNrS3eB/M1zhs5I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.html",
+          "hash": "/ulkxea4LNjyC4yxse3NKXQKhjqp7TNEsGngD1q5rYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.html",
+          "hash": "QF5WDpiL3n+0mDtktB52dd1l4f42u7o8FNu90qLBpLo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings.html",
+          "hash": "VfRqoXHaj/FMJhbQ2uVBqpA3XAJAQLvPlDDp5iWB8Bs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea.html",
+          "hash": "IQ59MWV8JPE1c43Yxv7yYovSGl4d3GzoogZfjUKO/Nk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.html",
+          "hash": "IUkFrxRdwGqzIzs8mmQB7h1kT+YCeScIfSd1MdZAps8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.CustomOcclusionScriptableRenderer.html",
+          "hash": "oTkXOKzWl44zg5CpQ3ws5lVnTKUanJ1NEQbW39esBP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.RendererBakeAlgorithm.html",
+          "hash": "ZfayczjHlTI2zv7ZMOaUgaYlMtvojek4NW6Y+JBWmZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Shaders.html",
+          "hash": "+o7umkIg+JkkjuusHO4GmoRGtKAsElmob1bfBh3fJ30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html",
+          "hash": "vd/lgd0YEDp1NP/WaSCh6Rx17P8EQXXYPyTpd2MHSNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.html",
+          "hash": "m19dRtCDmcSBadCqkKMOOh2K20fw/nPUg3kRvW7LpI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator.html",
+          "hash": "pc3JlUlW+a6+JRAUxNf1wAWc+okReoRupWK/6oqpNdg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.html",
+          "hash": "TORECxGEjqv1CxhrEdumbXnqNSkcNK3Y80xvXM4jpUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Utils.html",
+          "hash": "3HNhkGLdb5UhHD1DBpXXsmQVA+QgMrMap6vO/e5KmxY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.html",
+          "hash": "2CNlbTEoYMYz1CfCBOqCTLK72qIhXCGSWsvwAbDD5+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html",
+          "hash": "l5736I1T2goxJrdRdhn+AWKTXnD6v89yaVPNW/Uu6zQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.html",
+          "hash": "qNmWmeQt5JeRfKjaP37bv6urCnFZSZ+gIEKaqxZbUkk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "gP83AMFQVYPNPaDYATEEEfV633jK43kFvOKy8anezq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "NrdTD5NHgpCxYdSjwdgTD9XVlofUhq4yjbDcyYHVPg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/faq.html",
+          "hash": "yPYZk6GJZvyt75mfttNvk9u+anB/wimgu+6p/4my5uk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Y2t3QaK21G+TfdM8dGJLEI30JxVnITypgf1Ohv0/2SQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "9XmL7eCLPA/Q5QTVEpmNiTZLwaVAlb8xcio0GayW49Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/wip.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/wip.html",
+          "hash": "zi1M9RR4uDhijbwK9ZIuCs2yuiDZ7DjBu24RBvwpk8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/culing_off.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/culing_off.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/culing_on.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/culing_on.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "P3MFRtepKrK27jlW7jWmp6ocwkpT19COAxbaIUbjSTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ab6e9fQVfw4UMzq5HPcFW3PeojoRPVgjyj1Zi5jmmD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 69,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>What is occlusion culling | Prographers Precomputed Culling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="What is occlusion culling | Prographers Precomputed Culling ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MTNQCJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="what-is-occlusion-culling">What is occlusion culling</h1>
+
+<p>Occlusion culling is the process of removing objects from the render pipeline that are not visible to the camera. Out of the box, Unity provides simple frustum testing algorithm. It is done by testing the object's bounding volume against the frustum of the camera. If the object is not within the camera's frustum, it is considered to be occluded and is not rendered.</p>
+<h1 id="how-frustum-culling-differs-form-precomputed-occlusion-culling">How frustum culling differs form precomputed occlusion culling</h1>
+<p>Frustum culling is a technique used to cull objects that are not visible from the current viewpoint. Precomputed part of the occlusion culling suggests that the processing of culling is done before the game is built for final release. This principle is leveraging an idea that developers will have a lot of time and processing power to generate occlusion data, and reduces the complexity of detecting what is occluded in the runtime.</p>
+<p>Frustum culling does not remove from the rendering objects that are behind of other objects.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Visualsation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Precomputed culling off</strong></td>
+<td><img src="../images/culing_off.png" width="200"></td>
+</tr>
+<tr>
+<td><strong>Precomputed culling on</strong></td>
+<td><img src="../images/culing_on.png" width="200"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="when-should-i-use-precomputed-culling">When should I use precomputed culling</h1>
+<p>Precomputed culling should be used for virtualy any 3D project. From fully open worlds, to closed, corridor based scenes. Scene with hundreds or thousands of objects ussualy without any culling algorithm can have significant GPU impact. Using precomputed culling can save a lot of GPU resources.</p>
+<p>For <strong>open world games</strong>, in long view distant scenes you can save between <strong>10-25% of GPU usage</strong> ,depending on the scenery and occlusion level.</p>
+<p>For <strong>indor levels</strong>, you can save up to <strong>90% of the GPU usage</strong>, depending on the scenery and occlusion level.</p>
+<h1 id="how-often-should-i-bake-culling-data">How often should I bake culling data</h1>
+<p>Culling data while using precomputed culling should be baked for a few main reasons.</p>
+<ul>
+<li>Before <strong>EVERY</strong> release.</li>
+<li>Scene changed significantly and artifacts are showing up during the development (and disabling culling for development is not an option).</li>
+<li>You want to test performance of your scene</li>
+<li>You want to test occlusion bugs</li>
+</ul>
+<p>We recommend setting up CI pipeline that would bake culling after any scene changes to always keep the latest data in the build, to not forget to run the pipeline. Baking everything before the release might not be the best option as bakes can last everywhere from few seconds to few hours.</p>
+<h1 id="why-i-should-use-precomputed-culling-over-unitys-umbra-or-other-asset-from-asset-store">Why I should use Precomputed Culling over Unity's Umbra or other asset from asset store?</h1>
+<p>We created this asset for 3 main reasons.</p>
+<ol>
+<li>Umbra doesn't support multi-scene setups, or addative scene setups.</li>
+<li>Umbra bakes are low quality and bleed a lot of objects.</li>
+<li>We often had issues with baking in batch mode.</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5deUO-gQKPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>With our solution we tried to address those issues and improve upon them.</p>
+<p>We added features like:</p>
+<ul>
+<li>Variants bake</li>
+<li>Quality controll with pixel visiblity</li>
+<li>Multiple areas with priorities</li>
+<li>and many more...</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>All rights reserved <a href="https://github.com/Prographers/Precomputed-Culling">Precomputed Culling</a> by <strong><a href="https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar">Prographers</a></strong>.
+            <br> Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

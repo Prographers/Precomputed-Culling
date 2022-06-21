@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BoundingBox
+   | Prographers Precomputed Culling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BoundingBox
+   | Prographers Precomputed Culling ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MTNQCJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox">
+  
+  
+  <h1 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox" class="text-break">Class BoundingBox
+  </h1>
+  <div class="markdown level0 summary"><p>Non-axis aligned bounding box</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BoundingBox</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.html">ProgLibrary.PrecomputedCulling.DataModels</a></h6>
+  <h6><strong>Assembly</strong>: PrecomputedCulling.dll</h6>
+  <h5 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class BoundingBox : IEnumerable&lt;Vector3&gt;, IEnumerable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor">BoundingBox()</h4>
+  <div class="markdown level1 summary"><p>Default constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoundingBox()</code></pre>
+  </div>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)">BoundingBox(BoundingBox)</h4>
+  <div class="markdown level1 summary"><p>Copy constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoundingBox(BoundingBox boxToCopy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="parametername">boxToCopy</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)">BoundingBox(Vector3, Vector3, Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Default constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoundingBox(Vector3 position, Vector3 size, Quaternion rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">BoundingBox(Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Default constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoundingBox(Vector3 position, Vector3 size, Vector3 rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Position" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Position of the box</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Rotation" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Rotation">Rotation</h4>
+  <div class="markdown level1 summary"><p>Quaternion rotation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public Quaternion Rotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Size" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Size">Size</h4>
+  <div class="markdown level1 summary"><p>Size of the box</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Size</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Euler_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Euler" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler">Euler</h4>
+  <div class="markdown level1 summary"><p>Euler angles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ShowInInspector]
+public Vector3 Euler { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Item_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Item_System_Int32_System_Boolean_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item(System.Int32,System.Boolean)">Item[Int32, Boolean]</h4>
+  <div class="markdown level1 summary"><p>Vertices of the box - this value is calculated at runtime and it's not cached</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 this[int index, bool axisAligned = false ] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">axisAligned</span></td>
+        <td><p>Is resulting value axis aligned aka without applied rotation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_TopLeft_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_TopLeft" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft">TopLeft</h4>
+  <div class="markdown level1 summary"><p>Top Left position - non axis aligned</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TopLeft { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_TopLeftAxisAligned_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_TopLeftAxisAligned" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned">TopLeftAxisAligned</h4>
+  <div class="markdown level1 summary"><p>Top Left position without rotation aka axis aligned</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 TopLeftAxisAligned { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Add_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Add_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)">Add(BoundingBox)</h4>
+  <div class="markdown level1 summary"><p>Adds two boundingBoxes together to create larger one with alignment of the first one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(BoundingBox other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_ClosestPointOnBox_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_ClosestPointOnBox_UnityEngine_Vector3__" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(UnityEngine.Vector3@)">ClosestPointOnBox(in Vector3)</h4>
+  <div class="markdown level1 summary"><p>Returns closest point on box to the provided point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 ClosestPointOnBox(in Vector3 inputPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">inputPoint</span></td>
+        <td><p>Point to look for closes point from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Contains_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Contains_UnityEngine_Vector3__" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(UnityEngine.Vector3@)">Contains(in Vector3)</h4>
+  <div class="markdown level1 summary"><p>Is point contained within box</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(in Vector3 point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td><p>Point to check agains</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Expand_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Expand_UnityEngine_Vector3_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand(UnityEngine.Vector3)">Expand(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Expands current box to contain point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Expand(Vector3 point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromBounds_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromBounds_UnityEngine_Bounds_UnityEngine_Quaternion_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds(UnityEngine.Bounds,UnityEngine.Quaternion)">FromBounds(Bounds, Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Creates new bounding box form bounds and quaternion rotation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BoundingBox FromBounds(Bounds bounds, Quaternion rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Bounds</span></td>
+        <td><span class="parametername">bounds</span></td>
+        <td><p>Bounds of the target object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Rotation of the bounds</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromMeshFilter_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromMeshFilter_UnityEngine_MeshFilter_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter(UnityEngine.MeshFilter)">FromMeshFilter(MeshFilter)</h4>
+  <div class="markdown level1 summary"><p>Creates new bounding box from mesh bounding box current transform</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BoundingBox FromMeshFilter(MeshFilter mesh)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.MeshFilter</span></td>
+        <td><span class="parametername">mesh</span></td>
+        <td><p>Mesh to copy settings from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a></td>
+        <td><p>New bounding box</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_GetEnumerator_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_GetEnumerator" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;Vector3&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Merge_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Merge_System_Collections_Generic_List_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox___" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}@)">Merge(in List&lt;BoundingBox&gt;)</h4>
+  <div class="markdown level1 summary"><p>Merge multiple boxes into single box</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BoundingBox Merge(in List&lt;BoundingBox&gt; boxes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a>&gt;</td>
+        <td><span class="parametername">boxes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Points_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Points" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points">Points()</h4>
+  <div class="markdown level1 summary"><p>All points of each corner of the box</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3[] Points()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_System_Collections_IEnumerable_GetEnumerator_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_System_Collections_IEnumerable_GetEnumerator" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary_PrecomputedCulling_BoundingBoxExtensions_ExpandAA_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_UnityEngine_Vector3_">BoundingBoxExtensions.ExpandAA(BoundingBox, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary_PrecomputedCulling_BoundingBoxExtensions_DrawHandles_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_">BoundingBoxExtensions.DrawHandles(BoundingBox)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>All rights reserved <a href="https://github.com/Prographers/Precomputed-Culling">Precomputed Culling</a> by <strong><a href="https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar">Prographers</a></strong>.
+            <br> Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

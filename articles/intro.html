@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Precomputed Culling | Prographers Precomputed Culling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Precomputed Culling | Prographers Precomputed Culling ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MTNQCJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="precomputed-culling">Precomputed Culling</h1>
+
+<p><img src="https://user-images.githubusercontent.com/5092066/170501889-39cf1828-8557-4f1b-9e9c-2856f41bd3d2.png" alt="Precomputed_Culling_Logo">
+Pixel perfect occlusion system that will significantly improve the performance of your scenes, without almost any overhead.</p>
+<p>Using time on your computer, precompute/bake your scenes to gain a significant performance boost. The occlusion culling algorithm will find all visible meshes from each point on your scene, using the color-coding algorithm. Then it will save them efficiently and load only when needed.</p>
+<p>Heavily occluded scenes like a two-story house with the interior on all floors gained us up to 240% in frame rate!. From 30fps to 72fps on Quest 2.
+Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60fps on low-end mobile.</p>
+<p><strong>Links:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Documentation and API reference</td>
+<td><a href="https://prographers.github.io/Precomputed-Culling">https://prographers.github.io/Precomputed-Culling</a></td>
+</tr>
+<tr>
+<td>Project page</td>
+<td><a href="https://prographers.com/Precomputed-Culling/">https://prographers.com/Precomputed-Culling/</a></td>
+</tr>
+<tr>
+<td>Documentation repository</td>
+<td><a href="https://github.com/Prographers/Precomputed-Culling/">https://github.com/Prographers/Precomputed-Culling/</a></td>
+</tr>
+<tr>
+<td><strong>Asset Store</strong></td>
+<td><a href="https://assetstore.unity.com/packages/slug/221372">https://assetstore.unity.com/packages/slug/221372</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="features">Features:</h3>
+<ul>
+<li>Support for URP</li>
+<li>Support for multiple cameras</li>
+<li>Support for multiple scenes with multiple variants and dynamic loading and unloading</li>
+<li>Lightweight with an option for additional compression</li>
+<li>Supports transparency</li>
+<li>Supports LODs</li>
+<li>Supports Unity Terrain</li>
+<li>Supports 2D Sprites*</li>
+<li>Runtime precision control between quality and performance</li>
+<li>Support for all platforms including mobile, VR, AR, and WebGL</li>
+<li>API for custom building pipelines</li>
+<li>Everything is written in C#, full source code included</li>
+<li>Code documentation + external documentation with tutorials</li>
+<li>Easy to setup</li>
+<li>Examples and Demos</li>
+<li>Support via email or discord</li>
+</ul>
+<p>*Not recommended to use in 2D games, intended use is for example leaves on the 3D trees or far away rocks.</p>
+<h3 id="limitations">Limitations:</h3>
+<ul>
+<li>Required to bake scenes and their variants before build.</li>
+</ul>
+<h3 id="roadmap">Roadmap:</h3>
+<ul>
+<li>Support for Legacy (built-in) and HDRP</li>
+<li>Support for dynamic objects</li>
+<li>Support for occlusion portals</li>
+<li>Split baking between multiple computers</li>
+<li>Improve baking times</li>
+<li>Better debugging tools and statistics</li>
+<li>Dynamic lighting shadow</li>
+<li>and more...</li>
+</ul>
+<h2 id="installation">Installation:</h2>
+<ol>
+<li>In Unity Editor, the Open Package manager</li>
+<li>In &quot;My assets&quot; select <code>Precomputed Culling</code> and press &quot;Install&quot;</li>
+<li>Done!</li>
+</ol>
+<h2 id="basic-usage">Basic Usage:</h2>
+<p>For more advanced usages visit <a href="https://prographers.com/Precomputed-Culling/">https://prographers.com/Precomputed-Culling/</a> or the related section in the repository <a href="https://github.com/Prographers/Precomputed-Culling/">https://github.com/Prographers/Precomputed-Culling/</a></p>
+<ol>
+<li>Open the main scene where you want to initialize your setup</li>
+<li>In the top menu, press Tools-&gt;Precomputed Culling-&gt;Setup</li>
+<li>Adjust Precomputed Volume/Area to match the play area of your player (note you can have multiple areas)</li>
+<li>Adjust cell density and camera control (Find the best setting between bake Quality and Bake time and performance).</li>
+<li>Start baking either in Tools-&gt;Precomputed Culling-&gt;Bake or in Area</li>
+<li>Wait for bake to finish</li>
+<li>Enjoy an increase in performance</li>
+</ol>
+<h2 id="recommendation">Recommendation:</h2>
+<h3 id="open-world-areas">Open world areas:</h3>
+<ul>
+<li>Chunk size should be around 5 meters in width by 5 meters height by top jump height.</li>
+<li>At least 3 cameras in the middle. At top of jump height; At eye level; At Croutch eye level (add the fourth one if the prone position is allowed)</li>
+<li>Allow for taking data from neighboring cells at distance of 1 reduce aggressiveness of the algorithm</li>
+<li>Set runtime pixel requirement to 50-100 pixels</li>
+<li>Allow for baking terrain</li>
+<li>Allow for sprites baking (If the environment is not a pure 3D model)</li>
+</ul>
+<h3 id="small-areas-building">Small Areas (building):</h3>
+<ul>
+<li>Chunk size should be around 1 meter by 1 meter by the height of the building</li>
+<li>At least 18 cameras. All spread out within the cell. At top of jump height; At eye level; At Croutch eye level.</li>
+<li>(Optional if experiencing artifacts) Allow for taking data from neighboring cells in distance of 1 reduce aggressiveness of the algorithm</li>
+<li>Set runtime pixel requirement to 0 - 25 pixels</li>
+<li>Allow for baking transparent between 1 or 2 layers</li>
+</ul>
+<p>More dense areas should have a bigger priority than less dense areas.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>All rights reserved <a href="https://github.com/Prographers/Precomputed-Culling">Precomputed Culling</a> by <strong><a href="https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar">Prographers</a></strong>.
+            <br> Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
