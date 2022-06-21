@@ -5,16 +5,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Prographers Precomputed Culling | Prographers Precomputed Culling </title>
+    <title>What is occlusion culling | Prographers Precomputed Culling </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Prographers Precomputed Culling | Prographers Precomputed Culling ">
+    <meta name="title" content="What is occlusion culling | Prographers Precomputed Culling ">
     <meta name="generator" content="docfx 2.59.2.0">
     
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/docfx.vendor.css">
-    <link rel="stylesheet" href="styles/docfx.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <meta property="docfx:navrel" content="toc.html">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -57,19 +57,40 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="prographers-precomputed-culling">Prographers Precomputed Culling</h1>
+<h1 id="what-is-occlusion-culling">What is occlusion culling</h1>
 
-<p><img src="https://user-images.githubusercontent.com/5092066/170501889-39cf1828-8557-4f1b-9e9c-2856f41bd3d2.png" alt="Precomputed_Culling_Logo"></p>
-<p>Pixel perfect occlusion system that will significantly improve the performance of your scenes, without almost any overhead.</p>
-<p>Using time on your computer, precompute/bake your scenes to gain a significant performance boost. The occlusion culling algorithm will find all visible meshes from each point on your scene, using the color-coding algorithm. Then it will save them efficiently and load only when needed.</p>
-<p>Heavily occluded scenes like a two-story house with the interior on all floors gained us up to 240% in frame rate!. From 30fps to 72fps on Quest 2.
-Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60fps on low-end mobile.</p>
-<h1 id="sitemap">Sitemap</h1>
-<p><a href="articles/intro.html">Documentation</a></p>
-<p><a href="api/index.html">API Reference</a></p>
+<p>Occlusion culling is the process of removing objects from the render pipeline that are not visible to the camera. Out of the box, Unity provides simple frustum testing algorithm. It is done by testing the object's bounding volume against the frustum of the camera. If the object is not within the camera's frustum, it is considered to be occluded and is not rendered.</p>
+<h1 id="how-frustum-culling-differs-form-precomputed-occlusion-culling">How frustum culling differs form precomputed occlusion culling</h1>
+<p>Frustum culling is a technique used to cull objects that are not visible from the current viewpoint. Precomputed part of the occlusion culling suggests that the processing of culling is done before the game is built for final release. This principle is leveraging an idea that developers will have a lot of time and processing power to generate occlusion data, and reduces the complexity of detecting what is occluded in the runtime.</p>
+<p>Frustum culling does not remove from the rendering objects that are behind of other objects.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Visualsation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Precomputed culling off</strong></td>
+<td><img src="/images/culing_off.png" width="200"></td>
+</tr>
+<tr>
+<td><strong>Precomputed culling on</strong></td>
+<td><img src="/images/culing_on.png" width="200"></td>
+</tr>
+</tbody>
+</table>
 </article>
           </div>
           
@@ -99,8 +120,8 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
       </footer>
     </div>
     
-    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="styles/docfx.js"></script>
-    <script type="text/javascript" src="styles/main.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

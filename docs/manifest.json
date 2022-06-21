@@ -857,6 +857,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/faq.html",
+          "hash": "Jb3VdVA8T7rGNOJ2Mj3NtsNiKOojmrj+Usi8KdrNIAk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
@@ -864,7 +876,7 @@
           "hash": "ShGHO+SyOjLx4fwBhzWJ2llcf4zbgYQgbjpJzos+Nq0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -873,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "jhZjrm/VUfEedkyynCJoXqjig0XDEMZHkcbfsTwhO5Q="
+          "hash": "/z1TeBoTsFCvbmhYIxhGP72nQeX/Fqj8OAxY5aTuopM="
         }
       },
       "is_incremental": false,
@@ -892,12 +904,37 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/culing_off.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/culing_off.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/culing_on.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/culing_on.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "BSI0jznF/1HEK3nD9tfRadAX6jpIYbqR2KTjLVdeAsc="
+          "hash": "de3f6ZSR7ZqL833+KfazZlQ6Nw1JrAt8KZ+Tn53GkKA="
         }
       },
       "is_incremental": true,
@@ -909,7 +946,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "9HVzhLjwRumh66ANLs9ECrTgIKsnzXgyXSs3a7f1KG0="
+          "hash": "4/pd9tyxqoQ1eTw5rb9yMif7BpwZf5CAQMlqTDlAfOI="
         }
       },
       "is_incremental": false,
@@ -928,14 +965,21 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 4,
-          "skipped_file_count": 3
+          "total_file_count": 5,
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 69,
           "skipped_file_count": 69
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
