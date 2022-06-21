@@ -31,13 +31,7 @@ jobs:
 
     - name: Build docs
       run: |
-        cd Documentation/
-        mono ../docfx/docfx.exe
-
-    - name: Install SSH Client
-      uses: webfactory/ssh-agent@v0.2.0
-      with:
-        ssh-private-key: $
+        mono .docfx/docfx.exe Documentation/docfx.json
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.3.3
