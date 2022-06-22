@@ -1,3 +1,3 @@
-This documentation is currently being built and does not have a mutch of meaningful content. Please come back at a later date.
+This documentation is a work in progress. Expect frequent updates at this stage of development.
 
 For support, please leave a GitHub issue at https://github.com/Prographers/Precomputed-Culling/issues

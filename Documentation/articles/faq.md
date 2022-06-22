@@ -49,3 +49,4 @@ We added features like:
  - Quality controll with pixel visiblity
  - Multiple areas with priorities
  - and many more...
+

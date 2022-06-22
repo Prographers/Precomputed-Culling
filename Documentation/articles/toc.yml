@@ -3,5 +3,7 @@
   items:
     - name: FAQ
       href: faq.md
+    - name: Quick Start
+      href: quickstart.md
 - name: WIP
   href: Wip.md
