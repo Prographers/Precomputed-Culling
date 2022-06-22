@@ -10,9 +10,9 @@
   })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | Prographers Precomputed Culling </title>
+    <title>Quick Start Guide | Prographers Precomputed Culling </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | Prographers Precomputed Culling ">
+    <meta name="title" content="Quick Start Guide | Prographers Precomputed Culling ">
     <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -73,9 +73,51 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="quick-start-guide">Quick Start Guide</h1>
 
-<p>This documentation is a work in progress. Expect frequent updates at this stage of development.</p>
-<p>For support, please leave a GitHub issue at <a href="https://github.com/Prographers/Precomputed-Culling/issues">https://github.com/Prographers/Precomputed-Culling/issues</a></p>
+<p>We will start by creating a new project, but you can also use your existing project.</p>
+<h2 id="new-project">New Project</h2>
+<ol>
+<li><p>In the Unity Hub, click on &quot;Create New Project&quot;,</p>
+</li>
+<li><p>Select &quot;3D Sample Scene (URP)&quot; and give it a name,</p>
+</li>
+<li><p>Click Create project,
+<img src="../images/unityhub_new_project.png" alt="Unity Hub New Project"></p>
+<p><em>note: You can also use your existing project.</em></p>
+</li>
+</ol>
+<h2 id="install-precomputed-culling-via-package-manager">Install Precomputed Culling via Package Manager</h2>
+<ol>
+<li>Open package manager, by pressing <code>Window &gt; Package Manager</code>,</li>
+<li>In the top dropdown change Package to My Assets,</li>
+<li>Select <code>Precomputed Culling</code> and press Install,</li>
+<li>Done.</li>
+</ol>
+<p><img src="../images/package_manager_my_assets.png" alt="My Assets"></p>
+<h2 id="install-precomputed-culling-via-unity-package">Install Precomputed Culling via Unity Package</h2>
+<ol>
+<li>Locate the <code>PrecomputedCullingProg.unitypackage</code> package in file explorer.</li>
+<li>Double click on the package,</li>
+<li>In the new opened window press <code>Import</code></li>
+<li>Done.</li>
+</ol>
+<p><img src="../images/import_unity_package.png" alt="Import Unity Package"></p>
+<h2 id="setup-precomputed-culling">Setup Precomputed Culling</h2>
+<ol>
+<li>Open the main scene where you want to initialize your setup,</li>
+<li>In the top menu, press Tools-&gt;Precomputed Culling-&gt;Setup,
+<ul>
+<li>Optional - Create new GameObject, and add <code>PrecomputedArea</code> component to it.</li>
+</ul>
+</li>
+<li>Adjust Precomputed Volume/Area to match the play area of your player (note you can have multiple areas),</li>
+<li>Adjust cell density and camera control (Find the best setting between bake Quality and Bake time and performance).</li>
+<li>Start baking either in Tools-&gt;Precomputed Culling-&gt;Bake or in Area</li>
+<li>Wait for bake to finish</li>
+<li>Enjoy an increase in performance</li>
+</ol>
+<p><img src="../images/precomputed_area_setup.png" alt="Setup Precomputed Area"></p>
 </article>
           </div>
           

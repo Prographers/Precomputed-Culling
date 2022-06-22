@@ -880,6 +880,18 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/quickstart.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/quickstart.html",
+          "hash": "5oc/YTLHfQsShO/Xk6Fm75IH52bQC1rXupDEoGyPBJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -888,7 +900,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "9XmL7eCLPA/Q5QTVEpmNiTZLwaVAlb8xcio0GayW49Q="
+          "hash": "GrwBPGVjjf1Y8ZPLtDr9qlJAMjukJIxy/lSrHN/suZE="
         }
       },
       "is_incremental": false,
@@ -900,7 +912,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/wip.html",
-          "hash": "zi1M9RR4uDhijbwK9ZIuCs2yuiDZ7DjBu24RBvwpk8A="
+          "hash": "jZFjSooyJJzQDwh+kon9jD745dA+tjFEDAY2kUtWWGc="
         }
       },
       "is_incremental": false,
@@ -923,6 +935,50 @@
       "output": {
         "resource": {
           "relative_path": "images/culing_on.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/import_unity_package.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/import_unity_package.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/package_manager_my_assets.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/package_manager_my_assets.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/precomputed_area_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/precomputed_area_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/unityhub_new_project.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/unityhub_new_project.png"
         }
       },
       "is_incremental": false,
@@ -970,7 +1026,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
