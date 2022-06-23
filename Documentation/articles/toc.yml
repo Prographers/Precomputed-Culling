@@ -5,5 +5,7 @@
       href: faq.md
     - name: Quick Start
       href: quickstart.md
+    - name: Features
+      href: features.md
 - name: WIP
   href: Wip.md
