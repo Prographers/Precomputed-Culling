@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Features of Precomputed Culling by Prographers | Prographers Precomputed Culling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Features of Precomputed Culling by Prographers | Prographers Precomputed Culling ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MTNQCJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="features-of-precomputed-culling-by-prographers">Features of <a href="https://prographers.com/precomputed-culling">Precomputed Culling</a> by Prographers</h1>
+
+<h2 id="gizmos-and-handles">Gizmos and Handles</h2>
+<p>Use built in Gizmos and Handles to manupulate the culling volume. Adjust area to your needs with clear visual feedback.</p>
+<p><img src="../images/gizmos.gif" alt="Gizmos and Handles"></p>
+<p>Using visual feedback see how your changes affect the culling cells. What are the areas that would contain culling data, as well as the bakes spots that would be used to generate the final image.</p>
+<p>Adjust them using the inspector.</p>
+<p><img src="../images/spots-and-cells.gif" alt="Spots and Cells"></p>
+<p>Adjust the priority of the cell, to determine which data should be used to generate the final image.</p>
+<h2 id="preview-your-culling-results">Preview your culling results</h2>
+<p>Preview your culling results in the scene view. Click on the area that you want to preview, and enable the preview mode.</p>
+<p><em>Note: Remeber to bake the culling data before previewing!</em></p>
+<p><img src="../images/preview-bake.gif" alt="Preview bake"></p>
+<h2 id="detailed-information-for-runtime-debugging">Detailed information for runtime debugging</h2>
+<p>Each of the components have detailed information for runtime debugging. Information like currently rendered elements, culled elements, total bake spots and total cells.</p>
+<p>Each of the bake also contains data about it's preview bake time and it's size in the disk as well as the size in the memory.</p>
+<p><strong>Data in the Precomputed Area</strong>
+<img src="../images/area-data.png" alt="Area data">
+<strong>Data in the Precomputed Camera</strong>
+<img src="../images/camera-data.png" alt="Camera data"></p>
+<h2 id="configure-the-culling-precision-and-quality">Configure the culling precision and quality</h2>
+<h3 id="minimal-required-visibility">Minimal required visibility</h3>
+<p>Configure the culling precision and quality. Use Minimal required visibility to allow for small objects to be culled, even if in theory visible.</p>
+<p>The culling is based on 4096x4096 pixels of resolution per sample. So each sample is based on 16 milion pixels. By default when we set 0 or 1 of visibility we will see all objects, even if they were only single pixel visible. The more we will increase this value, we will change how mutch of the object should be visible before it is culled.</p>
+<p><em>Note: This has impact on small objects, like single rocks or cuttlery. Because they might generate a very little pixels on the samples, they will disapear faster then they should.</em></p>
+<p><em>Note: at the time of writing this, you can only preview the visibility of the object in the runtime. This is subject to change in future versions.</em></p>
+<p><img src="../images/minimal-required-visibility.gif" alt="Minimal Required Visibility">
+<em>Right click on a gif -&gt; <code>Show controlls elements</code>, to slow down time to preview gif step by step</em></p>
+<h3 id="neighbour-cell-radius">Neighbour cell radius</h3>
+<p>Determines how far the algorithm will look for neighboring cells. If it's set to 0, it will only take the cell we are currently in to generate the culling. If it's set to 1, it will take the cell we are currently in and it's neighbors. If it's set to 2, it will take the cell we are currently in and it's neighbors and it's neighbors, etc...</p>
+<p>This is usefull if you have an open world and you want to make sure that there are no artifacts in the culling for objects that are behind small ocluders like trees.</p>
+<p>This setting will slightly decrease the performance because it will have to load data from not one but at least 4 cells.</p>
+<p><img src="../images/camera-quality.png" alt="Camera quality"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>All rights reserved <a href="https://github.com/Prographers/Precomputed-Culling">Precomputed Culling</a> by <strong><a href="https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar">Prographers</a></strong>.
+            <br> Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
