@@ -15,7 +15,7 @@ Frustum culling does not remove from the rendering objects that are behind of ot
 
 # When should I use precomputed culling
 
-Precomputed culling should be used for virtualy any 3D project. From fully open worlds, to closed, corridor based scenes. Scene with hundreds or thousands of objects ussualy without any culling algorithm can have significant GPU impact. Using precomputed culling can save a lot of GPU resources.
+Precomputed culling should be used for virtualy any 3D project. From fully open worlds, to closed, corridor based scenes. Scene with hundreds or thousands of objects usually without any culling algorithm can have significant GPU impact. Using precomputed culling can save a lot of GPU resources.
 
 For **open world games**, in long view distant scenes you can save between **10-25% of GPU usage** ,depending on the scenery and occlusion level.
 
