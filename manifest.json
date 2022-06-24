@@ -998,6 +998,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/house-with-occlusion.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/house-with-occlusion.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/house-without-occlusion.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/house-without-occlusion.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/import_unity_package.png",
       "output": {
         "resource": {
