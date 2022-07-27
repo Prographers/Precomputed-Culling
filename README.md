@@ -32,6 +32,7 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 - Code documentation + external documentation with tutorials
 - Easy to setup
 - Examples and Demos
+- Moving Occlusion Area with objects
 - Support via email or discord
 
 *Not recommended to use in 2D games, intended use is for example leaves on the 3D trees or far away rocks.
