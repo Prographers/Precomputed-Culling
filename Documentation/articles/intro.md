@@ -17,7 +17,7 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 | **Asset Store** | https://assetstore.unity.com/packages/slug/221372 |
 
 ### Features:
-- Support for URP
+- Support for URP and HDRP
 - Support for multiple cameras
 - Support for multiple scenes with multiple variants and dynamic loading and unloading
 - Lightweight with an option for additional compression
@@ -33,18 +33,18 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 - Easy to setup
 - Examples and Demos
 - Support via email or discord
-
+- Superior performance
+- 
 *Not recommended to use in 2D games, intended use is for example leaves on the 3D trees or far away rocks.
 
 ### Limitations:
 - Required to bake scenes and their variants before build.
 
 ### Roadmap:
-- Support for Legacy (built-in) and HDRP
+- Support for Legacy (built-in)
 - Support for dynamic objects
 - Support for occlusion portals
 - Split baking between multiple computers
-- Improve baking times
 - Better debugging tools and statistics
 - Dynamic lighting shadow
 - and more...
