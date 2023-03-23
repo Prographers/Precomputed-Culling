@@ -85,3 +85,5 @@ For more advanced usages visit https://prographers.com/Precomputed-Culling/ or t
  - Allow for baking transparent between 1 or 2 layers
 
 More dense areas should have a bigger priority than less dense areas.
+
+Please rate us at Asset Store 5 stars if you find this plugin usefull!
