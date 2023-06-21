@@ -7,6 +7,44 @@ references:
   commentId: N:ProgLibrary.PrecomputedCulling
   fullName: ProgLibrary.PrecomputedCulling
   nameWithType: ProgLibrary.PrecomputedCulling
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake
+  name: ProgLibrary.PrecomputedCulling_Editor.Bake
+  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.html
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Bake
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Bake
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
+  name: PrecomputedSaveTexture
+  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
+  nameWithType: PrecomputedSaveTexture
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
+  name: SaveRTToFile(RenderTexture, RenderTexture)
+  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_SaveRTToFile_UnityEngine_RenderTexture_UnityEngine_RenderTexture_
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile(UnityEngine.RenderTexture, UnityEngine.RenderTexture)
+  nameWithType: PrecomputedSaveTexture.SaveRTToFile(RenderTexture, RenderTexture)
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile*
+  name: SaveRTToFile
+  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_SaveRTToFile_
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile
+  isSpec: "True"
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile
+  nameWithType: PrecomputedSaveTexture.SaveRTToFile
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings(System.Boolean,System.Int32)
+  name: UpdateSettings(Boolean, Int32)
+  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_UpdateSettings_System_Boolean_System_Int32_
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings(System.Boolean,System.Int32)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings(System.Boolean, System.Int32)
+  nameWithType: PrecomputedSaveTexture.UpdateSettings(Boolean, Int32)
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings*
+  name: UpdateSettings
+  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_UpdateSettings_
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings
+  isSpec: "True"
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings
+  nameWithType: PrecomputedSaveTexture.UpdateSettings
 - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
   name: BoundingBoxExtensions
   href: api/ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html
@@ -326,15 +364,6 @@ references:
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Box
   fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Box
   nameWithType: PrecomputedChunkData.Box
-- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@)
-  name: GetChunkIndex(in Vector3)
-  href: api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html#ProgLibrary_PrecomputedCulling_DataModels_PrecomputedChunkData_GetChunkIndex_UnityEngine_Vector3__
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@)
-  name.vb: GetChunkIndex(ByRef Vector3)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(in UnityEngine.Vector3)
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(ByRef UnityEngine.Vector3)
-  nameWithType: PrecomputedChunkData.GetChunkIndex(in Vector3)
-  nameWithType.vb: PrecomputedChunkData.GetChunkIndex(ByRef Vector3)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@,System.Int32@,System.Int32@,System.Int32@)
   name: GetChunkIndex(in Vector3, out Int32, out Int32, out Int32)
   href: api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html#ProgLibrary_PrecomputedCulling_DataModels_PrecomputedChunkData_GetChunkIndex_UnityEngine_Vector3__System_Int32__System_Int32__System_Int32__
@@ -344,6 +373,15 @@ references:
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(ByRef UnityEngine.Vector3, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
   nameWithType: PrecomputedChunkData.GetChunkIndex(in Vector3, out Int32, out Int32, out Int32)
   nameWithType.vb: PrecomputedChunkData.GetChunkIndex(ByRef Vector3, ByRef Int32, ByRef Int32, ByRef Int32)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@)
+  name: GetChunkIndex(in Vector3)
+  href: api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html#ProgLibrary_PrecomputedCulling_DataModels_PrecomputedChunkData_GetChunkIndex_UnityEngine_Vector3__
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@)
+  name.vb: GetChunkIndex(ByRef Vector3)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(in UnityEngine.Vector3)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(ByRef UnityEngine.Vector3)
+  nameWithType: PrecomputedChunkData.GetChunkIndex(in Vector3)
+  nameWithType.vb: PrecomputedChunkData.GetChunkIndex(ByRef Vector3)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex*
   name: GetChunkIndex
   href: api/ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html#ProgLibrary_PrecomputedCulling_DataModels_PrecomputedChunkData_GetChunkIndex_
@@ -1540,19 +1578,6 @@ references:
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
   nameWithType: PrecomputedSceneData
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
-  name: PrecomputedSceneData(Scene)
-  href: api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary_PrecomputedCulling_DataModels_SceneData_PrecomputedSceneData__ctor_UnityEngine_SceneManagement_Scene_
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.PrecomputedSceneData(UnityEngine.SceneManagement.Scene)
-  nameWithType: PrecomputedSceneData.PrecomputedSceneData(Scene)
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor*
-  name: PrecomputedSceneData
-  href: api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary_PrecomputedCulling_DataModels_SceneData_PrecomputedSceneData__ctor_
-  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor
-  isSpec: "True"
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.PrecomputedSceneData
-  nameWithType: PrecomputedSceneData.PrecomputedSceneData
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenGroupRenderers
   name: _hiddenGroupRenderers
   href: api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary_PrecomputedCulling_DataModels_SceneData_PrecomputedSceneData__hiddenGroupRenderers
@@ -1583,6 +1608,19 @@ references:
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
   nameWithType: PrecomputedSceneData._visibleRenderers
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
+  name: PrecomputedSceneData(Scene)
+  href: api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary_PrecomputedCulling_DataModels_SceneData_PrecomputedSceneData__ctor_UnityEngine_SceneManagement_Scene_
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.PrecomputedSceneData(UnityEngine.SceneManagement.Scene)
+  nameWithType: PrecomputedSceneData.PrecomputedSceneData(Scene)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor*
+  name: PrecomputedSceneData
+  href: api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary_PrecomputedCulling_DataModels_SceneData_PrecomputedSceneData__ctor_
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor
+  isSpec: "True"
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.PrecomputedSceneData
+  nameWithType: PrecomputedSceneData.PrecomputedSceneData
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
   name: GatherSceneRenderersFromGameObjects(in GameObject[])
   href: api/ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary_PrecomputedCulling_DataModels_SceneData_PrecomputedSceneData_GatherSceneRenderersFromGameObjects_UnityEngine_GameObject____
@@ -3378,15 +3416,6 @@ references:
   isSpec: "True"
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex
   nameWithType: ArrayUtils.ExpandArrayIndex
-- uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
-  name: Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32)
-  href: api/ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary_PrecomputedCulling_Utils_ArrayUtils_Flatten3DArrayIndex_System_Int32__System_Int32__System_Int32__System_Int32__
-  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
-  name.vb: Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(in System.Int32, in System.Int32, in System.Int32, in System.Int32)
-  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(ByRef System.Int32, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
-  nameWithType: ArrayUtils.Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32)
-  nameWithType.vb: ArrayUtils.Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)
   name: Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32, in Int32)
   href: api/ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary_PrecomputedCulling_Utils_ArrayUtils_Flatten3DArrayIndex_System_Int32__System_Int32__System_Int32__System_Int32__System_Int32__
@@ -3396,6 +3425,15 @@ references:
   fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(ByRef System.Int32, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
   nameWithType: ArrayUtils.Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32, in Int32)
   nameWithType.vb: ArrayUtils.Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
+- uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  name: Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32)
+  href: api/ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary_PrecomputedCulling_Utils_ArrayUtils_Flatten3DArrayIndex_System_Int32__System_Int32__System_Int32__System_Int32__
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  name.vb: Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(in System.Int32, in System.Int32, in System.Int32, in System.Int32)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(ByRef System.Int32, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
+  nameWithType: ArrayUtils.Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32)
+  nameWithType.vb: ArrayUtils.Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex*
   name: Flatten3DArrayIndex
   href: api/ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary_PrecomputedCulling_Utils_ArrayUtils_Flatten3DArrayIndex_
@@ -3612,41 +3650,3 @@ references:
   isSpec: "True"
   fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox
   nameWithType: PrecomputedAreaExtensions.GetCellBox
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake
-  name: ProgLibrary.PrecomputedCulling_Editor.Bake
-  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.html
-  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Bake
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake
-  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Bake
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
-  name: PrecomputedSaveTexture
-  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html
-  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture
-  nameWithType: PrecomputedSaveTexture
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
-  name: SaveRTToFile(RenderTexture, RenderTexture)
-  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_SaveRTToFile_UnityEngine_RenderTexture_UnityEngine_RenderTexture_
-  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile(UnityEngine.RenderTexture, UnityEngine.RenderTexture)
-  nameWithType: PrecomputedSaveTexture.SaveRTToFile(RenderTexture, RenderTexture)
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile*
-  name: SaveRTToFile
-  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_SaveRTToFile_
-  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile
-  isSpec: "True"
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.SaveRTToFile
-  nameWithType: PrecomputedSaveTexture.SaveRTToFile
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings(System.Boolean,System.Int32)
-  name: UpdateSettings(Boolean, Int32)
-  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_UpdateSettings_System_Boolean_System_Int32_
-  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings(System.Boolean,System.Int32)
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings(System.Boolean, System.Int32)
-  nameWithType: PrecomputedSaveTexture.UpdateSettings(Boolean, Int32)
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings*
-  name: UpdateSettings
-  href: api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.html#ProgLibrary_PrecomputedCulling_Editor_Bake_PrecomputedSaveTexture_UpdateSettings_
-  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings
-  isSpec: "True"
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.UpdateSettings
-  nameWithType: PrecomputedSaveTexture.UpdateSettings
