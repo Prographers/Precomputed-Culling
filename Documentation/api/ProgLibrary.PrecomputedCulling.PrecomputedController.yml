@@ -8,19 +8,14 @@ items:
   - ProgLibrary.PrecomputedCulling.PrecomputedController.#ctor
   - ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   - ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
-  - ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers
-  - ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes
   - ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize
   - ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers
   - ProgLibrary.PrecomputedCulling.PrecomputedController.Instance
-  - ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking
-  - ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty
   - ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData
   - ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   - ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   - ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene(UnityEngine.SceneManagement.Scene)
   - ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount
-  - ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData
   - ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData
   - ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility(UnityEngine.Vector3,ProgLibrary.PrecomputedCulling.PrecomputedCamera)
   langs:
@@ -31,17 +26,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PrecomputedController
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-    startLine: 14
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 20
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nTracks loaded scenes and precomputed area. Mange precomputed data and load variants. Updates the occlusions.\n"
+  summary: Tracks loaded scenes and precomputed area. Mange precomputed data and load variants. Updates the occlusions.
   example: []
   syntax:
     content: public class PrecomputedController
@@ -56,12 +47,6 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.Instance
   commentId: P:ProgLibrary.PrecomputedCulling.PrecomputedController.Instance
   id: Instance
@@ -74,33 +59,21 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.Instance
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Instance
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 22
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 25
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nSingleton of PrecomputedController\n"
+  summary: Singleton of PrecomputedController
   example: []
   syntax:
     content: public static PrecomputedController Instance { get; }
     parameters: []
     return:
       type: ProgLibrary.PrecomputedCulling.PrecomputedController
-    content.vb: Public Shared ReadOnly Property Instance As PrecomputedController
+    content.vb: Public Shared Property Instance As PrecomputedController
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.Instance*
-  modifiers.csharp:
-  - public
-  - static
-  - get
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData
   commentId: P:ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData
   id: SceneData
@@ -113,17 +86,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: SceneData
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 42
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 45
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nInformation about scene\n"
+  summary: Information about scene
   example: []
   syntax:
     content: public IReadOnlyList<PrecomputedSceneData> SceneData { get; }
@@ -132,12 +101,6 @@ items:
       type: System.Collections.Generic.IReadOnlyList{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData}
     content.vb: Public ReadOnly Property SceneData As IReadOnlyList(Of PrecomputedSceneData)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.#ctor
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.#ctor
   id: '#ctor'
@@ -150,26 +113,21 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.PrecomputedController()
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 54
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 57
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
   example: []
   syntax:
     content: public PrecomputedController()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PrecomputedController.New()
+  fullName.vb: ProgLibrary.PrecomputedCulling.PrecomputedController.New()
+  name.vb: New()
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount
   commentId: P:ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount
   id: RenderersCount
@@ -182,17 +140,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: RenderersCount
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 72
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 75
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nGet renderers count\n"
+  summary: Get renderers count
   example: []
   syntax:
     content: public int RenderersCount { get; }
@@ -201,12 +155,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property RenderersCount As Integer
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene(UnityEngine.SceneManagement.Scene)
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene(UnityEngine.SceneManagement.Scene)
   id: RemoveScene(UnityEngine.SceneManagement.Scene)
@@ -219,17 +167,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene(UnityEngine.SceneManagement.Scene)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: RemoveScene
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 121
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 124
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nRemove scene\n"
+  summary: Remove scene
   example: []
   syntax:
     content: public void RemoveScene(Scene scene)
@@ -239,10 +183,6 @@ items:
       description: ''
     content.vb: Public Sub RemoveScene(scene As Scene)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize
   id: ForceReinitialize
@@ -255,26 +195,18 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: ForceReinitialize
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 133
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 136
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nRemove all items and reinitialize\n"
+  summary: Remove all items and reinitialize
   example: []
   syntax:
     content: public void ForceReinitialize()
-    content.vb: Public Sub ForceReinitialize
+    content.vb: Public Sub ForceReinitialize()
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData
   id: LoadPrecomputedData
@@ -287,26 +219,18 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: LoadPrecomputedData
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 162
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 165
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nLoad occlusionData from variant for current scenes\n"
+  summary: Load occlusionData from variant for current scenes
   example: []
   syntax:
     content: public void LoadPrecomputedData()
-    content.vb: Public Sub LoadPrecomputedData
+    content.vb: Public Sub LoadPrecomputedData()
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers
   id: GetAllRenderers
@@ -319,29 +243,21 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: GetAllRenderers
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 354
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 357
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nGet all renderers from all scenes\n"
+  summary: Get all renderers from all scenes
   example: []
   syntax:
     content: public IEnumerable<IPrecomputedRendererContainer> GetAllRenderers()
     return:
       type: System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer}
       description: ''
-    content.vb: Public Function GetAllRenderers As IEnumerable(Of IPrecomputedRendererContainer)
+    content.vb: Public Function GetAllRenderers() As IEnumerable(Of IPrecomputedRendererContainer)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   id: AddOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
@@ -354,17 +270,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: AddOcclusionArea
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 376
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 379
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nAdd Precomputed area\n"
+  summary: Add Precomputed area
   example: []
   syntax:
     content: public void AddOcclusionArea(PrecomputedArea precomputedArea)
@@ -374,10 +286,6 @@ items:
       description: ''
     content.vb: Public Sub AddOcclusionArea(precomputedArea As PrecomputedArea)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   id: AddOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
@@ -390,17 +298,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: AddOcclusionSceneSettings
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 385
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 388
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nAdd Precomputed Scene settings\n"
+  summary: Add Precomputed Scene settings
   example: []
   syntax:
     content: public void AddOcclusionSceneSettings(PrecomputedSceneSettings precomputedSceneSettings)
@@ -410,10 +314,6 @@ items:
       description: ''
     content.vb: Public Sub AddOcclusionSceneSettings(precomputedSceneSettings As PrecomputedSceneSettings)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   id: RemoveOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
@@ -426,17 +326,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: RemoveOcclusionArea
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 394
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 397
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nRemove Precomputed area\n"
+  summary: Remove Precomputed area
   example: []
   syntax:
     content: public void RemoveOcclusionArea(PrecomputedArea precomputedArea)
@@ -446,10 +342,6 @@ items:
       description: ''
     content.vb: Public Sub RemoveOcclusionArea(precomputedArea As PrecomputedArea)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   id: RemoveOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
@@ -462,17 +354,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: RemoveOcclusionSceneSettings
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 403
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 406
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nRemove Precomputed Scene settings\n"
+  summary: Remove Precomputed Scene settings
   example: []
   syntax:
     content: public void RemoveOcclusionSceneSettings(PrecomputedSceneSettings precomputedSceneSettings)
@@ -482,10 +370,6 @@ items:
       description: ''
     content.vb: Public Sub RemoveOcclusionSceneSettings(precomputedSceneSettings As PrecomputedSceneSettings)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility(UnityEngine.Vector3,ProgLibrary.PrecomputedCulling.PrecomputedCamera)
   commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility(UnityEngine.Vector3,ProgLibrary.PrecomputedCulling.PrecomputedCamera)
   id: UpdateVisibility(UnityEngine.Vector3,ProgLibrary.PrecomputedCulling.PrecomputedCamera)
@@ -498,17 +382,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility(UnityEngine.Vector3, ProgLibrary.PrecomputedCulling.PrecomputedCamera)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: UpdateVisibility
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController.cs
-    startLine: 413
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\PrecomputedController.cs
+    startLine: 416
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nUpdates the occlusions for current camera position \n"
+  summary: Updates the occlusions for current camera position
   example: []
   syntax:
     content: public void UpdateVisibility(Vector3 cameraLocation, PrecomputedCamera precomputedCamera = null)
@@ -521,506 +401,282 @@ items:
       description: ''
     content.vb: Public Sub UpdateVisibility(cameraLocation As Vector3, precomputedCamera As PrecomputedCamera = Nothing)
   overload: ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData
-  commentId: P:ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData
-  id: SceneBakeData
-  parent: ProgLibrary.PrecomputedCulling.PrecomputedController
-  langs:
-  - csharp
-  - vb
-  name: SceneBakeData
-  nameWithType: PrecomputedController.SceneBakeData
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData
-  type: Property
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: SceneBakeData
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-    startLine: 19
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nGather <xref href=\"ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData\" data-throw-if-not-resolved=\"false\"></xref>\n"
-  example: []
-  syntax:
-    content: public IEnumerable<PrecomputedSceneBakeData> SceneBakeData { get; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData}
-    content.vb: Public ReadOnly Property SceneBakeData As IEnumerable(Of PrecomputedSceneBakeData)
-  overload: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty
-  commentId: P:ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty
-  id: IsDirty
-  parent: ProgLibrary.PrecomputedCulling.PrecomputedController
-  langs:
-  - csharp
-  - vb
-  name: IsDirty
-  nameWithType: PrecomputedController.IsDirty
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty
-  type: Property
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: IsDirty
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-    startLine: 31
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nMark data as dirty and required to be refreshed\n"
-  example: []
-  syntax:
-    content: public bool IsDirty { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property IsDirty As Boolean
-  overload: ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking
-  commentId: P:ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking
-  id: IsBaking
-  parent: ProgLibrary.PrecomputedCulling.PrecomputedController
-  langs:
-  - csharp
-  - vb
-  name: IsBaking
-  nameWithType: PrecomputedController.IsBaking
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking
-  type: Property
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: IsBaking
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-    startLine: 36
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nSets true if occlusion is being baked\n"
-  example: []
-  syntax:
-    content: public bool IsBaking { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Property IsBaking As Boolean
-  overload: ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes
-  commentId: P:ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes
-  id: CurrentAssetsScenes
-  parent: ProgLibrary.PrecomputedCulling.PrecomputedController
-  langs:
-  - csharp
-  - vb
-  name: CurrentAssetsScenes
-  nameWithType: PrecomputedController.CurrentAssetsScenes
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes
-  type: Property
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: CurrentAssetsScenes
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-    startLine: 45
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling
-  example: []
-  syntax:
-    content: public List<SceneAsset> CurrentAssetsScenes { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{UnityEditor.SceneAsset}
-    content.vb: Public Property CurrentAssetsScenes As List(Of SceneAsset)
-  overload: ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes*
-  see:
-  - linkId: ProgLibrary.PrecomputedCulling.PrecomputedController._currentAssetsScenes
-    commentId: F:ProgLibrary.PrecomputedCulling.PrecomputedController._currentAssetsScenes
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers
-  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers
-  id: CountVisibleRenderers
-  parent: ProgLibrary.PrecomputedCulling.PrecomputedController
-  langs:
-  - csharp
-  - vb
-  name: CountVisibleRenderers()
-  nameWithType: PrecomputedController.CountVisibleRenderers()
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers()
-  type: Method
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: CountVisibleRenderers
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/PrecomputedController_EditorPartial.cs
-    startLine: 177
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling
-  summary: "\nCount renderers in all SceneData \n"
-  example: []
-  syntax:
-    content: public int CountVisibleRenderers()
-    return:
-      type: System.Int32
-      description: ''
-    content.vb: Public Function CountVisibleRenderers As Integer
-  overload: ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: ProgLibrary.PrecomputedCulling
   commentId: N:ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling
   nameWithType: ProgLibrary.PrecomputedCulling
   fullName: ProgLibrary.PrecomputedCulling
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.Instance*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.Instance
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.Instance
   name: Instance
   nameWithType: PrecomputedController.Instance
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.Instance
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedController
   parent: ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html
   name: PrecomputedController
   nameWithType: PrecomputedController
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData
   name: SceneData
   nameWithType: PrecomputedController.SceneData
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneData
@@ -1028,6 +684,7 @@ references:
   commentId: T:System.Collections.Generic.IReadOnlyList{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
   name: IReadOnlyList<PrecomputedSceneData>
   nameWithType: IReadOnlyList<PrecomputedSceneData>
   fullName: System.Collections.Generic.IReadOnlyList<ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData>
@@ -1037,38 +694,29 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IReadOnlyList`1
     name: IReadOnlyList
-    nameWithType: IReadOnlyList
-    fullName: System.Collections.Generic.IReadOnlyList
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
     name: PrecomputedSceneData
-    nameWithType: PrecomputedSceneData
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IReadOnlyList`1
     name: IReadOnlyList
-    nameWithType: IReadOnlyList
-    fullName: System.Collections.Generic.IReadOnlyList
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
     name: PrecomputedSceneData
-    nameWithType: PrecomputedSceneData
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IReadOnlyList`1
   commentId: T:System.Collections.Generic.IReadOnlyList`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
   name: IReadOnlyList<T>
   nameWithType: IReadOnlyList<T>
   fullName: System.Collections.Generic.IReadOnlyList<T>
@@ -1078,46 +726,70 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IReadOnlyList`1
     name: IReadOnlyList
-    nameWithType: IReadOnlyList
-    fullName: System.Collections.Generic.IReadOnlyList
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IReadOnlyList`1
     name: IReadOnlyList
-    nameWithType: IReadOnlyList
-    fullName: System.Collections.Generic.IReadOnlyList
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.#ctor*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.#ctor
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.#ctor
   name: PrecomputedController
   nameWithType: PrecomputedController.PrecomputedController
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.PrecomputedController
+  nameWithType.vb: PrecomputedController.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.PrecomputedController.New
+  name.vb: New
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount
   name: RenderersCount
   nameWithType: PrecomputedController.RenderersCount
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RenderersCount
@@ -1125,11 +797,16 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene(UnityEngine.SceneManagement.Scene)
   name: RemoveScene
   nameWithType: PrecomputedController.RemoveScene
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveScene
@@ -1146,18 +823,37 @@ references:
   name: UnityEngine.SceneManagement
   nameWithType: UnityEngine.SceneManagement
   fullName: UnityEngine.SceneManagement
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.SceneManagement
+    name: SceneManagement
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.SceneManagement
+    name: SceneManagement
+    isExternal: true
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize
   name: ForceReinitialize
   nameWithType: PrecomputedController.ForceReinitialize
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.ForceReinitialize
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData
   name: LoadPrecomputedData
   nameWithType: PrecomputedController.LoadPrecomputedData
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.LoadPrecomputedData
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers
   name: GetAllRenderers
   nameWithType: PrecomputedController.GetAllRenderers
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.GetAllRenderers
@@ -1165,6 +861,7 @@ references:
   commentId: T:System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<IPrecomputedRendererContainer>
   nameWithType: IEnumerable<IPrecomputedRendererContainer>
   fullName: System.Collections.Generic.IEnumerable<ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer>
@@ -1174,38 +871,29 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
     name: IPrecomputedRendererContainer
-    nameWithType: IPrecomputedRendererContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
     name: IPrecomputedRendererContainer
-    nameWithType: IPrecomputedRendererContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
   commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<T>
   nameWithType: IEnumerable<T>
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1215,77 +903,130 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   name: AddOcclusionArea
   nameWithType: PrecomputedController.AddOcclusionArea
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionArea
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
   commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
   parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea.html
   name: PrecomputedArea
   nameWithType: PrecomputedArea
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
   commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.MonoBehaviours
   nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   name: AddOcclusionSceneSettings
   nameWithType: PrecomputedController.AddOcclusionSceneSettings
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.AddOcclusionSceneSettings
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
   parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.html
   name: PrecomputedSceneSettings
   nameWithType: PrecomputedSceneSettings
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
   commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
   nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.html
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
   name: RemoveOcclusionArea
   nameWithType: PrecomputedController.RemoveOcclusionArea
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionArea
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings(ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings)
   name: RemoveOcclusionSceneSettings
   nameWithType: PrecomputedController.RemoveOcclusionSceneSettings
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.RemoveOcclusionSceneSettings
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility*
   commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html#ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility(UnityEngine.Vector3,ProgLibrary.PrecomputedCulling.PrecomputedCamera)
   name: UpdateVisibility
   nameWithType: PrecomputedController.UpdateVisibility
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.UpdateVisibility
@@ -1299,6 +1040,7 @@ references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCamera
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCamera
   parent: ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCamera.html
   name: PrecomputedCamera
   nameWithType: PrecomputedCamera
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCamera
@@ -1308,168 +1050,3 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
-  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
-  name: PrecomputedSceneBakeData
-  nameWithType: PrecomputedSceneBakeData
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData
-  name: SceneBakeData
-  nameWithType: PrecomputedController.SceneBakeData
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.SceneBakeData
-- uid: System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData}
-  commentId: T:System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<PrecomputedSceneBakeData>
-  nameWithType: IEnumerable<PrecomputedSceneBakeData>
-  fullName: System.Collections.Generic.IEnumerable<ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData>
-  nameWithType.vb: IEnumerable(Of PrecomputedSceneBakeData)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData)
-  name.vb: IEnumerable(Of PrecomputedSceneBakeData)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
-    name: PrecomputedSceneBakeData
-    nameWithType: PrecomputedSceneBakeData
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
-    name: PrecomputedSceneBakeData
-    nameWithType: PrecomputedSceneBakeData
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneBakeData
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty
-  name: IsDirty
-  nameWithType: PrecomputedController.IsDirty
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.IsDirty
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking
-  name: IsBaking
-  nameWithType: PrecomputedController.IsBaking
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.IsBaking
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController._currentAssetsScenes
-  commentId: F:ProgLibrary.PrecomputedCulling.PrecomputedController._currentAssetsScenes
-  isExternal: true
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes
-  name: CurrentAssetsScenes
-  nameWithType: PrecomputedController.CurrentAssetsScenes
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.CurrentAssetsScenes
-- uid: System.Collections.Generic.List{UnityEditor.SceneAsset}
-  commentId: T:System.Collections.Generic.List{UnityEditor.SceneAsset}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<SceneAsset>
-  nameWithType: List<SceneAsset>
-  fullName: System.Collections.Generic.List<UnityEditor.SceneAsset>
-  nameWithType.vb: List(Of SceneAsset)
-  fullName.vb: System.Collections.Generic.List(Of UnityEditor.SceneAsset)
-  name.vb: List(Of SceneAsset)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: UnityEditor.SceneAsset
-    name: SceneAsset
-    nameWithType: SceneAsset
-    fullName: UnityEditor.SceneAsset
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: UnityEditor.SceneAsset
-    name: SceneAsset
-    nameWithType: SceneAsset
-    fullName: UnityEditor.SceneAsset
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
-  isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers
-  name: CountVisibleRenderers
-  nameWithType: PrecomputedController.CountVisibleRenderers
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedController.CountVisibleRenderers

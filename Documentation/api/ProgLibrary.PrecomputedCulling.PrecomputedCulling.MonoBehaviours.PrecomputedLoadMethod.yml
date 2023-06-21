@@ -15,12 +15,8 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
   type: Enum
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/PrecomputedSceneSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PrecomputedLoadMethod
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/PrecomputedSceneSettings.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\MonoBehaviours\PrecomputedSceneSettings.cs
     startLine: 123
   assemblies:
   - PrecomputedCulling
@@ -28,12 +24,6 @@ items:
   syntax:
     content: public enum PrecomputedLoadMethod
     content.vb: Public Enum PrecomputedLoadMethod
-  modifiers.csharp:
-  - public
-  - enum
-  modifiers.vb:
-  - Public
-  - Enum
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.OnChangeScene
   commentId: F:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.OnChangeScene
   id: OnChangeScene
@@ -46,12 +36,8 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.OnChangeScene
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/PrecomputedSceneSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: OnChangeScene
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/PrecomputedSceneSettings.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\MonoBehaviours\PrecomputedSceneSettings.cs
     startLine: 125
   assemblies:
   - PrecomputedCulling
@@ -60,12 +46,6 @@ items:
     content: OnChangeScene = 0
     return:
       type: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.Manual
   commentId: F:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.Manual
   id: Manual
@@ -78,12 +58,8 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.Manual
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/PrecomputedSceneSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Manual
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/PrecomputedSceneSettings.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\MonoBehaviours\PrecomputedSceneSettings.cs
     startLine: 126
   assemblies:
   - PrecomputedCulling
@@ -92,21 +68,49 @@ items:
     content: Manual = 1
     return:
       type: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
   commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
   nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.html
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
   parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.html
   name: PrecomputedLoadMethod
   nameWithType: PrecomputedLoadMethod
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod

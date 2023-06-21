@@ -17,12 +17,7 @@ items:
 references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
-  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.html
   name: PrecomputedSceneInfo
   nameWithType: PrecomputedSceneInfo
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
-  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
-  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData

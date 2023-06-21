@@ -18,11 +18,45 @@ references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
   parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings.html
   name: PrecomputedDataSettings
   nameWithType: PrecomputedDataSettings
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
   commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
   nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+    name: Settings
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+    name: Settings
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.html

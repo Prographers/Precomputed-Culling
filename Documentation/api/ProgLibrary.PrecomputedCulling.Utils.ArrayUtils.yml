@@ -21,17 +21,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: ArrayUtils
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
     startLine: 8
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nManagement of multidimensional arrays\n"
+  summary: Management of multidimensional arrays
   example: []
   syntax:
     content: public static class ArrayUtils
@@ -46,13 +42,6 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex(System.Int32@,System.Int32@,System.Int32@)
   commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex(System.Int32@,System.Int32@,System.Int32@)
   id: FlattenArrayIndex(System.Int32@,System.Int32@,System.Int32@)
@@ -60,22 +49,18 @@ items:
   langs:
   - csharp
   - vb
-  name: FlattenArrayIndex(in Int32, in Int32, in Int32)
-  nameWithType: ArrayUtils.FlattenArrayIndex(in Int32, in Int32, in Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex(in System.Int32, in System.Int32, in System.Int32)
+  name: FlattenArrayIndex(in int, in int, in int)
+  nameWithType: ArrayUtils.FlattenArrayIndex(in int, in int, in int)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex(in int, in int, in int)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: FlattenArrayIndex
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
     startLine: 17
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nGet Array Index from 2D position\n"
+  summary: Get Array Index from 2D position
   example: []
   syntax:
     content: public static int FlattenArrayIndex(in int x, in int y, in int width)
@@ -92,17 +77,11 @@ items:
     return:
       type: System.Int32
       description: ''
-    content.vb: Public Shared Function FlattenArrayIndex(ByRef x As Integer, ByRef y As Integer, ByRef width As Integer) As Integer
+    content.vb: Public Shared Function FlattenArrayIndex(x As Integer, y As Integer, width As Integer) As Integer
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex*
-  nameWithType.vb: ArrayUtils.FlattenArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex(ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
-  name.vb: FlattenArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32)
+  nameWithType.vb: ArrayUtils.FlattenArrayIndex(Integer, Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex(Integer, Integer, Integer)
+  name.vb: FlattenArrayIndex(Integer, Integer, Integer)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex(System.Int32@,System.Int32@)
   commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex(System.Int32@,System.Int32@)
   id: ExpandArrayIndex(System.Int32@,System.Int32@)
@@ -110,22 +89,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ExpandArrayIndex(in Int32, in Int32)
-  nameWithType: ArrayUtils.ExpandArrayIndex(in Int32, in Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex(in System.Int32, in System.Int32)
+  name: ExpandArrayIndex(in int, in int)
+  nameWithType: ArrayUtils.ExpandArrayIndex(in int, in int)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex(in int, in int)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: ExpandArrayIndex
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
     startLine: 28
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nGet 2D Array from Flatten array index\n"
+  summary: Get 2D Array from Flatten array index
   example: []
   syntax:
     content: public static (int x, int y) ExpandArrayIndex(in int index, in int width)
@@ -139,17 +114,11 @@ items:
     return:
       type: System.ValueTuple{System.Int32,System.Int32}
       description: ''
-    content.vb: Public Shared Function ExpandArrayIndex(ByRef index As Integer, ByRef width As Integer) As(x As Integer, y As Integer)(Of Integer , Integer)
+    content.vb: Public Shared Function ExpandArrayIndex(index As Integer, width As Integer) As (x As Integer, y As Integer)
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex*
-  nameWithType.vb: ArrayUtils.ExpandArrayIndex(ByRef Int32, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex(ByRef System.Int32, ByRef System.Int32)
-  name.vb: ExpandArrayIndex(ByRef Int32, ByRef Int32)
+  nameWithType.vb: ArrayUtils.ExpandArrayIndex(Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex(Integer, Integer)
+  name.vb: ExpandArrayIndex(Integer, Integer)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
   commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
   id: Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
@@ -157,22 +126,18 @@ items:
   langs:
   - csharp
   - vb
-  name: Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32)
-  nameWithType: ArrayUtils.Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(in System.Int32, in System.Int32, in System.Int32, in System.Int32)
+  name: Flatten3DArrayIndex(in int, in int, in int, in int)
+  nameWithType: ArrayUtils.Flatten3DArrayIndex(in int, in int, in int, in int)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(in int, in int, in int, in int)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Flatten3DArrayIndex
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
     startLine: 43
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nGet Array Index from 2D position\n"
+  summary: Get Array Index from 2D position
   example: []
   syntax:
     content: public static int Flatten3DArrayIndex(in int x, in int y, in int z, in int divisor)
@@ -192,17 +157,11 @@ items:
     return:
       type: System.Int32
       description: ''
-    content.vb: Public Shared Function Flatten3DArrayIndex(ByRef x As Integer, ByRef y As Integer, ByRef z As Integer, ByRef divisor As Integer) As Integer
+    content.vb: Public Shared Function Flatten3DArrayIndex(x As Integer, y As Integer, z As Integer, divisor As Integer) As Integer
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex*
-  nameWithType.vb: ArrayUtils.Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(ByRef System.Int32, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
-  name.vb: Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
+  nameWithType.vb: ArrayUtils.Flatten3DArrayIndex(Integer, Integer, Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(Integer, Integer, Integer, Integer)
+  name.vb: Flatten3DArrayIndex(Integer, Integer, Integer, Integer)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(System.Int32@,System.Int32@)
   commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(System.Int32@,System.Int32@)
   id: Expand3DArrayIndex(System.Int32@,System.Int32@)
@@ -210,22 +169,18 @@ items:
   langs:
   - csharp
   - vb
-  name: Expand3DArrayIndex(in Int32, in Int32)
-  nameWithType: ArrayUtils.Expand3DArrayIndex(in Int32, in Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(in System.Int32, in System.Int32)
+  name: Expand3DArrayIndex(in int, in int)
+  nameWithType: ArrayUtils.Expand3DArrayIndex(in int, in int)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(in int, in int)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Expand3DArrayIndex
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
     startLine: 55
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nGet 2D Array from Flatten array index\n"
+  summary: Get 2D Array from Flatten array index
   example: []
   syntax:
     content: public static (int x, int y, int z) Expand3DArrayIndex(in int index, in int divisor)
@@ -239,17 +194,11 @@ items:
     return:
       type: System.ValueTuple{System.Int32,System.Int32,System.Int32}
       description: ''
-    content.vb: Public Shared Function Expand3DArrayIndex(ByRef index As Integer, ByRef divisor As Integer) As(x As Integer, y As Integer, z As Integer)(Of Integer , Integer, Integer)
+    content.vb: Public Shared Function Expand3DArrayIndex(index As Integer, divisor As Integer) As (x As Integer, y As Integer, z As Integer)
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex*
-  nameWithType.vb: ArrayUtils.Expand3DArrayIndex(ByRef Int32, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(ByRef System.Int32, ByRef System.Int32)
-  name.vb: Expand3DArrayIndex(ByRef Int32, ByRef Int32)
+  nameWithType.vb: ArrayUtils.Expand3DArrayIndex(Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(Integer, Integer)
+  name.vb: Expand3DArrayIndex(Integer, Integer)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)
   commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)
   id: Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)
@@ -257,22 +206,18 @@ items:
   langs:
   - csharp
   - vb
-  name: Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32, in Int32)
-  nameWithType: ArrayUtils.Flatten3DArrayIndex(in Int32, in Int32, in Int32, in Int32, in Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(in System.Int32, in System.Int32, in System.Int32, in System.Int32, in System.Int32)
+  name: Flatten3DArrayIndex(in int, in int, in int, in int, in int)
+  nameWithType: ArrayUtils.Flatten3DArrayIndex(in int, in int, in int, in int, in int)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(in int, in int, in int, in int, in int)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Flatten3DArrayIndex
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
     startLine: 73
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nGet Array Index from 3D position\n"
+  summary: Get Array Index from 3D position
   example: []
   syntax:
     content: public static int Flatten3DArrayIndex(in int x, in int y, in int z, in int xMax, in int yMax)
@@ -295,17 +240,11 @@ items:
     return:
       type: System.Int32
       description: ''
-    content.vb: Public Shared Function Flatten3DArrayIndex(ByRef x As Integer, ByRef y As Integer, ByRef z As Integer, ByRef xMax As Integer, ByRef yMax As Integer) As Integer
+    content.vb: Public Shared Function Flatten3DArrayIndex(x As Integer, y As Integer, z As Integer, xMax As Integer, yMax As Integer) As Integer
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex*
-  nameWithType.vb: ArrayUtils.Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(ByRef System.Int32, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
-  name.vb: Flatten3DArrayIndex(ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32, ByRef Int32)
+  nameWithType.vb: ArrayUtils.Flatten3DArrayIndex(Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(Integer, Integer, Integer, Integer, Integer)
+  name.vb: Flatten3DArrayIndex(Integer, Integer, Integer, Integer, Integer)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(System.Int32,System.Int32@,System.Int32@)
   commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(System.Int32,System.Int32@,System.Int32@)
   id: Expand3DArrayIndex(System.Int32,System.Int32@,System.Int32@)
@@ -313,22 +252,18 @@ items:
   langs:
   - csharp
   - vb
-  name: Expand3DArrayIndex(Int32, in Int32, in Int32)
-  nameWithType: ArrayUtils.Expand3DArrayIndex(Int32, in Int32, in Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(System.Int32, in System.Int32, in System.Int32)
+  name: Expand3DArrayIndex(int, in int, in int)
+  nameWithType: ArrayUtils.Expand3DArrayIndex(int, in int, in int)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(int, in int, in int)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Expand3DArrayIndex
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-    startLine: 85
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
+    startLine: 89
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nGet 3D Array from Flatten array index\n"
+  summary: Get 3D Array from Flatten array index
   example: []
   syntax:
     content: public static (int x, int y, int z) Expand3DArrayIndex(int index, in int xMax, in int yMax)
@@ -345,17 +280,11 @@ items:
     return:
       type: System.ValueTuple{System.Int32,System.Int32,System.Int32}
       description: ''
-    content.vb: Public Shared Function Expand3DArrayIndex(index As Integer, ByRef xMax As Integer, ByRef yMax As Integer) As(x As Integer, y As Integer, z As Integer)(Of Integer , Integer, Integer)
+    content.vb: Public Shared Function Expand3DArrayIndex(index As Integer, xMax As Integer, yMax As Integer) As (x As Integer, y As Integer, z As Integer)
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex*
-  nameWithType.vb: ArrayUtils.Expand3DArrayIndex(Int32, ByRef Int32, ByRef Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(System.Int32, ByRef System.Int32, ByRef System.Int32)
-  name.vb: Expand3DArrayIndex(Int32, ByRef Int32, ByRef Int32)
+  nameWithType.vb: ArrayUtils.Expand3DArrayIndex(Integer, Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(Integer, Integer, Integer)
+  name.vb: Expand3DArrayIndex(Integer, Integer, Integer)
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray``1(``0[][])
   commentId: M:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray``1(``0[][])
   id: CopyJaggedArray``1(``0[][])
@@ -369,17 +298,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray<T>(T[][])
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: CopyJaggedArray
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-    startLine: 101
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
+    startLine: 109
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nPerforms a copy of a jagged array\n"
+  summary: Performs a copy of a jagged array
   example: []
   syntax:
     content: public static T[][] CopyJaggedArray<T>(this T[][] source)
@@ -393,18 +318,9 @@ items:
     return:
       type: '{T}[][]'
       description: ''
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function CopyJaggedArray(Of T)(source As T()()) As T()()
+    content.vb: Public Shared Function CopyJaggedArray(Of T)(source As T()()) As T()()
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray*
   nameWithType.vb: ArrayUtils.CopyJaggedArray(Of T)(T()())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray(Of T)(T()())
   name.vb: CopyJaggedArray(Of T)(T()())
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray``1(``0[])
@@ -420,17 +336,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray<T>(T[])
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: CopyArray
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/ArrayUtils.cs
-    startLine: 133
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\ArrayUtils.cs
+    startLine: 141
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nInline array copy\n"
+  summary: Inline array copy
   example: []
   syntax:
     content: public static T[] CopyArray<T>(this T[] source)
@@ -444,320 +356,282 @@ items:
     return:
       type: '{T}[]'
       description: ''
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function CopyArray(Of T)(source As T()) As T()
+    content.vb: Public Shared Function CopyArray(Of T)(source As T()) As T()
   overload: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray*
   nameWithType.vb: ArrayUtils.CopyArray(Of T)(T())
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
   fullName.vb: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray(Of T)(T())
   name.vb: CopyArray(Of T)(T())
 references:
 - uid: ProgLibrary.PrecomputedCulling.Utils
   commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.Utils
   nameWithType: ProgLibrary.PrecomputedCulling.Utils
   fullName: ProgLibrary.PrecomputedCulling.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+    href: ProgLibrary.PrecomputedCulling.Utils.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+    href: ProgLibrary.PrecomputedCulling.Utils.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex*
   commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex
+  href: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex(System.Int32@,System.Int32@,System.Int32@)
   name: FlattenArrayIndex
   nameWithType: ArrayUtils.FlattenArrayIndex
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.FlattenArrayIndex
@@ -765,11 +639,16 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex*
   commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex
+  href: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex(System.Int32@,System.Int32@)
   name: ExpandArrayIndex
   nameWithType: ArrayUtils.ExpandArrayIndex
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.ExpandArrayIndex
@@ -777,120 +656,87 @@ references:
   commentId: T:System.ValueTuple{System.Int32,System.Int32}
   parent: System
   definition: System.ValueTuple`2
-  name: (T1, T2)<Int32, Int32>
-  nameWithType: (T1, T2)<Int32, Int32>
-  fullName: System.ValueTuple<System.Int32, System.Int32>
-  nameWithType.vb: (T1, T2)(Of Int32, Int32)
-  fullName.vb: System.ValueTuple(Of System.Int32, System.Int32)
-  name.vb: (T1, T2)(Of Int32, Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: (int x, int y)
+  nameWithType: (int x, int y)
+  fullName: (int x, int y)
+  nameWithType.vb: (x As Integer, y As Integer)
+  fullName.vb: (x As Integer, y As Integer)
+  name.vb: (x As Integer, y As Integer)
   spec.csharp:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.x
+    name: x
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.y
+    name: y
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.y
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Int32,System.Int32}.x
+    name: x
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.x
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.y
+    name: y
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.y
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: System.ValueTuple`2
   commentId: T:System.ValueTuple`2
-  isExternal: true
-  name: (T1, T2)<T1, T2>
-  nameWithType: (T1, T2)<T1, T2>
-  fullName: System.ValueTuple<T1, T2>
-  nameWithType.vb: (T1, T2)(Of T1, T2)
-  fullName.vb: System.ValueTuple(Of T1, T2)
-  name.vb: (T1, T2)(Of T1, T2)
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
   spec.csharp:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: T2
-    nameWithType: T2
-    fullName: T2
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T2
-    nameWithType: T2
-    fullName: T2
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex*
   commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex
+  href: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
   name: Flatten3DArrayIndex
   nameWithType: ArrayUtils.Flatten3DArrayIndex
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Flatten3DArrayIndex
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex*
   commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex
+  href: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex(System.Int32@,System.Int32@)
   name: Expand3DArrayIndex
   nameWithType: ArrayUtils.Expand3DArrayIndex
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.Expand3DArrayIndex
@@ -898,143 +744,109 @@ references:
   commentId: T:System.ValueTuple{System.Int32,System.Int32,System.Int32}
   parent: System
   definition: System.ValueTuple`3
-  name: (T1, T2, T3)<Int32, Int32, Int32>
-  nameWithType: (T1, T2, T3)<Int32, Int32, Int32>
-  fullName: System.ValueTuple<System.Int32, System.Int32, System.Int32>
-  nameWithType.vb: (T1, T2, T3)(Of Int32, Int32, Int32)
-  fullName.vb: System.ValueTuple(Of System.Int32, System.Int32, System.Int32)
-  name.vb: (T1, T2, T3)(Of Int32, Int32, Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: (int x, int y, int z)
+  nameWithType: (int x, int y, int z)
+  fullName: (int x, int y, int z)
+  nameWithType.vb: (x As Integer, y As Integer, z As Integer)
+  fullName.vb: (x As Integer, y As Integer, z As Integer)
+  name.vb: (x As Integer, y As Integer, z As Integer)
   spec.csharp:
-  - uid: System.ValueTuple`3
-    name: (T1, T2, T3)
-    nameWithType: (T1, T2, T3)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.x
+    name: x
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.x
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.y
+    name: y
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.y
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`3
-    name: (T1, T2, T3)
-    nameWithType: (T1, T2, T3)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.z
+    name: z
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.z
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.x
+    name: x
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.x
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.y
+    name: y
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.y
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.z
+    name: z
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.z
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: System.ValueTuple`3
   commentId: T:System.ValueTuple`3
-  isExternal: true
-  name: (T1, T2, T3)<T1, T2, T3>
-  nameWithType: (T1, T2, T3)<T1, T2, T3>
-  fullName: System.ValueTuple<T1, T2, T3>
-  nameWithType.vb: (T1, T2, T3)(Of T1, T2, T3)
-  fullName.vb: System.ValueTuple(Of T1, T2, T3)
-  name.vb: (T1, T2, T3)(Of T1, T2, T3)
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
   spec.csharp:
-  - uid: System.ValueTuple`3
-    name: (T1, T2, T3)
-    nameWithType: (T1, T2, T3)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: T2
-    nameWithType: T2
-    fullName: T2
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: T3
-    nameWithType: T3
-    fullName: T3
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`3
-    name: (T1, T2, T3)
-    nameWithType: (T1, T2, T3)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T2
-    nameWithType: T2
-    fullName: T2
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T3
-    nameWithType: T3
-    fullName: T3
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray*
   commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray
+  href: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray``1(``0[][])
   name: CopyJaggedArray
   nameWithType: ArrayUtils.CopyJaggedArray
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyJaggedArray
@@ -1048,26 +860,19 @@ references:
   name.vb: T()()
   spec.csharp:
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
   spec.vb:
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
+  - name: )
+  - name: (
+  - name: )
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray*
   commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray
+  href: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html#ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray``1(``0[])
   name: CopyArray
   nameWithType: ArrayUtils.CopyArray
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.CopyArray
@@ -1081,15 +886,9 @@ references:
   name.vb: T()
   spec.csharp:
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - name: T
-    nameWithType: T
-    fullName: T
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
+  - name: )

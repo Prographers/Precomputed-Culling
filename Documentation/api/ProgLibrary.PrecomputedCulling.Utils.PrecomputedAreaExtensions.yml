@@ -4,9 +4,7 @@ items:
   commentId: T:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
   id: PrecomputedAreaExtensions
   parent: ProgLibrary.PrecomputedCulling.Utils
-  children:
-  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)
+  children: []
   langs:
   - csharp
   - vb
@@ -15,17 +13,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PrecomputedAreaExtensions
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Utils\PrecomputedAreaExtensions.cs
     startLine: 12
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nStatic method to get cells and bake spots of PrecomputedArea\n"
+  summary: Static method to get cells and bake spots of PrecomputedArea
   example: []
   syntax:
     content: public static class PrecomputedAreaExtensions
@@ -40,530 +34,271 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
-- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  commentId: M:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  id: CameraPositionIterator(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  isExtensionMethod: true
-  parent: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
-  langs:
-  - csharp
-  - vb
-  name: CameraPositionIterator(PrecomputedArea, BoundingBox)
-  nameWithType: PrecomputedAreaExtensions.CameraPositionIterator(PrecomputedArea, BoundingBox)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea, ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  type: Method
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: CameraPositionIterator
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
-    startLine: 63
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nIterates over all possible camera locations within given occlusion area with cell at given flattend index\n"
-  example: []
-  syntax:
-    content: public static IEnumerable<PrecomputedAreaExtensions.CameraIterator> CameraPositionIterator(this PrecomputedArea precomputedArea, BoundingBox box)
-    parameters:
-    - id: precomputedArea
-      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
-      description: Precomputed area
-    - id: box
-      type: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-      description: BoundingBox of volume
-    return:
-      type: System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator}
-      description: ''
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function CameraPositionIterator(precomputedArea As PrecomputedArea, box As BoundingBox) As IEnumerable(Of PrecomputedAreaExtensions.CameraIterator)
-  overload: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)
-  commentId: M:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)
-  id: GetCellBox(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea,System.Int32)
-  isExtensionMethod: true
-  parent: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
-  langs:
-  - csharp
-  - vb
-  name: GetCellBox(PrecomputedArea, Int32)
-  nameWithType: PrecomputedAreaExtensions.GetCellBox(PrecomputedArea, Int32)
-  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox(ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea, System.Int32)
-  type: Method
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: GetCellBox
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Utils/PrecomputedAreaExtensions.cs
-    startLine: 90
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling.Utils
-  summary: "\nGet single cell box\n"
-  example: []
-  syntax:
-    content: public static BoundingBox GetCellBox(this PrecomputedArea precomputedArea, int index)
-    parameters:
-    - id: precomputedArea
-      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
-      description: Occlusion area
-    - id: index
-      type: System.Int32
-      description: Index of the cell
-    return:
-      type: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-      description: ''
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function GetCellBox(precomputedArea As PrecomputedArea, index As Integer) As BoundingBox
-  overload: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 references:
 - uid: ProgLibrary.PrecomputedCulling.Utils
   commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.Utils
   nameWithType: ProgLibrary.PrecomputedCulling.Utils
   fullName: ProgLibrary.PrecomputedCulling.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+    href: ProgLibrary.PrecomputedCulling.Utils.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+    href: ProgLibrary.PrecomputedCulling.Utils.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator
-  name: CameraPositionIterator
-  nameWithType: PrecomputedAreaExtensions.CameraPositionIterator
-  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraPositionIterator
-- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
-  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
-  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  name: PrecomputedArea
-  nameWithType: PrecomputedArea
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
-- uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-  parent: ProgLibrary.PrecomputedCulling.DataModels
-  name: BoundingBox
-  nameWithType: BoundingBox
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-- uid: System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator}
-  commentId: T:System.Collections.Generic.IEnumerable{ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<PrecomputedAreaExtensions.CameraIterator>
-  nameWithType: IEnumerable<PrecomputedAreaExtensions.CameraIterator>
-  fullName: System.Collections.Generic.IEnumerable<ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator>
-  nameWithType.vb: IEnumerable(Of PrecomputedAreaExtensions.CameraIterator)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator)
-  name.vb: IEnumerable(Of PrecomputedAreaExtensions.CameraIterator)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
-    name: PrecomputedAreaExtensions.CameraIterator
-    nameWithType: PrecomputedAreaExtensions.CameraIterator
-    fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
-    name: PrecomputedAreaExtensions.CameraIterator
-    nameWithType: PrecomputedAreaExtensions.CameraIterator
-    fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
-  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
-- uid: ProgLibrary.PrecomputedCulling.DataModels
-  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
-  name: ProgLibrary.PrecomputedCulling.DataModels
-  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
-  fullName: ProgLibrary.PrecomputedCulling.DataModels
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox
-  name: GetCellBox
-  nameWithType: PrecomputedAreaExtensions.GetCellBox
-  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.GetCellBox
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  id: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.ArrayUtilsTests
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.BoundingBoxTests
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_Tests
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.html
+  name: PrecomputedChunkDataTests
+  nameWithType: PrecomputedChunkDataTests
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.ArrayUtilsTests
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.ArrayUtilsTests
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.ArrayUtilsTests.html
+  name: ArrayUtilsTests
+  nameWithType: ArrayUtilsTests
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.ArrayUtilsTests
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.BoundingBoxTests
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.BoundingBoxTests
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.BoundingBoxTests.html
+  name: BoundingBoxTests
+  nameWithType: BoundingBoxTests
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.BoundingBoxTests

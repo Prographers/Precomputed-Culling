@@ -8,7 +8,6 @@ items:
   - ProgLibrary.PrecomputedCulling.PrecomputedCamera
   - ProgLibrary.PrecomputedCulling.PrecomputedController
   - ProgLibrary.PrecomputedCulling.PrecomputedManager
-  - ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
   langs:
   - csharp
   - vb
@@ -22,34 +21,49 @@ references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedController
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedController
   parent: ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.PrecomputedCulling.PrecomputedController.html
   name: PrecomputedController
   nameWithType: PrecomputedController
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedController
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
-  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
-  parent: ProgLibrary.PrecomputedCulling
-  name: PrecomputedSceneInfoData
-  nameWithType: PrecomputedSceneInfoData
-  fullName: ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData
 - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
   commentId: T:ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
   parent: ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html
   name: BoundingBoxExtensions
   nameWithType: BoundingBoxExtensions
   fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCamera
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCamera
   parent: ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCamera.html
   name: PrecomputedCamera
   nameWithType: PrecomputedCamera
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCamera
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedManager
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedManager
+  href: ProgLibrary.PrecomputedCulling.PrecomputedManager.html
   name: PrecomputedManager
   nameWithType: PrecomputedManager
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedManager
 - uid: ProgLibrary.PrecomputedCulling
   commentId: N:ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling
   nameWithType: ProgLibrary.PrecomputedCulling
   fullName: ProgLibrary.PrecomputedCulling
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html

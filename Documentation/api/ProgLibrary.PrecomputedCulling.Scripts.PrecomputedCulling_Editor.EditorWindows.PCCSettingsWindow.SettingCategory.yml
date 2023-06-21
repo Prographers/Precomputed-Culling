@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  commentId: T:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  id: PCCSettingsWindow.SettingCategory
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  children:
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Baking
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultProvider
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultValues
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Info
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.None
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Validation
+  langs:
+  - csharp
+  - vb
+  name: PCCSettingsWindow.SettingCategory
+  nameWithType: PCCSettingsWindow.SettingCategory
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  type: Enum
+  source:
+    id: SettingCategory
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\EditorWindows\PCCSettingsWindow.cs
+    startLine: 11
+  assemblies:
+  - PrecomputedCulling_Editor
+  namespace: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public enum PCCSettingsWindow.SettingCategory
+    content.vb: Public Enum PCCSettingsWindow.SettingCategory
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.None
+  commentId: F:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.None
+  id: None
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PCCSettingsWindow.SettingCategory.None
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.None
+  type: Field
+  source:
+    id: None
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\EditorWindows\PCCSettingsWindow.cs
+    startLine: 13
+  assemblies:
+  - PrecomputedCulling_Editor
+  namespace: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: None = 0
+    return:
+      type: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultValues
+  commentId: F:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultValues
+  id: DefaultValues
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  langs:
+  - csharp
+  - vb
+  name: DefaultValues
+  nameWithType: PCCSettingsWindow.SettingCategory.DefaultValues
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultValues
+  type: Field
+  source:
+    id: DefaultValues
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\EditorWindows\PCCSettingsWindow.cs
+    startLine: 14
+  assemblies:
+  - PrecomputedCulling_Editor
+  namespace: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: DefaultValues = 1
+    return:
+      type: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultProvider
+  commentId: F:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultProvider
+  id: DefaultProvider
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  langs:
+  - csharp
+  - vb
+  name: DefaultProvider
+  nameWithType: PCCSettingsWindow.SettingCategory.DefaultProvider
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.DefaultProvider
+  type: Field
+  source:
+    id: DefaultProvider
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\EditorWindows\PCCSettingsWindow.cs
+    startLine: 15
+  assemblies:
+  - PrecomputedCulling_Editor
+  namespace: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: DefaultProvider = 2
+    return:
+      type: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Validation
+  commentId: F:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Validation
+  id: Validation
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  langs:
+  - csharp
+  - vb
+  name: Validation
+  nameWithType: PCCSettingsWindow.SettingCategory.Validation
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Validation
+  type: Field
+  source:
+    id: Validation
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\EditorWindows\PCCSettingsWindow.cs
+    startLine: 16
+  assemblies:
+  - PrecomputedCulling_Editor
+  namespace: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: Validation = 3
+    return:
+      type: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Info
+  commentId: F:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Info
+  id: Info
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: PCCSettingsWindow.SettingCategory.Info
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Info
+  type: Field
+  source:
+    id: Info
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\EditorWindows\PCCSettingsWindow.cs
+    startLine: 17
+  assemblies:
+  - PrecomputedCulling_Editor
+  namespace: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: Info = 4
+    return:
+      type: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Baking
+  commentId: F:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Baking
+  id: Baking
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  langs:
+  - csharp
+  - vb
+  name: Baking
+  nameWithType: PCCSettingsWindow.SettingCategory.Baking
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.Baking
+  type: Field
+  source:
+    id: Baking
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\EditorWindows\PCCSettingsWindow.cs
+    startLine: 18
+  assemblies:
+  - PrecomputedCulling_Editor
+  namespace: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: Baking = 5
+    return:
+      type: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+references:
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  commentId: N:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  href: ProgLibrary.html
+  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  nameWithType: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts
+    name: Scripts
+    href: ProgLibrary.PrecomputedCulling.Scripts.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts
+    name: Scripts
+    href: ProgLibrary.PrecomputedCulling.Scripts.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.html
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  commentId: T:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
+  href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.html
+  name: PCCSettingsWindow.SettingCategory
+  nameWithType: PCCSettingsWindow.SettingCategory
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+    name: PCCSettingsWindow
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+    name: SettingCategory
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.html
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+    name: PCCSettingsWindow
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+    name: SettingCategory
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.html

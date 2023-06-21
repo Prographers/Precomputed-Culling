@@ -17,17 +17,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PrecomputedMeshRendererContainer
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedMeshRendererContainer.cs
     startLine: 10
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: "\nMesh renderer container for occlusion culling\n"
+  summary: Mesh renderer container for occlusion culling
   example: []
   syntax:
     content: >-
@@ -37,11 +33,7 @@ items:
     content.vb: >-
       <Serializable>
 
-      Public Class PrecomputedMeshRendererContainer
-
-          Inherits PrecomputedRendererContainer(Of MeshRenderer)
-
-          Implements IPrecomputedRendererContainer
+      Public Class PrecomputedMeshRendererContainer Inherits PrecomputedRendererContainer(Of MeshRenderer) Implements IPrecomputedRendererContainer
   inheritance:
   - System.Object
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
@@ -68,12 +60,6 @@ items:
   - type: System.SerializableAttribute
     ctor: System.SerializableAttribute.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.Filter
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.Filter
   id: Filter
@@ -86,27 +72,19 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.Filter
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Filter
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedMeshRendererContainer.cs
     startLine: 16
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: "\nMesh filter attached to the renderer\n"
+  summary: Mesh filter attached to the renderer
   example: []
   syntax:
     content: public MeshFilter Filter
     return:
       type: UnityEngine.MeshFilter
     content.vb: Public Filter As MeshFilter
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.#ctor(System.Int32@,UnityEngine.MeshRenderer)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.#ctor(System.Int32@,UnityEngine.MeshRenderer)
   id: '#ctor(System.Int32@,UnityEngine.MeshRenderer)'
@@ -114,22 +92,18 @@ items:
   langs:
   - csharp
   - vb
-  name: PrecomputedMeshRendererContainer(in Int32, MeshRenderer)
-  nameWithType: PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer(in Int32, MeshRenderer)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer(in System.Int32, UnityEngine.MeshRenderer)
+  name: PrecomputedMeshRendererContainer(in int, MeshRenderer)
+  nameWithType: PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer(in int, MeshRenderer)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer(in int, UnityEngine.MeshRenderer)
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedMeshRendererContainer.cs
     startLine: 23
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
   example: []
   syntax:
     content: public PrecomputedMeshRendererContainer(in int index, MeshRenderer renderer)
@@ -140,15 +114,11 @@ items:
     - id: renderer
       type: UnityEngine.MeshRenderer
       description: Mesh renderer to assign
-    content.vb: Public Sub New(ByRef index As Integer, renderer As MeshRenderer)
+    content.vb: Public Sub New(index As Integer, renderer As MeshRenderer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.#ctor*
-  nameWithType.vb: PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer(ByRef Int32, MeshRenderer)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer(ByRef System.Int32, UnityEngine.MeshRenderer)
-  name.vb: PrecomputedMeshRendererContainer(ByRef Int32, MeshRenderer)
+  nameWithType.vb: PrecomputedMeshRendererContainer.New(Integer, MeshRenderer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.New(Integer, UnityEngine.MeshRenderer)
+  name.vb: New(Integer, MeshRenderer)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox
   id: GetBoundingBox
@@ -161,30 +131,22 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: GetBoundingBox
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedMeshRendererContainer.cs
     startLine: 29
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: Gets bounding box of a renderer
   example: []
   syntax:
     content: public override BoundingBox GetBoundingBox()
     return:
       type: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-    content.vb: Public Overrides Function GetBoundingBox As BoundingBox
+      description: ''
+    content.vb: Public Overrides Function GetBoundingBox() As BoundingBox
   overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid
   id: IsValid
@@ -197,46 +159,76 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: IsValid
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedMeshRendererContainer.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedMeshRendererContainer.cs
     startLine: 35
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: Is renderer still valid
   example: []
   syntax:
     content: public override bool IsValid()
     return:
       type: System.Boolean
-    content.vb: Public Overrides Function IsValid As Boolean
+      description: ''
+    content.vb: Public Overrides Function IsValid() As Boolean
   overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid*
-  modifiers.csharp:
-  - public
-  - override
-  modifiers.vb:
-  - Public
-  - Overrides
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html
   name: PrecomputedRendererBaseContainer
   nameWithType: PrecomputedRendererBaseContainer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
@@ -244,6 +236,7 @@ references:
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
   name: PrecomputedRendererContainer<MeshRenderer>
   nameWithType: PrecomputedRendererContainer<MeshRenderer>
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>
@@ -253,38 +246,27 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
     name: PrecomputedRendererContainer
-    nameWithType: PrecomputedRendererContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: UnityEngine.MeshRenderer
     name: MeshRenderer
-    nameWithType: MeshRenderer
-    fullName: UnityEngine.MeshRenderer
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
     name: PrecomputedRendererContainer
-    nameWithType: PrecomputedRendererContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - uid: UnityEngine.MeshRenderer
     name: MeshRenderer
-    nameWithType: MeshRenderer
-    fullName: UnityEngine.MeshRenderer
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html
   name: IPrecomputedRendererContainer
   nameWithType: IPrecomputedRendererContainer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
@@ -292,6 +274,7 @@ references:
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Renderer
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Renderer
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Renderer
   name: Renderer
   nameWithType: PrecomputedRendererContainer<MeshRenderer>.Renderer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.Renderer
@@ -301,6 +284,7 @@ references:
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.GameObject
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.GameObject
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.GameObject
   name: GameObject
   nameWithType: PrecomputedRendererContainer<MeshRenderer>.GameObject
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.GameObject
@@ -310,455 +294,390 @@ references:
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Show
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Show
   name: Show()
   nameWithType: PrecomputedRendererContainer<MeshRenderer>.Show()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.Show()
   nameWithType.vb: PrecomputedRendererContainer(Of MeshRenderer).Show()
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).Show()
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Show
     name: Show
-    nameWithType: PrecomputedRendererContainer<MeshRenderer>.Show
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.Show
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Show
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Show
     name: Show
-    nameWithType: PrecomputedRendererContainer(Of MeshRenderer).Show
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).Show
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Show
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Hide
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Hide
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Hide
   name: Hide()
   nameWithType: PrecomputedRendererContainer<MeshRenderer>.Hide()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.Hide()
   nameWithType.vb: PrecomputedRendererContainer(Of MeshRenderer).Hide()
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).Hide()
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Hide
     name: Hide
-    nameWithType: PrecomputedRendererContainer<MeshRenderer>.Hide
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.Hide
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Hide
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Hide
     name: Hide
-    nameWithType: PrecomputedRendererContainer(Of MeshRenderer).Hide
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).Hide
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.Hide
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.ShowForBaking
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.ShowForBaking
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.ShowForBaking
   name: ShowForBaking()
   nameWithType: PrecomputedRendererContainer<MeshRenderer>.ShowForBaking()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.ShowForBaking()
   nameWithType.vb: PrecomputedRendererContainer(Of MeshRenderer).ShowForBaking()
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).ShowForBaking()
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.ShowForBaking
     name: ShowForBaking
-    nameWithType: PrecomputedRendererContainer<MeshRenderer>.ShowForBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.ShowForBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.ShowForBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.ShowForBaking
     name: ShowForBaking
-    nameWithType: PrecomputedRendererContainer(Of MeshRenderer).ShowForBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).ShowForBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.ShowForBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.FinalizeBaking
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.FinalizeBaking
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.FinalizeBaking
   name: FinalizeBaking()
   nameWithType: PrecomputedRendererContainer<MeshRenderer>.FinalizeBaking()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.FinalizeBaking()
   nameWithType.vb: PrecomputedRendererContainer(Of MeshRenderer).FinalizeBaking()
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).FinalizeBaking()
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.FinalizeBaking
     name: FinalizeBaking
-    nameWithType: PrecomputedRendererContainer<MeshRenderer>.FinalizeBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.FinalizeBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.FinalizeBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.FinalizeBaking
     name: FinalizeBaking
-    nameWithType: PrecomputedRendererContainer(Of MeshRenderer).FinalizeBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).FinalizeBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.FinalizeBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
   name: RendererId
   nameWithType: PrecomputedRendererBaseContainer.RendererId
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.RendererId
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
   name: Equals(PrecomputedRendererBaseContainer)
   nameWithType: PrecomputedRendererBaseContainer.Equals(PrecomputedRendererBaseContainer)
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
     name: Equals
-    nameWithType: PrecomputedRendererBaseContainer.Equals
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
     name: PrecomputedRendererBaseContainer
-    nameWithType: PrecomputedRendererBaseContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
     name: Equals
-    nameWithType: PrecomputedRendererBaseContainer.Equals
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
     name: PrecomputedRendererBaseContainer
-    nameWithType: PrecomputedRendererBaseContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
   isExternal: true
-  name: Equals(Object)
-  nameWithType: PrecomputedRendererBaseContainer.Equals(Object)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
+  name: Equals(object)
+  nameWithType: PrecomputedRendererBaseContainer.Equals(object)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(object)
+  nameWithType.vb: PrecomputedRendererBaseContainer.Equals(Object)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
     name: Equals
-    nameWithType: PrecomputedRendererBaseContainer.Equals
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
     name: Equals
-    nameWithType: PrecomputedRendererBaseContainer.Equals
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.Equals(System.Object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
   name: GetHashCode()
   nameWithType: PrecomputedRendererBaseContainer.GetHashCode()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode()
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
     name: GetHashCode
-    nameWithType: PrecomputedRendererBaseContainer.GetHashCode
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
     name: GetHashCode
-    nameWithType: PrecomputedRendererBaseContainer.GetHashCode
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetHashCode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+    name: Abstract
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+    name: Abstract
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
   name: PrecomputedRendererContainer<T>
   nameWithType: PrecomputedRendererContainer<T>
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>
@@ -768,33 +687,22 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
     name: PrecomputedRendererContainer
-    nameWithType: PrecomputedRendererContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
     name: PrecomputedRendererContainer
-    nameWithType: PrecomputedRendererContainer
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Renderer
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Renderer
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Renderer
   name: Renderer
   nameWithType: PrecomputedRendererContainer<T>.Renderer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.Renderer
@@ -802,6 +710,7 @@ references:
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T).Renderer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.GameObject
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.GameObject
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.GameObject
   name: GameObject
   nameWithType: PrecomputedRendererContainer<T>.GameObject
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.GameObject
@@ -809,6 +718,7 @@ references:
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T).GameObject
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
   name: Show()
   nameWithType: PrecomputedRendererContainer<T>.Show()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.Show()
@@ -817,27 +727,18 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
     name: Show
-    nameWithType: PrecomputedRendererContainer<T>.Show
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.Show
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
     name: Show
-    nameWithType: PrecomputedRendererContainer(Of T).Show
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T).Show
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Show
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
   name: Hide()
   nameWithType: PrecomputedRendererContainer<T>.Hide()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.Hide()
@@ -846,27 +747,18 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
     name: Hide
-    nameWithType: PrecomputedRendererContainer<T>.Hide
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.Hide
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
     name: Hide
-    nameWithType: PrecomputedRendererContainer(Of T).Hide
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T).Hide
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.Hide
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
   name: ShowForBaking()
   nameWithType: PrecomputedRendererContainer<T>.ShowForBaking()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.ShowForBaking()
@@ -875,27 +767,18 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
     name: ShowForBaking
-    nameWithType: PrecomputedRendererContainer<T>.ShowForBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.ShowForBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
     name: ShowForBaking
-    nameWithType: PrecomputedRendererContainer(Of T).ShowForBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T).ShowForBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.ShowForBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
   name: FinalizeBaking()
   nameWithType: PrecomputedRendererContainer<T>.FinalizeBaking()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.FinalizeBaking()
@@ -904,25 +787,15 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
     name: FinalizeBaking
-    nameWithType: PrecomputedRendererContainer<T>.FinalizeBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.FinalizeBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
     name: FinalizeBaking
-    nameWithType: PrecomputedRendererContainer(Of T).FinalizeBaking
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T).FinalizeBaking
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.FinalizeBaking
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: UnityEngine.MeshFilter
   commentId: T:UnityEngine.MeshFilter
   parent: UnityEngine
@@ -938,16 +811,24 @@ references:
   fullName: UnityEngine
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.#ctor*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.#ctor
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.#ctor(System.Int32@,UnityEngine.MeshRenderer)
   name: PrecomputedMeshRendererContainer
   nameWithType: PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.PrecomputedMeshRendererContainer
+  nameWithType.vb: PrecomputedMeshRendererContainer.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.New
+  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: UnityEngine.MeshRenderer
   commentId: T:UnityEngine.MeshRenderer
   parent: UnityEngine
@@ -958,80 +839,90 @@ references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
   name: GetBoundingBox()
   nameWithType: PrecomputedRendererBaseContainer.GetBoundingBox()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox()
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
     name: GetBoundingBox
-    nameWithType: PrecomputedRendererBaseContainer.GetBoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
     name: GetBoundingBox
-    nameWithType: PrecomputedRendererBaseContainer.GetBoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.GetBoundingBox
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox
   name: GetBoundingBox
   nameWithType: PrecomputedMeshRendererContainer.GetBoundingBox
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.GetBoundingBox
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   parent: ProgLibrary.PrecomputedCulling.DataModels
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
   name: BoundingBox
   nameWithType: BoundingBox
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
 - uid: ProgLibrary.PrecomputedCulling.DataModels
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels
   fullName: ProgLibrary.PrecomputedCulling.DataModels
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}
   definition: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
   name: IsValid()
   nameWithType: PrecomputedRendererContainer<MeshRenderer>.IsValid()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.IsValid()
   nameWithType.vb: PrecomputedRendererContainer(Of MeshRenderer).IsValid()
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).IsValid()
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
     name: IsValid
-    nameWithType: PrecomputedRendererContainer<MeshRenderer>.IsValid
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<UnityEngine.MeshRenderer>.IsValid
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
     name: IsValid
-    nameWithType: PrecomputedRendererContainer(Of MeshRenderer).IsValid
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of UnityEngine.MeshRenderer).IsValid
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer{UnityEngine.MeshRenderer}.IsValid
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid
   name: IsValid
   nameWithType: PrecomputedMeshRendererContainer.IsValid
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer.IsValid
@@ -1039,11 +930,16 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
   name: IsValid()
   nameWithType: PrecomputedRendererContainer<T>.IsValid()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.IsValid()
@@ -1052,22 +948,12 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
     name: IsValid
-    nameWithType: PrecomputedRendererContainer<T>.IsValid
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>.IsValid
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
     name: IsValid
-    nameWithType: PrecomputedRendererContainer(Of T).IsValid
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer(Of T).IsValid
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1.IsValid
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )

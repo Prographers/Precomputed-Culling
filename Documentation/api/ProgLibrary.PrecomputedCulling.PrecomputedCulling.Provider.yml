@@ -17,6 +17,7 @@ items:
 references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.html
   name: AssetBundleProvider
   nameWithType: AssetBundleProvider
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider

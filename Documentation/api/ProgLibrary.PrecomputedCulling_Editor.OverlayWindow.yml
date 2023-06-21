@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
+  id: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_Editor
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow
+  href: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow.html
+  name: ReflectedOverlayWindow
+  nameWithType: ReflectedOverlayWindow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow

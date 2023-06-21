@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  id: TextureResolution
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  children:
+  - ProgLibrary.PrecomputedCulling.Settings.TextureResolution.High
+  - ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Low
+  - ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Mid
+  - ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Ultra
+  langs:
+  - csharp
+  - vb
+  name: TextureResolution
+  nameWithType: TextureResolution
+  fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  type: Enum
+  source:
+    id: TextureResolution
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 63
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  syntax:
+    content: public enum TextureResolution
+    content.vb: Public Enum TextureResolution
+- uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Low
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Low
+  id: Low
+  parent: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: TextureResolution.Low
+  fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Low
+  type: Field
+  source:
+    id: Low
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 65
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  syntax:
+    content: >-
+      [InspectorName("Low - 512px")]
+
+      Low = 512
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+    content.vb: >-
+      <InspectorName("Low - 512px")>
+
+      Low = 512
+  attributes:
+  - type: UnityEngine.InspectorNameAttribute
+    ctor: UnityEngine.InspectorNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Low - 512px
+- uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Mid
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Mid
+  id: Mid
+  parent: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  langs:
+  - csharp
+  - vb
+  name: Mid
+  nameWithType: TextureResolution.Mid
+  fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Mid
+  type: Field
+  source:
+    id: Mid
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 67
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  syntax:
+    content: >-
+      [InspectorName("Mid - 1024px")]
+
+      Mid = 1024
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+    content.vb: >-
+      <InspectorName("Mid - 1024px")>
+
+      Mid = 1024
+  attributes:
+  - type: UnityEngine.InspectorNameAttribute
+    ctor: UnityEngine.InspectorNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Mid - 1024px
+- uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.High
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.TextureResolution.High
+  id: High
+  parent: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: TextureResolution.High
+  fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.High
+  type: Field
+  source:
+    id: High
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 69
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  syntax:
+    content: >-
+      [InspectorName("High - 2048px")]
+
+      High = 2048
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+    content.vb: >-
+      <InspectorName("High - 2048px")>
+
+      High = 2048
+  attributes:
+  - type: UnityEngine.InspectorNameAttribute
+    ctor: UnityEngine.InspectorNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: High - 2048px
+- uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Ultra
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Ultra
+  id: Ultra
+  parent: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  langs:
+  - csharp
+  - vb
+  name: Ultra
+  nameWithType: TextureResolution.Ultra
+  fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.Ultra
+  type: Field
+  source:
+    id: Ultra
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 71
+  assemblies:
+  - PrecomputedCulling
+  namespace: ProgLibrary.PrecomputedCulling.Settings
+  syntax:
+    content: >-
+      [InspectorName("Ultra - 4096px")]
+
+      Ultra = 4096
+    return:
+      type: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+    content.vb: >-
+      <InspectorName("Ultra - 4096px")>
+
+      Ultra = 4096
+  attributes:
+  - type: UnityEngine.InspectorNameAttribute
+    ctor: UnityEngine.InspectorNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Ultra - 4096px
+references:
+- uid: ProgLibrary.PrecomputedCulling.Settings
+  commentId: N:ProgLibrary.PrecomputedCulling.Settings
+  href: ProgLibrary.html
+  name: ProgLibrary.PrecomputedCulling.Settings
+  nameWithType: ProgLibrary.PrecomputedCulling.Settings
+  fullName: ProgLibrary.PrecomputedCulling.Settings
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Settings
+    name: Settings
+    href: ProgLibrary.PrecomputedCulling.Settings.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Settings
+    name: Settings
+    href: ProgLibrary.PrecomputedCulling.Settings.html
+- uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  href: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.html
+  name: TextureResolution
+  nameWithType: TextureResolution
+  fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution

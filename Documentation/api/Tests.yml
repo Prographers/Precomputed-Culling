@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tests
+  commentId: N:Tests
+  id: Tests
+  children:
+  - Tests.MainStructureTest
+  langs:
+  - csharp
+  - vb
+  name: Tests
+  nameWithType: Tests
+  fullName: Tests
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_Tests
+references:
+- uid: Tests.MainStructureTest
+  commentId: T:Tests.MainStructureTest
+  href: Tests.MainStructureTest.html
+  name: MainStructureTest
+  nameWithType: MainStructureTest
+  fullName: Tests.MainStructureTest

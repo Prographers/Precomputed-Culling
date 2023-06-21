@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor
+  id: ProgLibrary.PrecomputedCulling_Editor
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow
+  - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
+  - ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo
+  - ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo
+  - ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling_Editor
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor
+  fullName: ProgLibrary.PrecomputedCulling_Editor
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_Editor
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool
+  href: ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool.html
+  name: PrecomputedHighlightTool
+  nameWithType: PrecomputedHighlightTool
+  fullName: ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool
+- uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
+  parent: ProgLibrary.PrecomputedCulling_Editor
+  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html
+  name: IManualEditorWindow
+  nameWithType: IManualEditorWindow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
+- uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow
+  parent: ProgLibrary.PrecomputedCulling_Editor
+  href: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.html
+  name: BaseManualEditorWindow
+  nameWithType: BaseManualEditorWindow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow
+- uid: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo
+  href: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.html
+  name: LegendColorInfo
+  nameWithType: LegendColorInfo
+  fullName: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo
+- uid: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo
+  href: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.html
+  name: LegendColorInfo.ColorInfo
+  nameWithType: LegendColorInfo.ColorInfo
+  fullName: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo
+    name: LegendColorInfo
+    href: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo
+    name: ColorInfo
+    href: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo.html
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo
+    name: LegendColorInfo
+    href: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo
+    name: ColorInfo
+    href: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo.html
+- uid: ProgLibrary.PrecomputedCulling_Editor
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor
+  href: ProgLibrary.html
+  name: ProgLibrary.PrecomputedCulling_Editor
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor
+  fullName: ProgLibrary.PrecomputedCulling_Editor
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+    href: ProgLibrary.PrecomputedCulling_Editor.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+    href: ProgLibrary.PrecomputedCulling_Editor.html

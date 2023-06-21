@@ -20,21 +20,57 @@ references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
   parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.html
   name: PrecomputedSceneVariantData
   nameWithType: PrecomputedSceneVariantData
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.html
   name: PrecomputedSceneAreaData
   nameWithType: PrecomputedSceneAreaData
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex.html
   name: AreaDataIndex
   nameWithType: AreaDataIndex
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
   commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
   nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.html

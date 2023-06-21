@@ -16,24 +16,17 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PrecomputedSceneRuntimeData
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneRuntimeData.cs
     startLine: 12
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: "\nRuntime container for scene data\n"
+  summary: Runtime container for scene data
   example: []
   syntax:
     content: 'public class PrecomputedSceneRuntimeData : PrecomputedSceneData'
-    content.vb: >-
-      Public Class PrecomputedSceneRuntimeData
-
-          Inherits PrecomputedSceneData
+    content.vb: Public Class PrecomputedSceneRuntimeData Inherits PrecomputedSceneData
   inheritance:
   - System.Object
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
@@ -59,12 +52,6 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.#ctor(UnityEngine.SceneManagement.Scene)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.#ctor(UnityEngine.SceneManagement.Scene)
   id: '#ctor(UnityEngine.SceneManagement.Scene)'
@@ -77,17 +64,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.PrecomputedSceneRuntimeData(UnityEngine.SceneManagement.Scene)
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneRuntimeData.cs
     startLine: 17
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
   example: []
   syntax:
     content: public PrecomputedSceneRuntimeData(Scene scene)
@@ -96,10 +79,9 @@ items:
       type: UnityEngine.SceneManagement.Scene
     content.vb: Public Sub New(scene As Scene)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PrecomputedSceneRuntimeData.New(Scene)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.New(UnityEngine.SceneManagement.Scene)
+  name.vb: New(Scene)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount
   id: SceneObjectCount
@@ -112,16 +94,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: SceneObjectCount
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneRuntimeData.cs
     startLine: 23
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: Total scene object count
   example: []
   syntax:
     content: public override int SceneObjectCount { get; }
@@ -131,14 +110,6 @@ items:
     content.vb: Public Overrides ReadOnly Property SceneObjectCount As Integer
   overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount*
-  modifiers.csharp:
-  - public
-  - override
-  - get
-  modifiers.vb:
-  - Public
-  - Overrides
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize
   id: OnInitialize
@@ -151,516 +122,472 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: OnInitialize
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedSceneRuntimeData.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneRuntimeData.cs
     startLine: 28
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: "\nInitialize scene data\n"
+  summary: Initialize scene data
   example: []
   syntax:
     content: protected override void OnInitialize()
-    content.vb: Protected Overrides Sub OnInitialize
+    content.vb: Protected Overrides Sub OnInitialize()
   overridden: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html
   name: PrecomputedSceneData
   nameWithType: PrecomputedSceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Scene
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Scene
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Scene
   name: Scene
   nameWithType: PrecomputedSceneData.Scene
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Scene
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
   name: _isInitialized
   nameWithType: PrecomputedSceneData._isInitialized
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenGroupRenderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenGroupRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenGroupRenderers
   name: _hiddenGroupRenderers
   nameWithType: PrecomputedSceneData._hiddenGroupRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenGroupRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
   name: _hiddenRenderers
   nameWithType: PrecomputedSceneData._hiddenRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
   name: _visibleGroupRenderers
   nameWithType: PrecomputedSceneData._visibleGroupRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
   name: _visibleRenderers
   nameWithType: PrecomputedSceneData._visibleRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Renderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Renderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Renderers
   name: Renderers
   nameWithType: PrecomputedSceneData.Renderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Renderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
   name: VisibleRenderers
   nameWithType: PrecomputedSceneData.VisibleRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
   name: HiddenRenderers
   nameWithType: PrecomputedSceneData.HiddenRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
   name: VisibleGroupRenderers
   nameWithType: PrecomputedSceneData.VisibleGroupRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
   name: HiddenGroupRenderers
   nameWithType: PrecomputedSceneData.HiddenGroupRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
-  name: UpdateVisibility(PrecomputedVisibilityIndices)
-  nameWithType: PrecomputedSceneData.UpdateVisibility(PrecomputedVisibilityIndices)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
+  name: UpdateVisibility(in PrecomputedVisibilityIndices)
+  nameWithType: PrecomputedSceneData.UpdateVisibility(in PrecomputedVisibilityIndices)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(in ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
+  nameWithType.vb: PrecomputedSceneData.UpdateVisibility(PrecomputedVisibilityIndices)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
+  name.vb: UpdateVisibility(PrecomputedVisibilityIndices)
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
     name: UpdateVisibility
-    nameWithType: PrecomputedSceneData.UpdateVisibility
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: in
+  - name: " "
   - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
     name: PrecomputedVisibilityIndices
-    nameWithType: PrecomputedVisibilityIndices
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+    href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
     name: UpdateVisibility
-    nameWithType: PrecomputedSceneData.UpdateVisibility
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
     name: PrecomputedVisibilityIndices
-    nameWithType: PrecomputedVisibilityIndices
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+    href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
   isExternal: true
-  name: GatherSceneRenderersFromGameObjects(GameObject[])
-  nameWithType: PrecomputedSceneData.GatherSceneRenderersFromGameObjects(GameObject[])
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[])
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
+  name: GatherSceneRenderersFromGameObjects(in GameObject[])
+  nameWithType: PrecomputedSceneData.GatherSceneRenderersFromGameObjects(in GameObject[])
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(in UnityEngine.GameObject[])
   nameWithType.vb: PrecomputedSceneData.GatherSceneRenderersFromGameObjects(GameObject())
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject())
   name.vb: GatherSceneRenderersFromGameObjects(GameObject())
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
     name: GatherSceneRenderersFromGameObjects
-    nameWithType: PrecomputedSceneData.GatherSceneRenderersFromGameObjects
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
   - name: (
-    nameWithType: (
-    fullName: (
+  - name: in
+  - name: " "
   - uid: UnityEngine.GameObject
     name: GameObject
-    nameWithType: GameObject
-    fullName: UnityEngine.GameObject
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
     name: GatherSceneRenderersFromGameObjects
-    nameWithType: PrecomputedSceneData.GatherSceneRenderersFromGameObjects
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: UnityEngine.GameObject
     name: GameObject
-    nameWithType: GameObject
-    fullName: UnityEngine.GameObject
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
   - name: )
-    nameWithType: )
-    fullName: )
+  - name: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
   name: ShowAll()
   nameWithType: PrecomputedSceneData.ShowAll()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll()
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
     name: ShowAll
-    nameWithType: PrecomputedSceneData.ShowAll
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
     name: ShowAll
-    nameWithType: PrecomputedSceneData.ShowAll
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.#ctor*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.#ctor
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.#ctor(UnityEngine.SceneManagement.Scene)
   name: PrecomputedSceneRuntimeData
   nameWithType: PrecomputedSceneRuntimeData.PrecomputedSceneRuntimeData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.PrecomputedSceneRuntimeData
+  nameWithType.vb: PrecomputedSceneRuntimeData.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.New
+  name.vb: New
 - uid: UnityEngine.SceneManagement.Scene
   commentId: T:UnityEngine.SceneManagement.Scene
   parent: UnityEngine.SceneManagement
@@ -674,14 +601,32 @@ references:
   name: UnityEngine.SceneManagement
   nameWithType: UnityEngine.SceneManagement
   fullName: UnityEngine.SceneManagement
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.SceneManagement
+    name: SceneManagement
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.SceneManagement
+    name: SceneManagement
+    isExternal: true
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
   name: SceneObjectCount
   nameWithType: PrecomputedSceneData.SceneObjectCount
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount
   name: SceneObjectCount
   nameWithType: PrecomputedSceneRuntimeData.SceneObjectCount
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.SceneObjectCount
@@ -689,39 +634,35 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
   name: OnInitialize()
   nameWithType: PrecomputedSceneData.OnInitialize()
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize()
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
     name: OnInitialize
-    nameWithType: PrecomputedSceneData.OnInitialize
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
     name: OnInitialize
-    nameWithType: PrecomputedSceneData.OnInitialize
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
+    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize
+  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize
   name: OnInitialize
   nameWithType: PrecomputedSceneRuntimeData.OnInitialize
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData.OnInitialize

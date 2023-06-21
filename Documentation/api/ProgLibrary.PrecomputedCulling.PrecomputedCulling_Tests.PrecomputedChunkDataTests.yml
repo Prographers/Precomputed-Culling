@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  id: PrecomputedChunkDataTests
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedChunkDataTests
+  nameWithType: PrecomputedChunkDataTests
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  type: Class
+  source:
+    id: PrecomputedChunkDataTests
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Tests\PrecomputedChunkDataTests.cs
+    startLine: 7
+  assemblies:
+  - PrecomputedCulling_Tests
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  syntax:
+    content: >-
+      [TestFixture]
+
+      public class PrecomputedChunkDataTests
+    content.vb: >-
+      <TestFixture>
+
+      Public Class PrecomputedChunkDataTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NUnit.Framework.TestFixtureAttribute
+    ctor: NUnit.Framework.TestFixtureAttribute.#ctor
+    arguments: []
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test
+  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test
+  id: GetChunkIndex_Test
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  langs:
+  - csharp
+  - vb
+  name: GetChunkIndex_Test()
+  nameWithType: PrecomputedChunkDataTests.GetChunkIndex_Test()
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test()
+  type: Method
+  source:
+    id: GetChunkIndex_Test
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Tests\PrecomputedChunkDataTests.cs
+    startLine: 10
+  assemblies:
+  - PrecomputedCulling_Tests
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  syntax:
+    content: >-
+      [Test]
+
+      public void GetChunkIndex_Test()
+    content.vb: >-
+      <Test>
+
+      Public Sub GetChunkIndex_Test()
+  overload: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: GetNeighbourhoodChunkIndex_Test(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests
+  langs:
+  - csharp
+  - vb
+  name: GetNeighbourhoodChunkIndex_Test(int, int, int, int, int, int, int, int)
+  nameWithType: PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(int, int, int, int, int, int, int, int)
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(int, int, int, int, int, int, int, int)
+  type: Method
+  source:
+    id: GetNeighbourhoodChunkIndex_Test
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Tests\PrecomputedChunkDataTests.cs
+    startLine: 24
+  assemblies:
+  - PrecomputedCulling_Tests
+  namespace: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  syntax:
+    content: >-
+      [Test]
+
+      [TestCase(new object[] { 0, 0, 0, 1, 2, 2, 2, 8 })]
+
+      [TestCase(new object[] { 1, 1, 1, 0, 3, 3, 3, 1 })]
+
+      [TestCase(new object[] { 3, 3, 3, 1, 54, 55, 25, 27 })]
+
+      [TestCase(new object[] { 10, 10, 10, 6, 100, 100, 100, 2197 })]
+
+      [TestCase(new object[] { 0, 0, 0, 6, 100, 100, 100, 343 })]
+
+      [TestCase(new object[] { -1, 0, 0, 1, 2, 2, 2, 8 })]
+
+      [TestCase(new object[] { 0, -1, 0, 1, 2, 2, 2, 8 })]
+
+      [TestCase(new object[] { 0, 0, -1, 1, 2, 2, 2, 8 })]
+
+      [TestCase(new object[] { 2, 0, 0, 1, 1, 2, 2, -1 })]
+
+      [TestCase(new object[] { 0, 3, 1, 1, 1, 2, 2, -1 })]
+
+      [TestCase(new object[] { 0, 0, 8, 1, 2, 5, 5, -1 })]
+
+      public void GetNeighbourhoodChunkIndex_Test(int xID, int yID, int zID, int neighbourCellsRadius, int width, int height, int length, int cellsCount)
+    parameters:
+    - id: xID
+      type: System.Int32
+    - id: yID
+      type: System.Int32
+    - id: zID
+      type: System.Int32
+    - id: neighbourCellsRadius
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    - id: cellsCount
+      type: System.Int32
+    content.vb: >-
+      <Test>
+
+      <TestCase(New Object() { 0, 0, 0, 1, 2, 2, 2, 8 })>
+
+      <TestCase(New Object() { 1, 1, 1, 0, 3, 3, 3, 1 })>
+
+      <TestCase(New Object() { 3, 3, 3, 1, 54, 55, 25, 27 })>
+
+      <TestCase(New Object() { 10, 10, 10, 6, 100, 100, 100, 2197 })>
+
+      <TestCase(New Object() { 0, 0, 0, 6, 100, 100, 100, 343 })>
+
+      <TestCase(New Object() { -1, 0, 0, 1, 2, 2, 2, 8 })>
+
+      <TestCase(New Object() { 0, -1, 0, 1, 2, 2, 2, 8 })>
+
+      <TestCase(New Object() { 0, 0, -1, 1, 2, 2, 2, 8 })>
+
+      <TestCase(New Object() { 2, 0, 0, 1, 1, 2, 2, -1 })>
+
+      <TestCase(New Object() { 0, 3, 1, 1, 1, 2, 2, -1 })>
+
+      <TestCase(New Object() { 0, 0, 8, 1, 2, 5, 5, -1 })>
+
+      Public Sub GetNeighbourhoodChunkIndex_Test(xID As Integer, yID As Integer, zID As Integer, neighbourCellsRadius As Integer, width As Integer, height As Integer, length As Integer, cellsCount As Integer)
+  overload: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+  nameWithType.vb: PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(Integer, Integer, Integer, Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(Integer, Integer, Integer, Integer, Integer, Integer, Integer, Integer)
+  name.vb: GetNeighbourhoodChunkIndex_Test(Integer, Integer, Integer, Integer, Integer, Integer, Integer, Integer)
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  href: ProgLibrary.html
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+    name: PrecomputedCulling_Tests
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
+    name: PrecomputedCulling_Tests
+    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.html#ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test
+  name: GetChunkIndex_Test
+  nameWithType: PrecomputedChunkDataTests.GetChunkIndex_Test
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetChunkIndex_Test
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.html#ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: GetNeighbourhoodChunkIndex_Test
+  nameWithType: PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.GetNeighbourhoodChunkIndex_Test
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

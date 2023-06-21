@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  commentId: N:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  id: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  children:
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  nameWithType: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_Editor
+references:
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig
+  commentId: T:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig
+  parent: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig.html
+  name: PCCConfig
+  nameWithType: PCCConfig
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  commentId: N:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  href: ProgLibrary.html
+  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  nameWithType: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts
+    name: Scripts
+    href: ProgLibrary.PrecomputedCulling.Scripts.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+    name: Config
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts
+    name: Scripts
+    href: ProgLibrary.PrecomputedCulling.Scripts.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+    name: Config
+    href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.html

@@ -7,8 +7,7 @@ items:
   children:
   - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
   - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
-  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
-  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.TextureResolution
   langs:
   - csharp
   - vb
@@ -17,17 +16,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PrecomputedBakeIdCubemapSettings
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
     startLine: 37
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Settings
-  summary: "\nBake camera settings used to precompute Occlusion Data\n"
+  summary: Bake camera settings used to precompute Occlusion Data
   example: []
   syntax:
     content: >-
@@ -41,9 +36,7 @@ items:
 
       <Serializable>
 
-      Public Class PrecomputedBakeIdCubemapSettings
-
-          Inherits PrecomputedBakeCameraSettings
+      Public Class PrecomputedBakeIdCubemapSettings Inherits PrecomputedBakeCameraSettings
   inheritance:
   - System.Object
   - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
@@ -74,98 +67,41 @@ items:
   - type: System.SerializableAttribute
     ctor: System.SerializableAttribute.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
-- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
-  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
-  id: CubemapResolution
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.TextureResolution
+  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.TextureResolution
+  id: TextureResolution
   parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
   langs:
   - csharp
   - vb
-  name: CubemapResolution
-  nameWithType: PrecomputedBakeIdCubemapSettings.CubemapResolution
-  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.CubemapResolution
+  name: TextureResolution
+  nameWithType: PrecomputedBakeIdCubemapSettings.TextureResolution
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.TextureResolution
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: CubemapResolution
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-    startLine: 45
+    id: TextureResolution
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 44
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Settings
-  summary: "\nBase cube map resolution to generate\n"
+  summary: Texture Resolution to generate cube map and equirect
   example: []
   syntax:
     content: >-
       [HideInInspector]
 
-      public int CubemapResolution
+      public TextureResolution TextureResolution
     return:
-      type: System.Int32
+      type: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
     content.vb: >-
       <HideInInspector>
 
-      Public CubemapResolution As Integer
+      Public TextureResolution As TextureResolution
   attributes:
   - type: UnityEngine.HideInInspector
     ctor: UnityEngine.HideInInspector.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
-  commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
-  id: EquirectResolution
-  parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
-  langs:
-  - csharp
-  - vb
-  name: EquirectResolution
-  nameWithType: PrecomputedBakeIdCubemapSettings.EquirectResolution
-  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.EquirectResolution
-  type: Field
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: EquirectResolution
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-    startLine: 51
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling.Settings
-  summary: "\nEquirect resolution to be generated from the base cubemap\n"
-  example: []
-  syntax:
-    content: >-
-      [HideInInspector]
-
-      public Vector2Int EquirectResolution
-    return:
-      type: UnityEngine.Vector2Int
-    content.vb: >-
-      <HideInInspector>
-
-      Public EquirectResolution As Vector2Int
-  attributes:
-  - type: UnityEngine.HideInInspector
-    ctor: UnityEngine.HideInInspector.#ctor
-    arguments: []
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
   commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
   id: ColorFormat
@@ -178,17 +114,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorFormat
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: ColorFormat
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-    startLine: 58
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 51
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Settings
-  summary: "\n Color format used to generate cube map and equirect texture.\n<p>Reduce only if encountering artifacts or your GPU do not support default R16G16B16A16_UNorm</p>\n"
+  summary: "     Color format used to generate cube map and equirect texture.\r\n<p>Reduce only if encountering artifacts or your GPU do not support default R16G16B16A16_UNorm</p>"
   example: []
   syntax:
     content: >-
@@ -205,10 +137,6 @@ items:
   - type: UnityEngine.HideInInspector
     ctor: UnityEngine.HideInInspector.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
   commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
   id: ColorToFloatDivisor
@@ -221,17 +149,20 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.ColorToFloatDivisor
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: ColorToFloatDivisor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/Settings/PrecomputedBakeTargetedFrustumSettings.cs
-    startLine: 67
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedBakeTargetedFrustumSettings.cs
+    startLine: 60
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.Settings
-  summary: "\nBecause all shaders are using float but colors in band of 0-255 int we need to divide index of the object\nto be a float 0-1. Keep default 32 unless your total amount of objects is above 262144 renderers or lower\nthe value for less complex scenes if you know you will have less renderers to decrease possibility of\nfloat rounding error.\n"
+  summary: >-
+    Because all shaders are using float but colors in band of 0-255 int we need to divide index of the object
+
+    to be a float 0-1. Keep default 32 unless your total amount of objects is above 262144 renderers or lower
+
+    the value for less complex scenes if you know you will have less renderers to decrease possibility of
+
+    float rounding error.
   example: []
   syntax:
     content: >-
@@ -248,50 +179,80 @@ items:
   - type: UnityEngine.HideInInspector
     ctor: UnityEngine.HideInInspector.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: ProgLibrary.PrecomputedCulling.Settings
   commentId: N:ProgLibrary.PrecomputedCulling.Settings
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.Settings
   nameWithType: ProgLibrary.PrecomputedCulling.Settings
   fullName: ProgLibrary.PrecomputedCulling.Settings
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Settings
+    name: Settings
+    href: ProgLibrary.PrecomputedCulling.Settings.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Settings
+    name: Settings
+    href: ProgLibrary.PrecomputedCulling.Settings.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
   commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
   parent: ProgLibrary.PrecomputedCulling.Settings
+  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings.html
   name: PrecomputedBaseBakeSettings
   nameWithType: PrecomputedBaseBakeSettings
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
   commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
   parent: ProgLibrary.PrecomputedCulling.Settings
+  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.html
   name: PrecomputedBakeCameraSettings
   nameWithType: PrecomputedBakeCameraSettings
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
   commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
   parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.html#ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
   name: CellDepthTestDensity
   nameWithType: PrecomputedBakeCameraSettings.CellDepthTestDensity
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensity
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
   commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
   parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.html#ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
   name: CellDepthTestDensityOffset
   nameWithType: PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.CellDepthTestDensityOffset
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
   commentId: F:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
   parent: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
+  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.html#ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
   name: VisibleTransparent
   nameWithType: PrecomputedBakeCameraSettings.VisibleTransparent
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.VisibleTransparent
@@ -299,307 +260,235 @@ references:
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: UnityEngine.Vector2Int
-  commentId: T:UnityEngine.Vector2Int
-  parent: UnityEngine
-  isExternal: true
-  name: Vector2Int
-  nameWithType: Vector2Int
-  fullName: UnityEngine.Vector2Int
-- uid: UnityEngine
-  commentId: N:UnityEngine
-  isExternal: true
-  name: UnityEngine
-  nameWithType: UnityEngine
-  fullName: UnityEngine
+- uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  href: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.html
+  name: TextureResolution
+  nameWithType: TextureResolution
+  fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
 - uid: UnityEngine.Experimental.Rendering.GraphicsFormat
   commentId: T:UnityEngine.Experimental.Rendering.GraphicsFormat
   parent: UnityEngine.Experimental.Rendering
@@ -613,3 +502,38 @@ references:
   name: UnityEngine.Experimental.Rendering
   nameWithType: UnityEngine.Experimental.Rendering
   fullName: UnityEngine.Experimental.Rendering
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Experimental.Rendering
+    name: Rendering
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Experimental
+    name: Experimental
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Experimental.Rendering
+    name: Rendering
+    isExternal: true
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

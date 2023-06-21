@@ -23,7 +23,6 @@ items:
   - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Position
   - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Rotation
   - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Size
-  - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator
   - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft
   - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned
   langs:
@@ -34,17 +33,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: BoundingBox
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 16
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nNon-axis aligned bounding box\n"
+  summary: Non-axis aligned bounding box
   example: []
   syntax:
     content: >-
@@ -54,9 +49,7 @@ items:
     content.vb: >-
       <Serializable>
 
-      Public Class BoundingBox
-
-          Implements IEnumerable(Of Vector3), IEnumerable
+      Public Class BoundingBox Implements IEnumerable(Of Vector3), IEnumerable
   inheritance:
   - System.Object
   implements:
@@ -72,17 +65,10 @@ items:
   - System.Object.ToString
   extensionMethods:
   - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(UnityEngine.Vector3)
-  - ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
   attributes:
   - type: System.SerializableAttribute
     ctor: System.SerializableAttribute.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Position
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Position
   id: Position
@@ -95,27 +81,19 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Position
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Position
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 23
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nPosition of the box\n"
+  summary: Position of the box
   example: []
   syntax:
     content: public Vector3 Position
     return:
       type: UnityEngine.Vector3
     content.vb: Public Position As Vector3
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Size
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Size
   id: Size
@@ -128,27 +106,19 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Size
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Size
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 28
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nSize of the box\n"
+  summary: Size of the box
   example: []
   syntax:
     content: public Vector3 Size
     return:
       type: UnityEngine.Vector3
     content.vb: Public Size As Vector3
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Rotation
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Rotation
   id: Rotation
@@ -161,17 +131,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Rotation
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Rotation
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 34
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nQuaternion rotation\n"
+  summary: Quaternion rotation
   example: []
   syntax:
     content: >-
@@ -188,10 +154,6 @@ items:
   - type: UnityEngine.HideInInspector
     ctor: UnityEngine.HideInInspector.#ctor
     arguments: []
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor
   id: '#ctor'
@@ -204,26 +166,21 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.BoundingBox()
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 39
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
   example: []
   syntax:
     content: public BoundingBox()
-    content.vb: Public Sub New
+    content.vb: Public Sub New()
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BoundingBox.New()
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.New()
+  name.vb: New()
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   id: '#ctor(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)'
@@ -236,17 +193,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.BoundingBox(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 48
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nCopy constructor\n"
+  summary: Copy constructor
   example: []
   syntax:
     content: public BoundingBox(BoundingBox boxToCopy)
@@ -256,10 +209,9 @@ items:
       description: ''
     content.vb: Public Sub New(boxToCopy As BoundingBox)
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BoundingBox.New(BoundingBox)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.New(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
+  name.vb: New(BoundingBox)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
   id: '#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)'
@@ -272,17 +224,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.BoundingBox(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 61
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
   example: []
   syntax:
     content: public BoundingBox(Vector3 position, Vector3 size, Vector3 rotation)
@@ -298,10 +246,9 @@ items:
       description: ''
     content.vb: Public Sub New(position As Vector3, size As Vector3, rotation As Vector3)
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BoundingBox.New(Vector3, Vector3, Vector3)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.New(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  name.vb: New(Vector3, Vector3, Vector3)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
   id: '#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)'
@@ -314,17 +261,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.BoundingBox(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 75
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nDefault constructor\n"
+  summary: Default constructor
   example: []
   syntax:
     content: public BoundingBox(Vector3 position, Vector3 size, Quaternion rotation)
@@ -340,10 +283,9 @@ items:
       description: ''
     content.vb: Public Sub New(position As Vector3, size As Vector3, rotation As Quaternion)
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: BoundingBox.New(Vector3, Vector3, Quaternion)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.New(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
+  name.vb: New(Vector3, Vector3, Quaternion)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler
   id: Euler
@@ -356,41 +298,21 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Euler
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-    startLine: 87
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
+    startLine: 89
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nEuler angles\n"
+  summary: Euler angles
   example: []
   syntax:
-    content: >-
-      [ShowInInspector]
-
-      public Vector3 Euler { get; set; }
+    content: public Vector3 Euler { get; set; }
     parameters: []
     return:
       type: UnityEngine.Vector3
-    content.vb: >-
-      <ShowInInspector>
-
-      Public Property Euler As Vector3
+    content.vb: Public Property Euler As Vector3
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler*
-  attributes:
-  - type: Sirenix.OdinInspector.ShowInInspectorAttribute
-    ctor: Sirenix.OdinInspector.ShowInInspectorAttribute.#ctor
-    arguments: []
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item(System.Int32,System.Boolean)
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item(System.Int32,System.Boolean)
   id: Item(System.Int32,System.Boolean)
@@ -398,25 +320,21 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Int32, Boolean]
-  nameWithType: BoundingBox.Item[Int32, Boolean]
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item[System.Int32, System.Boolean]
+  name: this[int, bool]
+  nameWithType: BoundingBox.this[int, bool]
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.this[int, bool]
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: this[]
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 101
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nVertices of the box - this value is calculated at runtime and it&apos;s not cached\n"
+  summary: Vertices of the box - this value is calculated at runtime and it's not cached
   example: []
   syntax:
-    content: public Vector3 this[int index, bool axisAligned = false ] { get; }
+    content: public Vector3 this[int index, bool axisAligned = false] { get; }
     parameters:
     - id: index
       type: System.Int32
@@ -426,20 +344,15 @@ items:
       description: Is resulting value axis aligned aka without applied rotation
     return:
       type: UnityEngine.Vector3
-    content.vb: Public ReadOnly Property Item(index As Integer, axisAligned As Boolean = False) As Vector3
+    content.vb: Public ReadOnly Default Property this[](index As Integer, axisAligned As Boolean = False) As Vector3
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item*
   exceptions:
   - type: System.ArgumentOutOfRangeException
     commentId: T:System.ArgumentOutOfRangeException
-  nameWithType.vb: BoundingBox.Item(Int32, Boolean)
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item(System.Int32, System.Boolean)
-  name.vb: Item(Int32, Boolean)
+    description: ''
+  nameWithType.vb: BoundingBox.this[](Integer, Boolean)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.this[](Integer, Boolean)
+  name.vb: this[](Integer, Boolean)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned
   id: TopLeftAxisAligned
@@ -452,17 +365,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: TopLeftAxisAligned
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 159
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nTop Left position without rotation aka axis aligned\n"
+  summary: Top Left position without rotation aka axis aligned
   example: []
   syntax:
     content: public Vector3 TopLeftAxisAligned { get; }
@@ -471,12 +380,6 @@ items:
       type: UnityEngine.Vector3
     content.vb: Public ReadOnly Property TopLeftAxisAligned As Vector3
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft
   id: TopLeft
@@ -489,17 +392,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: TopLeft
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 164
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nTop Left position - non axis aligned\n"
+  summary: Top Left position - non axis aligned
   example: []
   syntax:
     content: public Vector3 TopLeft { get; }
@@ -508,12 +407,6 @@ items:
       type: UnityEngine.Vector3
     content.vb: Public ReadOnly Property TopLeft As Vector3
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator
   id: GetEnumerator
@@ -526,12 +419,8 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: GetEnumerator
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 167
   assemblies:
   - PrecomputedCulling
@@ -541,48 +430,10 @@ items:
     content: public IEnumerator<Vector3> GetEnumerator()
     return:
       type: System.Collections.Generic.IEnumerator{UnityEngine.Vector3}
-    content.vb: Public Function GetEnumerator As IEnumerator(Of Vector3)
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of Vector3)
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator*
   implements:
   - System.Collections.Generic.IEnumerable{UnityEngine.Vector3}.GetEnumerator
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator
-  id: System#Collections#IEnumerable#GetEnumerator
-  isEii: true
-  parent: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-  langs:
-  - csharp
-  - vb
-  name: IEnumerable.GetEnumerator()
-  nameWithType: BoundingBox.IEnumerable.GetEnumerator()
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System.Collections.IEnumerable.GetEnumerator()
-  type: Method
-  source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
-    id: System.Collections.IEnumerable.GetEnumerator
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-    startLine: 176
-  assemblies:
-  - PrecomputedCulling
-  namespace: ProgLibrary.PrecomputedCulling.DataModels
-  example: []
-  syntax:
-    content: IEnumerator IEnumerable.GetEnumerator()
-    return:
-      type: System.Collections.IEnumerator
-    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
-  overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator*
-  implements:
-  - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: BoundingBox.System.Collections.IEnumerable.GetEnumerator()
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter(UnityEngine.MeshFilter)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter(UnityEngine.MeshFilter)
   id: FromMeshFilter(UnityEngine.MeshFilter)
@@ -595,17 +446,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter(UnityEngine.MeshFilter)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: FromMeshFilter
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 186
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nCreates new bounding box from mesh bounding box current transform\n"
+  summary: Creates new bounding box from mesh bounding box current transform
   example: []
   syntax:
     content: public static BoundingBox FromMeshFilter(MeshFilter mesh)
@@ -618,12 +465,6 @@ items:
       description: New bounding box
     content.vb: Public Shared Function FromMeshFilter(mesh As MeshFilter) As BoundingBox
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds(UnityEngine.Bounds,UnityEngine.Quaternion)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds(UnityEngine.Bounds,UnityEngine.Quaternion)
   id: FromBounds(UnityEngine.Bounds,UnityEngine.Quaternion)
@@ -636,17 +477,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds(UnityEngine.Bounds, UnityEngine.Quaternion)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: FromBounds
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 206
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nCreates new bounding box form bounds and quaternion rotation\n"
+  summary: Creates new bounding box form bounds and quaternion rotation
   example: []
   syntax:
     content: public static BoundingBox FromBounds(Bounds bounds, Quaternion rotation)
@@ -662,12 +499,6 @@ items:
       description: ''
     content.vb: Public Shared Function FromBounds(bounds As Bounds, rotation As Quaternion) As BoundingBox
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}@)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}@)
   id: Merge(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}@)
@@ -680,17 +511,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(in System.Collections.Generic.List<ProgLibrary.PrecomputedCulling.DataModels.BoundingBox>)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Merge
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 220
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nMerge multiple boxes into single box\n"
+  summary: Merge multiple boxes into single box
   example: []
   syntax:
     content: public static BoundingBox Merge(in List<BoundingBox> boxes)
@@ -701,17 +528,11 @@ items:
     return:
       type: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
       description: ''
-    content.vb: Public Shared Function Merge(ByRef boxes As List(Of BoundingBox)) As BoundingBox
+    content.vb: Public Shared Function Merge(boxes As List(Of BoundingBox)) As BoundingBox
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge*
-  nameWithType.vb: BoundingBox.Merge(ByRef List(Of BoundingBox))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(ByRef System.Collections.Generic.List(Of ProgLibrary.PrecomputedCulling.DataModels.BoundingBox))
-  name.vb: Merge(ByRef List(Of BoundingBox))
+  nameWithType.vb: BoundingBox.Merge(List(Of BoundingBox))
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(System.Collections.Generic.List(Of ProgLibrary.PrecomputedCulling.DataModels.BoundingBox))
+  name.vb: Merge(List(Of BoundingBox))
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points
   id: Points
@@ -724,29 +545,21 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Points
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 235
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nAll points of each corner of the box\n"
+  summary: All points of each corner of the box
   example: []
   syntax:
     content: public Vector3[] Points()
     return:
       type: UnityEngine.Vector3[]
       description: ''
-    content.vb: Public Function Points As Vector3()
+    content.vb: Public Function Points() As Vector3()
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   id: Add(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
@@ -759,17 +572,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Add
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 251
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nAdds two boundingBoxes together to create larger one with alignment of the first one\n"
+  summary: Adds two boundingBoxes together to create larger one with alignment of the first one
   example: []
   syntax:
     content: public void Add(BoundingBox other)
@@ -779,10 +588,6 @@ items:
       description: ''
     content.vb: Public Sub Add(other As BoundingBox)
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand(UnityEngine.Vector3)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand(UnityEngine.Vector3)
   id: Expand(UnityEngine.Vector3)
@@ -795,17 +600,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand(UnityEngine.Vector3)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Expand
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 263
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nExpands current box to contain point\n"
+  summary: Expands current box to contain point
   example: []
   syntax:
     content: public void Expand(Vector3 point)
@@ -815,10 +616,6 @@ items:
       description: ''
     content.vb: Public Sub Expand(point As Vector3)
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(UnityEngine.Vector3@)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(UnityEngine.Vector3@)
   id: Contains(UnityEngine.Vector3@)
@@ -831,17 +628,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(in UnityEngine.Vector3)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Contains
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 304
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nIs point contained within box\n"
+  summary: Is point contained within box
   example: []
   syntax:
     content: public bool Contains(in Vector3 point)
@@ -852,15 +645,11 @@ items:
     return:
       type: System.Boolean
       description: ''
-    content.vb: Public Function Contains(ByRef point As Vector3) As Boolean
+    content.vb: Public Function Contains(point As Vector3) As Boolean
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains*
-  nameWithType.vb: BoundingBox.Contains(ByRef Vector3)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(ByRef UnityEngine.Vector3)
-  name.vb: Contains(ByRef Vector3)
+  nameWithType.vb: BoundingBox.Contains(Vector3)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(UnityEngine.Vector3)
+  name.vb: Contains(Vector3)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(UnityEngine.Vector3@)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(UnityEngine.Vector3@)
   id: ClosestPointOnBox(UnityEngine.Vector3@)
@@ -873,17 +662,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(in UnityEngine.Vector3)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: ClosestPointOnBox
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/BoundingBox.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\BoundingBox.cs
     startLine: 321
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: "\nReturns closest point on box to the provided point\n"
+  summary: Returns closest point on box to the provided point
   example: []
   syntax:
     content: public Vector3 ClosestPointOnBox(in Vector3 inputPoint)
@@ -894,32 +679,58 @@ items:
     return:
       type: UnityEngine.Vector3
       description: ''
-    content.vb: Public Function ClosestPointOnBox(ByRef inputPoint As Vector3) As Vector3
+    content.vb: Public Function ClosestPointOnBox(inputPoint As Vector3) As Vector3
   overload: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox*
-  nameWithType.vb: BoundingBox.ClosestPointOnBox(ByRef Vector3)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(ByRef UnityEngine.Vector3)
-  name.vb: ClosestPointOnBox(ByRef Vector3)
+  nameWithType.vb: BoundingBox.ClosestPointOnBox(Vector3)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(UnityEngine.Vector3)
+  name.vb: ClosestPointOnBox(Vector3)
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels
   fullName: ProgLibrary.PrecomputedCulling.DataModels
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
   commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Vector3>
   nameWithType: IEnumerable<Vector3>
   fullName: System.Collections.Generic.IEnumerable<UnityEngine.Vector3>
@@ -929,41 +740,30 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable
   commentId: T:System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -971,358 +771,268 @@ references:
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(UnityEngine.Vector3)
   commentId: M:ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   parent: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
   definition: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
-  name: ExpandAA(Vector3)
-  nameWithType: BoundingBoxExtensions.ExpandAA(Vector3)
-  fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(UnityEngine.Vector3)
+  href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
+  name: ExpandAA(BoundingBox, Vector3)
+  nameWithType: BoundingBoxExtensions.ExpandAA(BoundingBox, Vector3)
+  fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox, UnityEngine.Vector3)
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(UnityEngine.Vector3)
+  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
     name: ExpandAA
-    nameWithType: BoundingBoxExtensions.ExpandAA
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA
+    href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+    name: BoundingBox
+    href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
+  - name: ','
+  - name: " "
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(UnityEngine.Vector3)
+  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
     name: ExpandAA
-    nameWithType: BoundingBoxExtensions.ExpandAA
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA
+    href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   - name: (
-    nameWithType: (
-    fullName: (
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+    name: BoundingBox
+    href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
+  - name: ','
+  - name: " "
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
-  commentId: M:ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  parent: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
-  definition: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  name: DrawHandles()
-  nameWithType: BoundingBoxExtensions.DrawHandles()
-  fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles()
-  spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
-    name: DrawHandles
-    nameWithType: BoundingBoxExtensions.DrawHandles
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
-    name: DrawHandles
-    nameWithType: BoundingBoxExtensions.DrawHandles
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IEnumerable`1
   commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<T>
   nameWithType: IEnumerable<T>
   fullName: System.Collections.Generic.IEnumerable<T>
@@ -1332,143 +1042,149 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   commentId: M:ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   isExternal: true
+  href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   name: ExpandAA(BoundingBox, Vector3)
   nameWithType: BoundingBoxExtensions.ExpandAA(BoundingBox, Vector3)
   fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox, UnityEngine.Vector3)
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
     name: ExpandAA
-    nameWithType: BoundingBoxExtensions.ExpandAA
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA
+    href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
     name: BoundingBox
-    nameWithType: BoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
+  - name: ','
+  - name: " "
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
     name: ExpandAA
-    nameWithType: BoundingBoxExtensions.ExpandAA
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA
+    href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.ExpandAA(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox,UnityEngine.Vector3)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
     name: BoundingBox
-    nameWithType: BoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
+  - name: ','
+  - name: " "
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
   commentId: T:ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
   parent: ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html
   name: BoundingBoxExtensions
   nameWithType: BoundingBoxExtensions
   fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
-- uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  commentId: M:ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  name: DrawHandles(BoundingBox)
-  nameWithType: BoundingBoxExtensions.DrawHandles(BoundingBox)
-  fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-  spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-    name: DrawHandles
-    nameWithType: BoundingBoxExtensions.DrawHandles
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-    name: BoundingBox
-    nameWithType: BoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
-    name: DrawHandles
-    nameWithType: BoundingBoxExtensions.DrawHandles
-    fullName: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.DrawHandles
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-    name: BoundingBox
-    nameWithType: BoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling
   commentId: N:ProgLibrary.PrecomputedCulling
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling
   nameWithType: ProgLibrary.PrecomputedCulling
   fullName: ProgLibrary.PrecomputedCulling
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
 - uid: UnityEngine.Vector3
   commentId: T:UnityEngine.Vector3
   parent: UnityEngine
@@ -1491,54 +1207,79 @@ references:
   fullName: UnityEngine.Quaternion
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor
   name: BoundingBox
   nameWithType: BoundingBox.BoundingBox
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.BoundingBox
+  nameWithType.vb: BoundingBox.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.New
+  name.vb: New
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   parent: ProgLibrary.PrecomputedCulling.DataModels
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
   name: BoundingBox
   nameWithType: BoundingBox
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler
   name: Euler
   nameWithType: BoundingBox.Euler
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Euler
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item
-  name: Item
-  nameWithType: BoundingBox.Item
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Item(System.Int32,System.Boolean)
+  name: this
+  nameWithType: BoundingBox.this
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.this
+  nameWithType.vb: BoundingBox.this[]
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.this[]
+  name.vb: this[]
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned
   name: TopLeftAxisAligned
   nameWithType: BoundingBox.TopLeftAxisAligned
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeftAxisAligned
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft
   name: TopLeft
   nameWithType: BoundingBox.TopLeft
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.TopLeft
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator
   name: GetEnumerator
   nameWithType: BoundingBox.GetEnumerator
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.GetEnumerator
@@ -1546,39 +1287,31 @@ references:
   commentId: M:System.Collections.Generic.IEnumerable{UnityEngine.Vector3}.GetEnumerator
   parent: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
   definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-unityengine.vector3-.getenumerator#system-collections-generic-ienumerable((unityengine-vector3))-getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable<Vector3>.GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator()
   nameWithType.vb: IEnumerable(Of Vector3).GetEnumerator()
   fullName.vb: System.Collections.Generic.IEnumerable(Of UnityEngine.Vector3).GetEnumerator()
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  - uid: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable<Vector3>.GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-unityengine.vector3-.getenumerator#system-collections-generic-ienumerable((unityengine-vector3))-getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  - uid: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable(Of Vector3).GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable(Of UnityEngine.Vector3).GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-unityengine.vector3-.getenumerator#system-collections-generic-ienumerable((unityengine-vector3))-getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerator{UnityEngine.Vector3}
   commentId: T:System.Collections.Generic.IEnumerator{UnityEngine.Vector3}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
   name: IEnumerator<Vector3>
   nameWithType: IEnumerator<Vector3>
   fullName: System.Collections.Generic.IEnumerator<UnityEngine.Vector3>
@@ -1588,40 +1321,29 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
   commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable<T>.GetEnumerator()
   fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -1630,30 +1352,21 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable<T>.GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable(Of T).GetEnumerator
-    fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.IEnumerator`1
   commentId: T:System.Collections.Generic.IEnumerator`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
   name: IEnumerator<T>
   nameWithType: IEnumerator<T>
   fullName: System.Collections.Generic.IEnumerator<T>
@@ -1663,80 +1376,24 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerator`1
     name: IEnumerator
-    nameWithType: IEnumerator
-    fullName: System.Collections.Generic.IEnumerator
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator*
-  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator
-  nameWithType: BoundingBox.IEnumerable.GetEnumerator
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: BoundingBox.System.Collections.IEnumerable.GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.IEnumerator
-  commentId: T:System.Collections.IEnumerator
-  parent: System.Collections
-  isExternal: true
-  name: IEnumerator
-  nameWithType: IEnumerator
-  fullName: System.Collections.IEnumerator
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter(UnityEngine.MeshFilter)
   name: FromMeshFilter
   nameWithType: BoundingBox.FromMeshFilter
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter
@@ -1749,6 +1406,7 @@ references:
   fullName: UnityEngine.MeshFilter
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds(UnityEngine.Bounds,UnityEngine.Quaternion)
   name: FromBounds
   nameWithType: BoundingBox.FromBounds
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds
@@ -1761,6 +1419,7 @@ references:
   fullName: UnityEngine.Bounds
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}@)
   name: Merge
   nameWithType: BoundingBox.Merge
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge
@@ -1768,6 +1427,7 @@ references:
   commentId: T:System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<BoundingBox>
   nameWithType: List<BoundingBox>
   fullName: System.Collections.Generic.List<ProgLibrary.PrecomputedCulling.DataModels.BoundingBox>
@@ -1777,38 +1437,29 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
     name: BoundingBox
-    nameWithType: BoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+    href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
     name: BoundingBox
-    nameWithType: BoundingBox
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
+    href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<T>
   nameWithType: List<T>
   fullName: System.Collections.Generic.List<T>
@@ -1818,35 +1469,24 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-    nameWithType: <
-    fullName: <
   - name: T
-    nameWithType: T
-    fullName: T
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
   - name: T
-    nameWithType: T
-    fullName: T
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points
   name: Points
   nameWithType: BoundingBox.Points
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Points
@@ -1861,38 +1501,36 @@ references:
   spec.csharp:
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
+  - name: '['
+  - name: ']'
   spec.vb:
   - uid: UnityEngine.Vector3
     name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
     isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  - name: (
+  - name: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add(ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   name: Add
   nameWithType: BoundingBox.Add
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Add
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand(UnityEngine.Vector3)
   name: Expand
   nameWithType: BoundingBox.Expand
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(UnityEngine.Vector3@)
   name: Contains
   nameWithType: BoundingBox.Contains
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html#ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(UnityEngine.Vector3@)
   name: ClosestPointOnBox
   nameWithType: BoundingBox.ClosestPointOnBox
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox

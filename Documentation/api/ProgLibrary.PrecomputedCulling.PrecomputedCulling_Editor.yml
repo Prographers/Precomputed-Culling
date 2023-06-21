@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
+  id: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_Editor
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController.html
+  name: PrecomputedTerrainBakeController
+  nameWithType: PrecomputedTerrainBakeController
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier.html
+  name: PrecomputedPlayStateNotifier
+  nameWithType: PrecomputedPlayStateNotifier
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions.html
+  name: SerializedPropertyExtensions
+  nameWithType: SerializedPropertyExtensions
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController.html
+  name: PrecomputedSpriteBakeController
+  nameWithType: PrecomputedSpriteBakeController
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage.html
+  name: CreatePrecomputedPackage
+  nameWithType: CreatePrecomputedPackage
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage

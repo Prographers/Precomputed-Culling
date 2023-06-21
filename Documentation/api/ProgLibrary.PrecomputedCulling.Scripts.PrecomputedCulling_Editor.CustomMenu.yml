@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
+  commentId: N:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
+  id: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
+  children:
+  - ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
+  nameWithType: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_Editor
+references:
+- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  commentId: T:ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  href: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.html
+  name: PCCMonoBehaviourEditor
+  nameWithType: PCCMonoBehaviourEditor
+  fullName: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor

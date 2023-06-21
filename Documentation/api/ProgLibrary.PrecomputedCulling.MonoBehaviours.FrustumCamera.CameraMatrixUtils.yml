@@ -15,12 +15,8 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/FrustumCamera/CameraMatrix.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: CameraMatrixUtils
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/FrustumCamera/CameraMatrix.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\MonoBehaviours\FrustumCamera\CameraMatrix.cs
     startLine: 6
   assemblies:
   - PrecomputedCulling
@@ -38,13 +34,6 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  modifiers.csharp:
-  - public
-  - static
-  - class
-  modifiers.vb:
-  - Public
-  - Module
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth(UnityEngine.Camera,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth(UnityEngine.Camera,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   id: BoxToViewportAndDepth(UnityEngine.Camera,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
@@ -58,17 +47,13 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth(UnityEngine.Camera, ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/FrustumCamera/CameraMatrix.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: BoxToViewportAndDepth
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/FrustumCamera/CameraMatrix.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\MonoBehaviours\FrustumCamera\CameraMatrix.cs
     startLine: 14
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
-  summary: "\nUsing bounding box of the object, calculates Viewport values (Rect) in [0,1] as well as distance from camera (depth) of the furthest points in the box\n"
+  summary: Using bounding box of the object, calculates Viewport values (Rect) in [0,1] as well as distance from camera (depth) of the furthest points in the box
   example: []
   syntax:
     content: public static (Rect Viewport, float Depth) BoxToViewportAndDepth(this Camera camera, BoundingBox box)
@@ -82,17 +67,8 @@ items:
     return:
       type: System.ValueTuple{UnityEngine.Rect,System.Single}
       description: ''
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function BoxToViewportAndDepth(camera As Camera, box As BoundingBox) As(Viewport As Rect, Depth As Single)(Of Rect , Single)
+    content.vb: Public Shared Function BoxToViewportAndDepth(camera As Camera, box As BoundingBox) As (Viewport As Rect, Depth As Single)
   overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter(UnityEngine.Camera,System.Single@,System.Single@,System.Single@,System.Single@)
   commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter(UnityEngine.Camera,System.Single@,System.Single@,System.Single@,System.Single@)
   id: PerspectiveOffCenter(UnityEngine.Camera,System.Single@,System.Single@,System.Single@,System.Single@)
@@ -101,22 +77,18 @@ items:
   langs:
   - csharp
   - vb
-  name: PerspectiveOffCenter(Camera, in Single, in Single, in Single, in Single)
-  nameWithType: CameraMatrixUtils.PerspectiveOffCenter(Camera, in Single, in Single, in Single, in Single)
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter(UnityEngine.Camera, in System.Single, in System.Single, in System.Single, in System.Single)
+  name: PerspectiveOffCenter(Camera, in float, in float, in float, in float)
+  nameWithType: CameraMatrixUtils.PerspectiveOffCenter(Camera, in float, in float, in float, in float)
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter(UnityEngine.Camera, in float, in float, in float, in float)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/FrustumCamera/CameraMatrix.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PerspectiveOffCenter
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/MonoBehaviours/FrustumCamera/CameraMatrix.cs
+    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\MonoBehaviours\FrustumCamera\CameraMatrix.cs
     startLine: 42
   assemblies:
   - PrecomputedCulling
   namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
-  summary: "\nCalculates camera view Frustum using left, right, bottom, top values via matrix multipication\n"
+  summary: Calculates camera view Frustum using left, right, bottom, top values via matrix multipication
   example: []
   syntax:
     content: public static Matrix4x4 PerspectiveOffCenter(this Camera camera, in float left, in float right, in float bottom, in float top)
@@ -139,320 +111,290 @@ items:
     return:
       type: UnityEngine.Matrix4x4
       description: ''
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function PerspectiveOffCenter(camera As Camera, ByRef left As Single, ByRef right As Single, ByRef bottom As Single, ByRef top As Single) As Matrix4x4
+    content.vb: Public Shared Function PerspectiveOffCenter(camera As Camera, left As Single, right As Single, bottom As Single, top As Single) As Matrix4x4
   overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter*
-  nameWithType.vb: CameraMatrixUtils.PerspectiveOffCenter(Camera, ByRef Single, ByRef Single, ByRef Single, ByRef Single)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter(UnityEngine.Camera, ByRef System.Single, ByRef System.Single, ByRef System.Single, ByRef System.Single)
-  name.vb: PerspectiveOffCenter(Camera, ByRef Single, ByRef Single, ByRef Single, ByRef Single)
+  nameWithType.vb: CameraMatrixUtils.PerspectiveOffCenter(Camera, Single, Single, Single, Single)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter(UnityEngine.Camera, Single, Single, Single, Single)
+  name.vb: PerspectiveOffCenter(Camera, Single, Single, Single, Single)
 references:
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
   commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
   nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+    name: FrustumCamera
+    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
+    name: FrustumCamera
+    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth*
   commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth
+  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.html#ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth(UnityEngine.Camera,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)
   name: BoxToViewportAndDepth
   nameWithType: CameraMatrixUtils.BoxToViewportAndDepth
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth
@@ -466,6 +408,7 @@ references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   parent: ProgLibrary.PrecomputedCulling.DataModels
+  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
   name: BoundingBox
   nameWithType: BoundingBox
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
@@ -473,62 +416,57 @@ references:
   commentId: T:System.ValueTuple{UnityEngine.Rect,System.Single}
   parent: System
   definition: System.ValueTuple`2
-  name: (T1, T2)<Rect, Single>
-  nameWithType: (T1, T2)<Rect, Single>
-  fullName: System.ValueTuple<UnityEngine.Rect, System.Single>
-  nameWithType.vb: (T1, T2)(Of Rect, Single)
-  fullName.vb: System.ValueTuple(Of UnityEngine.Rect, System.Single)
-  name.vb: (T1, T2)(Of Rect, Single)
+  href: https://learn.microsoft.com/dotnet/api/system.valuetuple-unityengine.rect,system.single-.viewport
+  name: (Rect Viewport, float Depth)
+  nameWithType: (Rect Viewport, float Depth)
+  fullName: (UnityEngine.Rect Viewport, float Depth)
+  nameWithType.vb: (Viewport As Rect, Depth As Single)
+  fullName.vb: (Viewport As UnityEngine.Rect, Depth As Single)
+  name.vb: (Viewport As Rect, Depth As Single)
   spec.csharp:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - uid: UnityEngine.Rect
     name: Rect
-    nameWithType: Rect
-    fullName: UnityEngine.Rect
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: " "
+  - uid: System.ValueTuple{UnityEngine.Rect,System.Single}.Viewport
+    name: Viewport
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-unityengine.rect,system.single-.viewport
+  - name: ','
+  - name: " "
   - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
+    name: float
     isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: UnityEngine.Rect
-    name: Rect
-    nameWithType: Rect
-    fullName: UnityEngine.Rect
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
-    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: " "
+  - uid: System.ValueTuple{UnityEngine.Rect,System.Single}.Depth
+    name: Depth
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-unityengine.rect,system.single-.depth
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{UnityEngine.Rect,System.Single}.Viewport
+    name: Viewport
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-unityengine.rect,system.single-.viewport
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: UnityEngine.Rect
+    name: Rect
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{UnityEngine.Rect,System.Single}.Depth
+    name: Depth
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-unityengine.rect,system.single-.depth
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
 - uid: UnityEngine
   commentId: N:UnityEngine
   isExternal: true
@@ -537,62 +475,56 @@ references:
   fullName: UnityEngine
 - uid: ProgLibrary.PrecomputedCulling.DataModels
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels
   fullName: ProgLibrary.PrecomputedCulling.DataModels
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+    href: ProgLibrary.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+    href: ProgLibrary.PrecomputedCulling.html
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+    href: ProgLibrary.PrecomputedCulling.DataModels.html
 - uid: System.ValueTuple`2
   commentId: T:System.ValueTuple`2
-  isExternal: true
-  name: (T1, T2)<T1, T2>
-  nameWithType: (T1, T2)<T1, T2>
-  fullName: System.ValueTuple<T1, T2>
-  nameWithType.vb: (T1, T2)(Of T1, T2)
-  fullName.vb: System.ValueTuple(Of T1, T2)
-  name.vb: (T1, T2)(Of T1, T2)
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
   spec.csharp:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
+  - name: (
   - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+  - name: ','
+  - name: " "
   - name: T2
-    nameWithType: T2
-    fullName: T2
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T1
-    nameWithType: T1
-    fullName: T1
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T2
-    nameWithType: T2
-    fullName: T2
   - name: )
-    nameWithType: )
-    fullName: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter*
   commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter
+  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.html#ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter(UnityEngine.Camera,System.Single@,System.Single@,System.Single@,System.Single@)
   name: PerspectiveOffCenter
   nameWithType: CameraMatrixUtils.PerspectiveOffCenter
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.PerspectiveOffCenter
@@ -600,9 +532,13 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
 - uid: UnityEngine.Matrix4x4
   commentId: T:UnityEngine.Matrix4x4
   parent: UnityEngine

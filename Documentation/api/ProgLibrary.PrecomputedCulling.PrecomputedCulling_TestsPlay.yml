@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay
+  commentId: N:ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay
+  id: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay
+  children:
+  - ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay
+  nameWithType: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay
+  type: Namespace
+  assemblies:
+  - PrecomputedCulling_TestsPlay
+references:
+- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests
+  commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests
+  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests.html
+  name: CameraVisibleTests
+  nameWithType: CameraVisibleTests
+  fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests
