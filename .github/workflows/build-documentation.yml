@@ -29,12 +29,12 @@ jobs:
         sudo apt-get install mono-complete --yes
     - name: Get docfx
       run: |
-        curl -L https://github.com/dotnet/docfx/releases/download/v2.67.5/docfx-linux-x64-v2.67.5.zip -o docfx.zip
+        curl -L https://github.com/dotnet/docfx/releases/download/v2.67.5/docfx-win-x64-v2.67.5.zip -o docfx.zip
         unzip -d .docfx docfx.zip
 
     - name: Build docs
       run: |
-        mono .docfx/docfx Documentation/docfx.json
+        mono .docfx/docfx.exe Documentation/docfx.json
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.3.3
