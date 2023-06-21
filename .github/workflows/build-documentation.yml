@@ -34,7 +34,7 @@ jobs:
 
     - name: Build docs
       run: |
-        mono .docfx/docfx.exe Documentation/docfx.json
+        mono .docfx/docfx Documentation/docfx.json
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.3.3
