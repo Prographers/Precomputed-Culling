@@ -455,6 +455,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.URLAddresses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.URLAddresses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.WelcomePopupController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.WelcomePopupController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.WelcomePopupEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.WelcomePopupEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider.yml",
       "output": {
         ".html": {
@@ -495,6 +565,206 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedMenuSettingsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedMenuSettingsEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.ArrayUtilsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.ArrayUtilsTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.BoundingBoxTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.BoundingBoxTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.PrecomputedChunkDataTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedManager.yml",
       "output": {
         ".html": {
@@ -509,6 +779,136 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.PrecomputedSceneInfoData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.FrustumCulling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.FrustumCulling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCWelcomePopup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCWelcomePopup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.html"
         }
       },
       "version": ""
@@ -569,6 +969,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.TextureResolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling.Settings.TextureResolution.html"
         }
       },
       "version": ""
@@ -675,6 +1085,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedSaveTexture.yml",
       "output": {
         ".html": {
@@ -689,6 +1119,106 @@
       "output": {
         ".html": {
           "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.Bake.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.ColorInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProgLibrary.PrecomputedCulling_Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.MainStructureTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.MainStructureTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.html"
         }
       },
       "version": ""
