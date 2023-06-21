@@ -32,9 +32,14 @@ jobs:
         curl -L https://github.com/dotnet/docfx/releases/download/v2.67.5/docfx-win-x64-v2.67.5.zip -o docfx.zip
         unzip -d .docfx docfx.zip
 
-    - name: Build docs
-      run: |
-        dotnet .docfx/docfx.dll Documentation/docfx.json
+    - name: docfx-action
+      # You may pin to the exact commit or the version.
+      # uses: nikeee/docfx-action@b9c2cf92e3b4aa06878a1410833a8828b4bdcd26
+      uses: nikeee/docfx-action@v1.0.0 
+      
+    - uses: nikeee/docfx-action@v1.0.0
+      with:
+        args: Documentation/docfx.json
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.3.3
