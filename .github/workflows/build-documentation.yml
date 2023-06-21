@@ -4,45 +4,38 @@ on:
   repository_dispatch:
   push:
     branches:
-      - main  # We don't want branches in doc to trigger builds
+      - main
 
 permissions: 
   contents: write
-
+    
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  generate-docs:
+    runs-on: windows-latest
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.100
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    - name: Get mono
-      run: |
-        sudo apt update
-        sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
-        sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-        sudo apt-add-repository 'deb https://download.mono-project.com/repo/ubuntu stable-focal main'
-        sudo apt-get update
-        sudo apt-get install mono-complete --yes
-    - name: Get docfx
-      run: |
-        curl -L https://github.com/dotnet/docfx/releases/download/v2.67.5/docfx-win-x64-v2.67.5.zip -o docfx.zip
-        unzip -d .docfx docfx.zip
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.101
 
-    - name: docfx-action
-      # You may pin to the exact commit or the version.
-      # uses: nikeee/docfx-action@b9c2cf92e3b4aa06878a1410833a8828b4bdcd26
-      uses: nikeee/docfx-action@v1.0.0 
-      
-    - uses: nikeee/docfx-action@v1.0.0
-      with:
-        args: Documentation/docfx.json
+      - name: Setup DocFX
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install docfx
 
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4.3.3
-      with:
-        BRANCH: gh-pages
-        FOLDER: Documentation/_site
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: DocFX Build
+        working-directory: Documentation
+        run: docfx docfx.json
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: Documentation/_site
