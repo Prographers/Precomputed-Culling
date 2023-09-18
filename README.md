@@ -14,6 +14,7 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 | Documentation and API reference | https://prographers.github.io/Precomputed-Culling |
 | Project page | https://prographers.com/precomputed-culling/ |
 | Documentation repository | https://github.com/Prographers/Precomputed-Culling/ |
+| Discord | https://discord.gg/55gM3s3pdR |
 | **Asset Store** | https://assetstore.unity.com/packages/slug/221372 |
 
 ### Features:
