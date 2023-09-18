@@ -43,13 +43,7 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 - Required to bake scenes and their variants before build.
 
 ### Roadmap:
-- Support for Legacy (built-in)
-- Support for dynamic objects
-- Support for occlusion portals
-- Split baking between multiple computers
-- Better debugging tools and statistics
-- Dynamic lighting shadow
-- and more...
+- Port to other game engines
 
 ## Installation:
 
