@@ -36,11 +36,9 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 - Moving Occlusion Area with objects
 - Support via email or discord
 - Superior performance
+- Bake in runtime or before build
 
 *Not recommended to use in 2D games, intended use is for example leaves on the 3D trees or far away rocks.
-
-### Limitations:
-- Required to bake scenes and their variants before build.
 
 ### Roadmap:
 - Port to other game engines
@@ -53,7 +51,7 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 
 ## Basic Usage:
 
-For more advanced usages visit https://prographers.com/Precomputed-Culling/ or the related section in the repository https://github.com/Prographers/Precomputed-Culling/
+For more advanced usages visit https://prographers.com/precomputed-culling/ or the related section in the repository https://github.com/Prographers/Precomputed-Culling/
 
 1. Open the main scene where you want to initialize your setup
 2. In the top menu, press Tools->Precomputed Culling->Setup
