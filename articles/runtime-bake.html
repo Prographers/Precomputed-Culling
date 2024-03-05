@@ -10,9 +10,9 @@
   })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Features of Precomputed Culling by Prographers | Prographers Precomputed Culling </title>
+    <title>Runtime Bake Guide | Prographers Precomputed Culling </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Features of Precomputed Culling by Prographers | Prographers Precomputed Culling ">
+    <meta name="title" content="Runtime Bake Guide | Prographers Precomputed Culling ">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../favicon.ico">
@@ -73,39 +73,32 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="features-of-precomputed-culling-by-prographers">Features of <a href="https://prographers.com/precomputed-culling">Precomputed Culling</a> by Prographers</h1>
+<h1 id="runtime-bake-guide">Runtime Bake Guide</h1>
 
-<h2 id="gizmos-and-handles">Gizmos and Handles</h2>
-<p>Use built in Gizmos and Handles to manipulate the culling volume. Adjust area to your needs with clear visual feedback.</p>
-<p><img src="../images/gizmos.gif" alt="Gizmos and Handles"></p>
-<p>Using visual feedback see how your changes affect the culling cells. What are the areas that would contain culling data, as well as the bakes spots that would be used to generate the final image.</p>
-<p>Adjust them using the inspector.</p>
-<p><img src="../images/spots-and-cells.gif" alt="Spots and Cells"></p>
-<p>Adjust the priority of the cell, to determine which data should be used to generate the final image.</p>
-<h2 id="preview-your-culling-results">Preview your culling results</h2>
-<p>Preview your culling results in the scene view. Click on the area that you want to preview, and enable the preview mode.</p>
-<p><em>Note: Remember to bake the culling data before previewing!</em></p>
-<p><img src="../images/preview-bake.gif" alt="Preview bake"></p>
-<h2 id="detailed-information-for-runtime-debugging">Detailed information for runtime debugging</h2>
-<p>Each of the components have detailed information for runtime debugging. Information like currently rendered elements, culled elements, total bake spots and total cells.</p>
-<p>Each of the bake also contains data about it's preview bake time and it's size in the disk as well as the size in the memory.</p>
-<p><strong>Data in the Precomputed Area</strong>
-<img src="../images/area-data.png" alt="Area data">
-<strong>Data in the Precomputed Camera</strong>
-<img src="../images/camera-data.png" alt="Camera data"></p>
-<h2 id="configure-the-culling-precision-and-quality">Configure the culling precision and quality</h2>
-<h3 id="minimal-required-visibility">Minimal required visibility</h3>
-<p>Configure the culling precision and quality. Use Minimal required visibility to allow for small objects to be culled, even if in theory visible.</p>
-<p>The culling is based on 4096x4096 pixels of resolution per sample. So each sample is based on 16 million pixels. By default when we set 0 or 1 of visibility we will see all objects, even if they were only single pixel visible. The more we will increase this value, we will change how much of the object should be visible before it is culled.</p>
-<p><em>Note: This has impact on small objects, like single rocks or cutlery. Because they might generate a very little pixels on the samples, they will disappear faster then they should.</em></p>
-<p><em>Note: At the time of writing this, you can only preview the visibility of the object in the runtime. This is subject to change in future versions.</em></p>
-<p><img src="../images/minimal-required-visibility.gif" alt="Minimal Required Visibility">
-<em>Right click on a gif -&gt; <code>Show controlls elements</code>, to slow down time to preview gif step by step</em></p>
-<h3 id="neighbour-cell-radius">Neighbour cell radius</h3>
-<p>Determines how far the algorithm will look for neighboring cells. If it's set to 0, it will only take the cell we are currently in to generate the culling. If it's set to 1, it will take the cell we are currently in and it's neighbors. If it's set to 2, it will take the cell we are currently in and it's neighbors and it's neighbors, etc...</p>
-<p>This is usefully if you have an open world and you want to make sure that there are no artifacts in the culling for objects that are behind small ocluders like trees.</p>
-<p>This setting will slightly decrease the performance because it will have to load data from not one but at least 4 cells.</p>
-<p><img src="../images/camera-quality.png" alt="Camera quality"></p>
+<p>This guide will show you how to set up and use runtime occlusion culling.</p>
+<h2 id="setup">Setup</h2>
+<ol>
+<li>Create or open a scene on which you want to enable runtime baking.</li>
+<li>From the top menu, press Tools &gt; PrecomputedCulling &gt; SetupRuntime or add elements manually:
+<ul>
+<li>Add PrecomputedSceneSettings to the scene.</li>
+<li>Add PrecomputedCamera to the camera.</li>
+<li>Add your implementation of BaseRuntimeBakeController or DemoRuntimeBakeController.</li>
+<li>Add PrecomputedCullingRendererId to all renderers you want to be taken into account during the bake. Remember to set the correct id.</li>
+</ul>
+</li>
+<li>To trigger the bake, call BakeAll on your implementation of BaseRuntimeBakeController or DemoRuntimeBakeController.</li>
+<li>To load data use LoadIndex on your IDataProvider.</li>
+<li>Assign the PrecomputedData to the correct PrecomputedArea.
+See the DemoRuntimeBakeController for an example of how to use the runtime bake system.</li>
+</ol>
+<h2 id="how-it-works">How it Works</h2>
+<p>Culling data generated during the bake is saved to a zip file located at StreamingAssets/PrecomputedData/PrecomputedData.zip. This file contains all the baked data separated into files for each bake. Data is serialized by a custom serializer called SimpleTextSerializer. Then, while loading, the data is unpacked and deserialized. The culling process works exactly the same as in the case of the pre-baked data.</p>
+<h2 id="customization">Customization</h2>
+<h3 id="customizing-the-data-storage-serialization-and-deserialization">Customizing the Data Storage, Serialization, and Deserialization</h3>
+<p>You are free to implement your custom provider and serializer that will fit your needs. To do this, implement IDataProvider and handle the serialization and deserialization of the data. Then you just have to pass your provider to the RuntimeBakeProcess.</p>
+<h3 id="customizing-the-bake-process-indicator">Customizing the Bake Process Indicator</h3>
+<p>You can, and probably should, also implement your own way of showing the progress of the bake. Our demo implementation uses a DemoRuntimeBakeProgress. You can swap it with your implementation of IBakeProgress. Then you have to pass it to the RuntimeBakeProcess as well.</p>
 </article>
           </div>
 
