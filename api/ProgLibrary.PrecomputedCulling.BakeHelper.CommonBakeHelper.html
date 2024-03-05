@@ -1,0 +1,488 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CommonBakeHelper
+ | Prographers Precomputed Culling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CommonBakeHelper
+ | Prographers Precomputed Culling ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MTNQCJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper">
+
+
+  <h1 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper" class="text-break">Class CommonBakeHelper
+</h1>
+  <div class="markdown level0 summary"><p>This class is used for the shared methods between different bake processes.
+<see cref="!:RuntimeBakeProcess"></see>
+<see cref="!:PrecomputedBakeProcess"></see></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">CommonBakeHelper</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">ProgLibrary</span>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.BakeHelper.html">BakeHelper</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public class CommonBakeHelper</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <a id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper__ctor_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper__ctor_System_String_CustomOcclusionScriptableRenderer_PrecomputedTerrainBakeController_PrecomputedSpriteBakeController_ProgLibrary_PrecomputedCulling_BakeHelper_BaseBakeHelper_IBakeProgress_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor(System.String,CustomOcclusionScriptableRenderer,PrecomputedTerrainBakeController,PrecomputedSpriteBakeController,ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper,IBakeProgress)">CommonBakeHelper(string, CustomOcclusionScriptableRenderer, PrecomputedTerrainBakeController, PrecomputedSpriteBakeController, BaseBakeHelper, IBakeProgress)</h4>
+  <div class="markdown level1 summary"><p>Basic constructor for assigning the required references.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public CommonBakeHelper(string progressBarName, CustomOcclusionScriptableRenderer occlusionScriptableRenderer, PrecomputedTerrainBakeController precomputedTerrainBakeController, PrecomputedSpriteBakeController precomputedSpriteBakeController, BaseBakeHelper customBakeHelper, IBakeProgress bakeProgress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">progressBarName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CustomOcclusionScriptableRenderer</span></td>
+        <td><span class="parametername">occlusionScriptableRenderer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PrecomputedTerrainBakeController</span></td>
+        <td><span class="parametername">precomputedTerrainBakeController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PrecomputedSpriteBakeController</span></td>
+        <td><span class="parametername">precomputedSpriteBakeController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.html">BaseBakeHelper</a></td>
+        <td><span class="parametername">customBakeHelper</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IBakeProgress</span></td>
+        <td><span class="parametername">bakeProgress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <a id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_Cleanup_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_Cleanup_System_Int32_GameObject_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup(System.Int32,GameObject)">Cleanup(int, GameObject)</h4>
+  <div class="markdown level1 summary"><p>Cleanup occlusion baking process and cleanup the whole process</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void Cleanup(int rendererIndex, GameObject cameraObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">rendererIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">cameraObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_InstantiateChunkData_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_InstantiateChunkData_Scene_PrecomputedArea_List_PrecomputedChunkData__" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData(Scene,PrecomputedArea,List{PrecomputedChunkData})">InstantiateChunkData(Scene, PrecomputedArea, List&lt;PrecomputedChunkData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Instantiate chunk data for the occlusion area.
+We use this method to create a new chunk data scriptable object for the occlusion area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public PrecomputedChunkData InstantiateChunkData(Scene scene, PrecomputedArea occlusionArea, List&lt;PrecomputedChunkData&gt; sceneChunkData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td><p>Scene on which the occlusion area is located</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PrecomputedArea</span></td>
+        <td><span class="parametername">occlusionArea</span></td>
+        <td><p>Occlusion area to be processed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">PrecomputedChunkData</span>&gt;</td>
+        <td><span class="parametername">sceneChunkData</span></td>
+        <td><p>List of chunk data for the scene</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedChunkData</span></td>
+        <td><p>Instantiated chunk data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ProcessSprites_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ProcessSprites_PrecomputedArea_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites(PrecomputedArea)">ProcessSprites(PrecomputedArea)</h4>
+  <div class="markdown level1 summary"><p>Process sprites for the occlusion area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public PrecomputedSpriteBakeController ProcessSprites(PrecomputedArea occlusionArea)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedArea</span></td>
+        <td><span class="parametername">occlusionArea</span></td>
+        <td><p>Occlusion area to be processed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedSpriteBakeController</span></td>
+        <td><p>Updated precomputed sprite bake controller</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ProcessTerrain_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ProcessTerrain_PrecomputedArea_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain(PrecomputedArea)">ProcessTerrain(PrecomputedArea)</h4>
+  <div class="markdown level1 summary"><p>Process terrain for the occlusion area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public PrecomputedTerrainBakeController ProcessTerrain(PrecomputedArea occlusionArea)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedArea</span></td>
+        <td><span class="parametername">occlusionArea</span></td>
+        <td><p>Occlusion area to be processed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedTerrainBakeController</span></td>
+        <td><p>Updated precomputed terrain bake controller</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ValidateCells_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ValidateCells_PrecomputedArea_IVisibilityTester_List_PrecomputedChunkData__System_Int32_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32)">ValidateCells(PrecomputedArea, IVisibilityTester, List&lt;PrecomputedChunkData&gt;, int)</h4>
+  <div class="markdown level1 summary"><p>Used to traverse through the occlusion area cells and test their visibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool ValidateCells(PrecomputedArea occlusionArea, IVisibilityTester visibilityTester, List&lt;PrecomputedChunkData&gt; sceneChunkData, int rendererIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedArea</span></td>
+        <td><span class="parametername">occlusionArea</span></td>
+        <td><p>Occlusion area to be processed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IVisibilityTester</span></td>
+        <td><span class="parametername">visibilityTester</span></td>
+        <td><p>Visibility tester to be used</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">PrecomputedChunkData</span>&gt;</td>
+        <td><span class="parametername">sceneChunkData</span></td>
+        <td><p>List of chunk data for the scene</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">rendererIndex</span></td>
+        <td><p>Index of the renderer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the cells are valid, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ValidateCellsCoroutine_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_BakeHelper_CommonBakeHelper_ValidateCellsCoroutine_PrecomputedArea_IVisibilityTester_List_PrecomputedChunkData__System_Int32_CoroutineState_" data-uid="ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32,CoroutineState)">ValidateCellsCoroutine(PrecomputedArea, IVisibilityTester, List&lt;PrecomputedChunkData&gt;, int, CoroutineState)</h4>
+  <div class="markdown level1 summary"><p>Used to traverse through the occlusion area cells and test their visibility.
+Note that this version of the method is a coroutine. It might be a bit slower, but it doesn't block the main thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public IEnumerator ValidateCellsCoroutine(PrecomputedArea occlusionArea, IVisibilityTester visibilityTester, List&lt;PrecomputedChunkData&gt; sceneChunkData, int rendererIndex, CoroutineState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedArea</span></td>
+        <td><span class="parametername">occlusionArea</span></td>
+        <td><p>Occlusion area to be processed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IVisibilityTester</span></td>
+        <td><span class="parametername">visibilityTester</span></td>
+        <td><p>Visibility tester to be used</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">PrecomputedChunkData</span>&gt;</td>
+        <td><span class="parametername">sceneChunkData</span></td>
+        <td><p>List of chunk data for the scene</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">rendererIndex</span></td>
+        <td><p>Index of the renderer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CoroutineState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>State of the coroutine</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
+        <td><p>True if the cells are valid, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>All rights reserved <a href="https://github.com/Prographers/Precomputed-Culling">Precomputed Culling</a> by <strong><a href="https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar">Prographers</a></strong>.
+            <br> Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

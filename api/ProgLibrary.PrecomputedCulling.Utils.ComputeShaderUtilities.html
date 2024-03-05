@@ -84,35 +84,11 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">ComputeShaderUtilities</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProgLibrary.html">ProgLibrary</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.Utils.html">Utils</a></h6>
-  <h6><strong>Assembly</strong>: PrecomputedCulling.dll</h6>
+  <h6><strong>Namespace</strong>: <span class="xref">ProgLibrary</span>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.Utils.html">Utils</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static class ComputeShaderUtilities</code></pre>
@@ -120,77 +96,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateArrayBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateArrayBuffer__1_System_Int32_UnityEngine_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(System.Int32,UnityEngine.ComputeBufferType)">CreateArrayBuffer&lt;T&gt;(int, ComputeBufferType)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateArrayBuffer__1___0____ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(``0[]@,ComputeBufferType)">CreateArrayBuffer&lt;T&gt;(in T[], ComputeBufferType)</h4>
   <div class="markdown level1 summary"><p>Creates compute buffer of given simple type T for single value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public static ComputeBuffer CreateArrayBuffer&lt;T&gt;(int count, ComputeBufferType type = ComputeBufferType.Default) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">count</span></td>
-        <td><p>Default starting value</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">ComputeBufferType</span></td>
-        <td><span class="parametername">type</span></td>
-        <td><p>Type of compute buffer</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ComputeBuffer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Simple type</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateArrayBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateArrayBuffer__1___0____UnityEngine_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(``0[]@,UnityEngine.ComputeBufferType)">CreateArrayBuffer&lt;T&gt;(in T[], ComputeBufferType)</h4>
-  <div class="markdown level1 summary"><p>Creates compute buffer of given simple type T for single value</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public static ComputeBuffer CreateArrayBuffer&lt;T&gt;(in T[] initialArray, ComputeBufferType type = ComputeBufferType.Default) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
+    <pre><code class="lang- hljs">public static ComputeBuffer CreateArrayBuffer&lt;T&gt;(in T[] initialArray, ComputeBufferType type = null) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -247,14 +159,78 @@
       </tr>
     </tbody>
   </table>
-  <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateValueBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateValueBuffer__1___0_UnityEngine_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer``1(``0,UnityEngine.ComputeBufferType)">CreateValueBuffer&lt;T&gt;(T, ComputeBufferType)</h4>
+  <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateArrayBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateArrayBuffer__1_System_Int32_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateArrayBuffer``1(System.Int32,ComputeBufferType)">CreateArrayBuffer&lt;T&gt;(int, ComputeBufferType)</h4>
   <div class="markdown level1 summary"><p>Creates compute buffer of given simple type T for single value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public static ComputeBuffer CreateValueBuffer&lt;T&gt;(T startingValue = default, ComputeBufferType type = ComputeBufferType.Default) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
+    <pre><code class="lang- hljs">public static ComputeBuffer CreateArrayBuffer&lt;T&gt;(int count, ComputeBufferType type = null) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Default starting value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ComputeBufferType</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type of compute buffer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ComputeBuffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Simple type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateValueBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_CreateValueBuffer__1___0_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.CreateValueBuffer``1(``0,ComputeBufferType)">CreateValueBuffer&lt;T&gt;(T, ComputeBufferType)</h4>
+  <div class="markdown level1 summary"><p>Creates compute buffer of given simple type T for single value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static ComputeBuffer CreateValueBuffer&lt;T&gt;(T startingValue = default, ComputeBufferType type = null) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,7 +288,7 @@
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_GetArrayViaBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_GetArrayViaBuffer__1_UnityEngine_ComputeBuffer_System_Int32_System_Boolean_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer``1(UnityEngine.ComputeBuffer,System.Int32,System.Boolean)">GetArrayViaBuffer&lt;T&gt;(ComputeBuffer, int, bool)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_GetArrayViaBuffer__1_ComputeBuffer_System_Int32_System_Boolean_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetArrayViaBuffer``1(ComputeBuffer,System.Int32,System.Boolean)">GetArrayViaBuffer&lt;T&gt;(ComputeBuffer, int, bool)</h4>
   <div class="markdown level1 summary"><p>Get value from compute buffer of single value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -336,12 +312,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">count</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">clearBuffer</span></td>
         <td></td>
       </tr>
@@ -378,7 +354,7 @@
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_GetValueViaBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_GetValueViaBuffer__1_UnityEngine_ComputeBuffer_System_Boolean_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer``1(UnityEngine.ComputeBuffer,System.Boolean)">GetValueViaBuffer&lt;T&gt;(ComputeBuffer, bool)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_GetValueViaBuffer__1_ComputeBuffer_System_Boolean_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.GetValueViaBuffer``1(ComputeBuffer,System.Boolean)">GetValueViaBuffer&lt;T&gt;(ComputeBuffer, bool)</h4>
   <div class="markdown level1 summary"><p>Get value from compute buffer of single value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -402,7 +378,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">clearBuffer</span></td>
         <td></td>
       </tr>
@@ -439,13 +415,13 @@
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetArrayBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetArrayBuffer__1_UnityEngine_ComputeShader_System_Int32_System_Int32_System_Int32_UnityEngine_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.Int32,System.Int32,UnityEngine.ComputeBufferType)">SetArrayBuffer&lt;T&gt;(ComputeShader, int, int, int, ComputeBufferType)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetArrayBuffer__1_ComputeShader_System_Int32_System_Int32_System_Int32_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(ComputeShader,System.Int32,System.Int32,System.Int32,ComputeBufferType)">SetArrayBuffer&lt;T&gt;(ComputeShader, int, int, int, ComputeBufferType)</h4>
   <div class="markdown level1 summary"><p>Set value for compute shader</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public static ComputeBuffer SetArrayBuffer&lt;T&gt;(this ComputeShader computeShader, int kernelId, int name, int count, ComputeBufferType type = ComputeBufferType.Default) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
+    <pre><code class="lang- hljs">public static ComputeBuffer SetArrayBuffer&lt;T&gt;(this ComputeShader computeShader, int kernelId, int name, int count, ComputeBufferType type = null) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -464,19 +440,19 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">kernelId</span></td>
         <td><p>Kernel Id of the compute shader</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>Name of the property</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">count</span></td>
         <td><p>Default starting value</p>
 </td>
@@ -521,13 +497,13 @@
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetArrayBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetArrayBuffer__1_UnityEngine_ComputeShader_System_Int32_System_String___0____UnityEngine_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0[]@,UnityEngine.ComputeBufferType)">SetArrayBuffer&lt;T&gt;(ComputeShader, int, string, in T[], ComputeBufferType)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetArrayBuffer__1_ComputeShader_System_Int32_System_String___0____ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetArrayBuffer``1(ComputeShader,System.Int32,System.String,``0[]@,ComputeBufferType)">SetArrayBuffer&lt;T&gt;(ComputeShader, int, string, in T[], ComputeBufferType)</h4>
   <div class="markdown level1 summary"><p>Set value for compute shader</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public static ComputeBuffer SetArrayBuffer&lt;T&gt;(this ComputeShader computeShader, int kernelId, string name, in T[] initialArray, ComputeBufferType type = ComputeBufferType.Default) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
+    <pre><code class="lang- hljs">public static ComputeBuffer SetArrayBuffer&lt;T&gt;(this ComputeShader computeShader, int kernelId, string name, in T[] initialArray, ComputeBufferType type = null) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -546,13 +522,13 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">kernelId</span></td>
         <td><p>Kernel Id of the compute shader</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>Name of the property</p>
 </td>
@@ -603,13 +579,13 @@
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetValueBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetValueBuffer__1_UnityEngine_ComputeShader_System_Int32_System_String___0_UnityEngine_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer``1(UnityEngine.ComputeShader,System.Int32,System.String,``0,UnityEngine.ComputeBufferType)">SetValueBuffer&lt;T&gt;(ComputeShader, int, string, T, ComputeBufferType)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_Utils_ComputeShaderUtilities_SetValueBuffer__1_ComputeShader_System_Int32_System_String___0_ComputeBufferType_" data-uid="ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.SetValueBuffer``1(ComputeShader,System.Int32,System.String,``0,ComputeBufferType)">SetValueBuffer&lt;T&gt;(ComputeShader, int, string, T, ComputeBufferType)</h4>
   <div class="markdown level1 summary"><p>Set value for compute shader</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public static ComputeBuffer SetValueBuffer&lt;T&gt;(this ComputeShader computeShader, int kernelId, string name, T startingValue = default, ComputeBufferType type = ComputeBufferType.Default) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
+    <pre><code class="lang- hljs">public static ComputeBuffer SetValueBuffer&lt;T&gt;(this ComputeShader computeShader, int kernelId, string name, T startingValue = default, ComputeBufferType type = null) where T : struct, IComparable, IFormattable, IConvertible, IComparable&lt;T&gt;, IEquatable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -628,13 +604,13 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">kernelId</span></td>
         <td><p>Kernel Id of the compute shader</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="xref">string</span></td>
         <td><span class="parametername">name</span></td>
         <td><p>Name of the property</p>
 </td>

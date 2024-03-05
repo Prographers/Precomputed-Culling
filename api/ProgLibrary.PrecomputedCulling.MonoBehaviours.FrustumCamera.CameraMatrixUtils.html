@@ -83,35 +83,11 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">CameraMatrixUtils</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProgLibrary.html">ProgLibrary</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.MonoBehaviours.html">MonoBehaviours</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.html">FrustumCamera</a></h6>
-  <h6><strong>Assembly</strong>: PrecomputedCulling.dll</h6>
+  <h6><strong>Namespace</strong>: <span class="xref">ProgLibrary</span>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.MonoBehaviours.html">MonoBehaviours</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.html">FrustumCamera</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ProgLibrary_PrecomputedCulling_MonoBehaviours_FrustumCamera_CameraMatrixUtils_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static class CameraMatrixUtils</code></pre>
@@ -119,13 +95,13 @@
   <h3 id="methods">Methods
 </h3>
   <a id="ProgLibrary_PrecomputedCulling_MonoBehaviours_FrustumCamera_CameraMatrixUtils_BoxToViewportAndDepth_" data-uid="ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_MonoBehaviours_FrustumCamera_CameraMatrixUtils_BoxToViewportAndDepth_UnityEngine_Camera_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_" data-uid="ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth(UnityEngine.Camera,ProgLibrary.PrecomputedCulling.DataModels.BoundingBox)">BoxToViewportAndDepth(Camera, BoundingBox)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_MonoBehaviours_FrustumCamera_CameraMatrixUtils_BoxToViewportAndDepth_UnityEngine_Camera_BoundingBox_" data-uid="ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.BoxToViewportAndDepth(UnityEngine.Camera,BoundingBox)">BoxToViewportAndDepth(Camera, BoundingBox)</h4>
   <div class="markdown level1 summary"><p>Using bounding box of the object, calculates Viewport values (Rect) in [0,1] as well as distance from camera (depth) of the furthest points in the box</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public static (Rect Viewport, float Depth) BoxToViewportAndDepth(this Camera camera, BoundingBox box)</code></pre>
+    <pre><code class="lang- hljs">public static (Rect Viewport, float Depth) BoxToViewportAndDepth(this UnityEngine.Camera camera, BoundingBox box)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,7 +120,7 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a></td>
+        <td><span class="xref">BoundingBox</span></td>
         <td><span class="parametername">box</span></td>
         <td><p>Box to calculate against</p>
 </td>
@@ -161,7 +137,7 @@
     </thead>
     <tbody>
       <tr>
-        <td>(<span class="xref">Rect</span> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-unityengine.rect,system.single-.viewport">Viewport</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-unityengine.rect,system.single-.depth">Depth</a>)</td>
+        <td>(<span class="xref">Rect</span> <span class="xref">Viewport</span>, <span class="xref">float</span> <span class="xref">Depth</span>)</td>
         <td></td>
       </tr>
     </tbody>
@@ -173,7 +149,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public static Matrix4x4 PerspectiveOffCenter(this Camera camera, in float left, in float right, in float bottom, in float top)</code></pre>
+    <pre><code class="lang- hljs">public static Matrix4x4 PerspectiveOffCenter(this UnityEngine.Camera camera, in float left, in float right, in float bottom, in float top)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,25 +168,25 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td><span class="parametername">left</span></td>
         <td><p>Left value of the view frustum</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td><span class="parametername">right</span></td>
         <td><p>Right value of view frustum</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td><span class="parametername">bottom</span></td>
         <td><p>Bottom value of the view frustum</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="xref">float</span></td>
         <td><span class="parametername">top</span></td>
         <td><p>Top value of the view frustum</p>
 </td>

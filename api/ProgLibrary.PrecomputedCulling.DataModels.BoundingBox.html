@@ -84,44 +84,14 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level0"><span class="xref">object</span></div>
     <div class="level1"><span class="xref">BoundingBox</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Vector3</span>&gt;</div>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProgLibrary.html">ProgLibrary</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.html">DataModels</a></h6>
-  <h6><strong>Assembly</strong>: PrecomputedCulling.dll</h6>
+  <h6><strong>Namespace</strong>: <span class="xref">ProgLibrary</span>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.html">DataModels</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">[Serializable]
-public class BoundingBox : IEnumerable&lt;Vector3&gt;, IEnumerable</code></pre>
+    <pre><code class="lang- hljs">public class BoundingBox : IEnumerable&lt;Vector3&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
@@ -161,7 +131,7 @@ public class BoundingBox : IEnumerable&lt;Vector3&gt;, IEnumerable</code></pre>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)">BoundingBox(Vector3, Vector3, Quaternion)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_Vector3_Vector3_Quaternion_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(Vector3,Vector3,Quaternion)">BoundingBox(Vector3, Vector3, Quaternion)</h4>
   <div class="markdown level1 summary"><p>Default constructor</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -197,7 +167,7 @@ public class BoundingBox : IEnumerable&lt;Vector3&gt;, IEnumerable</code></pre>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">BoundingBox(Vector3, Vector3, Vector3)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox__ctor_Vector3_Vector3_Vector3_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.#ctor(Vector3,Vector3,Vector3)">BoundingBox(Vector3, Vector3, Vector3)</h4>
   <div class="markdown level1 summary"><p>Default constructor</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -263,8 +233,7 @@ public class BoundingBox : IEnumerable&lt;Vector3&gt;, IEnumerable</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">[HideInInspector]
-public Quaternion Rotation</code></pre>
+    <pre><code class="lang- hljs">public Quaternion Rotation</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -350,12 +319,12 @@ public Quaternion Rotation</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="xref">int</span></td>
         <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td><span class="parametername">axisAligned</span></td>
         <td><p>Is resulting value axis aligned aka without applied rotation</p>
 </td>
@@ -373,21 +342,6 @@ public Quaternion Rotation</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ArgumentOutOfRangeException</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -469,7 +423,7 @@ public Quaternion Rotation</code></pre>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_ClosestPointOnBox_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_ClosestPointOnBox_UnityEngine_Vector3__" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(UnityEngine.Vector3@)">ClosestPointOnBox(in Vector3)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_ClosestPointOnBox_Vector3__" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.ClosestPointOnBox(Vector3@)">ClosestPointOnBox(in Vector3)</h4>
   <div class="markdown level1 summary"><p>Returns closest point on box to the provided point</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -511,7 +465,7 @@ public Quaternion Rotation</code></pre>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Contains_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Contains_UnityEngine_Vector3__" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(UnityEngine.Vector3@)">Contains(in Vector3)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Contains_Vector3__" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Contains(Vector3@)">Contains(in Vector3)</h4>
   <div class="markdown level1 summary"><p>Is point contained within box</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -547,13 +501,13 @@ public Quaternion Rotation</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Expand_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Expand_UnityEngine_Vector3_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand(UnityEngine.Vector3)">Expand(Vector3)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Expand_Vector3_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Expand(Vector3)">Expand(Vector3)</h4>
   <div class="markdown level1 summary"><p>Expands current box to contain point</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -579,7 +533,7 @@ public Quaternion Rotation</code></pre>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromBounds_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromBounds_UnityEngine_Bounds_UnityEngine_Quaternion_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds(UnityEngine.Bounds,UnityEngine.Quaternion)">FromBounds(Bounds, Quaternion)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromBounds_Bounds_Quaternion_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromBounds(Bounds,Quaternion)">FromBounds(Bounds, Quaternion)</h4>
   <div class="markdown level1 summary"><p>Creates new bounding box form bounds and quaternion rotation</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -627,7 +581,7 @@ public Quaternion Rotation</code></pre>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromMeshFilter_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromMeshFilter_UnityEngine_MeshFilter_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter(UnityEngine.MeshFilter)">FromMeshFilter(MeshFilter)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_FromMeshFilter_MeshFilter_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.FromMeshFilter(MeshFilter)">FromMeshFilter(MeshFilter)</h4>
   <div class="markdown level1 summary"><p>Creates new bounding box from mesh bounding box current transform</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -688,13 +642,13 @@ public Quaternion Rotation</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">Vector3</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <a id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Merge_" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge*"></a>
-  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Merge_System_Collections_Generic_List_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox___" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}@)">Merge(in List&lt;BoundingBox&gt;)</h4>
+  <h4 id="ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_Merge_List_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox___" data-uid="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.Merge(List{ProgLibrary.PrecomputedCulling.DataModels.BoundingBox}@)">Merge(in List&lt;BoundingBox&gt;)</h4>
   <div class="markdown level1 summary"><p>Merge multiple boxes into single box</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -713,7 +667,7 @@ public Quaternion Rotation</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html">BoundingBox</a>&gt;</td>
         <td><span class="parametername">boxes</span></td>
         <td></td>
       </tr>
@@ -758,17 +712,6 @@ public Quaternion Rotation</code></pre>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
-  </div>
-  <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="ProgLibrary.PrecomputedCulling.BoundingBoxExtensions.html#ProgLibrary_PrecomputedCulling_BoundingBoxExtensions_ExpandAA_ProgLibrary_PrecomputedCulling_DataModels_BoundingBox_UnityEngine_Vector3_">BoundingBoxExtensions.ExpandAA(BoundingBox, Vector3)</a>
-  </div>
 </article>
           </div>
 

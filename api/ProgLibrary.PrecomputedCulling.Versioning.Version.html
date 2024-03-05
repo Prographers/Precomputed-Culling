@@ -1,0 +1,1156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Version
+ | Prographers Precomputed Culling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Version
+ | Prographers Precomputed Culling ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MTNQCJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version">
+
+
+  <h1 id="ProgLibrary_PrecomputedCulling_Versioning_Version" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version" class="text-break">Struct Version
+</h1>
+  <div class="markdown level0 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <span class="xref">ProgLibrary</span>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.html">Versioning</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public readonly struct Version</code></pre>
+  </div>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_ProgLibrary_PrecomputedCulling_Versioning_Version_Serializable_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable)">Version(Serializable)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public Version(Version.Serializable serializableVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.html">Serializable</a></td>
+        <td><span class="parametername">serializableVersion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_ProgLibrary_PrecomputedCulling_Versioning_Version_Serializable__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_System_UInt16_System_UInt16_System_UInt16_System_String_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16,System.String)">Version(ushort, ushort, ushort, string)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public Version(ushort major, ushort minor, ushort patch, string extension)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">major</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">minor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">patch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">extension</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_System_UInt16_System_UInt16_System_UInt16_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_System_UInt16_System_UInt16_System_UInt16_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16)">Version(ushort, ushort, ushort)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public Version(ushort major, ushort minor, ushort patch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">major</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">minor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">patch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version__ctor_System_UInt16_System_UInt16_System_UInt16__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h3 id="fields">Fields
+</h3>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Extension" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Extension">Extension</h4>
+  <div class="markdown level1 summary"><p>Only alphanumeric and dash -&gt; Regex: [0-9A-Za-z-]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public readonly string Extension</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Extension_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ExtensionDelimiter" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter">ExtensionDelimiter</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public const char ExtensionDelimiter = &#39;-&#39;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">char</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ExtensionDelimiter_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Major" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Major">Major</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public readonly ushort Major</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Major_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Minor" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Minor">Minor</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public readonly ushort Minor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Minor_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Patch" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Patch">Patch</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public readonly ushort Patch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Patch_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix">Prefix</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public const string Prefix = &quot;v&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_VersionDelimiter" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.VersionDelimiter">VersionDelimiter</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public const char VersionDelimiter = &#39;.&#39;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">char</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_VersionDelimiter_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Zero" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Zero">Zero</h4>
+  <div class="markdown level1 summary"><p>The pre-cached <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a> object representing the zero version, which should be treated the same as
+'default' value of that type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static readonly Version Zero</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Zero_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Zero_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_IsDefault">IsDefault</a></div>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_IsDefault_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_IsDefault" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault">IsDefault</h4>
+  <div class="markdown level1 summary"><p>Indicates, whether this instance contains the default (zero) value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool IsDefault { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_IsDefault_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_CompareTo_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_CompareTo_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo(ProgLibrary.PrecomputedCulling.Versioning.Version)">CompareTo(Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public int CompareTo(Version other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_CompareTo_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_Equals_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Equals*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Equals_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(ProgLibrary.PrecomputedCulling.Versioning.Version)">Equals(Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool Equals(Version other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Equals_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_Equals_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Equals*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Equals_System_Object_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(System.Object)">Equals(object)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(object)</span></div>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_Equals_System_Object__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_GetHashCode_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_GetHashCode" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_GetHashCode_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToSerializable_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToSerializable" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable">ToSerializable()</h4>
+  <div class="markdown level1 summary"><p>Convert this compute ready object to serializable <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.html">Version.Serializable</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public Version.Serializable ToSerializable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.html">Serializable</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToSerializable_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToString_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.ToString*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToString" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Converts <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a> object to a string. That string can be used as a display value or serialized to a
+file. Further, that string can be converted back to <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a> object via <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_TryParse_System_String_ProgLibrary_PrecomputedCulling_Versioning_Version__System_Boolean_">TryParse(string, out Version, bool)</a>
+method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToString_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToStringParam_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToStringParam_System_Boolean_System_Boolean_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam(System.Boolean,System.Boolean)">ToStringParam(bool, bool)</h4>
+  <div class="markdown level1 summary"><p>The same as <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_ToString">ToString()</a> but parameterized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public string ToStringParam(bool includePrefix, bool includeExtension)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">includePrefix</span></td>
+        <td><p>Indicates, whether generated string should contain <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">includeExtension</span></td>
+        <td><p>Indicates, whether generated string should contain <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Extension">Extension</a>, which is
+appended with <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_ExtensionDelimiter">ExtensionDelimiter</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_ToStringParam_System_Boolean_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_TryParse_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_TryParse_System_String_ProgLibrary_PrecomputedCulling_Versioning_Version__System_Boolean_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(System.String,ProgLibrary.PrecomputedCulling.Versioning.Version@,System.Boolean)">TryParse(string, out Version, bool)</h4>
+  <div class="markdown level1 summary"><p>Parse provided <code data-dev-comment-type="paramref" class="paramref">versionString</code> and create the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a> object, if able.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static bool TryParse(string versionString, out Version version, bool hasPrefix = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">versionString</span></td>
+        <td><p>String containing serialized <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a> object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>The <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a> object according to the provided string, non-default only if parsing
+ended successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">hasPrefix</span></td>
+        <td><p>Indicates, whether the provided string contains the predefined <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a>. Set to
+FALSE if it doesn't and to skip prefix checks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>TRUE if parsed successfully, without any errors. FALSE otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_TryParse_System_String_ProgLibrary_PrecomputedCulling_Versioning_Version__System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>TODO - replace the returned bool to a &quot;reason&quot; enum which will explain why parsing failed. Keep overload with bool.</p>
+</div>
+  <h3 id="operators">Operators
+</h3>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_Equality_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_Equality_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)">operator ==(Version, Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static bool operator ==(Version a, Version b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_Equality_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_GreaterThan_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_GreaterThan_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)">operator &gt;(Version, Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static bool operator &gt;(Version a, Version b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_GreaterThan_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_GreaterThanOrEqual_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_GreaterThanOrEqual_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)">operator &gt;=(Version, Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static bool operator &gt;=(Version a, Version b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_GreaterThanOrEqual_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_Inequality_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_Inequality_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)">operator !=(Version, Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static bool operator !=(Version a, Version b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_Inequality_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_LessThan_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_LessThan_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)">operator &lt;(Version, Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static bool operator &lt;(Version a, Version b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_LessThan_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+  <a id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_LessThanOrEqual_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_LessThanOrEqual_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version_" data-uid="ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)">operator &lt;=(Version, Version)</h4>
+  <div class="markdown level1 summary"><p>Defines the immutable object which stores version related data in a way which provides easy comparision and
+conversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or
+&quot;Major.Minor.Patch-Extension&quot;, both with the <a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html#ProgLibrary_PrecomputedCulling_Versioning_Version_Prefix">Prefix</a> at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static bool operator &lt;=(Version a, Version b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProgLibrary.PrecomputedCulling.Versioning.Version.html">Version</a></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProgLibrary_PrecomputedCulling_Versioning_Version_op_LessThanOrEqual_ProgLibrary_PrecomputedCulling_Versioning_Version_ProgLibrary_PrecomputedCulling_Versioning_Version__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Further readings: <a href="https://semver.org/">https://semver.org/</a></p>
+</div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>All rights reserved <a href="https://github.com/Prographers/Precomputed-Culling">Precomputed Culling</a> by <strong><a href="https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar">Prographers</a></strong>.
+            <br> Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

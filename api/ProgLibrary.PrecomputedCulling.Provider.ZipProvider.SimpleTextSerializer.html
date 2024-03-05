@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5MTNQCJ');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SimpleTextSerializer
+ | Prographers Precomputed Culling </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SimpleTextSerializer
+ | Prographers Precomputed Culling ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MTNQCJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer">
+
+
+  <h1 id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer" class="text-break">Class SimpleTextSerializer
+</h1>
+  <div class="markdown level0 summary"><p>Simple text serializer for precomputed data.
+We use it in runtime to serialize and deserialize precomputed data.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">SimpleTextSerializer</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">ProgLibrary</span>.<a class="xref" href="ProgLibrary.PrecomputedCulling.html">PrecomputedCulling</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.Provider.html">Provider</a>.<a class="xref" href="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.html">ZipProvider</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public class SimpleTextSerializer</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <a id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_ClearBuffer_" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.ClearBuffer*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_ClearBuffer" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.ClearBuffer">ClearBuffer()</h4>
+  <div class="markdown level1 summary"><p>Dispose the serializer.
+We need this method to be able to dispose the serializer and reset all the buffers.
+Serializer is still usable after disposing, but you have to call StartDeserialization method first.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void ClearBuffer()</code></pre>
+  </div>
+  <a id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_FinishDeserialization_" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.FinishDeserialization*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_FinishDeserialization" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.FinishDeserialization">FinishDeserialization()</h4>
+  <div class="markdown level1 summary"><p>Finish the deserialization process.
+We need this method to finish the deserialization process and return the deserialized data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public PrecomputedDataVariant FinishDeserialization()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedDataVariant</span></td>
+        <td><p>Deserialized precomputed data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_ProcessData_" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.ProcessData*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_ProcessData_System_String_" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.ProcessData(System.String)">ProcessData(string)</h4>
+  <div class="markdown level1 summary"><p>Process the raw serialized data.
+We need this method to process the raw serialized data and build the precomputed data.
+This method is progressive and we need to call it with chunks of raw data always ending with a line break.
+<remarks>Note that this method works properly only when the data is split by line breaks.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool ProcessData(string data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Raw serialized data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the data was processed successfully</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_Serialize_" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.Serialize*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_Serialize_PrecomputedDataVariant_" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.Serialize(PrecomputedDataVariant)">Serialize(PrecomputedDataVariant)</h4>
+  <div class="markdown level1 summary"><p>Serialize the precomputed data to a string.
+We need it to get the serialized data to save it in a file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public IEnumerable&lt;string&gt; Serialize(PrecomputedDataVariant variant)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PrecomputedDataVariant</span></td>
+        <td><span class="parametername">variant</span></td>
+        <td><p>Variant to serialize</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td><p>Serialized data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_StartDeserialization_" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.StartDeserialization*"></a>
+  <h4 id="ProgLibrary_PrecomputedCulling_Provider_ZipProvider_SimpleTextSerializer_StartDeserialization" data-uid="ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer.StartDeserialization">StartDeserialization()</h4>
+  <div class="markdown level1 summary"><p>Start the deserialization process.
+We need this method to reset all the buffers and start the deserialization process.
+This is necessary as the deserialization process is progressive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void StartDeserialization()</code></pre>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>All rights reserved <a href="https://github.com/Prographers/Precomputed-Culling">Precomputed Culling</a> by <strong><a href="https://prographers.com/?utm_source=github&utm_medium=link&utm_campaign=documentation&utm_content=navbar">Prographers</a></strong>.
+            <br> Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
