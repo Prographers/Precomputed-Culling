@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  id: PrecomputedSceneVariantData
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.#ctor
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.BakeTime
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.IndexVariant
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Name
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Priority
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.ScenesInVariant
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.SizeInMemory
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneVariantData
+  nameWithType: PrecomputedSceneVariantData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  type: Class
+  source:
+    id: PrecomputedSceneVariantData
+    path: ''
+    startLine: 2764
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nVariant information needed for baking and loading data\n"
+  example: []
+  syntax:
+    content: public class PrecomputedSceneVariantData
+    content.vb: Public Class PrecomputedSceneVariantData
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Name
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Name
+  id: Name
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PrecomputedSceneVariantData.Name
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 2770
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nVariant name\n"
+  example: []
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Priority
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Priority
+  id: Priority
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: PrecomputedSceneVariantData.Priority
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.Priority
+  type: Field
+  source:
+    id: Priority
+    path: ''
+    startLine: 2782
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nPriority of use\n"
+  example: []
+  syntax:
+    content: public int Priority
+    return:
+      type: System.Int32
+    content.vb: Public Priority As Integer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.ScenesInVariant
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.ScenesInVariant
+  id: ScenesInVariant
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: ScenesInVariant
+  nameWithType: PrecomputedSceneVariantData.ScenesInVariant
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.ScenesInVariant
+  type: Field
+  source:
+    id: ScenesInVariant
+    path: ''
+    startLine: 2788
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nScenes included in variant, automatically generated during bake\n"
+  example: []
+  syntax:
+    content: public List<string> ScenesInVariant
+    return:
+      type: Global.List{System.String}
+    content.vb: Public ScenesInVariant As List(Of String)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.IndexVariant
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.IndexVariant
+  id: IndexVariant
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: IndexVariant
+  nameWithType: PrecomputedSceneVariantData.IndexVariant
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.IndexVariant
+  type: Field
+  source:
+    id: IndexVariant
+    path: ''
+    startLine: 2794
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nId to bind to data\n"
+  example: []
+  syntax:
+    content: public int IndexVariant
+    return:
+      type: System.Int32
+    content.vb: Public IndexVariant As Integer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.BakeTime
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.BakeTime
+  id: BakeTime
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: BakeTime
+  nameWithType: PrecomputedSceneVariantData.BakeTime
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.BakeTime
+  type: Field
+  source:
+    id: BakeTime
+    path: ''
+    startLine: 2800
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nBake Time in milliseconds\n"
+  example: []
+  syntax:
+    content: public long BakeTime
+    return:
+      type: System.Int64
+    content.vb: Public BakeTime As Long
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.SizeInMemory
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.SizeInMemory
+  id: SizeInMemory
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: SizeInMemory
+  nameWithType: PrecomputedSceneVariantData.SizeInMemory
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.SizeInMemory
+  type: Field
+  source:
+    id: SizeInMemory
+    path: ''
+    startLine: 2806
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nData size in memory in kb\n"
+  example: []
+  syntax:
+    content: public float SizeInMemory
+    return:
+      type: System.Single
+    content.vb: Public SizeInMemory As Single
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.#ctor
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.#ctor
+  id: '#ctor'
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneVariantData()
+  nameWithType: PrecomputedSceneVariantData.PrecomputedSceneVariantData()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.PrecomputedSceneVariantData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2811
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nDefault constructor\n"
+  example: []
+  syntax:
+    content: public PrecomputedSceneVariantData()
+    content.vb: Public Sub New()
+  overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.#ctor*
+  nameWithType.vb: PrecomputedSceneVariantData.New()
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.New()
+  name.vb: New()
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.#ctor
+  name: PrecomputedSceneVariantData
+  nameWithType: PrecomputedSceneVariantData.PrecomputedSceneVariantData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.PrecomputedSceneVariantData
+  nameWithType.vb: PrecomputedSceneVariantData.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.New
+  name.vb: New

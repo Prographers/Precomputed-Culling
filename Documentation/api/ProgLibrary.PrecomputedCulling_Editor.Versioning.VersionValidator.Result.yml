@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  id: VersionValidator.Result
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Available
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Installed
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString
+  langs:
+  - csharp
+  - vb
+  name: VersionValidator.Result
+  nameWithType: VersionValidator.Result
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  type: Class
+  source:
+    id: Result
+    path: ''
+    startLine: 16046
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public class VersionValidator.Result
+    content.vb: Public Class VersionValidator.Result
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Installed
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Installed
+  id: Installed
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  langs:
+  - csharp
+  - vb
+  name: Installed
+  nameWithType: VersionValidator.Result.Installed
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Installed
+  type: Field
+  source:
+    id: Installed
+    path: ''
+    startLine: 16051
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nThe currently installed version.\n"
+  example: []
+  syntax:
+    content: public Version Installed
+    return:
+      type: Global.Version
+    content.vb: Public Installed As Version
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Available
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Available
+  id: Available
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  langs:
+  - csharp
+  - vb
+  name: Available
+  nameWithType: VersionValidator.Result.Available
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Available
+  type: Field
+  source:
+    id: Available
+    path: ''
+    startLine: 16056
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nThe currently available version to obtain.\n"
+  example: []
+  syntax:
+    content: public Version Available
+    return:
+      type: Global.Version
+    content.vb: Public Available As Version
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate
+  commentId: P:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate
+  id: IsUpToDate
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  langs:
+  - csharp
+  - vb
+  name: IsUpToDate
+  nameWithType: VersionValidator.Result.IsUpToDate
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate
+  type: Property
+  source:
+    id: IsUpToDate
+    path: ''
+    startLine: 16063
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nIndicates, whether the currently installed version is up to date. TRUE if is up to date, FALSE if not and then\nthere is a newer version awaiting, or NULL if couldn&apos;t tell because the <xref href=\"ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Available\" data-throw-if-not-resolved=\"false\"></xref> version is\nincorrect.\n"
+  example: []
+  syntax:
+    content: public bool? IsUpToDate { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public ReadOnly Property IsUpToDate As Boolean?
+  overload: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate*
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString
+  id: ToString
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: VersionValidator.Result.ToString()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 16067
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Versioning
+  name: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+    name: Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Version
+  isExternal: true
+  name: Version
+  nameWithType: Version
+  fullName: Version
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Available
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.Available
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate
+  name: IsUpToDate
+  nameWithType: VersionValidator.Result.IsUpToDate
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.IsUpToDate
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString
+  name: ToString
+  nameWithType: VersionValidator.Result.ToString
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

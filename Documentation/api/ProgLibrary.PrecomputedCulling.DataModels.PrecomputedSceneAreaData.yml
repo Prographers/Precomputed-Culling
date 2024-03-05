@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  id: PrecomputedSceneAreaData
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.AreasIndex
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.VariantId
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneAreaData
+  nameWithType: PrecomputedSceneAreaData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  type: Class
+  source:
+    id: PrecomputedSceneAreaData
+    path: ''
+    startLine: 2710
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nVariance data to be correlated with the scene\n"
+  example: []
+  syntax:
+    content: public class PrecomputedSceneAreaData
+    content.vb: Public Class PrecomputedSceneAreaData
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.VariantId
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.VariantId
+  id: VariantId
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  langs:
+  - csharp
+  - vb
+  name: VariantId
+  nameWithType: PrecomputedSceneAreaData.VariantId
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.VariantId
+  type: Field
+  source:
+    id: VariantId
+    path: ''
+    startLine: 2716
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nVariant index  <xref href=\"ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.IndexVariant\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public int VariantId
+    return:
+      type: System.Int32
+    content.vb: Public VariantId As Integer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.AreasIndex
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.AreasIndex
+  id: AreasIndex
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+  langs:
+  - csharp
+  - vb
+  name: AreasIndex
+  nameWithType: PrecomputedSceneAreaData.AreasIndex
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData.AreasIndex
+  type: Field
+  source:
+    id: AreasIndex
+    path: ''
+    startLine: 2721
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nList of area bindings to data\n"
+  example: []
+  syntax:
+    content: public List<AreaDataIndex> AreasIndex
+    return:
+      type: Global.List{ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex}
+    content.vb: Public AreasIndex As List(Of AreaDataIndex)
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.IndexVariant
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.IndexVariant
+  isExternal: true
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.List{ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex}
+  commentId: '!:Global.List{ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex}'
+  definition: Global.List`1
+  name: List<AreaDataIndex>
+  nameWithType: List<AreaDataIndex>
+  fullName: List<ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex>
+  nameWithType.vb: List(Of AreaDataIndex)
+  fullName.vb: List(Of ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex)
+  name.vb: List(Of AreaDataIndex)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+    name: AreaDataIndex
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+    name: AreaDataIndex
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

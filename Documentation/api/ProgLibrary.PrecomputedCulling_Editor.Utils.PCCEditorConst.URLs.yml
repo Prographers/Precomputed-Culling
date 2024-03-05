@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  id: PCCEditorConst.URLs
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.AssetStore
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.DiscordChannel
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.GitHubReadme
+  langs:
+  - csharp
+  - vb
+  name: PCCEditorConst.URLs
+  nameWithType: PCCEditorConst.URLs
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  type: Class
+  source:
+    id: URLs
+    path: ''
+    startLine: 15694
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  syntax:
+    content: public static class PCCEditorConst.URLs
+    content.vb: Public Module PCCEditorConst.URLs
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.AssetStore
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.AssetStore
+  id: AssetStore
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  langs:
+  - csharp
+  - vb
+  name: AssetStore
+  nameWithType: PCCEditorConst.URLs.AssetStore
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.AssetStore
+  type: Field
+  source:
+    id: AssetStore
+    path: ''
+    startLine: 15696
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  syntax:
+    content: public const string AssetStore = "https://assetstore.unity.com/packages/tools/utilities/precomputed-culling-221372"
+    return:
+      type: System.String
+    content.vb: Public Const AssetStore As String = "https://assetstore.unity.com/packages/tools/utilities/precomputed-culling-221372"
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.DiscordChannel
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.DiscordChannel
+  id: DiscordChannel
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  langs:
+  - csharp
+  - vb
+  name: DiscordChannel
+  nameWithType: PCCEditorConst.URLs.DiscordChannel
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.DiscordChannel
+  type: Field
+  source:
+    id: DiscordChannel
+    path: ''
+    startLine: 15697
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  syntax:
+    content: public const string DiscordChannel = "https://discord.gg/55gM3s3pdR"
+    return:
+      type: System.String
+    content.vb: Public Const DiscordChannel As String = "https://discord.gg/55gM3s3pdR"
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.GitHubReadme
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.GitHubReadme
+  id: GitHubReadme
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  langs:
+  - csharp
+  - vb
+  name: GitHubReadme
+  nameWithType: PCCEditorConst.URLs.GitHubReadme
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs.GitHubReadme
+  type: Field
+  source:
+    id: GitHubReadme
+    path: ''
+    startLine: 15698
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  syntax:
+    content: public const string GitHubReadme = "https://github.com/Prographers/Precomputed-Culling/blob/main/README.md"
+    return:
+      type: System.String
+    content.vb: Public Const GitHubReadme As String = "https://github.com/Prographers/Precomputed-Culling/blob/main/README.md"
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Utils
+  name: ProgLibrary.PrecomputedCulling_Editor.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Utils
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+    name: Utils
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+    name: Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

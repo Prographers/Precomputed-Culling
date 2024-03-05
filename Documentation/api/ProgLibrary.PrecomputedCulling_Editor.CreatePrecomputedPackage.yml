@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CreatePrecomputedPackage
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CreatePrecomputedPackage
+  id: CreatePrecomputedPackage
+  parent: ProgLibrary.PrecomputedCulling_Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CreatePrecomputedPackage
+  nameWithType: CreatePrecomputedPackage
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CreatePrecomputedPackage
+  type: Class
+  source:
+    id: CreatePrecomputedPackage
+    path: ''
+    startLine: 8660
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor
+  summary: "\nClass to export Precomputed unitypackage\n"
+  example: []
+  syntax:
+    content: public static class CreatePrecomputedPackage
+    content.vb: Public Module CreatePrecomputedPackage
+  inheritance:
+  - System.Object
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor
+  name: ProgLibrary.PrecomputedCulling_Editor
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor
+  fullName: ProgLibrary.PrecomputedCulling_Editor
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

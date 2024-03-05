@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  id: CommonBakeHelper
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper
+  children:
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor(System.String,CustomOcclusionScriptableRenderer,PrecomputedTerrainBakeController,PrecomputedSpriteBakeController,ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper,IBakeProgress)
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup(System.Int32,GameObject)
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData(Scene,PrecomputedArea,List{PrecomputedChunkData})
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites(PrecomputedArea)
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain(PrecomputedArea)
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32)
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32,CoroutineState)
+  langs:
+  - csharp
+  - vb
+  name: CommonBakeHelper
+  nameWithType: CommonBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  type: Class
+  source:
+    id: CommonBakeHelper
+    path: ''
+    startLine: 1515
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nThis class is used for the shared methods between different bake processes.\n<see cref=\"!:RuntimeBakeProcess\"></see>\n<see cref=\"!:PrecomputedBakeProcess\"></see>\n"
+  example: []
+  syntax:
+    content: public class CommonBakeHelper
+    content.vb: Public Class CommonBakeHelper
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor(System.String,CustomOcclusionScriptableRenderer,PrecomputedTerrainBakeController,PrecomputedSpriteBakeController,ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper,IBakeProgress)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor(System.String,CustomOcclusionScriptableRenderer,PrecomputedTerrainBakeController,PrecomputedSpriteBakeController,ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper,IBakeProgress)
+  id: '#ctor(System.String,CustomOcclusionScriptableRenderer,PrecomputedTerrainBakeController,PrecomputedSpriteBakeController,ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper,IBakeProgress)'
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: CommonBakeHelper(string, CustomOcclusionScriptableRenderer, PrecomputedTerrainBakeController, PrecomputedSpriteBakeController, BaseBakeHelper, IBakeProgress)
+  nameWithType: CommonBakeHelper.CommonBakeHelper(string, CustomOcclusionScriptableRenderer, PrecomputedTerrainBakeController, PrecomputedSpriteBakeController, BaseBakeHelper, IBakeProgress)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.CommonBakeHelper(string, CustomOcclusionScriptableRenderer, PrecomputedTerrainBakeController, PrecomputedSpriteBakeController, ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper, IBakeProgress)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1555
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nBasic constructor for assigning the required references.\n"
+  example: []
+  syntax:
+    content: public CommonBakeHelper(string progressBarName, CustomOcclusionScriptableRenderer occlusionScriptableRenderer, PrecomputedTerrainBakeController precomputedTerrainBakeController, PrecomputedSpriteBakeController precomputedSpriteBakeController, BaseBakeHelper customBakeHelper, IBakeProgress bakeProgress)
+    parameters:
+    - id: progressBarName
+      type: System.String
+    - id: occlusionScriptableRenderer
+      type: Global.CustomOcclusionScriptableRenderer
+    - id: precomputedTerrainBakeController
+      type: Global.PrecomputedTerrainBakeController
+    - id: precomputedSpriteBakeController
+      type: Global.PrecomputedSpriteBakeController
+    - id: customBakeHelper
+      type: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+    - id: bakeProgress
+      type: Global.IBakeProgress
+    content.vb: Public Sub New(progressBarName As String, occlusionScriptableRenderer As CustomOcclusionScriptableRenderer, precomputedTerrainBakeController As PrecomputedTerrainBakeController, precomputedSpriteBakeController As PrecomputedSpriteBakeController, customBakeHelper As BaseBakeHelper, bakeProgress As IBakeProgress)
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor*
+  nameWithType.vb: CommonBakeHelper.New(String, CustomOcclusionScriptableRenderer, PrecomputedTerrainBakeController, PrecomputedSpriteBakeController, BaseBakeHelper, IBakeProgress)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.New(String, CustomOcclusionScriptableRenderer, PrecomputedTerrainBakeController, PrecomputedSpriteBakeController, ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper, IBakeProgress)
+  name.vb: New(String, CustomOcclusionScriptableRenderer, PrecomputedTerrainBakeController, PrecomputedSpriteBakeController, BaseBakeHelper, IBakeProgress)
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup(System.Int32,GameObject)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup(System.Int32,GameObject)
+  id: Cleanup(System.Int32,GameObject)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: Cleanup(int, GameObject)
+  nameWithType: CommonBakeHelper.Cleanup(int, GameObject)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup(int, GameObject)
+  type: Method
+  source:
+    id: Cleanup
+    path: ''
+    startLine: 1571
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nCleanup occlusion baking process and cleanup the whole process\n"
+  example: []
+  syntax:
+    content: public void Cleanup(int rendererIndex, GameObject cameraObject)
+    parameters:
+    - id: rendererIndex
+      type: System.Int32
+    - id: cameraObject
+      type: Global.GameObject
+    content.vb: Public Sub Cleanup(rendererIndex As Integer, cameraObject As GameObject)
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup*
+  nameWithType.vb: CommonBakeHelper.Cleanup(Integer, GameObject)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup(Integer, GameObject)
+  name.vb: Cleanup(Integer, GameObject)
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites(PrecomputedArea)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites(PrecomputedArea)
+  id: ProcessSprites(PrecomputedArea)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: ProcessSprites(PrecomputedArea)
+  nameWithType: CommonBakeHelper.ProcessSprites(PrecomputedArea)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites(PrecomputedArea)
+  type: Method
+  source:
+    id: ProcessSprites
+    path: ''
+    startLine: 1596
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nProcess sprites for the occlusion area.\n"
+  example: []
+  syntax:
+    content: public PrecomputedSpriteBakeController ProcessSprites(PrecomputedArea occlusionArea)
+    parameters:
+    - id: occlusionArea
+      type: Global.PrecomputedArea
+      description: Occlusion area to be processed
+    return:
+      type: Global.PrecomputedSpriteBakeController
+      description: Updated precomputed sprite bake controller
+    content.vb: Public Function ProcessSprites(occlusionArea As PrecomputedArea) As PrecomputedSpriteBakeController
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites*
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain(PrecomputedArea)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain(PrecomputedArea)
+  id: ProcessTerrain(PrecomputedArea)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: ProcessTerrain(PrecomputedArea)
+  nameWithType: CommonBakeHelper.ProcessTerrain(PrecomputedArea)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain(PrecomputedArea)
+  type: Method
+  source:
+    id: ProcessTerrain
+    path: ''
+    startLine: 1612
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nProcess terrain for the occlusion area.\n"
+  example: []
+  syntax:
+    content: public PrecomputedTerrainBakeController ProcessTerrain(PrecomputedArea occlusionArea)
+    parameters:
+    - id: occlusionArea
+      type: Global.PrecomputedArea
+      description: Occlusion area to be processed
+    return:
+      type: Global.PrecomputedTerrainBakeController
+      description: Updated precomputed terrain bake controller
+    content.vb: Public Function ProcessTerrain(occlusionArea As PrecomputedArea) As PrecomputedTerrainBakeController
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain*
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData(Scene,PrecomputedArea,List{PrecomputedChunkData})
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData(Scene,PrecomputedArea,List{PrecomputedChunkData})
+  id: InstantiateChunkData(Scene,PrecomputedArea,List{PrecomputedChunkData})
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: InstantiateChunkData(Scene, PrecomputedArea, List<PrecomputedChunkData>)
+  nameWithType: CommonBakeHelper.InstantiateChunkData(Scene, PrecomputedArea, List<PrecomputedChunkData>)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData(Scene, PrecomputedArea, List<PrecomputedChunkData>)
+  type: Method
+  source:
+    id: InstantiateChunkData
+    path: ''
+    startLine: 1631
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nInstantiate chunk data for the occlusion area.\nWe use this method to create a new chunk data scriptable object for the occlusion area.\n"
+  example: []
+  syntax:
+    content: public PrecomputedChunkData InstantiateChunkData(Scene scene, PrecomputedArea occlusionArea, List<PrecomputedChunkData> sceneChunkData)
+    parameters:
+    - id: scene
+      type: Global.Scene
+      description: Scene on which the occlusion area is located
+    - id: occlusionArea
+      type: Global.PrecomputedArea
+      description: Occlusion area to be processed
+    - id: sceneChunkData
+      type: Global.List{PrecomputedChunkData}
+      description: List of chunk data for the scene
+    return:
+      type: Global.PrecomputedChunkData
+      description: Instantiated chunk data
+    content.vb: Public Function InstantiateChunkData(scene As Scene, occlusionArea As PrecomputedArea, sceneChunkData As List(Of PrecomputedChunkData)) As PrecomputedChunkData
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData*
+  nameWithType.vb: CommonBakeHelper.InstantiateChunkData(Scene, PrecomputedArea, List(Of PrecomputedChunkData))
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData(Scene, PrecomputedArea, List(Of PrecomputedChunkData))
+  name.vb: InstantiateChunkData(Scene, PrecomputedArea, List(Of PrecomputedChunkData))
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32)
+  id: ValidateCells(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: ValidateCells(PrecomputedArea, IVisibilityTester, List<PrecomputedChunkData>, int)
+  nameWithType: CommonBakeHelper.ValidateCells(PrecomputedArea, IVisibilityTester, List<PrecomputedChunkData>, int)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells(PrecomputedArea, IVisibilityTester, List<PrecomputedChunkData>, int)
+  type: Method
+  source:
+    id: ValidateCells
+    path: ''
+    startLine: 1651
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nUsed to traverse through the occlusion area cells and test their visibility.\n"
+  example: []
+  syntax:
+    content: public bool ValidateCells(PrecomputedArea occlusionArea, IVisibilityTester visibilityTester, List<PrecomputedChunkData> sceneChunkData, int rendererIndex)
+    parameters:
+    - id: occlusionArea
+      type: Global.PrecomputedArea
+      description: Occlusion area to be processed
+    - id: visibilityTester
+      type: Global.IVisibilityTester
+      description: Visibility tester to be used
+    - id: sceneChunkData
+      type: Global.List{PrecomputedChunkData}
+      description: List of chunk data for the scene
+    - id: rendererIndex
+      type: System.Int32
+      description: Index of the renderer
+    return:
+      type: System.Boolean
+      description: True if the cells are valid, false otherwise
+    content.vb: Public Function ValidateCells(occlusionArea As PrecomputedArea, visibilityTester As IVisibilityTester, sceneChunkData As List(Of PrecomputedChunkData), rendererIndex As Integer) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells*
+  nameWithType.vb: CommonBakeHelper.ValidateCells(PrecomputedArea, IVisibilityTester, List(Of PrecomputedChunkData), Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells(PrecomputedArea, IVisibilityTester, List(Of PrecomputedChunkData), Integer)
+  name.vb: ValidateCells(PrecomputedArea, IVisibilityTester, List(Of PrecomputedChunkData), Integer)
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32,CoroutineState)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32,CoroutineState)
+  id: ValidateCellsCoroutine(PrecomputedArea,IVisibilityTester,List{PrecomputedChunkData},System.Int32,CoroutineState)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: ValidateCellsCoroutine(PrecomputedArea, IVisibilityTester, List<PrecomputedChunkData>, int, CoroutineState)
+  nameWithType: CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea, IVisibilityTester, List<PrecomputedChunkData>, int, CoroutineState)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea, IVisibilityTester, List<PrecomputedChunkData>, int, CoroutineState)
+  type: Method
+  source:
+    id: ValidateCellsCoroutine
+    path: ''
+    startLine: 1698
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nUsed to traverse through the occlusion area cells and test their visibility.\nNote that this version of the method is a coroutine. It might be a bit slower, but it doesn&apos;t block the main thread.\n"
+  example: []
+  syntax:
+    content: public IEnumerator ValidateCellsCoroutine(PrecomputedArea occlusionArea, IVisibilityTester visibilityTester, List<PrecomputedChunkData> sceneChunkData, int rendererIndex, CoroutineState state)
+    parameters:
+    - id: occlusionArea
+      type: Global.PrecomputedArea
+      description: Occlusion area to be processed
+    - id: visibilityTester
+      type: Global.IVisibilityTester
+      description: Visibility tester to be used
+    - id: sceneChunkData
+      type: Global.List{PrecomputedChunkData}
+      description: List of chunk data for the scene
+    - id: rendererIndex
+      type: System.Int32
+      description: Index of the renderer
+    - id: state
+      type: Global.CoroutineState
+      description: State of the coroutine
+    return:
+      type: Global.IEnumerator
+      description: True if the cells are valid, false otherwise
+    content.vb: Public Function ValidateCellsCoroutine(occlusionArea As PrecomputedArea, visibilityTester As IVisibilityTester, sceneChunkData As List(Of PrecomputedChunkData), rendererIndex As Integer, state As CoroutineState) As IEnumerator
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine*
+  nameWithType.vb: CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea, IVisibilityTester, List(Of PrecomputedChunkData), Integer, CoroutineState)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine(PrecomputedArea, IVisibilityTester, List(Of PrecomputedChunkData), Integer, CoroutineState)
+  name.vb: ValidateCellsCoroutine(PrecomputedArea, IVisibilityTester, List(Of PrecomputedChunkData), Integer, CoroutineState)
+references:
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper
+  commentId: N:ProgLibrary.PrecomputedCulling.BakeHelper
+  name: ProgLibrary.PrecomputedCulling.BakeHelper
+  nameWithType: ProgLibrary.PrecomputedCulling.BakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper
+    name: BakeHelper
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper
+    name: BakeHelper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.#ctor
+  name: CommonBakeHelper
+  nameWithType: CommonBakeHelper.CommonBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.CommonBakeHelper
+  nameWithType.vb: CommonBakeHelper.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.CustomOcclusionScriptableRenderer
+  isExternal: true
+  name: CustomOcclusionScriptableRenderer
+  nameWithType: CustomOcclusionScriptableRenderer
+  fullName: CustomOcclusionScriptableRenderer
+- uid: Global.PrecomputedTerrainBakeController
+  isExternal: true
+  name: PrecomputedTerrainBakeController
+  nameWithType: PrecomputedTerrainBakeController
+  fullName: PrecomputedTerrainBakeController
+- uid: Global.PrecomputedSpriteBakeController
+  isExternal: true
+  name: PrecomputedSpriteBakeController
+  nameWithType: PrecomputedSpriteBakeController
+  fullName: PrecomputedSpriteBakeController
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper
+  name: BaseBakeHelper
+  nameWithType: BaseBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+- uid: Global.IBakeProgress
+  isExternal: true
+  name: IBakeProgress
+  nameWithType: IBakeProgress
+  fullName: IBakeProgress
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup
+  name: Cleanup
+  nameWithType: CommonBakeHelper.Cleanup
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.Cleanup
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites
+  name: ProcessSprites
+  nameWithType: CommonBakeHelper.ProcessSprites
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessSprites
+- uid: Global.PrecomputedArea
+  isExternal: true
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: PrecomputedArea
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain
+  name: ProcessTerrain
+  nameWithType: CommonBakeHelper.ProcessTerrain
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ProcessTerrain
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData
+  name: InstantiateChunkData
+  nameWithType: CommonBakeHelper.InstantiateChunkData
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.InstantiateChunkData
+- uid: Global.Scene
+  isExternal: true
+  name: Scene
+  nameWithType: Scene
+  fullName: Scene
+- uid: Global.List{PrecomputedChunkData}
+  commentId: '!:Global.List{PrecomputedChunkData}'
+  definition: Global.List`1
+  name: List<PrecomputedChunkData>
+  nameWithType: List<PrecomputedChunkData>
+  fullName: List<PrecomputedChunkData>
+  nameWithType.vb: List(Of PrecomputedChunkData)
+  fullName.vb: List(Of PrecomputedChunkData)
+  name.vb: List(Of PrecomputedChunkData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedChunkData
+    name: PrecomputedChunkData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedChunkData
+    name: PrecomputedChunkData
+    isExternal: true
+  - name: )
+- uid: Global.PrecomputedChunkData
+  commentId: '!:Global.PrecomputedChunkData'
+  isExternal: true
+  name: PrecomputedChunkData
+  nameWithType: PrecomputedChunkData
+  fullName: PrecomputedChunkData
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells
+  name: ValidateCells
+  nameWithType: CommonBakeHelper.ValidateCells
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCells
+- uid: Global.IVisibilityTester
+  isExternal: true
+  name: IVisibilityTester
+  nameWithType: IVisibilityTester
+  fullName: IVisibilityTester
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine
+  name: ValidateCellsCoroutine
+  nameWithType: CommonBakeHelper.ValidateCellsCoroutine
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper.ValidateCellsCoroutine
+- uid: Global.CoroutineState
+  commentId: '!:Global.CoroutineState'
+  isExternal: true
+  name: CoroutineState
+  nameWithType: CoroutineState
+  fullName: CoroutineState
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator

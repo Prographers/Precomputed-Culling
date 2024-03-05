@@ -13,11 +13,10 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay
   type: Namespace
   assemblies:
-  - PrecomputedCulling_TestsPlay
+  - cs.temp.dll
 references:
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests
-  href: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests.html
   name: CameraVisibleTests
   nameWithType: CameraVisibleTests
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests

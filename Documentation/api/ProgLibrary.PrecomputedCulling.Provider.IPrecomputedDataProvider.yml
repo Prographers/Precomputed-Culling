@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  id: IPrecomputedDataProvider
+  parent: ProgLibrary.PrecomputedCulling.Provider
+  children:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IPrecomputedDataProvider
+  nameWithType: IPrecomputedDataProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  type: Interface
+  source:
+    id: IPrecomputedDataProvider
+    path: ''
+    startLine: 6157
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nData provider is a way to bundle your occlusion data into game or application.\n"
+  example: []
+  syntax:
+    content: public interface IPrecomputedDataProvider
+    content.vb: Public Interface IPrecomputedDataProvider
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  id: GenerateData
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  langs:
+  - csharp
+  - vb
+  name: GenerateData()
+  nameWithType: IPrecomputedDataProvider.GenerateData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData()
+  type: Method
+  source:
+    id: GenerateData
+    path: ''
+    startLine: 6176
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nProcessing of the baked data\n"
+  example: []
+  syntax:
+    content: void GenerateData()
+    content.vb: Sub GenerateData()
+  overload: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData*
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  id: GenerateData(PrecomputedDataVariant)
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  langs:
+  - csharp
+  - vb
+  name: GenerateData(PrecomputedDataVariant)
+  nameWithType: IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  type: Method
+  source:
+    id: GenerateData
+    path: ''
+    startLine: 6182
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nSave specific variant\n"
+  example: []
+  syntax:
+    content: void GenerateData(PrecomputedDataVariant variant)
+    parameters:
+    - id: variant
+      type: Global.PrecomputedDataVariant
+      description: Variant to be saved
+    content.vb: Sub GenerateData([variant] As PrecomputedDataVariant)
+  overload: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData*
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  id: LoadData(System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadData(int)
+  nameWithType: IPrecomputedDataProvider.LoadData(int)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(int)
+  type: Method
+  source:
+    id: LoadData
+    path: ''
+    startLine: 6189
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nLoad variant to scenes. Load proper <see cref=\"!:PrecomputedData\"></see> to <see cref=\"!:PrecomputedArea\"></see>\n"
+  example: []
+  syntax:
+    content: PrecomputedDataVariant LoadData(int variantIndex)
+    parameters:
+    - id: variantIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: Global.PrecomputedDataVariant
+      description: ''
+    content.vb: Function LoadData(variantIndex As Integer) As PrecomputedDataVariant
+  overload: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData*
+  nameWithType.vb: IPrecomputedDataProvider.LoadData(Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(Integer)
+  name.vb: LoadData(Integer)
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  id: LoadAllData
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadAllData()
+  nameWithType: IPrecomputedDataProvider.LoadAllData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData()
+  type: Method
+  source:
+    id: LoadAllData
+    path: ''
+    startLine: 6195
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nLoads all the precomputed data\n"
+  example: []
+  syntax:
+    content: List<PrecomputedDataVariant> LoadAllData()
+    return:
+      type: Global.List{PrecomputedDataVariant}
+      description: ''
+    content.vb: Function LoadAllData() As List(Of PrecomputedDataVariant)
+  overload: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Provider
+  commentId: N:ProgLibrary.PrecomputedCulling.Provider
+  name: ProgLibrary.PrecomputedCulling.Provider
+  nameWithType: ProgLibrary.PrecomputedCulling.Provider
+  fullName: ProgLibrary.PrecomputedCulling.Provider
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  name: GenerateData
+  nameWithType: IPrecomputedDataProvider.GenerateData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+- uid: Global.PrecomputedDataVariant
+  isExternal: true
+  name: PrecomputedDataVariant
+  nameWithType: PrecomputedDataVariant
+  fullName: PrecomputedDataVariant
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData
+  name: LoadData
+  nameWithType: IPrecomputedDataProvider.LoadData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  name: LoadAllData
+  nameWithType: IPrecomputedDataProvider.LoadAllData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+- uid: Global.List{PrecomputedDataVariant}
+  commentId: '!:Global.List{PrecomputedDataVariant}'
+  definition: Global.List`1
+  name: List<PrecomputedDataVariant>
+  nameWithType: List<PrecomputedDataVariant>
+  fullName: List<PrecomputedDataVariant>
+  nameWithType.vb: List(Of PrecomputedDataVariant)
+  fullName.vb: List(Of PrecomputedDataVariant)
+  name.vb: List(Of PrecomputedDataVariant)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

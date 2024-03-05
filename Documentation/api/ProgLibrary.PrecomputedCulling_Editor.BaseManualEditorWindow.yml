@@ -8,7 +8,7 @@ items:
   - ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnDestroy
   - ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnEnable
   - ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnFocus
-  - ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+  - ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(SceneView,Event)
   langs:
   - csharp
   - vb
@@ -18,10 +18,10 @@ items:
   type: Class
   source:
     id: BaseManualEditorWindow
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\BaseManualEditorWindow.cs
-    startLine: 5
+    path: ''
+    startLine: 8619
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
   syntax:
     content: 'public abstract class BaseManualEditorWindow : IManualEditorWindow'
@@ -32,14 +32,6 @@ items:
   - ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool
   implements:
   - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
 - uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnEnable
   commentId: M:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnEnable
   id: OnEnable
@@ -53,12 +45,12 @@ items:
   type: Method
   source:
     id: OnEnable
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\BaseManualEditorWindow.cs
-    startLine: 8
+    path: ''
+    startLine: 8622
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On editor window enable
+  summary: "\nOn editor window enable\n"
   example: []
   syntax:
     content: public virtual void OnEnable()
@@ -79,12 +71,12 @@ items:
   type: Method
   source:
     id: OnDestroy
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\BaseManualEditorWindow.cs
-    startLine: 13
+    path: ''
+    startLine: 8627
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On editor window destroyed
+  summary: "\nOn editor window destroyed\n"
   example: []
   syntax:
     content: public virtual void OnDestroy()
@@ -105,12 +97,12 @@ items:
   type: Method
   source:
     id: OnFocus
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\BaseManualEditorWindow.cs
-    startLine: 18
+    path: ''
+    startLine: 8632
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On editor window focused
+  summary: "\nOn editor window focused\n"
   example: []
   syntax:
     content: public virtual void OnFocus()
@@ -118,65 +110,59 @@ items:
   overload: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnFocus*
   implements:
   - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
-- uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
-  commentId: M:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
-  id: OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+- uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(SceneView,Event)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(SceneView,Event)
+  id: OnSceneGUI(SceneView,Event)
   parent: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow
   langs:
   - csharp
   - vb
   name: OnSceneGUI(SceneView, Event)
   nameWithType: BaseManualEditorWindow.OnSceneGUI(SceneView, Event)
-  fullName: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(UnityEditor.SceneView, UnityEngine.Event)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(SceneView, Event)
   type: Method
   source:
     id: OnSceneGUI
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\BaseManualEditorWindow.cs
-    startLine: 23
+    path: ''
+    startLine: 8637
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On scene GUI
+  summary: "\nOn scene GUI\n"
   example: []
   syntax:
     content: public virtual void OnSceneGUI(SceneView sceneView, Event current)
     parameters:
     - id: sceneView
-      type: UnityEditor.SceneView
+      type: Global.SceneView
     - id: current
-      type: UnityEngine.Event
+      type: Global.Event
     content.vb: Public Overridable Sub OnSceneGUI(sceneView As SceneView, current As [Event])
   overload: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI*
   implements:
-  - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+  - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
 references:
 - uid: ProgLibrary.PrecomputedCulling_Editor
   commentId: N:ProgLibrary.PrecomputedCulling_Editor
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling_Editor
   nameWithType: ProgLibrary.PrecomputedCulling_Editor
   fullName: ProgLibrary.PrecomputedCulling_Editor
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor
     name: PrecomputedCulling_Editor
-    href: ProgLibrary.PrecomputedCulling_Editor.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor
     name: PrecomputedCulling_Editor
-    href: ProgLibrary.PrecomputedCulling_Editor.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -186,376 +172,123 @@ references:
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
   commentId: T:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
   parent: ProgLibrary.PrecomputedCulling_Editor
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html
   name: IManualEditorWindow
   nameWithType: IManualEditorWindow
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnEnable*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnEnable
-  href: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnEnable
   name: OnEnable
   nameWithType: BaseManualEditorWindow.OnEnable
   fullName: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnEnable
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
   commentId: M:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
   parent: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
   name: OnEnable()
   nameWithType: IManualEditorWindow.OnEnable()
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable()
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
     name: OnEnable
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
   - name: (
   - name: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
     name: OnEnable
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
   - name: (
   - name: )
 - uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnDestroy*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnDestroy
-  href: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnDestroy
   name: OnDestroy
   nameWithType: BaseManualEditorWindow.OnDestroy
   fullName: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnDestroy
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
   commentId: M:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
   parent: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
   name: OnDestroy()
   nameWithType: IManualEditorWindow.OnDestroy()
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy()
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
     name: OnDestroy
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
   - name: (
   - name: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
     name: OnDestroy
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
   - name: (
   - name: )
 - uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnFocus*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnFocus
-  href: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnFocus
   name: OnFocus
   nameWithType: BaseManualEditorWindow.OnFocus
   fullName: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnFocus
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
   commentId: M:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
   parent: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
   name: OnFocus()
   nameWithType: IManualEditorWindow.OnFocus()
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus()
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
     name: OnFocus
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
   - name: (
   - name: )
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
     name: OnFocus
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
   - name: (
   - name: )
 - uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI
-  href: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
   name: OnSceneGUI
   nameWithType: BaseManualEditorWindow.OnSceneGUI
   fullName: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow.OnSceneGUI
-- uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
-  commentId: M:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+- uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
   parent: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
   isExternal: true
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
   name: OnSceneGUI(SceneView, Event)
   nameWithType: IManualEditorWindow.OnSceneGUI(SceneView, Event)
-  fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView, UnityEngine.Event)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView, Event)
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+  - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
     name: OnSceneGUI
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
   - name: (
-  - uid: UnityEditor.SceneView
+  - uid: Global.SceneView
     name: SceneView
     isExternal: true
   - name: ','
   - name: " "
-  - uid: UnityEngine.Event
+  - uid: Global.Event
     name: Event
     isExternal: true
   - name: )
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+  - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
     name: OnSceneGUI
-    href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
   - name: (
-  - uid: UnityEditor.SceneView
+  - uid: Global.SceneView
     name: SceneView
     isExternal: true
   - name: ','
   - name: " "
-  - uid: UnityEngine.Event
+  - uid: Global.Event
     name: Event
     isExternal: true
   - name: )
-- uid: UnityEditor.SceneView
-  commentId: T:UnityEditor.SceneView
-  parent: UnityEditor
+- uid: Global.SceneView
   isExternal: true
   name: SceneView
   nameWithType: SceneView
-  fullName: UnityEditor.SceneView
-- uid: UnityEngine.Event
-  commentId: T:UnityEngine.Event
-  parent: UnityEngine
+  fullName: SceneView
+- uid: Global.Event
   isExternal: true
   name: Event
   nameWithType: Event
-  fullName: UnityEngine.Event
-- uid: UnityEditor
-  commentId: N:UnityEditor
-  isExternal: true
-  name: UnityEditor
-  nameWithType: UnityEditor
-  fullName: UnityEditor
-- uid: UnityEngine
-  commentId: N:UnityEngine
-  isExternal: true
-  name: UnityEngine
-  nameWithType: UnityEngine
-  fullName: UnityEngine
+  fullName: Event

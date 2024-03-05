@@ -4,10 +4,15 @@ items:
   commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
   id: ProgLibrary.PrecomputedCulling.MonoBehaviours
   children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
   - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
   - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
   - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
   - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
   langs:
   - csharp
   - vb
@@ -16,17 +21,15 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
   type: Namespace
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
 references:
-- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
-  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
-  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId.html
-  name: PrecomputedCullingRendererId
-  nameWithType: PrecomputedCullingRendererId
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+  name: FrustumCulling
+  nameWithType: FrustumCulling
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
   commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
-  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester-1.html
   name: IVisibilityTester<TSettings>
   nameWithType: IVisibilityTester<TSettings>
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>
@@ -36,14 +39,12 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
     name: IVisibilityTester
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester-1.html
   - name: <
   - name: TSettings
   - name: '>'
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
     name: IVisibilityTester
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester-1.html
   - name: (
   - name: Of
   - name: " "
@@ -51,44 +52,63 @@ references:
   - name: )
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
   commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
-  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester.html
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
   name: IVisibilityTester
   nameWithType: IVisibilityTester
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PCCMonoBehaviour
+  nameWithType: PCCMonoBehaviour
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
   commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
   parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea.html
   name: PrecomputedArea
   nameWithType: PrecomputedArea
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+  name: PrecomputedCullingRendererId
+  nameWithType: PrecomputedCullingRendererId
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+  name: PrecomputedManager
+  nameWithType: PrecomputedManager
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  name: PrecomputedSceneSettings
+  nameWithType: PrecomputedSceneSettings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedLoadMethod
+  nameWithType: PrecomputedLoadMethod
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
   commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.MonoBehaviours
   nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
     name: MonoBehaviours
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
     name: MonoBehaviours
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html

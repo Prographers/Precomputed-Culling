@@ -5,8 +5,13 @@ items:
   id: PrecomputedSceneData
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   children:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenGroupRenderers
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(Scene)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(GameObject[]@)
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
@@ -17,11 +22,6 @@ items:
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenGroupRenderers
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
   langs:
   - csharp
   - vb
@@ -31,12 +31,12 @@ items:
   type: Class
   source:
     id: PrecomputedSceneData
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 28
+    path: ''
+    startLine: 3473
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Scene specific data
+  summary: "\nScene specific data\n"
   example: []
   syntax:
     content: public abstract class PrecomputedSceneData
@@ -45,14 +45,6 @@ items:
   - System.Object
   derivedClasses:
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Scene
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Scene
   id: Scene
@@ -66,17 +58,17 @@ items:
   type: Field
   source:
     id: Scene
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 36
+    path: ''
+    startLine: 3481
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Scene name
+  summary: "\nScene name\n"
   example: []
   syntax:
     content: public Scene Scene
     return:
-      type: UnityEngine.SceneManagement.Scene
+      type: Global.Scene
     content.vb: Public Scene As Scene
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._isInitialized
@@ -91,12 +83,12 @@ items:
   type: Field
   source:
     id: _isInitialized
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 41
+    path: ''
+    startLine: 3486
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Is scene data initialized
+  summary: "\nIs scene data initialized\n"
   example: []
   syntax:
     content: protected bool _isInitialized
@@ -116,17 +108,17 @@ items:
   type: Field
   source:
     id: _hiddenGroupRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 46
+    path: ''
+    startLine: 3491
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Hidden group renderers
+  summary: "\nHidden group renderers\n"
   example: []
   syntax:
     content: protected HashSet<int> _hiddenGroupRenderers
     return:
-      type: System.Collections.Generic.HashSet{System.Int32}
+      type: Global.HashSet{System.Int32}
     content.vb: Protected _hiddenGroupRenderers As HashSet(Of Integer)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._hiddenRenderers
@@ -141,17 +133,17 @@ items:
   type: Field
   source:
     id: _hiddenRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 51
+    path: ''
+    startLine: 3496
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Hidden renderers
+  summary: "\nHidden renderers\n"
   example: []
   syntax:
     content: protected HashSet<int> _hiddenRenderers
     return:
-      type: System.Collections.Generic.HashSet{System.Int32}
+      type: Global.HashSet{System.Int32}
     content.vb: Protected _hiddenRenderers As HashSet(Of Integer)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleGroupRenderers
@@ -166,17 +158,17 @@ items:
   type: Field
   source:
     id: _visibleGroupRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 56
+    path: ''
+    startLine: 3501
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Visible group renderers
+  summary: "\nVisible group renderers\n"
   example: []
   syntax:
     content: protected HashSet<int> _visibleGroupRenderers
     return:
-      type: System.Collections.Generic.HashSet{System.Int32}
+      type: Global.HashSet{System.Int32}
     content.vb: Protected _visibleGroupRenderers As HashSet(Of Integer)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData._visibleRenderers
@@ -191,17 +183,17 @@ items:
   type: Field
   source:
     id: _visibleRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 61
+    path: ''
+    startLine: 3506
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Visible renderers
+  summary: "\nVisible renderers\n"
   example: []
   syntax:
     content: protected HashSet<int> _visibleRenderers
     return:
-      type: System.Collections.Generic.HashSet{System.Int32}
+      type: Global.HashSet{System.Int32}
     content.vb: Protected _visibleRenderers As HashSet(Of Integer)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Renderers
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.Renderers
@@ -216,57 +208,47 @@ items:
   type: Field
   source:
     id: Renderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 67
+    path: ''
+    startLine: 3512
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Renderers
+  summary: "\nRenderers\n"
   example: []
   syntax:
-    content: >-
-      [HideInInspector]
-
-      public Dictionary<int, IPrecomputedRendererContainer> Renderers
+    content: public Dictionary<int, IPrecomputedRendererContainer> Renderers
     return:
-      type: System.Collections.Generic.Dictionary{System.Int32,ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer}
-    content.vb: >-
-      <HideInInspector>
-
-      Public Renderers As Dictionary(Of Integer, IPrecomputedRendererContainer)
-  attributes:
-  - type: UnityEngine.HideInInspector
-    ctor: UnityEngine.HideInInspector.#ctor
-    arguments: []
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
-  id: '#ctor(UnityEngine.SceneManagement.Scene)'
+      type: Global.Dictionary{System.Int32,IPrecomputedRendererContainer}
+    content.vb: Public Renderers As Dictionary(Of Integer, IPrecomputedRendererContainer)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(Scene)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(Scene)
+  id: '#ctor(Scene)'
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
   langs:
   - csharp
   - vb
   name: PrecomputedSceneData(Scene)
   nameWithType: PrecomputedSceneData.PrecomputedSceneData(Scene)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.PrecomputedSceneData(UnityEngine.SceneManagement.Scene)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.PrecomputedSceneData(Scene)
   type: Constructor
   source:
     id: .ctor
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 72
+    path: ''
+    startLine: 3517
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Default constructor
+  summary: "\nDefault constructor\n"
   example: []
   syntax:
     content: public PrecomputedSceneData(Scene scene)
     parameters:
     - id: scene
-      type: UnityEngine.SceneManagement.Scene
+      type: Global.Scene
     content.vb: Public Sub New(scene As Scene)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor*
   nameWithType.vb: PrecomputedSceneData.New(Scene)
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.New(UnityEngine.SceneManagement.Scene)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.New(Scene)
   name.vb: New(Scene)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
@@ -281,12 +263,12 @@ items:
   type: Property
   source:
     id: SceneObjectCount
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 84
+    path: ''
+    startLine: 3529
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Total scene object count
+  summary: "\nTotal scene object count\n"
   example: []
   syntax:
     content: public abstract int SceneObjectCount { get; }
@@ -308,18 +290,18 @@ items:
   type: Property
   source:
     id: VisibleRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 92
+    path: ''
+    startLine: 3537
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Read only list of visible renderers
+  summary: "\nRead only list of visible renderers\n"
   example: []
   syntax:
     content: public ReadOnlyCollection<int> VisibleRenderers { get; }
     parameters: []
     return:
-      type: System.Collections.ObjectModel.ReadOnlyCollection{System.Int32}
+      type: Global.ReadOnlyCollection{System.Int32}
     content.vb: Public ReadOnly Property VisibleRenderers As ReadOnlyCollection(Of Integer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers*
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
@@ -335,18 +317,18 @@ items:
   type: Property
   source:
     id: HiddenRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 100
+    path: ''
+    startLine: 3545
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Read only list of hidden renderers
+  summary: "\nRead only list of hidden renderers\n"
   example: []
   syntax:
     content: public ReadOnlyCollection<int> HiddenRenderers { get; }
     parameters: []
     return:
-      type: System.Collections.ObjectModel.ReadOnlyCollection{System.Int32}
+      type: Global.ReadOnlyCollection{System.Int32}
     content.vb: Public ReadOnly Property HiddenRenderers As ReadOnlyCollection(Of Integer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers*
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
@@ -362,18 +344,18 @@ items:
   type: Property
   source:
     id: VisibleGroupRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 108
+    path: ''
+    startLine: 3553
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Read only list of groups of visible renderers
+  summary: "\nRead only list of groups of visible renderers\n"
   example: []
   syntax:
     content: public ReadOnlyCollection<int> VisibleGroupRenderers { get; }
     parameters: []
     return:
-      type: System.Collections.ObjectModel.ReadOnlyCollection{System.Int32}
+      type: Global.ReadOnlyCollection{System.Int32}
     content.vb: Public ReadOnly Property VisibleGroupRenderers As ReadOnlyCollection(Of Integer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers*
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
@@ -389,18 +371,18 @@ items:
   type: Property
   source:
     id: HiddenGroupRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 117
+    path: ''
+    startLine: 3562
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Read only list of groups of hidden renderers
+  summary: "\nRead only list of groups of hidden renderers\n"
   example: []
   syntax:
     content: public ReadOnlyCollection<int> HiddenGroupRenderers { get; }
     parameters: []
     return:
-      type: System.Collections.ObjectModel.ReadOnlyCollection{System.Int32}
+      type: Global.ReadOnlyCollection{System.Int32}
     content.vb: Public ReadOnly Property HiddenGroupRenderers As ReadOnlyCollection(Of Integer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers*
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
@@ -416,12 +398,12 @@ items:
   type: Method
   source:
     id: OnInitialize
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 140
+    path: ''
+    startLine: 3585
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Initialize scene data
+  summary: "\nInitialize scene data\n"
   example: []
   syntax:
     content: protected abstract void OnInitialize()
@@ -440,12 +422,12 @@ items:
   type: Method
   source:
     id: UpdateVisibility
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 146
+    path: ''
+    startLine: 3591
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Update visibility based on provided visibility indices
+  summary: "\nUpdate visibility based on provided visibility indices\n"
   example: []
   syntax:
     content: public void UpdateVisibility(in PrecomputedVisibilityIndices visibilityIndices)
@@ -458,38 +440,38 @@ items:
   nameWithType.vb: PrecomputedSceneData.UpdateVisibility(PrecomputedVisibilityIndices)
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
   name.vb: UpdateVisibility(PrecomputedVisibilityIndices)
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
-  id: GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(GameObject[]@)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(GameObject[]@)
+  id: GatherSceneRenderersFromGameObjects(GameObject[]@)
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
   langs:
   - csharp
   - vb
   name: GatherSceneRenderersFromGameObjects(in GameObject[])
   nameWithType: PrecomputedSceneData.GatherSceneRenderersFromGameObjects(in GameObject[])
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(in UnityEngine.GameObject[])
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(in GameObject[])
   type: Method
   source:
     id: GatherSceneRenderersFromGameObjects
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 222
+    path: ''
+    startLine: 3667
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Find all scene renderers and create <xref href="ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer" data-throw-if-not-resolved="false"></xref> from them
+  summary: "\nFind all scene renderers and create <see cref=\"!:IPrecomputedRendererContainer\"></see> from them\n"
   example: []
   syntax:
     content: protected Dictionary<int, IPrecomputedRendererContainer> GatherSceneRenderersFromGameObjects(in GameObject[] objects)
     parameters:
     - id: objects
-      type: UnityEngine.GameObject[]
+      type: Global.GameObject[]
       description: ''
     return:
-      type: System.Collections.Generic.Dictionary{System.Int32,ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer}
+      type: Global.Dictionary{System.Int32,IPrecomputedRendererContainer}
     content.vb: Protected Function GatherSceneRenderersFromGameObjects(objects As GameObject()) As Dictionary(Of Integer, IPrecomputedRendererContainer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects*
   nameWithType.vb: PrecomputedSceneData.GatherSceneRenderersFromGameObjects(GameObject())
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject())
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(GameObject())
   name.vb: GatherSceneRenderersFromGameObjects(GameObject())
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
@@ -504,12 +486,12 @@ items:
   type: Method
   source:
     id: ShowAll
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedSceneData.cs
-    startLine: 287
+    path: ''
+    startLine: 3732
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Show all hidden renderers
+  summary: "\nShow all hidden renderers\n"
   example: []
   syntax:
     content: public void ShowAll()
@@ -518,501 +500,188 @@ items:
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
     name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
     name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: UnityEngine.SceneManagement.Scene
-  commentId: T:UnityEngine.SceneManagement.Scene
-  parent: UnityEngine.SceneManagement
+- uid: Global.Scene
   isExternal: true
   name: Scene
   nameWithType: Scene
-  fullName: UnityEngine.SceneManagement.Scene
-- uid: UnityEngine.SceneManagement
-  commentId: N:UnityEngine.SceneManagement
-  isExternal: true
-  name: UnityEngine.SceneManagement
-  nameWithType: UnityEngine.SceneManagement
-  fullName: UnityEngine.SceneManagement
-  spec.csharp:
-  - uid: UnityEngine
-    name: UnityEngine
-    isExternal: true
-  - name: .
-  - uid: UnityEngine.SceneManagement
-    name: SceneManagement
-    isExternal: true
-  spec.vb:
-  - uid: UnityEngine
-    name: UnityEngine
-    isExternal: true
-  - name: .
-  - uid: UnityEngine.SceneManagement
-    name: SceneManagement
-    isExternal: true
+  fullName: Scene
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
-- uid: System.Collections.Generic.HashSet{System.Int32}
-  commentId: T:System.Collections.Generic.HashSet{System.Int32}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.HashSet`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+- uid: Global.HashSet{System.Int32}
+  commentId: '!:Global.HashSet{System.Int32}'
+  definition: Global.HashSet`1
   name: HashSet<int>
   nameWithType: HashSet<int>
-  fullName: System.Collections.Generic.HashSet<int>
+  fullName: HashSet<int>
   nameWithType.vb: HashSet(Of Integer)
-  fullName.vb: System.Collections.Generic.HashSet(Of Integer)
+  fullName.vb: HashSet(Of Integer)
   name.vb: HashSet(Of Integer)
   spec.csharp:
-  - uid: System.Collections.Generic.HashSet`1
+  - uid: Global.HashSet`1
     name: HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: <
   - uid: System.Int32
     name: int
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.HashSet`1
+  - uid: Global.HashSet`1
     name: HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: (
   - name: Of
   - name: " "
   - uid: System.Int32
     name: Integer
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-- uid: System.Collections.Generic.HashSet`1
-  commentId: T:System.Collections.Generic.HashSet`1
+- uid: Global.HashSet`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  name: HashSet<T>
-  nameWithType: HashSet<T>
-  fullName: System.Collections.Generic.HashSet<T>
-  nameWithType.vb: HashSet(Of T)
-  fullName.vb: System.Collections.Generic.HashSet(Of T)
-  name.vb: HashSet(Of T)
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: HashSet(Of )
+  name.vb: HashSet(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.HashSet`1
+  - uid: Global.HashSet`1
     name: HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: <
-  - name: T
+  - name: ''
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.HashSet`1
+  - uid: Global.HashSet`1
     name: HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: (
   - name: Of
   - name: " "
-  - name: T
+  - name: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: System.Collections.Generic.Dictionary{System.Int32,ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer}
-  commentId: T:System.Collections.Generic.Dictionary{System.Int32,ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+- uid: Global.Dictionary{System.Int32,IPrecomputedRendererContainer}
+  commentId: '!:Global.Dictionary{System.Int32,IPrecomputedRendererContainer}'
+  definition: Global.Dictionary`2
   name: Dictionary<int, IPrecomputedRendererContainer>
   nameWithType: Dictionary<int, IPrecomputedRendererContainer>
-  fullName: System.Collections.Generic.Dictionary<int, ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer>
+  fullName: Dictionary<int, IPrecomputedRendererContainer>
   nameWithType.vb: Dictionary(Of Integer, IPrecomputedRendererContainer)
-  fullName.vb: System.Collections.Generic.Dictionary(Of Integer, ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer)
+  fullName.vb: Dictionary(Of Integer, IPrecomputedRendererContainer)
   name.vb: Dictionary(Of Integer, IPrecomputedRendererContainer)
   spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Global.Dictionary`2
     name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
   - uid: System.Int32
     name: int
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  - uid: Global.IPrecomputedRendererContainer
     name: IPrecomputedRendererContainer
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html
+    isExternal: true
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Global.Dictionary`2
     name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
   - uid: System.Int32
     name: Integer
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+  - uid: Global.IPrecomputedRendererContainer
     name: IPrecomputedRendererContainer
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html
+    isExternal: true
   - name: )
-- uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
+- uid: Global.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Global.Dictionary`2
     name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
+  - name: ''
   - name: ','
   - name: " "
-  - name: TValue
+  - name: ''
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Global.Dictionary`2
     name: Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: (
   - name: Of
   - name: " "
-  - name: TKey
+  - name: ''
   - name: ','
   - name: " "
-  - name: TValue
+  - name: ''
   - name: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.#ctor(UnityEngine.SceneManagement.Scene)
   name: PrecomputedSceneData
   nameWithType: PrecomputedSceneData.PrecomputedSceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.PrecomputedSceneData
@@ -1021,7 +690,6 @@ references:
   name.vb: New
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
   name: SceneObjectCount
   nameWithType: PrecomputedSceneData.SceneObjectCount
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.SceneObjectCount
@@ -1029,7 +697,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
   name: int
   nameWithType: int
   fullName: int
@@ -1038,259 +705,143 @@ references:
   name.vb: Integer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
   name: VisibleRenderers
   nameWithType: PrecomputedSceneData.VisibleRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleRenderers
-- uid: System.Collections.ObjectModel.ReadOnlyCollection{System.Int32}
-  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{System.Int32}
-  parent: System.Collections.ObjectModel
-  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+- uid: Global.ReadOnlyCollection{System.Int32}
+  commentId: '!:Global.ReadOnlyCollection{System.Int32}'
+  definition: Global.ReadOnlyCollection`1
   name: ReadOnlyCollection<int>
   nameWithType: ReadOnlyCollection<int>
-  fullName: System.Collections.ObjectModel.ReadOnlyCollection<int>
+  fullName: ReadOnlyCollection<int>
   nameWithType.vb: ReadOnlyCollection(Of Integer)
-  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of Integer)
+  fullName.vb: ReadOnlyCollection(Of Integer)
   name.vb: ReadOnlyCollection(Of Integer)
   spec.csharp:
-  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  - uid: Global.ReadOnlyCollection`1
     name: ReadOnlyCollection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
   - name: <
   - uid: System.Int32
     name: int
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
   spec.vb:
-  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  - uid: Global.ReadOnlyCollection`1
     name: ReadOnlyCollection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
   - name: (
   - name: Of
   - name: " "
   - uid: System.Int32
     name: Integer
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
-  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+- uid: Global.ReadOnlyCollection`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
-  name: ReadOnlyCollection<T>
-  nameWithType: ReadOnlyCollection<T>
-  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
-  nameWithType.vb: ReadOnlyCollection(Of T)
-  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
-  name.vb: ReadOnlyCollection(Of T)
+  name: ReadOnlyCollection<>
+  nameWithType: ReadOnlyCollection<>
+  fullName: ReadOnlyCollection<>
+  nameWithType.vb: ReadOnlyCollection(Of )
+  fullName.vb: ReadOnlyCollection(Of )
+  name.vb: ReadOnlyCollection(Of )
   spec.csharp:
-  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  - uid: Global.ReadOnlyCollection`1
     name: ReadOnlyCollection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
   - name: <
-  - name: T
+  - name: ''
   - name: '>'
   spec.vb:
-  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  - uid: Global.ReadOnlyCollection`1
     name: ReadOnlyCollection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
   - name: (
   - name: Of
   - name: " "
-  - name: T
+  - name: ''
   - name: )
-- uid: System.Collections.ObjectModel
-  commentId: N:System.Collections.ObjectModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.ObjectModel
-  nameWithType: System.Collections.ObjectModel
-  fullName: System.Collections.ObjectModel
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.ObjectModel
-    name: ObjectModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.ObjectModel
-    name: ObjectModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
   name: HiddenRenderers
   nameWithType: PrecomputedSceneData.HiddenRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
   name: VisibleGroupRenderers
   nameWithType: PrecomputedSceneData.VisibleGroupRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.VisibleGroupRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
   name: HiddenGroupRenderers
   nameWithType: PrecomputedSceneData.HiddenGroupRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.HiddenGroupRenderers
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
   name: OnInitialize
   nameWithType: PrecomputedSceneData.OnInitialize
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.OnInitialize
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility(ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
   name: UpdateVisibility
   nameWithType: PrecomputedSceneData.UpdateVisibility
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.UpdateVisibility
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
   parent: ProgLibrary.PrecomputedCulling.DataModels
-  href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.html
   name: PrecomputedVisibilityIndices
   nameWithType: PrecomputedVisibilityIndices
   fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
 - uid: ProgLibrary.PrecomputedCulling.DataModels
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels
   fullName: ProgLibrary.PrecomputedCulling.DataModels
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html
-  name: IPrecomputedRendererContainer
-  nameWithType: IPrecomputedRendererContainer
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects(UnityEngine.GameObject[]@)
   name: GatherSceneRenderersFromGameObjects
   nameWithType: PrecomputedSceneData.GatherSceneRenderersFromGameObjects
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.GatherSceneRenderersFromGameObjects
-- uid: UnityEngine.GameObject[]
+- uid: Global.GameObject[]
   isExternal: true
   name: GameObject[]
   nameWithType: GameObject[]
-  fullName: UnityEngine.GameObject[]
+  fullName: GameObject[]
   nameWithType.vb: GameObject()
-  fullName.vb: UnityEngine.GameObject()
+  fullName.vb: GameObject()
   name.vb: GameObject()
   spec.csharp:
-  - uid: UnityEngine.GameObject
+  - uid: Global.GameObject
     name: GameObject
     isExternal: true
   - name: '['
   - name: ']'
   spec.vb:
-  - uid: UnityEngine.GameObject
+  - uid: Global.GameObject
     name: GameObject
     isExternal: true
   - name: (
   - name: )
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  href: ProgLibrary.html
-  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  spec.csharp:
-  - uid: ProgLibrary
-    name: ProgLibrary
-    href: ProgLibrary.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling
-    name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.DataModels
-    name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-    name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-    name: Abstract
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html
-  spec.vb:
-  - uid: ProgLibrary
-    name: ProgLibrary
-    href: ProgLibrary.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling
-    name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.DataModels
-    name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-    name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-    name: Abstract
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll
   name: ShowAll
   nameWithType: PrecomputedSceneData.ShowAll
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData.ShowAll

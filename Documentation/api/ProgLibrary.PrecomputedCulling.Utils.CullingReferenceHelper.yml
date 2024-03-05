@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  id: CullingReferenceHelper
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CullingComputeShader
+  - ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CustomOcclusionScriptableRenderer
+  - ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance
+  - ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.PrecomputedDataSettings
+  - ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.RendererColorCodingTexture
+  langs:
+  - csharp
+  - vb
+  name: CullingReferenceHelper
+  nameWithType: CullingReferenceHelper
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  type: Class
+  source:
+    id: CullingReferenceHelper
+    path: ''
+    startLine: 8179
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nHelper class to reference all the necessary assets for the precomputed culling.\nWe need it as we have to access the data in runtime and in the editor.\n"
+  example: []
+  syntax:
+    content: 'public class CullingReferenceHelper : ScriptableObject'
+    content.vb: Public Class CullingReferenceHelper Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CullingComputeShader
+  commentId: F:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CullingComputeShader
+  id: CullingComputeShader
+  parent: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: CullingComputeShader
+  nameWithType: CullingReferenceHelper.CullingComputeShader
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CullingComputeShader
+  type: Field
+  source:
+    id: CullingComputeShader
+    path: ''
+    startLine: 8186
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nCompute shader for the culling process.\n"
+  example: []
+  syntax:
+    content: public ComputeShader CullingComputeShader
+    return:
+      type: Global.ComputeShader
+    content.vb: Public CullingComputeShader As ComputeShader
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.RendererColorCodingTexture
+  commentId: F:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.RendererColorCodingTexture
+  id: RendererColorCodingTexture
+  parent: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: RendererColorCodingTexture
+  nameWithType: CullingReferenceHelper.RendererColorCodingTexture
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.RendererColorCodingTexture
+  type: Field
+  source:
+    id: RendererColorCodingTexture
+    path: ''
+    startLine: 8192
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nShader for the renderer color coding texture.\n"
+  example: []
+  syntax:
+    content: public Shader RendererColorCodingTexture
+    return:
+      type: Global.Shader
+    content.vb: Public RendererColorCodingTexture As Shader
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CustomOcclusionScriptableRenderer
+  commentId: F:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CustomOcclusionScriptableRenderer
+  id: CustomOcclusionScriptableRenderer
+  parent: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: CustomOcclusionScriptableRenderer
+  nameWithType: CullingReferenceHelper.CustomOcclusionScriptableRenderer
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.CustomOcclusionScriptableRenderer
+  type: Field
+  source:
+    id: CustomOcclusionScriptableRenderer
+    path: ''
+    startLine: 8198
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nCustom occlusion scriptable renderer.\n"
+  example: []
+  syntax:
+    content: public CustomOcclusionScriptableRenderer CustomOcclusionScriptableRenderer
+    return:
+      type: Global.CustomOcclusionScriptableRenderer
+    content.vb: Public CustomOcclusionScriptableRenderer As CustomOcclusionScriptableRenderer
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.PrecomputedDataSettings
+  commentId: F:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.PrecomputedDataSettings
+  id: PrecomputedDataSettings
+  parent: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedDataSettings
+  nameWithType: CullingReferenceHelper.PrecomputedDataSettings
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.PrecomputedDataSettings
+  type: Field
+  source:
+    id: PrecomputedDataSettings
+    path: ''
+    startLine: 8204
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nSettings for the precomputed data.\n"
+  example: []
+  syntax:
+    content: public PrecomputedDataSettings PrecomputedDataSettings
+    return:
+      type: Global.PrecomputedDataSettings
+    content.vb: Public PrecomputedDataSettings As PrecomputedDataSettings
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance
+  commentId: P:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance
+  id: Instance
+  parent: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: CullingReferenceHelper.Instance
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 8209
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nSingleton instance of the helper.\n"
+  example: []
+  syntax:
+    content: public static CullingReferenceHelper Instance { get; }
+    parameters: []
+    return:
+      type: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+    content.vb: Public Shared ReadOnly Property Instance As CullingReferenceHelper
+  overload: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ComputeShader
+  isExternal: true
+  name: ComputeShader
+  nameWithType: ComputeShader
+  fullName: ComputeShader
+- uid: Global.Shader
+  commentId: '!:Global.Shader'
+  isExternal: true
+  name: Shader
+  nameWithType: Shader
+  fullName: Shader
+- uid: Global.CustomOcclusionScriptableRenderer
+  isExternal: true
+  name: CustomOcclusionScriptableRenderer
+  nameWithType: CustomOcclusionScriptableRenderer
+  fullName: CustomOcclusionScriptableRenderer
+- uid: Global.PrecomputedDataSettings
+  isExternal: true
+  name: PrecomputedDataSettings
+  nameWithType: PrecomputedDataSettings
+  fullName: PrecomputedDataSettings
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance
+  name: Instance
+  nameWithType: CullingReferenceHelper.Instance
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper.Instance
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  name: CullingReferenceHelper
+  nameWithType: CullingReferenceHelper
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper

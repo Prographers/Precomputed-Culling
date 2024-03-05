@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+  id: AreaDataIndex
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.#ctor(PrecomputedArea,System.Int32)
+  - ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  - ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  langs:
+  - csharp
+  - vb
+  name: AreaDataIndex
+  nameWithType: AreaDataIndex
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+  type: Struct
+  source:
+    id: AreaDataIndex
+    path: ''
+    startLine: 2727
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nRelated OcclusionArea with bake data index\n"
+  example: []
+  syntax:
+    content: public struct AreaDataIndex
+    content.vb: Public Structure AreaDataIndex
+- uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.#ctor(PrecomputedArea,System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.#ctor(PrecomputedArea,System.Int32)
+  id: '#ctor(PrecomputedArea,System.Int32)'
+  parent: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+  langs:
+  - csharp
+  - vb
+  name: AreaDataIndex(PrecomputedArea, int)
+  nameWithType: AreaDataIndex.AreaDataIndex(PrecomputedArea, int)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.AreaDataIndex(PrecomputedArea, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2735
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nDefault constructor\n"
+  example: []
+  syntax:
+    content: public AreaDataIndex(PrecomputedArea precomputedArea, int dataIndex)
+    parameters:
+    - id: precomputedArea
+      type: Global.PrecomputedArea
+      description: ''
+    - id: dataIndex
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(precomputedArea As PrecomputedArea, dataIndex As Integer)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.#ctor*
+  nameWithType.vb: AreaDataIndex.New(PrecomputedArea, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.New(PrecomputedArea, Integer)
+  name.vb: New(PrecomputedArea, Integer)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  id: PrecomputedArea
+  parent: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedArea
+  nameWithType: AreaDataIndex.PrecomputedArea
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  type: Field
+  source:
+    id: PrecomputedArea
+    path: ''
+    startLine: 2744
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nReference to <xref href=\"ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public PrecomputedArea PrecomputedArea
+    return:
+      type: Global.PrecomputedArea
+    content.vb: Public PrecomputedArea As PrecomputedArea
+- uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  id: DataIndex
+  parent: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+  langs:
+  - csharp
+  - vb
+  name: DataIndex
+  nameWithType: AreaDataIndex.DataIndex
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.DataIndex
+  type: Field
+  source:
+    id: DataIndex
+    path: ''
+    startLine: 2749
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nIndex to <xref href=\"ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.Index\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public int DataIndex
+    return:
+      type: System.Int32
+    content.vb: Public DataIndex As Integer
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels
+  name: ProgLibrary.PrecomputedCulling.DataModels
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels
+  fullName: ProgLibrary.PrecomputedCulling.DataModels
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+- uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.#ctor
+  name: AreaDataIndex
+  nameWithType: AreaDataIndex.AreaDataIndex
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.AreaDataIndex
+  nameWithType.vb: AreaDataIndex.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.New
+  name.vb: New
+- uid: Global.PrecomputedArea
+  isExternal: true
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: PrecomputedArea
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex.PrecomputedArea
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.Index
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedData.Index
+  isExternal: true

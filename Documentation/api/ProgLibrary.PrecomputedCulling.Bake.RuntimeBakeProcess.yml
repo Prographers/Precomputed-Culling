@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  id: RuntimeBakeProcess
+  parent: ProgLibrary.PrecomputedCulling.Bake
+  children:
+  - ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.#ctor(IPrecomputedDataProvider,IBakeProgress)
+  - ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll
+  langs:
+  - csharp
+  - vb
+  name: RuntimeBakeProcess
+  nameWithType: RuntimeBakeProcess
+  fullName: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  type: Class
+  source:
+    id: RuntimeBakeProcess
+    path: ''
+    startLine: 867
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake
+  summary: "\nRuntime bake process class.\nIt&apos;s used to bake and save occlusion data in runtime.\n"
+  example: []
+  syntax:
+    content: public class RuntimeBakeProcess
+    content.vb: Public Class RuntimeBakeProcess
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.#ctor(IPrecomputedDataProvider,IBakeProgress)
+  commentId: M:ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.#ctor(IPrecomputedDataProvider,IBakeProgress)
+  id: '#ctor(IPrecomputedDataProvider,IBakeProgress)'
+  parent: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  langs:
+  - csharp
+  - vb
+  name: RuntimeBakeProcess(IPrecomputedDataProvider, IBakeProgress)
+  nameWithType: RuntimeBakeProcess.RuntimeBakeProcess(IPrecomputedDataProvider, IBakeProgress)
+  fullName: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.RuntimeBakeProcess(IPrecomputedDataProvider, IBakeProgress)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 942
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake
+  summary: "\nBasic constructor.\nWe need it to initialize the class.\n"
+  example: []
+  syntax:
+    content: public RuntimeBakeProcess(IPrecomputedDataProvider provider, IBakeProgress progressBar)
+    parameters:
+    - id: provider
+      type: Global.IPrecomputedDataProvider
+      description: Occlusion data provider
+    - id: progressBar
+      type: Global.IBakeProgress
+    content.vb: Public Sub New(provider As IPrecomputedDataProvider, progressBar As IBakeProgress)
+  overload: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.#ctor*
+  nameWithType.vb: RuntimeBakeProcess.New(IPrecomputedDataProvider, IBakeProgress)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.New(IPrecomputedDataProvider, IBakeProgress)
+  name.vb: New(IPrecomputedDataProvider, IBakeProgress)
+- uid: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll
+  commentId: M:ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll
+  id: BakeAll
+  parent: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  langs:
+  - csharp
+  - vb
+  name: BakeAll()
+  nameWithType: RuntimeBakeProcess.BakeAll()
+  fullName: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll()
+  type: Method
+  source:
+    id: BakeAll
+    path: ''
+    startLine: 952
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake
+  summary: "\nBake occlusion data for all the areas on the scene.\n"
+  example: []
+  syntax:
+    content: public IEnumerator BakeAll()
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function BakeAll() As IEnumerator
+  overload: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Bake
+  commentId: N:ProgLibrary.PrecomputedCulling.Bake
+  name: ProgLibrary.PrecomputedCulling.Bake
+  nameWithType: ProgLibrary.PrecomputedCulling.Bake
+  fullName: ProgLibrary.PrecomputedCulling.Bake
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.#ctor
+  name: RuntimeBakeProcess
+  nameWithType: RuntimeBakeProcess.RuntimeBakeProcess
+  fullName: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.RuntimeBakeProcess
+  nameWithType.vb: RuntimeBakeProcess.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.New
+  name.vb: New
+- uid: Global.IPrecomputedDataProvider
+  isExternal: true
+  name: IPrecomputedDataProvider
+  nameWithType: IPrecomputedDataProvider
+  fullName: IPrecomputedDataProvider
+- uid: Global.IBakeProgress
+  isExternal: true
+  name: IBakeProgress
+  nameWithType: IBakeProgress
+  fullName: IBakeProgress
+- uid: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll
+  name: BakeAll
+  nameWithType: RuntimeBakeProcess.BakeAll
+  fullName: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess.BakeAll
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator

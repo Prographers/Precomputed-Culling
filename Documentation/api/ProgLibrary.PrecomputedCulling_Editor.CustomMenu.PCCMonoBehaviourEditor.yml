@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  id: PCCMonoBehaviourEditor
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: PCCMonoBehaviourEditor
+  nameWithType: PCCMonoBehaviourEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  type: Class
+  source:
+    id: PCCMonoBehaviourEditor
+    path: ''
+    startLine: 10520
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  syntax:
+    content: 'public class PCCMonoBehaviourEditor : UnityEditor.Editor'
+    content.vb: Public Class PCCMonoBehaviourEditor Inherits UnityEditor.Editor
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons
+  id: DrawLinkButtons
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  langs:
+  - csharp
+  - vb
+  name: DrawLinkButtons()
+  nameWithType: PCCMonoBehaviourEditor.DrawLinkButtons()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons()
+  type: Method
+  source:
+    id: DrawLinkButtons
+    path: ''
+    startLine: 10523
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  syntax:
+    content: public static void DrawLinkButtons()
+    content.vb: Public Shared Sub DrawLinkButtons()
+  overload: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons*
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: PCCMonoBehaviourEditor.OnInspectorGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 10546
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overload: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  name: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons
+  name: DrawLinkButtons
+  nameWithType: PCCMonoBehaviourEditor.DrawLinkButtons
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.DrawLinkButtons
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: PCCMonoBehaviourEditor.OnInspectorGUI
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor.OnInspectorGUI

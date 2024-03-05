@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  id: VersionValidator
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result})
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.VersionFilePath
+  langs:
+  - csharp
+  - vb
+  name: VersionValidator
+  nameWithType: VersionValidator
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  type: Class
+  source:
+    id: VersionValidator
+    path: ''
+    startLine: 15859
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public static class VersionValidator
+    content.vb: Public Module VersionValidator
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.VersionFilePath
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.VersionFilePath
+  id: VersionFilePath
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  langs:
+  - csharp
+  - vb
+  name: VersionFilePath
+  nameWithType: VersionValidator.VersionFilePath
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.VersionFilePath
+  type: Field
+  source:
+    id: VersionFilePath
+    path: ''
+    startLine: 15865
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nUnity project relative path to the file which stores a version string. Later, this path will be combined with\n<see cref=\"!:Application.dataPath\"></see> to read that file.\n"
+  example: []
+  syntax:
+    content: public const string VersionFilePath = "ProgLibrary/PrecomputedCulling/version.txt"
+    return:
+      type: System.String
+    content.vb: Public Const VersionFilePath As String = "ProgLibrary/PrecomputedCulling/version.txt"
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+  id: GitHubRequestCooldown
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  langs:
+  - csharp
+  - vb
+  name: GitHubRequestCooldown
+  nameWithType: VersionValidator.GitHubRequestCooldown
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+  type: Field
+  source:
+    id: GitHubRequestCooldown
+    path: ''
+    startLine: 15876
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nThe minimum time interval before we can perform another Git Hub request.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan GitHubRequestCooldown
+    return:
+      type: Global.TimeSpan
+    content.vb: Public Shared ReadOnly GitHubRequestCooldown As TimeSpan
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result})
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result})
+  id: ValidateCurrent(Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result})
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateCurrent(Action<Result>)
+  nameWithType: VersionValidator.ValidateCurrent(Action<VersionValidator.Result>)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action<ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result>)
+  type: Method
+  source:
+    id: ValidateCurrent
+    path: ''
+    startLine: 15897
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nValidate the current version stored in a file with the release version published on GitHub. It performs the async\nHTTP request. Provide results as a callback and update the config <see cref=\"!:PCCConfig.VersioningData\"></see>.\n"
+  example: []
+  syntax:
+    content: public static bool ValidateCurrent(Action<VersionValidator.Result> onComplete)
+    parameters:
+    - id: onComplete
+      type: Global.Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result}
+      description: "\nThe callback (with Results object) which will be called once the HTTP request is sent and got results, no\nmatter correctness. If this method returns TRUE, then callback should always be called at some point. That callback\nis scheduled by a non-main thread, but will be performed on the main Unity thread anyway.\n"
+    return:
+      type: System.Boolean
+      description: "\nTURE if request has been sent and there is something to wait for. FALSE if it failed and there is nothing to\nwait for (the <code data-dev-comment-type=\"paramref\" class=\"paramref\">onComplete</code> will not be called).\n"
+    content.vb: Public Shared Function ValidateCurrent(onComplete As Action(Of VersionValidator.Result)) As Boolean
+  overload: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent*
+  nameWithType.vb: VersionValidator.ValidateCurrent(Action(Of VersionValidator.Result))
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action(Of ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result))
+  name.vb: ValidateCurrent(Action(Of Result))
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow
+  id: CanValidateCurrentNow
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  langs:
+  - csharp
+  - vb
+  name: CanValidateCurrentNow()
+  nameWithType: VersionValidator.CanValidateCurrentNow()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow()
+  type: Method
+  source:
+    id: CanValidateCurrentNow
+    path: ''
+    startLine: 15947
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nIndicates, whether the <xref href=\"ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action%7bProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result%7d)\" data-throw-if-not-resolved=\"false\"></xref> can be called right now due to request cooldown restriction.\n"
+  example: []
+  syntax:
+    content: public static bool CanValidateCurrentNow()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function CanValidateCurrentNow() As Boolean
+  overload: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow*
+  seealso:
+  - linkId: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+    commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent
+  id: GetRemainingCooldownOnValidateCurrent
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  langs:
+  - csharp
+  - vb
+  name: GetRemainingCooldownOnValidateCurrent()
+  nameWithType: VersionValidator.GetRemainingCooldownOnValidateCurrent()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent()
+  type: Method
+  source:
+    id: GetRemainingCooldownOnValidateCurrent
+    path: ''
+    startLine: 15954
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nGets remaining cooldown on <xref href=\"ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action%7bProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result%7d)\" data-throw-if-not-resolved=\"false\"></xref>. Clamped between 0 and\n<xref href=\"ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan GetRemainingCooldownOnValidateCurrent()
+    return:
+      type: Global.TimeSpan
+      description: ''
+    content.vb: Public Shared Function GetRemainingCooldownOnValidateCurrent() As TimeSpan
+  overload: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent*
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent
+  id: ShouldValidateCurrent
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  langs:
+  - csharp
+  - vb
+  name: ShouldValidateCurrent()
+  nameWithType: VersionValidator.ShouldValidateCurrent()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent()
+  type: Method
+  source:
+    id: ShouldValidateCurrent
+    path: ''
+    startLine: 15971
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nChecks whether the current version should be validated.\n"
+  remarks: "\nCurrent version should be validated if: LastKnownGitHubVersion is unknown, default, or invalid,\nLastKnownGitHubVersionSetDate is unknown or is older than LastKnownGitHubVersionFreshTimeHours.\n"
+  example: []
+  syntax:
+    content: public static bool ShouldValidateCurrent()
+    return:
+      type: System.Boolean
+      description: TRUE if the current version should be validated via <xref href="ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action%7bProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result%7d)" data-throw-if-not-resolved="false"></xref>, FALSE otherwise.
+    content.vb: Public Shared Function ShouldValidateCurrent() As Boolean
+  overload: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent*
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile
+  id: GetCurrentFromFile
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentFromFile()
+  nameWithType: VersionValidator.GetCurrentFromFile()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile()
+  type: Method
+  source:
+    id: GetCurrentFromFile
+    path: ''
+    startLine: 15988
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  summary: "\nGet current version stored in a file.\n"
+  example: []
+  syntax:
+    content: public static Version GetCurrentFromFile()
+    return:
+      type: Global.Version
+      description: ''
+    content.vb: Public Shared Function GetCurrentFromFile() As Version
+  overload: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Versioning
+  name: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+    name: Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent
+  name: ValidateCurrent
+  nameWithType: VersionValidator.ValidateCurrent
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent
+- uid: Global.Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result}
+  commentId: '!:Global.Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result}'
+  definition: Global.Action`1
+  name: Action<Result>
+  nameWithType: Action<VersionValidator.Result>
+  fullName: Action<ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result>
+  nameWithType.vb: Action(Of VersionValidator.Result)
+  fullName.vb: Action(Of ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result)
+  name.vb: Action(Of Result)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+    name: Result
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+    name: Result
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result})
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ValidateCurrent(Action{ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result})
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GitHubRequestCooldown
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow
+  name: CanValidateCurrentNow
+  nameWithType: VersionValidator.CanValidateCurrentNow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.CanValidateCurrentNow
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent
+  name: GetRemainingCooldownOnValidateCurrent
+  nameWithType: VersionValidator.GetRemainingCooldownOnValidateCurrent
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetRemainingCooldownOnValidateCurrent
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent
+  name: ShouldValidateCurrent
+  nameWithType: VersionValidator.ShouldValidateCurrent
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.ShouldValidateCurrent
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile
+  name: GetCurrentFromFile
+  nameWithType: VersionValidator.GetCurrentFromFile
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.GetCurrentFromFile
+- uid: Global.Version
+  isExternal: true
+  name: Version
+  nameWithType: Version
+  fullName: Version

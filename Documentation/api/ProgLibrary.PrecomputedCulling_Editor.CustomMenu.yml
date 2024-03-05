@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  id: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+  name: PCCMonoBehaviourEditor
+  nameWithType: PCCMonoBehaviourEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  name: PrecomputedAreaEditor
+  nameWithType: PrecomputedAreaEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+  name: PrecomputedCameraEditor
+  nameWithType: PrecomputedCameraEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+  name: PrecomputedSceneSettingsEditor
+  nameWithType: PrecomputedSceneSettingsEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
+  name: PrecomputedSceneSetup
+  nameWithType: PrecomputedSceneSetup
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup

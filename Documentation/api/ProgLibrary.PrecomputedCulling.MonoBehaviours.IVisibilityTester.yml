@@ -14,12 +14,12 @@ items:
   type: Interface
   source:
     id: IVisibilityTester
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\MonoBehaviours\IVisibilityTester.cs
-    startLine: 35
+    path: ''
+    startLine: 4282
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  summary: <xref href="ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester" data-throw-if-not-resolved="false"></xref>
+  summary: "\n<xref href=\"ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
     content: public interface IVisibilityTester
@@ -27,37 +27,30 @@ items:
 references:
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
   commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
-  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester.html
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
   name: IVisibilityTester
   nameWithType: IVisibilityTester
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
   commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.MonoBehaviours
   nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
     name: MonoBehaviours
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
     name: MonoBehaviours
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html

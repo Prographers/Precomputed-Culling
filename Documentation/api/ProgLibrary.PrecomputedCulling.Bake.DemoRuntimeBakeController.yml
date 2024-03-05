@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+  id: DemoRuntimeBakeController
+  parent: ProgLibrary.PrecomputedCulling.Bake
+  children:
+  - ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll
+  langs:
+  - csharp
+  - vb
+  name: DemoRuntimeBakeController
+  nameWithType: DemoRuntimeBakeController
+  fullName: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+  type: Class
+  source:
+    id: DemoRuntimeBakeController
+    path: ''
+    startLine: 757
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake
+  summary: "\nExample runtime baker controller.\nNote that this controller is only for demonstration purposes. It&apos;s likely that you will need to implement your own.\n"
+  example: []
+  syntax:
+    content: 'public class DemoRuntimeBakeController : BaseRuntimeBakeController'
+    content.vb: Public Class DemoRuntimeBakeController Inherits BaseRuntimeBakeController
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+- uid: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll
+  commentId: M:ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll
+  id: BakeAll
+  parent: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+  langs:
+  - csharp
+  - vb
+  name: BakeAll()
+  nameWithType: DemoRuntimeBakeController.BakeAll()
+  fullName: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll()
+  type: Method
+  source:
+    id: BakeAll
+    path: ''
+    startLine: 836
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake
+  syntax:
+    content: public override void BakeAll()
+    content.vb: Public Overrides Sub BakeAll()
+  overridden: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController.BakeAll
+  overload: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Bake
+  commentId: N:ProgLibrary.PrecomputedCulling.Bake
+  name: ProgLibrary.PrecomputedCulling.Bake
+  nameWithType: ProgLibrary.PrecomputedCulling.Bake
+  fullName: ProgLibrary.PrecomputedCulling.Bake
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+  parent: ProgLibrary.PrecomputedCulling.Bake
+  name: BaseRuntimeBakeController
+  nameWithType: BaseRuntimeBakeController
+  fullName: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController.BakeAll
+  commentId: M:ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController.BakeAll
+  parent: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+  name: BakeAll()
+  nameWithType: BaseRuntimeBakeController.BakeAll()
+  fullName: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController.BakeAll()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController.BakeAll
+    name: BakeAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController.BakeAll
+    name: BakeAll
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll
+  name: BakeAll
+  nameWithType: DemoRuntimeBakeController.BakeAll
+  fullName: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController.BakeAll

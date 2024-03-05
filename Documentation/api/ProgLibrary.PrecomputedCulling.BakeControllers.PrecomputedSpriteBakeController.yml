@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  id: PrecomputedSpriteBakeController
+  parent: ProgLibrary.PrecomputedCulling.BakeControllers
+  children:
+  - ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes
+  - ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSpriteBakeController
+  nameWithType: PrecomputedSpriteBakeController
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  type: Class
+  source:
+    id: PrecomputedSpriteBakeController
+    path: ''
+    startLine: 1227
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeControllers
+  summary: "\nConverts SpriteRenderer to mesh to be visible during bake\n"
+  example: []
+  syntax:
+    content: public class PrecomputedSpriteBakeController
+    content.vb: Public Class PrecomputedSpriteBakeController
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes
+  id: CreateMeshes
+  parent: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  langs:
+  - csharp
+  - vb
+  name: CreateMeshes()
+  nameWithType: PrecomputedSpriteBakeController.CreateMeshes()
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes()
+  type: Method
+  source:
+    id: CreateMeshes
+    path: ''
+    startLine: 1238
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeControllers
+  summary: "\nConvert All SpriteRenderers to meshes\nCreate temporary objects with meshes\n"
+  example: []
+  syntax:
+    content: public void CreateMeshes()
+    content.vb: Public Sub CreateMeshes()
+  overload: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes*
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes
+  id: DestroyMeshes
+  parent: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  langs:
+  - csharp
+  - vb
+  name: DestroyMeshes()
+  nameWithType: PrecomputedSpriteBakeController.DestroyMeshes()
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes()
+  type: Method
+  source:
+    id: DestroyMeshes
+    path: ''
+    startLine: 1273
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeControllers
+  summary: "\nDestroy all temporary objects with mesh\n"
+  example: []
+  syntax:
+    content: public void DestroyMeshes()
+    content.vb: Public Sub DestroyMeshes()
+  overload: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes*
+references:
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers
+  commentId: N:ProgLibrary.PrecomputedCulling.BakeControllers
+  name: ProgLibrary.PrecomputedCulling.BakeControllers
+  nameWithType: ProgLibrary.PrecomputedCulling.BakeControllers
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeControllers
+    name: BakeControllers
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeControllers
+    name: BakeControllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes
+  name: CreateMeshes
+  nameWithType: PrecomputedSpriteBakeController.CreateMeshes
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.CreateMeshes
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes
+  name: DestroyMeshes
+  nameWithType: PrecomputedSpriteBakeController.DestroyMeshes
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController.DestroyMeshes

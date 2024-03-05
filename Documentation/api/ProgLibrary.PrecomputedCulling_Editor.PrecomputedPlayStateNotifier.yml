@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+  id: PrecomputedPlayStateNotifier
+  parent: ProgLibrary.PrecomputedCulling_Editor
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedPlayStateNotifier
+  nameWithType: PrecomputedPlayStateNotifier
+  fullName: ProgLibrary.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+  type: Class
+  source:
+    id: PrecomputedPlayStateNotifier
+    path: ''
+    startLine: 9445
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor
+  syntax:
+    content: public static class PrecomputedPlayStateNotifier
+    content.vb: Public Module PrecomputedPlayStateNotifier
+  inheritance:
+  - System.Object
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor
+  name: ProgLibrary.PrecomputedCulling_Editor
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor
+  fullName: ProgLibrary.PrecomputedCulling_Editor
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

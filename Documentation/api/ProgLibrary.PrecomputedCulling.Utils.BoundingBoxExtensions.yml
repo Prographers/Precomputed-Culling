@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+  id: BoundingBoxExtensions
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA(BoundingBox,Vector3)
+  langs:
+  - csharp
+  - vb
+  name: BoundingBoxExtensions
+  nameWithType: BoundingBoxExtensions
+  fullName: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+  type: Class
+  source:
+    id: BoundingBoxExtensions
+    path: ''
+    startLine: 7852
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nStatic methods for <see cref=\"!:BoundingBox\"></see>\n"
+  example: []
+  syntax:
+    content: public static class BoundingBoxExtensions
+    content.vb: Public Module BoundingBoxExtensions
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA(BoundingBox,Vector3)
+  commentId: M:ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA(BoundingBox,Vector3)
+  id: ExpandAA(BoundingBox,Vector3)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExpandAA(BoundingBox, Vector3)
+  nameWithType: BoundingBoxExtensions.ExpandAA(BoundingBox, Vector3)
+  fullName: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA(BoundingBox, Vector3)
+  type: Method
+  source:
+    id: ExpandAA
+    path: ''
+    startLine: 7859
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  summary: "\nExpands box to contain point\n"
+  example: []
+  syntax:
+    content: public static void ExpandAA(this BoundingBox box, Vector3 containPoint)
+    parameters:
+    - id: box
+      type: Global.BoundingBox
+      description: ''
+    - id: containPoint
+      type: Global.Vector3
+      description: ''
+    content.vb: Public Shared Sub ExpandAA(box As BoundingBox, containPoint As Vector3)
+  overload: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA
+  name: ExpandAA
+  nameWithType: BoundingBoxExtensions.ExpandAA
+  fullName: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions.ExpandAA
+- uid: Global.BoundingBox
+  isExternal: true
+  name: BoundingBox
+  nameWithType: BoundingBox
+  fullName: BoundingBox
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3

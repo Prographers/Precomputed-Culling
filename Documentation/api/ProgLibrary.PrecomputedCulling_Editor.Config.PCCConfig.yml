@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  id: PCCConfig
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.HasWelcomePopupBeenShown
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.VersioningData
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgain
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgainSetDate
+  langs:
+  - csharp
+  - vb
+  name: PCCConfig
+  nameWithType: PCCConfig
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  type: Class
+  source:
+    id: PCCConfig
+    path: ''
+    startLine: 10400
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nPlace for any long lasting data, which should be valid across the single Unity Project. This config will be\nserialized to JSON json and written to project Library. It has static access through <xref href=\"ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public class PCCConfig
+    content.vb: Public Class PCCConfig
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.VersioningData
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.VersioningData
+  id: VersioningData
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  langs:
+  - csharp
+  - vb
+  name: VersioningData
+  nameWithType: PCCConfig.VersioningData
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.VersioningData
+  type: Field
+  source:
+    id: VersioningData
+    path: ''
+    startLine: 10408
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  syntax:
+    content: public PCCConfig.Versioning VersioningData
+    return:
+      type: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+    content.vb: Public VersioningData As PCCConfig.Versioning
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgain
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgain
+  id: WelcomePopupNeverAgain
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  langs:
+  - csharp
+  - vb
+  name: WelcomePopupNeverAgain
+  nameWithType: PCCConfig.WelcomePopupNeverAgain
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgain
+  type: Field
+  source:
+    id: WelcomePopupNeverAgain
+    path: ''
+    startLine: 10413
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nIndicates, whether user decided to not see Welcome Popup again.\n"
+  example: []
+  syntax:
+    content: public bool WelcomePopupNeverAgain
+    return:
+      type: System.Boolean
+    content.vb: Public WelcomePopupNeverAgain As Boolean
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgainSetDate
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgainSetDate
+  id: WelcomePopupNeverAgainSetDate
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  langs:
+  - csharp
+  - vb
+  name: WelcomePopupNeverAgainSetDate
+  nameWithType: PCCConfig.WelcomePopupNeverAgainSetDate
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgainSetDate
+  type: Field
+  source:
+    id: WelcomePopupNeverAgainSetDate
+    path: ''
+    startLine: 10419
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nThe <see cref=\"!:DateTime\"></see> object binary serialized. Defines a moment in time when user set\n<xref href=\"ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgain\" data-throw-if-not-resolved=\"false\"></xref> to TRUE, or 0 when set to FALSE.\n"
+  example: []
+  syntax:
+    content: public long WelcomePopupNeverAgainSetDate
+    return:
+      type: System.Int64
+    content.vb: Public WelcomePopupNeverAgainSetDate As Long
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.HasWelcomePopupBeenShown
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.HasWelcomePopupBeenShown
+  id: HasWelcomePopupBeenShown
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  langs:
+  - csharp
+  - vb
+  name: HasWelcomePopupBeenShown
+  nameWithType: PCCConfig.HasWelcomePopupBeenShown
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.HasWelcomePopupBeenShown
+  type: Field
+  source:
+    id: HasWelcomePopupBeenShown
+    path: ''
+    startLine: 10424
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nIndicates, whether the WelcomePopup has been shown during this Unity Editor session.\n"
+  example: []
+  syntax:
+    content: public bool HasWelcomePopupBeenShown
+    return:
+      type: System.Boolean
+    content.vb: Public HasWelcomePopupBeenShown As Boolean
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+  commentId: P:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+  id: Instance
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: PCCConfig.Instance
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 10427
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  syntax:
+    content: public static PCCConfig Instance { get; }
+    parameters: []
+    return:
+      type: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+    content.vb: Public Shared ReadOnly Property Instance As PCCConfig
+  overload: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance*
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig
+  id: SaveConfig
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  langs:
+  - csharp
+  - vb
+  name: SaveConfig()
+  nameWithType: PCCConfig.SaveConfig()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig()
+  type: Method
+  source:
+    id: SaveConfig
+    path: ''
+    startLine: 10430
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  syntax:
+    content: public void SaveConfig()
+    content.vb: Public Sub SaveConfig()
+  overload: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+  commentId: P:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Config
+  name: ProgLibrary.PrecomputedCulling_Editor.Config
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Config
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config
+    name: Config
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config
+    name: Config
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config
+  name: PCCConfig.Versioning
+  nameWithType: PCCConfig.Versioning
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+    name: PCCConfig
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+    name: PCCConfig
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+    name: Versioning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgain
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.WelcomePopupNeverAgain
+  isExternal: true
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+  name: Instance
+  nameWithType: PCCConfig.Instance
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Instance
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config
+  name: PCCConfig
+  nameWithType: PCCConfig
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig
+  name: SaveConfig
+  nameWithType: PCCConfig.SaveConfig
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.SaveConfig

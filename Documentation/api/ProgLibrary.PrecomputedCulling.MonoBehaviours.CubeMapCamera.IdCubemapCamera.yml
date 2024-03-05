@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  id: IdCubemapCamera
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.CubemapRenderTexture
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.EquirectRenderTexture
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  langs:
+  - csharp
+  - vb
+  name: IdCubemapCamera
+  nameWithType: IdCubemapCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  type: Class
+  source:
+    id: IdCubemapCamera
+    path: ''
+    startLine: 4791
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  summary: "\nPrecomputed bake camera to test visibility form bake spots\n"
+  example: []
+  syntax:
+    content: 'public class IdCubemapCamera : PCCMonoBehaviour, IVisibilityTester<PrecomputedBakeIdCubemapSettings>, IVisibilityTester'
+    content.vb: Public Class IdCubemapCamera Inherits PCCMonoBehaviour Implements IVisibilityTester(Of PrecomputedBakeIdCubemapSettings), IVisibilityTester
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  implements:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.CubemapRenderTexture
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.CubemapRenderTexture
+  id: CubemapRenderTexture
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  langs:
+  - csharp
+  - vb
+  name: CubemapRenderTexture
+  nameWithType: IdCubemapCamera.CubemapRenderTexture
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.CubemapRenderTexture
+  type: Field
+  source:
+    id: CubemapRenderTexture
+    path: ''
+    startLine: 4800
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  summary: "\nCubemap Rendered 360 texture from current bake spot\n"
+  example: []
+  syntax:
+    content: public RenderTexture CubemapRenderTexture
+    return:
+      type: Global.RenderTexture
+    content.vb: Public CubemapRenderTexture As RenderTexture
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.EquirectRenderTexture
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.EquirectRenderTexture
+  id: EquirectRenderTexture
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  langs:
+  - csharp
+  - vb
+  name: EquirectRenderTexture
+  nameWithType: IdCubemapCamera.EquirectRenderTexture
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.EquirectRenderTexture
+  type: Field
+  source:
+    id: EquirectRenderTexture
+    path: ''
+    startLine: 4809
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  summary: "\nEquirect Rendered 360 texture from current bake spot\n"
+  example: []
+  syntax:
+    content: public RenderTexture EquirectRenderTexture
+    return:
+      type: Global.RenderTexture
+    content.vb: Public EquirectRenderTexture As RenderTexture
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader
+  commentId: P:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader
+  id: DiffComputeShader
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  langs:
+  - csharp
+  - vb
+  name: DiffComputeShader
+  nameWithType: IdCubemapCamera.DiffComputeShader
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader
+  type: Property
+  source:
+    id: DiffComputeShader
+    path: ''
+    startLine: 4870
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  summary: "\nCompute shader used to calculate diff of the textures\n"
+  example: []
+  syntax:
+    content: public ComputeShader DiffComputeShader { get; }
+    parameters: []
+    return:
+      type: Global.ComputeShader
+    content.vb: Public ReadOnly Property DiffComputeShader As ComputeShader
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader*
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings
+  commentId: P:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings
+  id: Settings
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: IdCubemapCamera.Settings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings
+  type: Property
+  source:
+    id: Settings
+    path: ''
+    startLine: 4908
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  summary: "\nSettings used with current camera, can be null if not during testing visibility\n"
+  example: []
+  syntax:
+    content: public PrecomputedBakeIdCubemapSettings Settings { get; }
+    parameters: []
+    return:
+      type: Global.PrecomputedBakeIdCubemapSettings
+    content.vb: Public Property Settings As PrecomputedBakeIdCubemapSettings
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings*
+  implements:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.Settings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  id: TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  langs:
+  - csharp
+  - vb
+  name: TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, int, PrecomputedArea)
+  nameWithType: IdCubemapCamera.TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, int, PrecomputedArea)
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, int, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  type: Method
+  source:
+    id: TestVisibility
+    path: ''
+    startLine: 5035
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  summary: "\nPerforms visibility test over all cameras locations\n"
+  example: []
+  syntax:
+    content: public IEnumerable<PrecomputedVisibilityIndices> TestVisibility(PrecomputedBakeIdCubemapSettings settings, Vector3 cameraPosition, int scriptableRendererIndex, PrecomputedArea precomputedArea)
+    parameters:
+    - id: settings
+      type: Global.PrecomputedBakeIdCubemapSettings
+    - id: cameraPosition
+      type: Global.Vector3
+      description: ''
+    - id: scriptableRendererIndex
+      type: System.Int32
+      description: 'Renderer index for '
+    - id: precomputedArea
+      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+      description: ''
+    return:
+      type: Global.IEnumerable{PrecomputedVisibilityIndices}
+      description: ''
+    content.vb: Public Function TestVisibility(settings As PrecomputedBakeIdCubemapSettings, cameraPosition As Vector3, scriptableRendererIndex As Integer, precomputedArea As PrecomputedArea) As IEnumerable(Of PrecomputedVisibilityIndices)
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility*
+  implements:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  nameWithType.vb: IdCubemapCamera.TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, Integer, PrecomputedArea)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, Integer, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  name.vb: TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, Integer, PrecomputedArea)
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer
+  id: GetLastCameraRenderer
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  langs:
+  - csharp
+  - vb
+  name: GetLastCameraRenderer()
+  nameWithType: IdCubemapCamera.GetLastCameraRenderer()
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer()
+  type: Method
+  source:
+    id: GetLastCameraRenderer
+    path: ''
+    startLine: 5044
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  summary: "\nTemporary list of zOrdered bake containers required for rendering\n"
+  example: []
+  syntax:
+    content: public List<PrecomputedRendererBakeContainer> GetLastCameraRenderer()
+    return:
+      type: Global.List{PrecomputedRendererBakeContainer}
+    content.vb: Public Function GetLastCameraRenderer() As List(Of PrecomputedRendererBakeContainer)
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer*
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+    name: CubeMapCamera
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+    name: CubeMapCamera
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PCCMonoBehaviour
+  nameWithType: PCCMonoBehaviour
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  definition: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  name: IVisibilityTester<PrecomputedBakeIdCubemapSettings>
+  nameWithType: IVisibilityTester<PrecomputedBakeIdCubemapSettings>
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<PrecomputedBakeIdCubemapSettings>
+  nameWithType.vb: IVisibilityTester(Of PrecomputedBakeIdCubemapSettings)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of PrecomputedBakeIdCubemapSettings)
+  name.vb: IVisibilityTester(Of PrecomputedBakeIdCubemapSettings)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+    name: IVisibilityTester
+  - name: <
+  - uid: Global.PrecomputedBakeIdCubemapSettings
+    name: PrecomputedBakeIdCubemapSettings
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+    name: IVisibilityTester
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedBakeIdCubemapSettings
+    name: PrecomputedBakeIdCubemapSettings
+    isExternal: true
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: IVisibilityTester
+  nameWithType: IVisibilityTester
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+  name: IVisibilityTester<TSettings>
+  nameWithType: IVisibilityTester<TSettings>
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>
+  nameWithType.vb: IVisibilityTester(Of TSettings)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings)
+  name.vb: IVisibilityTester(Of TSettings)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+    name: IVisibilityTester
+  - name: <
+  - name: TSettings
+  - name: '>'
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
+    name: IVisibilityTester
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSettings
+  - name: )
+- uid: Global.RenderTexture
+  isExternal: true
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: RenderTexture
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader
+  name: DiffComputeShader
+  nameWithType: IdCubemapCamera.DiffComputeShader
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.DiffComputeShader
+- uid: Global.ComputeShader
+  isExternal: true
+  name: ComputeShader
+  nameWithType: ComputeShader
+  fullName: ComputeShader
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings
+  name: Settings
+  nameWithType: IdCubemapCamera.Settings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.Settings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.Settings
+  commentId: P:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.Settings
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}
+  definition: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings
+  name: Settings
+  nameWithType: IVisibilityTester<PrecomputedBakeIdCubemapSettings>.Settings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<PrecomputedBakeIdCubemapSettings>.Settings
+  nameWithType.vb: IVisibilityTester(Of PrecomputedBakeIdCubemapSettings).Settings
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of PrecomputedBakeIdCubemapSettings).Settings
+- uid: Global.PrecomputedBakeIdCubemapSettings
+  isExternal: true
+  name: PrecomputedBakeIdCubemapSettings
+  nameWithType: PrecomputedBakeIdCubemapSettings
+  fullName: PrecomputedBakeIdCubemapSettings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings
+  commentId: P:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.Settings
+  name: Settings
+  nameWithType: IVisibilityTester<TSettings>.Settings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>.Settings
+  nameWithType.vb: IVisibilityTester(Of TSettings).Settings
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings).Settings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility
+  name: TestVisibility
+  nameWithType: IdCubemapCamera.TestVisibility
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.TestVisibility
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}
+  definition: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  name: TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, int, PrecomputedArea)
+  nameWithType: IVisibilityTester<PrecomputedBakeIdCubemapSettings>.TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, int, PrecomputedArea)
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<PrecomputedBakeIdCubemapSettings>.TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, int, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  nameWithType.vb: IVisibilityTester(Of PrecomputedBakeIdCubemapSettings).TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, Integer, PrecomputedArea)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of PrecomputedBakeIdCubemapSettings).TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, Integer, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  name.vb: TestVisibility(PrecomputedBakeIdCubemapSettings, Vector3, Integer, PrecomputedArea)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+    name: TestVisibility
+  - name: (
+  - uid: Global.PrecomputedBakeIdCubemapSettings
+    name: PrecomputedBakeIdCubemapSettings
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+    name: PrecomputedArea
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester{PrecomputedBakeIdCubemapSettings}.TestVisibility(PrecomputedBakeIdCubemapSettings,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+    name: TestVisibility
+  - name: (
+  - uid: Global.PrecomputedBakeIdCubemapSettings
+    name: PrecomputedBakeIdCubemapSettings
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+    name: PrecomputedArea
+  - name: )
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+- uid: Global.IEnumerable{PrecomputedVisibilityIndices}
+  commentId: '!:Global.IEnumerable{PrecomputedVisibilityIndices}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<PrecomputedVisibilityIndices>
+  nameWithType: IEnumerable<PrecomputedVisibilityIndices>
+  fullName: IEnumerable<PrecomputedVisibilityIndices>
+  nameWithType.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  fullName.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  name.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedVisibilityIndices
+    name: PrecomputedVisibilityIndices
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedVisibilityIndices
+    name: PrecomputedVisibilityIndices
+    isExternal: true
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  isExternal: true
+  name: TestVisibility(TSettings, Vector3, int, PrecomputedArea)
+  nameWithType: IVisibilityTester<TSettings>.TestVisibility(TSettings, Vector3, int, PrecomputedArea)
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester<TSettings>.TestVisibility(TSettings, Vector3, int, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  nameWithType.vb: IVisibilityTester(Of TSettings).TestVisibility(TSettings, Vector3, Integer, PrecomputedArea)
+  fullName.vb: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester(Of TSettings).TestVisibility(TSettings, Vector3, Integer, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+  name.vb: TestVisibility(TSettings, Vector3, Integer, PrecomputedArea)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+    name: TestVisibility
+  - name: (
+  - name: TSettings
+  - name: ','
+  - name: " "
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+    name: PrecomputedArea
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1.TestVisibility(`0,Vector3,System.Int32,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea)
+    name: TestVisibility
+  - name: (
+  - name: TSettings
+  - name: ','
+  - name: " "
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+    name: PrecomputedArea
+  - name: )
+- uid: Global.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer
+  name: GetLastCameraRenderer
+  nameWithType: IdCubemapCamera.GetLastCameraRenderer
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera.GetLastCameraRenderer
+- uid: Global.List{PrecomputedRendererBakeContainer}
+  commentId: '!:Global.List{PrecomputedRendererBakeContainer}'
+  definition: Global.List`1
+  name: List<PrecomputedRendererBakeContainer>
+  nameWithType: List<PrecomputedRendererBakeContainer>
+  fullName: List<PrecomputedRendererBakeContainer>
+  nameWithType.vb: List(Of PrecomputedRendererBakeContainer)
+  fullName.vb: List(Of PrecomputedRendererBakeContainer)
+  name.vb: List(Of PrecomputedRendererBakeContainer)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedRendererBakeContainer
+    name: PrecomputedRendererBakeContainer
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedRendererBakeContainer
+    name: PrecomputedRendererBakeContainer
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

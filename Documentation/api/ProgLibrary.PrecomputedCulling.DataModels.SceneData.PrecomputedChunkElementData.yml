@@ -10,9 +10,9 @@ items:
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(System.Object)
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Id
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PixelsVisibility
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PixelsVisibility
   langs:
   - csharp
   - vb
@@ -22,31 +22,16 @@ items:
   type: Struct
   source:
     id: PrecomputedChunkElementData
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 9
+    path: ''
+    startLine: 2903
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Data of single Renderer
+  summary: "\nData of single Renderer\n"
   example: []
   syntax:
-    content: >-
-      [Serializable]
-
-      public struct PrecomputedChunkElementData
-    content.vb: >-
-      <Serializable>
-
-      Public Structure PrecomputedChunkElementData
-  inheritedMembers:
-  - System.ValueType.ToString
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  attributes:
-  - type: System.SerializableAttribute
-    ctor: System.SerializableAttribute.#ctor
-    arguments: []
+    content: public struct PrecomputedChunkElementData
+    content.vb: Public Structure PrecomputedChunkElementData
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Id
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Id
   id: Id
@@ -60,12 +45,12 @@ items:
   type: Field
   source:
     id: Id
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 16
+    path: ''
+    startLine: 2910
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Id of the renderer
+  summary: "\nId of the renderer\n"
   example: []
   syntax:
     content: public int Id
@@ -85,12 +70,12 @@ items:
   type: Field
   source:
     id: PixelsVisibility
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 21
+    path: ''
+    startLine: 2915
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Visibility of the renderer in pixels
+  summary: "\nVisibility of the renderer in pixels\n"
   example: []
   syntax:
     content: public int PixelsVisibility
@@ -110,12 +95,12 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 28
+    path: ''
+    startLine: 2922
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Editor only constructor
+  summary: "\nEditor only constructor\n"
   example: []
   syntax:
     content: public PrecomputedChunkElementData(int id, int pixelsVisibility)
@@ -144,12 +129,12 @@ items:
   type: Method
   source:
     id: Equals
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 39
+    path: ''
+    startLine: 2933
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Equals
+  summary: "\nEquals\n"
   example: []
   syntax:
     content: public bool Equals(PrecomputedChunkElementData other)
@@ -175,10 +160,10 @@ items:
   type: Method
   source:
     id: Equals
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 45
+    path: ''
+    startLine: 2939
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   example: []
   syntax:
@@ -207,10 +192,10 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 51
+    path: ''
+    startLine: 2945
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   example: []
   syntax:
@@ -233,12 +218,12 @@ items:
   type: Operator
   source:
     id: op_Equality
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 62
+    path: ''
+    startLine: 2956
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Comparison operator Equals
+  summary: "\nComparison operator Equals\n"
   example: []
   syntax:
     content: public static bool operator ==(PrecomputedChunkElementData left, PrecomputedChunkElementData right)
@@ -270,12 +255,12 @@ items:
   type: Operator
   source:
     id: op_Inequality
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\SceneData\PrecomputedChunkElementData.cs
-    startLine: 73
+    path: ''
+    startLine: 2967
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  summary: Comparison operator not Equals
+  summary: "\nComparison operator not Equals\n"
   example: []
   syntax:
     content: public static bool operator !=(PrecomputedChunkElementData left, PrecomputedChunkElementData right)
@@ -297,218 +282,51 @@ items:
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
     name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
     name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
-- uid: System.ValueType.ToString
-  commentId: M:System.ValueType.ToString
-  parent: System.ValueType
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
-  name: ToString()
-  nameWithType: ValueType.ToString()
-  fullName: System.ValueType.ToString()
-  spec.csharp:
-  - uid: System.ValueType.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.ValueType.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.ValueType
-  commentId: T:System.ValueType
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.valuetype
-  name: ValueType
-  nameWithType: ValueType
-  fullName: System.ValueType
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
   name: int
   nameWithType: int
   fullName: int
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.#ctor(System.Int32,System.Int32)
   name: PrecomputedChunkElementData
   nameWithType: PrecomputedChunkElementData.PrecomputedChunkElementData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.PrecomputedChunkElementData
@@ -517,14 +335,12 @@ references:
   name.vb: New
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
   name: Equals
   nameWithType: PrecomputedChunkElementData.Equals
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.Equals
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html
   name: PrecomputedChunkElementData
   nameWithType: PrecomputedChunkElementData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
@@ -532,7 +348,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
   name: bool
   nameWithType: bool
   fullName: bool
@@ -543,7 +358,6 @@ references:
   commentId: M:System.ValueType.Equals(System.Object)
   parent: System.ValueType
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
   name: Equals(object)
   nameWithType: ValueType.Equals(object)
   fullName: System.ValueType.Equals(object)
@@ -554,29 +368,41 @@ references:
   - uid: System.ValueType.Equals(System.Object)
     name: Equals
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
   - name: (
   - uid: System.Object
     name: object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: System.ValueType.Equals(System.Object)
     name: Equals
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
 - uid: System.ValueType.GetHashCode
   commentId: M:System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
   name: GetHashCode()
   nameWithType: ValueType.GetHashCode()
   fullName: System.ValueType.GetHashCode()
@@ -584,25 +410,21 @@ references:
   - uid: System.ValueType.GetHashCode
     name: GetHashCode
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
   - name: (
   - name: )
   spec.vb:
   - uid: System.ValueType.GetHashCode
     name: GetHashCode
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
   - name: (
   - name: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
   name: GetHashCode
   nameWithType: PrecomputedChunkElementData.GetHashCode
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.GetHashCode
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
   name: operator ==
   nameWithType: PrecomputedChunkElementData.operator ==
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.operator ==
@@ -614,10 +436,8 @@ references:
   - name: " "
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality*
     name: ==
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Equality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)
   name: operator !=
   nameWithType: PrecomputedChunkElementData.operator !=
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.operator !=
@@ -629,4 +449,3 @@ references:
   - name: " "
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality*
     name: '!='
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html#ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.op_Inequality(ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData,ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData)

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers
+  commentId: N:ProgLibrary.PrecomputedCulling.BakeControllers
+  id: ProgLibrary.PrecomputedCulling.BakeControllers
+  children:
+  - ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  - ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.BakeControllers
+  nameWithType: ProgLibrary.PrecomputedCulling.BakeControllers
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+  name: PrecomputedSpriteBakeController
+  nameWithType: PrecomputedSpriteBakeController
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  name: PrecomputedTerrainBakeController
+  nameWithType: PrecomputedTerrainBakeController
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController

@@ -9,6 +9,7 @@ items:
   - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
   - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
   - ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  - ProgLibrary.PrecomputedCulling.Settings.PrecomputedDataSettings
   - ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
   - ProgLibrary.PrecomputedCulling.Settings.TextureResolution
   langs:
@@ -19,82 +20,72 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Settings
   type: Namespace
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
 references:
-- uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
-  commentId: T:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
-  parent: ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.html
-  name: BakeAlgorithm
-  nameWithType: BakeAlgorithm
-  fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
-- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
-  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
-  parent: ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea.html
-  name: PrecomputedSettingsArea
-  nameWithType: PrecomputedSettingsArea
-  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
   commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
   parent: ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings.html
   name: PrecomputedBakeCameraSettings
   nameWithType: PrecomputedBakeCameraSettings
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeCameraSettings
-- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
-  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
-  parent: ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings.html
-  name: PrecomputedBaseBakeSettings
-  nameWithType: PrecomputedBaseBakeSettings
-  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
   commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
-  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings.html
   name: PrecomputedBakeTargetedFrustumSettings
   nameWithType: PrecomputedBakeTargetedFrustumSettings
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeTargetedFrustumSettings
 - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
   commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
-  href: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings.html
   name: PrecomputedBakeIdCubemapSettings
   nameWithType: PrecomputedBakeIdCubemapSettings
   fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBakeIdCubemapSettings
 - uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
   commentId: T:ProgLibrary.PrecomputedCulling.Settings.TextureResolution
   parent: ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.PrecomputedCulling.Settings.TextureResolution.html
   name: TextureResolution
   nameWithType: TextureResolution
   fullName: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: PrecomputedBaseBakeSettings
+  nameWithType: PrecomputedBaseBakeSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedDataSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedDataSettings
+  name: PrecomputedDataSettings
+  nameWithType: PrecomputedDataSettings
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedDataSettings
+- uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+  parent: ProgLibrary.PrecomputedCulling.Settings
+  name: BakeAlgorithm
+  nameWithType: BakeAlgorithm
+  fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
+- uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+  commentId: T:ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
+  name: PrecomputedSettingsArea
+  nameWithType: PrecomputedSettingsArea
+  fullName: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
 - uid: ProgLibrary.PrecomputedCulling.Settings
   commentId: N:ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.Settings
   nameWithType: ProgLibrary.PrecomputedCulling.Settings
   fullName: ProgLibrary.PrecomputedCulling.Settings
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.Settings
     name: Settings
-    href: ProgLibrary.PrecomputedCulling.Settings.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.Settings
     name: Settings
-    href: ProgLibrary.PrecomputedCulling.Settings.html

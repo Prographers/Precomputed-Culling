@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  id: PrecomputedSceneSettings
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant(PrecomputedSceneVariantData)
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.allVariantsDataSettings
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.JoinVariants
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.loadMethodOn
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.Priority
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant(PrecomputedSceneVariantData)
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantAreaDatas
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantsSettings
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneSettings
+  nameWithType: PrecomputedSceneSettings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  type: Class
+  source:
+    id: PrecomputedSceneSettings
+    path: ''
+    startLine: 4644
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nOcclusion Settings for scene\nRequired to automatically load the correct variants\n"
+  example: []
+  syntax:
+    content: 'public class PrecomputedSceneSettings : MonoBehaviour'
+    content.vb: Public Class PrecomputedSceneSettings Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.allVariantsDataSettings
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.allVariantsDataSettings
+  id: allVariantsDataSettings
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: allVariantsDataSettings
+  nameWithType: PrecomputedSceneSettings.allVariantsDataSettings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.allVariantsDataSettings
+  type: Field
+  source:
+    id: allVariantsDataSettings
+    path: ''
+    startLine: 4650
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nReference to main PrecomputedDataSettings\n"
+  example: []
+  syntax:
+    content: public PrecomputedDataSettings allVariantsDataSettings
+    return:
+      type: Global.PrecomputedDataSettings
+    content.vb: Public allVariantsDataSettings As PrecomputedDataSettings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantsSettings
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantsSettings
+  id: VariantsSettings
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: VariantsSettings
+  nameWithType: PrecomputedSceneSettings.VariantsSettings
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantsSettings
+  type: Field
+  source:
+    id: VariantsSettings
+    path: ''
+    startLine: 4655
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nVariants containing the parent scene of this object \n"
+  example: []
+  syntax:
+    content: public List<PrecomputedSceneVariantData> VariantsSettings
+    return:
+      type: Global.List{PrecomputedSceneVariantData}
+    content.vb: Public VariantsSettings As List(Of PrecomputedSceneVariantData)
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantAreaDatas
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantAreaDatas
+  id: VariantAreaDatas
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: VariantAreaDatas
+  nameWithType: PrecomputedSceneSettings.VariantAreaDatas
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.VariantAreaDatas
+  type: Field
+  source:
+    id: VariantAreaDatas
+    path: ''
+    startLine: 4660
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nList of correlated area and \n"
+  example: []
+  syntax:
+    content: public List<PrecomputedSceneAreaData> VariantAreaDatas
+    return:
+      type: Global.List{PrecomputedSceneAreaData}
+    content.vb: Public VariantAreaDatas As List(Of PrecomputedSceneAreaData)
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.loadMethodOn
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.loadMethodOn
+  id: loadMethodOn
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: loadMethodOn
+  nameWithType: PrecomputedSceneSettings.loadMethodOn
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.loadMethodOn
+  type: Field
+  source:
+    id: loadMethodOn
+    path: ''
+    startLine: 4665
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nSelect when Occlusion Culling data should be loaded and applied. It might be useful for loading screens to load them from script/manual.\n"
+  example: []
+  syntax:
+    content: public PrecomputedLoadMethod loadMethodOn
+    return:
+      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+    content.vb: Public loadMethodOn As PrecomputedLoadMethod
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.Priority
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.Priority
+  id: Priority
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: PrecomputedSceneSettings.Priority
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.Priority
+  type: Field
+  source:
+    id: Priority
+    path: ''
+    startLine: 4671
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nWhich General Settings (if multiple are present) should be used to determine current variant.\nOnly applicable when only single variant is applied. If all settings has the same priority, the best matching variant will be used for occlusion\n"
+  example: []
+  syntax:
+    content: public int Priority
+    return:
+      type: System.Int32
+    content.vb: Public Priority As Integer
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.JoinVariants
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.JoinVariants
+  id: JoinVariants
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: JoinVariants
+  nameWithType: PrecomputedSceneSettings.JoinVariants
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.JoinVariants
+  type: Field
+  source:
+    id: JoinVariants
+    path: ''
+    startLine: 4677
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nAllow for multiple variants from multiple bakes to be loaded with this variant. This option has no effect when loading from manual/script.\nAll scenes need to have this option selected for it to work, otherwise it will be treated as only single occlusion can be loaded\n"
+  example: []
+  syntax:
+    content: public bool JoinVariants
+    return:
+      type: System.Boolean
+    content.vb: Public JoinVariants As Boolean
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant(PrecomputedSceneVariantData)
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant(PrecomputedSceneVariantData)
+  id: AddVariant(PrecomputedSceneVariantData)
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: AddVariant(PrecomputedSceneVariantData)
+  nameWithType: PrecomputedSceneSettings.AddVariant(PrecomputedSceneVariantData)
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant(PrecomputedSceneVariantData)
+  type: Method
+  source:
+    id: AddVariant
+    path: ''
+    startLine: 4683
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nAdd new variant\n"
+  example: []
+  syntax:
+    content: public void AddVariant(PrecomputedSceneVariantData precomputedSceneVariantData)
+    parameters:
+    - id: precomputedSceneVariantData
+      type: Global.PrecomputedSceneVariantData
+      description: ''
+    content.vb: Public Sub AddVariant(precomputedSceneVariantData As PrecomputedSceneVariantData)
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant*
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant(PrecomputedSceneVariantData)
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant(PrecomputedSceneVariantData)
+  id: RemoveVariant(PrecomputedSceneVariantData)
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+  langs:
+  - csharp
+  - vb
+  name: RemoveVariant(PrecomputedSceneVariantData)
+  nameWithType: PrecomputedSceneSettings.RemoveVariant(PrecomputedSceneVariantData)
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant(PrecomputedSceneVariantData)
+  type: Method
+  source:
+    id: RemoveVariant
+    path: ''
+    startLine: 4696
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nRemove variant\n"
+  example: []
+  syntax:
+    content: public void RemoveVariant(PrecomputedSceneVariantData precomputedSceneVariantData)
+    parameters:
+    - id: precomputedSceneVariantData
+      type: Global.PrecomputedSceneVariantData
+      description: ''
+    content.vb: Public Sub RemoveVariant(precomputedSceneVariantData As PrecomputedSceneVariantData)
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant*
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.PrecomputedDataSettings
+  isExternal: true
+  name: PrecomputedDataSettings
+  nameWithType: PrecomputedDataSettings
+  fullName: PrecomputedDataSettings
+- uid: Global.List{PrecomputedSceneVariantData}
+  commentId: '!:Global.List{PrecomputedSceneVariantData}'
+  definition: Global.List`1
+  name: List<PrecomputedSceneVariantData>
+  nameWithType: List<PrecomputedSceneVariantData>
+  fullName: List<PrecomputedSceneVariantData>
+  nameWithType.vb: List(Of PrecomputedSceneVariantData)
+  fullName.vb: List(Of PrecomputedSceneVariantData)
+  name.vb: List(Of PrecomputedSceneVariantData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedSceneVariantData
+    name: PrecomputedSceneVariantData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedSceneVariantData
+    name: PrecomputedSceneVariantData
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.List{PrecomputedSceneAreaData}
+  commentId: '!:Global.List{PrecomputedSceneAreaData}'
+  definition: Global.List`1
+  name: List<PrecomputedSceneAreaData>
+  nameWithType: List<PrecomputedSceneAreaData>
+  fullName: List<PrecomputedSceneAreaData>
+  nameWithType.vb: List(Of PrecomputedSceneAreaData)
+  fullName.vb: List(Of PrecomputedSceneAreaData)
+  name.vb: List(Of PrecomputedSceneAreaData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedSceneAreaData
+    name: PrecomputedSceneAreaData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedSceneAreaData
+    name: PrecomputedSceneAreaData
+    isExternal: true
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedLoadMethod
+  nameWithType: PrecomputedLoadMethod
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant
+  name: AddVariant
+  nameWithType: PrecomputedSceneSettings.AddVariant
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.AddVariant
+- uid: Global.PrecomputedSceneVariantData
+  isExternal: true
+  name: PrecomputedSceneVariantData
+  nameWithType: PrecomputedSceneVariantData
+  fullName: PrecomputedSceneVariantData
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant
+  name: RemoveVariant
+  nameWithType: PrecomputedSceneSettings.RemoveVariant
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings.RemoveVariant

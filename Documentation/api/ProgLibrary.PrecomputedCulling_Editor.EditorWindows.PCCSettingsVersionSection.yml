@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  id: PCCSettingsVersionSection
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent(VisualElement)
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction(System.Boolean,System.String)
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig
+  langs:
+  - csharp
+  - vb
+  name: PCCSettingsVersionSection
+  nameWithType: PCCSettingsVersionSection
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  type: Class
+  source:
+    id: PCCSettingsVersionSection
+    path: ''
+    startLine: 12352
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public class PCCSettingsVersionSection
+    content.vb: Public Class PCCSettingsVersionSection
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent(VisualElement)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent(VisualElement)
+  id: InitContent(VisualElement)
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  langs:
+  - csharp
+  - vb
+  name: InitContent(VisualElement)
+  nameWithType: PCCSettingsVersionSection.InitContent(VisualElement)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent(VisualElement)
+  type: Method
+  source:
+    id: InitContent
+    path: ''
+    startLine: 12363
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public void InitContent(VisualElement root)
+    parameters:
+    - id: root
+      type: Global.VisualElement
+    content.vb: Public Sub InitContent(root As VisualElement)
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent*
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile
+  id: UpdateCurrentFromFile
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  langs:
+  - csharp
+  - vb
+  name: UpdateCurrentFromFile()
+  nameWithType: PCCSettingsVersionSection.UpdateCurrentFromFile()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile()
+  type: Method
+  source:
+    id: UpdateCurrentFromFile
+    path: ''
+    startLine: 12378
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public void UpdateCurrentFromFile()
+    content.vb: Public Sub UpdateCurrentFromFile()
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile*
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig
+  id: UpdateAvailableFromConfig
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  langs:
+  - csharp
+  - vb
+  name: UpdateAvailableFromConfig()
+  nameWithType: PCCSettingsVersionSection.UpdateAvailableFromConfig()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig()
+  type: Method
+  source:
+    id: UpdateAvailableFromConfig
+    path: ''
+    startLine: 12386
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public void UpdateAvailableFromConfig()
+    content.vb: Public Sub UpdateAvailableFromConfig()
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig*
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig
+  id: UpdateLastCheckFromConfig
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  langs:
+  - csharp
+  - vb
+  name: UpdateLastCheckFromConfig()
+  nameWithType: PCCSettingsVersionSection.UpdateLastCheckFromConfig()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig()
+  type: Method
+  source:
+    id: UpdateLastCheckFromConfig
+    path: ''
+    startLine: 12403
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public void UpdateLastCheckFromConfig()
+    content.vb: Public Sub UpdateLastCheckFromConfig()
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig*
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction(System.Boolean,System.String)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction(System.Boolean,System.String)
+  id: SetValidateButtonInteraction(System.Boolean,System.String)
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+  langs:
+  - csharp
+  - vb
+  name: SetValidateButtonInteraction(bool, string)
+  nameWithType: PCCSettingsVersionSection.SetValidateButtonInteraction(bool, string)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction(bool, string)
+  type: Method
+  source:
+    id: SetValidateButtonInteraction
+    path: ''
+    startLine: 12412
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public void SetValidateButtonInteraction(bool isEnabled, string newText = null)
+    parameters:
+    - id: isEnabled
+      type: System.Boolean
+    - id: newText
+      type: System.String
+    content.vb: Public Sub SetValidateButtonInteraction(isEnabled As Boolean, newText As String = Nothing)
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction*
+  nameWithType.vb: PCCSettingsVersionSection.SetValidateButtonInteraction(Boolean, String)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction(Boolean, String)
+  name.vb: SetValidateButtonInteraction(Boolean, String)
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  name: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent
+  name: InitContent
+  nameWithType: PCCSettingsVersionSection.InitContent
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.InitContent
+- uid: Global.VisualElement
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: VisualElement
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile
+  name: UpdateCurrentFromFile
+  nameWithType: PCCSettingsVersionSection.UpdateCurrentFromFile
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateCurrentFromFile
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig
+  name: UpdateAvailableFromConfig
+  nameWithType: PCCSettingsVersionSection.UpdateAvailableFromConfig
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateAvailableFromConfig
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig
+  name: UpdateLastCheckFromConfig
+  nameWithType: PCCSettingsVersionSection.UpdateLastCheckFromConfig
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.UpdateLastCheckFromConfig
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction
+  name: SetValidateButtonInteraction
+  nameWithType: PCCSettingsVersionSection.SetValidateButtonInteraction
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection.SetValidateButtonInteraction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

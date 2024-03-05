@@ -13,11 +13,10 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
   type: Namespace
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
 references:
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
   commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
-  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils.html
   name: CameraMatrixUtils
   nameWithType: CameraMatrixUtils
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils

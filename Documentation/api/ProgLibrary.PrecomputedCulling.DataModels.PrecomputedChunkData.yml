@@ -5,12 +5,14 @@ items:
   id: PrecomputedChunkData
   parent: ProgLibrary.PrecomputedCulling.DataModels
   children:
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex(System.Int32,ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
   - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Box
-  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@,System.Int32@,System.Int32@,System.Int32@)
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(Vector3@,System.Int32@,System.Int32@,System.Int32@)
   - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex(System.Int32,System.Int32,System.Int32,System.Int32)
-  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(Vector3@,PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
   - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GroupRenderersData
   - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Height
+  - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize(PrecomputedArea@,Scene)
   - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Length
   - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.RenderersData
   - ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.TargetSceneName
@@ -24,87 +26,18 @@ items:
   type: Class
   source:
     id: PrecomputedChunkData
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 22
+    path: ''
+    startLine: 2229
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Data of a single chunked region
+  summary: "\nData of a single chunked region\n"
   example: []
   syntax:
-    content: >-
-      [Serializable]
-
-      public class PrecomputedChunkData : ScriptableObject, ISerializationCallbackReceiver
-    content.vb: >-
-      <Serializable>
-
-      Public Class PrecomputedChunkData Inherits ScriptableObject Implements ISerializationCallbackReceiver
+    content: 'public class PrecomputedChunkData : ScriptableObject'
+    content.vb: Public Class PrecomputedChunkData Inherits ScriptableObject
   inheritance:
   - System.Object
-  - UnityEngine.Object
-  - UnityEngine.ScriptableObject
-  implements:
-  - UnityEngine.ISerializationCallbackReceiver
-  inheritedMembers:
-  - UnityEngine.ScriptableObject.SetDirty
-  - UnityEngine.ScriptableObject.CreateInstance(System.String)
-  - UnityEngine.ScriptableObject.CreateInstance(System.Type)
-  - UnityEngine.ScriptableObject.CreateInstance``1
-  - UnityEngine.Object.GetInstanceID
-  - UnityEngine.Object.GetHashCode
-  - UnityEngine.Object.Equals(System.Object)
-  - UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  - UnityEngine.Object.Instantiate(UnityEngine.Object)
-  - UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform)
-  - UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform,System.Boolean)
-  - UnityEngine.Object.Instantiate``1({T})
-  - UnityEngine.Object.Instantiate``1({T},UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.Object.Instantiate``1({T},UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  - UnityEngine.Object.Instantiate``1({T},UnityEngine.Transform)
-  - UnityEngine.Object.Instantiate``1({T},UnityEngine.Transform,System.Boolean)
-  - UnityEngine.Object.Destroy(UnityEngine.Object,System.Single)
-  - UnityEngine.Object.Destroy(UnityEngine.Object)
-  - UnityEngine.Object.DestroyImmediate(UnityEngine.Object,System.Boolean)
-  - UnityEngine.Object.DestroyImmediate(UnityEngine.Object)
-  - UnityEngine.Object.FindObjectsOfType(System.Type)
-  - UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
-  - UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsSortMode)
-  - UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-  - UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
-  - UnityEngine.Object.DestroyObject(UnityEngine.Object,System.Single)
-  - UnityEngine.Object.DestroyObject(UnityEngine.Object)
-  - UnityEngine.Object.FindSceneObjectsOfType(System.Type)
-  - UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)
-  - UnityEngine.Object.FindObjectsOfType``1
-  - UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsSortMode)
-  - UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
-  - UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-  - UnityEngine.Object.FindObjectOfType``1
-  - UnityEngine.Object.FindObjectOfType``1(System.Boolean)
-  - UnityEngine.Object.FindFirstObjectByType``1
-  - UnityEngine.Object.FindAnyObjectByType``1
-  - UnityEngine.Object.FindFirstObjectByType``1(UnityEngine.FindObjectsInactive)
-  - UnityEngine.Object.FindAnyObjectByType``1(UnityEngine.FindObjectsInactive)
-  - UnityEngine.Object.FindObjectsOfTypeAll(System.Type)
-  - UnityEngine.Object.FindObjectOfType(System.Type)
-  - UnityEngine.Object.FindFirstObjectByType(System.Type)
-  - UnityEngine.Object.FindAnyObjectByType(System.Type)
-  - UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
-  - UnityEngine.Object.FindFirstObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-  - UnityEngine.Object.FindAnyObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-  - UnityEngine.Object.ToString
-  - UnityEngine.Object.name
-  - UnityEngine.Object.hideFlags
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  attributes:
-  - type: System.SerializableAttribute
-    ctor: System.SerializableAttribute.#ctor
-    arguments: []
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.TargetSceneName
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.TargetSceneName
   id: TargetSceneName
@@ -118,12 +51,12 @@ items:
   type: Field
   source:
     id: TargetSceneName
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 28
+    path: ''
+    startLine: 2235
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Target scene reference
+  summary: "\nTarget scene reference\n"
   example: []
   syntax:
     content: public string TargetSceneName
@@ -143,12 +76,12 @@ items:
   type: Field
   source:
     id: Width
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 33
+    path: ''
+    startLine: 2240
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Amount of x cells in this chunk
+  summary: "\nAmount of x cells in this chunk\n"
   example: []
   syntax:
     content: public int Width
@@ -168,12 +101,12 @@ items:
   type: Field
   source:
     id: Height
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 37
+    path: ''
+    startLine: 2245
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Amount of y cells in this chunk
+  summary: "\nAmount of y cells in this chunk\n"
   example: []
   syntax:
     content: public int Height
@@ -193,12 +126,12 @@ items:
   type: Field
   source:
     id: Length
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 42
+    path: ''
+    startLine: 2250
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Amount of z cells in this chunk
+  summary: "\nAmount of z cells in this chunk\n"
   example: []
   syntax:
     content: public int Length
@@ -218,12 +151,12 @@ items:
   type: Field
   source:
     id: Box
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 47
+    path: ''
+    startLine: 2255
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Bounding box of the chunk
+  summary: "\nBounding box of the chunk\n"
   example: []
   syntax:
     content: public BoundingBox Box
@@ -243,17 +176,17 @@ items:
   type: Field
   source:
     id: GroupRenderersData
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 52
+    path: ''
+    startLine: 2260
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Chunks of indexes of the group of the redenrers
+  summary: "\nChunks of indexes of the group of the redenrers\n"
   example: []
   syntax:
     content: public PrecomputedChunkElementData[][] GroupRenderersData
     return:
-      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[][]
+      type: Global.PrecomputedChunkElementData[][]
     content.vb: Public GroupRenderersData As PrecomputedChunkElementData()()
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.RenderersData
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.RenderersData
@@ -268,89 +201,117 @@ items:
   type: Field
   source:
     id: RenderersData
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 61
+    path: ''
+    startLine: 2269
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Chunks of indexes of the renderers
+  summary: "\nChunks of indexes of the renderers\n"
   example: []
   syntax:
     content: public PrecomputedChunkElementData[][] RenderersData
     return:
-      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[][]
+      type: Global.PrecomputedChunkElementData[][]
     content.vb: Public RenderersData As PrecomputedChunkElementData()()
-- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
-  id: GetVisibleRenderers(UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize(PrecomputedArea@,Scene)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize(PrecomputedArea@,Scene)
+  id: Initialize(PrecomputedArea@,Scene)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
+  langs:
+  - csharp
+  - vb
+  name: Initialize(in PrecomputedArea, Scene)
+  nameWithType: PrecomputedChunkData.Initialize(in PrecomputedArea, Scene)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize(in PrecomputedArea, Scene)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 2282
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nInitialize chunk bake data\n"
+  example: []
+  syntax:
+    content: public void Initialize(in PrecomputedArea precomputedArea, Scene targetScene)
+    parameters:
+    - id: precomputedArea
+      type: Global.PrecomputedArea
+      description: ''
+    - id: targetScene
+      type: Global.Scene
+      description: ''
+    content.vb: Public Sub Initialize(precomputedArea As PrecomputedArea, targetScene As Scene)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize*
+  nameWithType.vb: PrecomputedChunkData.Initialize(PrecomputedArea, Scene)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize(PrecomputedArea, Scene)
+  name.vb: Initialize(PrecomputedArea, Scene)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(Vector3@,PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(Vector3@,PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
+  id: GetVisibleRenderers(Vector3@,PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
   parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
   langs:
   - csharp
   - vb
   name: GetVisibleRenderers(in Vector3, in PrecomputedArea, in PrecomputedCamera)
   nameWithType: PrecomputedChunkData.GetVisibleRenderers(in Vector3, in PrecomputedArea, in PrecomputedCamera)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(in UnityEngine.Vector3, in ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea, in ProgLibrary.PrecomputedCulling.PrecomputedCamera)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(in Vector3, in PrecomputedArea, in ProgLibrary.PrecomputedCulling.PrecomputedCamera)
   type: Method
   source:
     id: GetVisibleRenderers
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 74
+    path: ''
+    startLine: 2308
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: >-
-    Get all visible renderers from current camera position
-
-    <remarks>View frustum is applied automatically</remarks>
+  summary: "\nGet all visible renderers from current camera position\n<remarks>View frustum is applied automatically</remarks>\n"
   example: []
   syntax:
     content: public List<PrecomputedVisibilityIndices> GetVisibleRenderers(in Vector3 cameraPosition, in PrecomputedArea precomputedArea, in PrecomputedCamera precomputedCamera = null)
     parameters:
     - id: cameraPosition
-      type: UnityEngine.Vector3
+      type: Global.Vector3
       description: Current camera position
     - id: precomputedArea
-      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+      type: Global.PrecomputedArea
       description: The Precomputed Area that evokes it
     - id: precomputedCamera
       type: ProgLibrary.PrecomputedCulling.PrecomputedCamera
       description: Current camera settings
     return:
-      type: System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
+      type: Global.List{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
     content.vb: Public Function GetVisibleRenderers(cameraPosition As Vector3, precomputedArea As PrecomputedArea, precomputedCamera As PrecomputedCamera = Nothing) As List(Of PrecomputedVisibilityIndices)
   overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers*
   nameWithType.vb: PrecomputedChunkData.GetVisibleRenderers(Vector3, PrecomputedArea, PrecomputedCamera)
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3, ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea, ProgLibrary.PrecomputedCulling.PrecomputedCamera)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(Vector3, PrecomputedArea, ProgLibrary.PrecomputedCulling.PrecomputedCamera)
   name.vb: GetVisibleRenderers(Vector3, PrecomputedArea, PrecomputedCamera)
-- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@,System.Int32@,System.Int32@,System.Int32@)
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@,System.Int32@,System.Int32@,System.Int32@)
-  id: GetChunkIndex(UnityEngine.Vector3@,System.Int32@,System.Int32@,System.Int32@)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(Vector3@,System.Int32@,System.Int32@,System.Int32@)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(Vector3@,System.Int32@,System.Int32@,System.Int32@)
+  id: GetChunkIndex(Vector3@,System.Int32@,System.Int32@,System.Int32@)
   parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
   langs:
   - csharp
   - vb
   name: GetChunkIndex(in Vector3, out int, out int, out int)
   nameWithType: PrecomputedChunkData.GetChunkIndex(in Vector3, out int, out int, out int)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(in UnityEngine.Vector3, out int, out int, out int)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(in Vector3, out int, out int, out int)
   type: Method
   source:
     id: GetChunkIndex
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 109
+    path: ''
+    startLine: 2343
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Get chunk index and array coordinates from camera position
-  remarks: >-
-    Assume that positive X and positive Y are [0,0] - and thus indexes are towards negative eg: [0, -1] is index
-
-    1, [-1, 0] is index 64
+  summary: "\nGet chunk index and array coordinates from camera position\n"
+  remarks: "\nAssume that positive X and positive Y are [0,0] - and thus indexes are towards negative eg: [0, -1] is index\n1, [-1, 0] is index 64\n"
   example: []
   syntax:
     content: public int GetChunkIndex(in Vector3 cameraPosition, out int x, out int y, out int z)
     parameters:
     - id: cameraPosition
-      type: UnityEngine.Vector3
+      type: Global.Vector3
       description: ''
     - id: x
       type: System.Int32
@@ -363,11 +324,11 @@ items:
       description: Z chunk id
     return:
       type: System.Int32
-      description: Return index of the box or -1 if point is not without it's bounds
+      description: Return index of the box or -1 if point is not without it&apos;s bounds
     content.vb: Public Function GetChunkIndex(cameraPosition As Vector3, x As Integer, y As Integer, z As Integer) As Integer
   overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex*
   nameWithType.vb: PrecomputedChunkData.GetChunkIndex(Vector3, Integer, Integer, Integer)
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3, Integer, Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(Vector3, Integer, Integer, Integer)
   name.vb: GetChunkIndex(Vector3, Integer, Integer, Integer)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex(System.Int32,System.Int32,System.Int32,System.Int32)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex(System.Int32,System.Int32,System.Int32,System.Int32)
@@ -382,12 +343,12 @@ items:
   type: Method
   source:
     id: GetNeighbourhoodChunkIndex
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\DataModels\PrecomputedChunkData.cs
-    startLine: 135
+    path: ''
+    startLine: 2369
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels
-  summary: Get point and neighbors index points
+  summary: "\nGet point and neighbors index points\n"
   example: []
   syntax:
     content: public List<int> GetNeighbourhoodChunkIndex(int xId, int yId, int zId, int neighbourCellsRadius)
@@ -405,2153 +366,91 @@ items:
       type: System.Int32
       description: ''
     return:
-      type: System.Collections.Generic.List{System.Int32}
+      type: Global.List{System.Int32}
       description: ''
     content.vb: Public Function GetNeighbourhoodChunkIndex(xId As Integer, yId As Integer, zId As Integer, neighbourCellsRadius As Integer) As List(Of Integer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex*
   nameWithType.vb: PrecomputedChunkData.GetNeighbourhoodChunkIndex(Integer, Integer, Integer, Integer)
   fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex(Integer, Integer, Integer, Integer)
   name.vb: GetNeighbourhoodChunkIndex(Integer, Integer, Integer, Integer)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex(System.Int32,ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex(System.Int32,ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
+  id: AddAtIndex(System.Int32,ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices@)
+  parent: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
+  langs:
+  - csharp
+  - vb
+  name: AddAtIndex(int, in PrecomputedVisibilityIndices)
+  nameWithType: PrecomputedChunkData.AddAtIndex(int, in PrecomputedVisibilityIndices)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex(int, in ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
+  type: Method
+  source:
+    id: AddAtIndex
+    path: ''
+    startLine: 2441
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels
+  summary: "\nAdd new \n"
+  example: []
+  syntax:
+    content: public void AddAtIndex(int index, in PrecomputedVisibilityIndices visibilityIndices)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: ''
+    - id: visibilityIndices
+      type: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+      description: ''
+    content.vb: Public Sub AddAtIndex(index As Integer, visibilityIndices As PrecomputedVisibilityIndices)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex*
+  nameWithType.vb: PrecomputedChunkData.AddAtIndex(Integer, PrecomputedVisibilityIndices)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex(Integer, ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
+  name.vb: AddAtIndex(Integer, PrecomputedVisibilityIndices)
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels
   fullName: ProgLibrary.PrecomputedCulling.DataModels
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: UnityEngine.Object
-  commentId: T:UnityEngine.Object
-  parent: UnityEngine
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: UnityEngine.Object
-- uid: UnityEngine.ScriptableObject
-  commentId: T:UnityEngine.ScriptableObject
-  parent: UnityEngine
-  isExternal: true
-  name: ScriptableObject
-  nameWithType: ScriptableObject
-  fullName: UnityEngine.ScriptableObject
-- uid: UnityEngine.ISerializationCallbackReceiver
-  commentId: T:UnityEngine.ISerializationCallbackReceiver
-  parent: UnityEngine
-  isExternal: true
-  name: ISerializationCallbackReceiver
-  nameWithType: ISerializationCallbackReceiver
-  fullName: UnityEngine.ISerializationCallbackReceiver
-- uid: UnityEngine.ScriptableObject.SetDirty
-  commentId: M:UnityEngine.ScriptableObject.SetDirty
-  parent: UnityEngine.ScriptableObject
-  isExternal: true
-  name: SetDirty()
-  nameWithType: ScriptableObject.SetDirty()
-  fullName: UnityEngine.ScriptableObject.SetDirty()
-  spec.csharp:
-  - uid: UnityEngine.ScriptableObject.SetDirty
-    name: SetDirty
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.ScriptableObject.SetDirty
-    name: SetDirty
-    isExternal: true
-  - name: (
-  - name: )
-- uid: UnityEngine.ScriptableObject.CreateInstance(System.String)
-  commentId: M:UnityEngine.ScriptableObject.CreateInstance(System.String)
-  parent: UnityEngine.ScriptableObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateInstance(string)
-  nameWithType: ScriptableObject.CreateInstance(string)
-  fullName: UnityEngine.ScriptableObject.CreateInstance(string)
-  nameWithType.vb: ScriptableObject.CreateInstance(String)
-  fullName.vb: UnityEngine.ScriptableObject.CreateInstance(String)
-  name.vb: CreateInstance(String)
-  spec.csharp:
-  - uid: UnityEngine.ScriptableObject.CreateInstance(System.String)
-    name: CreateInstance
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.ScriptableObject.CreateInstance(System.String)
-    name: CreateInstance
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: UnityEngine.ScriptableObject.CreateInstance(System.Type)
-  commentId: M:UnityEngine.ScriptableObject.CreateInstance(System.Type)
-  parent: UnityEngine.ScriptableObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: CreateInstance(Type)
-  nameWithType: ScriptableObject.CreateInstance(Type)
-  fullName: UnityEngine.ScriptableObject.CreateInstance(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.ScriptableObject.CreateInstance(System.Type)
-    name: CreateInstance
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.ScriptableObject.CreateInstance(System.Type)
-    name: CreateInstance
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.ScriptableObject.CreateInstance``1
-  commentId: M:UnityEngine.ScriptableObject.CreateInstance``1
-  parent: UnityEngine.ScriptableObject
-  isExternal: true
-  name: CreateInstance<T>()
-  nameWithType: ScriptableObject.CreateInstance<T>()
-  fullName: UnityEngine.ScriptableObject.CreateInstance<T>()
-  nameWithType.vb: ScriptableObject.CreateInstance(Of T)()
-  fullName.vb: UnityEngine.ScriptableObject.CreateInstance(Of T)()
-  name.vb: CreateInstance(Of T)()
-  spec.csharp:
-  - uid: UnityEngine.ScriptableObject.CreateInstance``1
-    name: CreateInstance
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.ScriptableObject.CreateInstance``1
-    name: CreateInstance
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.GetInstanceID
-  commentId: M:UnityEngine.Object.GetInstanceID
-  parent: UnityEngine.Object
-  isExternal: true
-  name: GetInstanceID()
-  nameWithType: Object.GetInstanceID()
-  fullName: UnityEngine.Object.GetInstanceID()
-  spec.csharp:
-  - uid: UnityEngine.Object.GetInstanceID
-    name: GetInstanceID
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.GetInstanceID
-    name: GetInstanceID
-    isExternal: true
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.GetHashCode
-  commentId: M:UnityEngine.Object.GetHashCode
-  parent: UnityEngine.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: UnityEngine.Object.GetHashCode()
-  spec.csharp:
-  - uid: UnityEngine.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.Equals(System.Object)
-  commentId: M:UnityEngine.Object.Equals(System.Object)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: Equals(object)
-  nameWithType: Object.Equals(object)
-  fullName: UnityEngine.Object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: UnityEngine.Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: UnityEngine.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: Instantiate(Object, Vector3, Quaternion)
-  nameWithType: Object.Instantiate(Object, Vector3, Quaternion)
-  fullName: UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  commentId: M:UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: Instantiate(Object, Vector3, Quaternion, Transform)
-  nameWithType: Object.Instantiate(Object, Vector3, Quaternion, Transform)
-  fullName: UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate(UnityEngine.Object)
-  commentId: M:UnityEngine.Object.Instantiate(UnityEngine.Object)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: Instantiate(Object)
-  nameWithType: Object.Instantiate(Object)
-  fullName: UnityEngine.Object.Instantiate(UnityEngine.Object)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform)
-  commentId: M:UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: Instantiate(Object, Transform)
-  nameWithType: Object.Instantiate(Object, Transform)
-  fullName: UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform,System.Boolean)
-  commentId: M:UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform,System.Boolean)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: Instantiate(Object, Transform, bool)
-  nameWithType: Object.Instantiate(Object, Transform, bool)
-  fullName: UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, bool)
-  nameWithType.vb: Object.Instantiate(Object, Transform, Boolean)
-  fullName.vb: UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, Boolean)
-  name.vb: Instantiate(Object, Transform, Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform,System.Boolean)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate(UnityEngine.Object,UnityEngine.Transform,System.Boolean)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1({T})
-  commentId: M:UnityEngine.Object.Instantiate``1(``0)
-  parent: UnityEngine.Object
-  definition: UnityEngine.Object.Instantiate``1(``0)
-  name: Instantiate<T>(T)
-  nameWithType: Object.Instantiate<T>(T)
-  fullName: UnityEngine.Object.Instantiate<T>(T)
-  nameWithType.vb: Object.Instantiate(Of T)(T)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T)
-  name.vb: Instantiate(Of T)(T)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1({T},UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-  parent: UnityEngine.Object
-  definition: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: Instantiate<T>(T, Vector3, Quaternion)
-  nameWithType: Object.Instantiate<T>(T, Vector3, Quaternion)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Vector3, Quaternion)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Vector3, UnityEngine.Quaternion)
-  name.vb: Instantiate(Of T)(T, Vector3, Quaternion)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1({T},UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  parent: UnityEngine.Object
-  definition: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  name: Instantiate<T>(T, Vector3, Quaternion, Transform)
-  nameWithType: Object.Instantiate<T>(T, Vector3, Quaternion, Transform)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Vector3, Quaternion, Transform)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)
-  name.vb: Instantiate(Of T)(T, Vector3, Quaternion, Transform)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1({T},UnityEngine.Transform)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-  parent: UnityEngine.Object
-  definition: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-  name: Instantiate<T>(T, Transform)
-  nameWithType: Object.Instantiate<T>(T, Transform)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Transform)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Transform)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Transform)
-  name.vb: Instantiate(Of T)(T, Transform)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1({T},UnityEngine.Transform,System.Boolean)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-  parent: UnityEngine.Object
-  definition: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: Instantiate<T>(T, Transform, bool)
-  nameWithType: Object.Instantiate<T>(T, Transform, bool)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Transform, bool)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Transform, Boolean)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Transform, Boolean)
-  name.vb: Instantiate(Of T)(T, Transform, Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: UnityEngine.Object.Destroy(UnityEngine.Object,System.Single)
-  commentId: M:UnityEngine.Object.Destroy(UnityEngine.Object,System.Single)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.single
-  name: Destroy(Object, float)
-  nameWithType: Object.Destroy(Object, float)
-  fullName: UnityEngine.Object.Destroy(UnityEngine.Object, float)
-  nameWithType.vb: Object.Destroy(Object, Single)
-  fullName.vb: UnityEngine.Object.Destroy(UnityEngine.Object, Single)
-  name.vb: Destroy(Object, Single)
-  spec.csharp:
-  - uid: UnityEngine.Object.Destroy(UnityEngine.Object,System.Single)
-    name: Destroy
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Single
-    name: float
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.single
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Destroy(UnityEngine.Object,System.Single)
-    name: Destroy
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Single
-    name: Single
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.single
-  - name: )
-- uid: UnityEngine.Object.Destroy(UnityEngine.Object)
-  commentId: M:UnityEngine.Object.Destroy(UnityEngine.Object)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: Destroy(Object)
-  nameWithType: Object.Destroy(Object)
-  fullName: UnityEngine.Object.Destroy(UnityEngine.Object)
-  spec.csharp:
-  - uid: UnityEngine.Object.Destroy(UnityEngine.Object)
-    name: Destroy
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Destroy(UnityEngine.Object)
-    name: Destroy
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.DestroyImmediate(UnityEngine.Object,System.Boolean)
-  commentId: M:UnityEngine.Object.DestroyImmediate(UnityEngine.Object,System.Boolean)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: DestroyImmediate(Object, bool)
-  nameWithType: Object.DestroyImmediate(Object, bool)
-  fullName: UnityEngine.Object.DestroyImmediate(UnityEngine.Object, bool)
-  nameWithType.vb: Object.DestroyImmediate(Object, Boolean)
-  fullName.vb: UnityEngine.Object.DestroyImmediate(UnityEngine.Object, Boolean)
-  name.vb: DestroyImmediate(Object, Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.DestroyImmediate(UnityEngine.Object,System.Boolean)
-    name: DestroyImmediate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.DestroyImmediate(UnityEngine.Object,System.Boolean)
-    name: DestroyImmediate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: UnityEngine.Object.DestroyImmediate(UnityEngine.Object)
-  commentId: M:UnityEngine.Object.DestroyImmediate(UnityEngine.Object)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: DestroyImmediate(Object)
-  nameWithType: Object.DestroyImmediate(Object)
-  fullName: UnityEngine.Object.DestroyImmediate(UnityEngine.Object)
-  spec.csharp:
-  - uid: UnityEngine.Object.DestroyImmediate(UnityEngine.Object)
-    name: DestroyImmediate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.DestroyImmediate(UnityEngine.Object)
-    name: DestroyImmediate
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindObjectsOfType(System.Type)
-  commentId: M:UnityEngine.Object.FindObjectsOfType(System.Type)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectsOfType(Type)
-  nameWithType: Object.FindObjectsOfType(Type)
-  fullName: UnityEngine.Object.FindObjectsOfType(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsOfType(System.Type)
-    name: FindObjectsOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsOfType(System.Type)
-    name: FindObjectsOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
-  commentId: M:UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectsOfType(Type, bool)
-  nameWithType: Object.FindObjectsOfType(Type, bool)
-  fullName: UnityEngine.Object.FindObjectsOfType(System.Type, bool)
-  nameWithType.vb: Object.FindObjectsOfType(Type, Boolean)
-  fullName.vb: UnityEngine.Object.FindObjectsOfType(System.Type, Boolean)
-  name.vb: FindObjectsOfType(Type, Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
-    name: FindObjectsOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsOfType(System.Type,System.Boolean)
-    name: FindObjectsOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsSortMode)
-  commentId: M:UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsSortMode)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectsByType(Type, FindObjectsSortMode)
-  nameWithType: Object.FindObjectsByType(Type, FindObjectsSortMode)
-  fullName: UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsSortMode)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-  commentId: M:UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectsByType(Type, FindObjectsInactive, FindObjectsSortMode)
-  nameWithType: Object.FindObjectsByType(Type, FindObjectsInactive, FindObjectsSortMode)
-  fullName: UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsByType(System.Type,UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
-  commentId: M:UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: DontDestroyOnLoad(Object)
-  nameWithType: Object.DontDestroyOnLoad(Object)
-  fullName: UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
-  spec.csharp:
-  - uid: UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
-    name: DontDestroyOnLoad
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)
-    name: DontDestroyOnLoad
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.DestroyObject(UnityEngine.Object,System.Single)
-  commentId: M:UnityEngine.Object.DestroyObject(UnityEngine.Object,System.Single)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.single
-  name: DestroyObject(Object, float)
-  nameWithType: Object.DestroyObject(Object, float)
-  fullName: UnityEngine.Object.DestroyObject(UnityEngine.Object, float)
-  nameWithType.vb: Object.DestroyObject(Object, Single)
-  fullName.vb: UnityEngine.Object.DestroyObject(UnityEngine.Object, Single)
-  name.vb: DestroyObject(Object, Single)
-  spec.csharp:
-  - uid: UnityEngine.Object.DestroyObject(UnityEngine.Object,System.Single)
-    name: DestroyObject
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Single
-    name: float
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.single
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.DestroyObject(UnityEngine.Object,System.Single)
-    name: DestroyObject
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Single
-    name: Single
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.single
-  - name: )
-- uid: UnityEngine.Object.DestroyObject(UnityEngine.Object)
-  commentId: M:UnityEngine.Object.DestroyObject(UnityEngine.Object)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: DestroyObject(Object)
-  nameWithType: Object.DestroyObject(Object)
-  fullName: UnityEngine.Object.DestroyObject(UnityEngine.Object)
-  spec.csharp:
-  - uid: UnityEngine.Object.DestroyObject(UnityEngine.Object)
-    name: DestroyObject
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.DestroyObject(UnityEngine.Object)
-    name: DestroyObject
-    isExternal: true
-  - name: (
-  - uid: UnityEngine.Object
-    name: Object
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindSceneObjectsOfType(System.Type)
-  commentId: M:UnityEngine.Object.FindSceneObjectsOfType(System.Type)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindSceneObjectsOfType(Type)
-  nameWithType: Object.FindSceneObjectsOfType(Type)
-  fullName: UnityEngine.Object.FindSceneObjectsOfType(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindSceneObjectsOfType(System.Type)
-    name: FindSceneObjectsOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindSceneObjectsOfType(System.Type)
-    name: FindSceneObjectsOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)
-  commentId: M:UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectsOfTypeIncludingAssets(Type)
-  nameWithType: Object.FindObjectsOfTypeIncludingAssets(Type)
-  fullName: UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)
-    name: FindObjectsOfTypeIncludingAssets
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)
-    name: FindObjectsOfTypeIncludingAssets
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.Object.FindObjectsOfType``1
-  commentId: M:UnityEngine.Object.FindObjectsOfType``1
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindObjectsOfType<T>()
-  nameWithType: Object.FindObjectsOfType<T>()
-  fullName: UnityEngine.Object.FindObjectsOfType<T>()
-  nameWithType.vb: Object.FindObjectsOfType(Of T)()
-  fullName.vb: UnityEngine.Object.FindObjectsOfType(Of T)()
-  name.vb: FindObjectsOfType(Of T)()
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsOfType``1
-    name: FindObjectsOfType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsOfType``1
-    name: FindObjectsOfType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsSortMode)
-  commentId: M:UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsSortMode)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindObjectsByType<T>(FindObjectsSortMode)
-  nameWithType: Object.FindObjectsByType<T>(FindObjectsSortMode)
-  fullName: UnityEngine.Object.FindObjectsByType<T>(UnityEngine.FindObjectsSortMode)
-  nameWithType.vb: Object.FindObjectsByType(Of T)(FindObjectsSortMode)
-  fullName.vb: UnityEngine.Object.FindObjectsByType(Of T)(UnityEngine.FindObjectsSortMode)
-  name.vb: FindObjectsByType(Of T)(FindObjectsSortMode)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
-  commentId: M:UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: FindObjectsOfType<T>(bool)
-  nameWithType: Object.FindObjectsOfType<T>(bool)
-  fullName: UnityEngine.Object.FindObjectsOfType<T>(bool)
-  nameWithType.vb: Object.FindObjectsOfType(Of T)(Boolean)
-  fullName.vb: UnityEngine.Object.FindObjectsOfType(Of T)(Boolean)
-  name.vb: FindObjectsOfType(Of T)(Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
-    name: FindObjectsOfType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsOfType``1(System.Boolean)
-    name: FindObjectsOfType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-  commentId: M:UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)
-  nameWithType: Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)
-  fullName: UnityEngine.Object.FindObjectsByType<T>(UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)
-  nameWithType.vb: Object.FindObjectsByType(Of T)(FindObjectsInactive, FindObjectsSortMode)
-  fullName.vb: UnityEngine.Object.FindObjectsByType(Of T)(UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)
-  name.vb: FindObjectsByType(Of T)(FindObjectsInactive, FindObjectsSortMode)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsByType``1(UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
-    name: FindObjectsByType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsSortMode
-    name: FindObjectsSortMode
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindObjectOfType``1
-  commentId: M:UnityEngine.Object.FindObjectOfType``1
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindObjectOfType<T>()
-  nameWithType: Object.FindObjectOfType<T>()
-  fullName: UnityEngine.Object.FindObjectOfType<T>()
-  nameWithType.vb: Object.FindObjectOfType(Of T)()
-  fullName.vb: UnityEngine.Object.FindObjectOfType(Of T)()
-  name.vb: FindObjectOfType(Of T)()
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectOfType``1
-    name: FindObjectOfType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectOfType``1
-    name: FindObjectOfType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.FindObjectOfType``1(System.Boolean)
-  commentId: M:UnityEngine.Object.FindObjectOfType``1(System.Boolean)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: FindObjectOfType<T>(bool)
-  nameWithType: Object.FindObjectOfType<T>(bool)
-  fullName: UnityEngine.Object.FindObjectOfType<T>(bool)
-  nameWithType.vb: Object.FindObjectOfType(Of T)(Boolean)
-  fullName.vb: UnityEngine.Object.FindObjectOfType(Of T)(Boolean)
-  name.vb: FindObjectOfType(Of T)(Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectOfType``1(System.Boolean)
-    name: FindObjectOfType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectOfType``1(System.Boolean)
-    name: FindObjectOfType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: UnityEngine.Object.FindFirstObjectByType``1
-  commentId: M:UnityEngine.Object.FindFirstObjectByType``1
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindFirstObjectByType<T>()
-  nameWithType: Object.FindFirstObjectByType<T>()
-  fullName: UnityEngine.Object.FindFirstObjectByType<T>()
-  nameWithType.vb: Object.FindFirstObjectByType(Of T)()
-  fullName.vb: UnityEngine.Object.FindFirstObjectByType(Of T)()
-  name.vb: FindFirstObjectByType(Of T)()
-  spec.csharp:
-  - uid: UnityEngine.Object.FindFirstObjectByType``1
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindFirstObjectByType``1
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.FindAnyObjectByType``1
-  commentId: M:UnityEngine.Object.FindAnyObjectByType``1
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindAnyObjectByType<T>()
-  nameWithType: Object.FindAnyObjectByType<T>()
-  fullName: UnityEngine.Object.FindAnyObjectByType<T>()
-  nameWithType.vb: Object.FindAnyObjectByType(Of T)()
-  fullName.vb: UnityEngine.Object.FindAnyObjectByType(Of T)()
-  name.vb: FindAnyObjectByType(Of T)()
-  spec.csharp:
-  - uid: UnityEngine.Object.FindAnyObjectByType``1
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindAnyObjectByType``1
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.FindFirstObjectByType``1(UnityEngine.FindObjectsInactive)
-  commentId: M:UnityEngine.Object.FindFirstObjectByType``1(UnityEngine.FindObjectsInactive)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindFirstObjectByType<T>(FindObjectsInactive)
-  nameWithType: Object.FindFirstObjectByType<T>(FindObjectsInactive)
-  fullName: UnityEngine.Object.FindFirstObjectByType<T>(UnityEngine.FindObjectsInactive)
-  nameWithType.vb: Object.FindFirstObjectByType(Of T)(FindObjectsInactive)
-  fullName.vb: UnityEngine.Object.FindFirstObjectByType(Of T)(UnityEngine.FindObjectsInactive)
-  name.vb: FindFirstObjectByType(Of T)(FindObjectsInactive)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindFirstObjectByType``1(UnityEngine.FindObjectsInactive)
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindFirstObjectByType``1(UnityEngine.FindObjectsInactive)
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindAnyObjectByType``1(UnityEngine.FindObjectsInactive)
-  commentId: M:UnityEngine.Object.FindAnyObjectByType``1(UnityEngine.FindObjectsInactive)
-  parent: UnityEngine.Object
-  isExternal: true
-  name: FindAnyObjectByType<T>(FindObjectsInactive)
-  nameWithType: Object.FindAnyObjectByType<T>(FindObjectsInactive)
-  fullName: UnityEngine.Object.FindAnyObjectByType<T>(UnityEngine.FindObjectsInactive)
-  nameWithType.vb: Object.FindAnyObjectByType(Of T)(FindObjectsInactive)
-  fullName.vb: UnityEngine.Object.FindAnyObjectByType(Of T)(UnityEngine.FindObjectsInactive)
-  name.vb: FindAnyObjectByType(Of T)(FindObjectsInactive)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindAnyObjectByType``1(UnityEngine.FindObjectsInactive)
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindAnyObjectByType``1(UnityEngine.FindObjectsInactive)
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindObjectsOfTypeAll(System.Type)
-  commentId: M:UnityEngine.Object.FindObjectsOfTypeAll(System.Type)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectsOfTypeAll(Type)
-  nameWithType: Object.FindObjectsOfTypeAll(Type)
-  fullName: UnityEngine.Object.FindObjectsOfTypeAll(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectsOfTypeAll(System.Type)
-    name: FindObjectsOfTypeAll
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectsOfTypeAll(System.Type)
-    name: FindObjectsOfTypeAll
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.Object.FindObjectOfType(System.Type)
-  commentId: M:UnityEngine.Object.FindObjectOfType(System.Type)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectOfType(Type)
-  nameWithType: Object.FindObjectOfType(Type)
-  fullName: UnityEngine.Object.FindObjectOfType(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectOfType(System.Type)
-    name: FindObjectOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectOfType(System.Type)
-    name: FindObjectOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.Object.FindFirstObjectByType(System.Type)
-  commentId: M:UnityEngine.Object.FindFirstObjectByType(System.Type)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindFirstObjectByType(Type)
-  nameWithType: Object.FindFirstObjectByType(Type)
-  fullName: UnityEngine.Object.FindFirstObjectByType(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindFirstObjectByType(System.Type)
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindFirstObjectByType(System.Type)
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.Object.FindAnyObjectByType(System.Type)
-  commentId: M:UnityEngine.Object.FindAnyObjectByType(System.Type)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindAnyObjectByType(Type)
-  nameWithType: Object.FindAnyObjectByType(Type)
-  fullName: UnityEngine.Object.FindAnyObjectByType(System.Type)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindAnyObjectByType(System.Type)
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindAnyObjectByType(System.Type)
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
-  commentId: M:UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindObjectOfType(Type, bool)
-  nameWithType: Object.FindObjectOfType(Type, bool)
-  fullName: UnityEngine.Object.FindObjectOfType(System.Type, bool)
-  nameWithType.vb: Object.FindObjectOfType(Type, Boolean)
-  fullName.vb: UnityEngine.Object.FindObjectOfType(System.Type, Boolean)
-  name.vb: FindObjectOfType(Type, Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
-    name: FindObjectOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindObjectOfType(System.Type,System.Boolean)
-    name: FindObjectOfType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: UnityEngine.Object.FindFirstObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-  commentId: M:UnityEngine.Object.FindFirstObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindFirstObjectByType(Type, FindObjectsInactive)
-  nameWithType: Object.FindFirstObjectByType(Type, FindObjectsInactive)
-  fullName: UnityEngine.Object.FindFirstObjectByType(System.Type, UnityEngine.FindObjectsInactive)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindFirstObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindFirstObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-    name: FindFirstObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.FindAnyObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-  commentId: M:UnityEngine.Object.FindAnyObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-  parent: UnityEngine.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FindAnyObjectByType(Type, FindObjectsInactive)
-  nameWithType: Object.FindAnyObjectByType(Type, FindObjectsInactive)
-  fullName: UnityEngine.Object.FindAnyObjectByType(System.Type, UnityEngine.FindObjectsInactive)
-  spec.csharp:
-  - uid: UnityEngine.Object.FindAnyObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.FindAnyObjectByType(System.Type,UnityEngine.FindObjectsInactive)
-    name: FindAnyObjectByType
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.FindObjectsInactive
-    name: FindObjectsInactive
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.ToString
-  commentId: M:UnityEngine.Object.ToString
-  parent: UnityEngine.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: UnityEngine.Object.ToString()
-  spec.csharp:
-  - uid: UnityEngine.Object.ToString
-    name: ToString
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.ToString
-    name: ToString
-    isExternal: true
-  - name: (
-  - name: )
-- uid: UnityEngine.Object.name
-  commentId: P:UnityEngine.Object.name
-  parent: UnityEngine.Object
-  isExternal: true
-  name: name
-  nameWithType: Object.name
-  fullName: UnityEngine.Object.name
-- uid: UnityEngine.Object.hideFlags
-  commentId: P:UnityEngine.Object.hideFlags
-  parent: UnityEngine.Object
-  isExternal: true
-  name: hideFlags
-  nameWithType: Object.hideFlags
-  fullName: UnityEngine.Object.hideFlags
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: UnityEngine
-  commentId: N:UnityEngine
-  isExternal: true
-  name: UnityEngine
-  nameWithType: UnityEngine
-  fullName: UnityEngine
-- uid: UnityEngine.Object.Instantiate``1(``0)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0)
-  isExternal: true
-  name: Instantiate<T>(T)
-  nameWithType: Object.Instantiate<T>(T)
-  fullName: UnityEngine.Object.Instantiate<T>(T)
-  nameWithType.vb: Object.Instantiate(Of T)(T)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T)
-  name.vb: Instantiate(Of T)(T)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExternal: true
-  name: Instantiate<T>(T, Vector3, Quaternion)
-  nameWithType: Object.Instantiate<T>(T, Vector3, Quaternion)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Vector3, Quaternion)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Vector3, UnityEngine.Quaternion)
-  name.vb: Instantiate(Of T)(T, Vector3, Quaternion)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-  isExternal: true
-  name: Instantiate<T>(T, Vector3, Quaternion, Transform)
-  nameWithType: Object.Instantiate<T>(T, Vector3, Quaternion, Transform)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Vector3, Quaternion, Transform)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)
-  name.vb: Instantiate(Of T)(T, Vector3, Quaternion, Transform)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Quaternion
-    name: Quaternion
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-  isExternal: true
-  name: Instantiate<T>(T, Transform)
-  nameWithType: Object.Instantiate<T>(T, Transform)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Transform)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Transform)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Transform)
-  name.vb: Instantiate(Of T)(T, Transform)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: )
-- uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-  commentId: M:UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: Instantiate<T>(T, Transform, bool)
-  nameWithType: Object.Instantiate<T>(T, Transform, bool)
-  fullName: UnityEngine.Object.Instantiate<T>(T, UnityEngine.Transform, bool)
-  nameWithType.vb: Object.Instantiate(Of T)(T, Transform, Boolean)
-  fullName.vb: UnityEngine.Object.Instantiate(Of T)(T, UnityEngine.Transform, Boolean)
-  name.vb: Instantiate(Of T)(T, Transform, Boolean)
-  spec.csharp:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-    name: Instantiate
-    isExternal: true
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: UnityEngine.Object.Instantiate``1(``0,UnityEngine.Transform,System.Boolean)
-    name: Instantiate
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - uid: UnityEngine.Transform
-    name: Transform
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -2562,7 +461,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
   name: int
   nameWithType: int
   fullName: int
@@ -2572,256 +470,179 @@ references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
   parent: ProgLibrary.PrecomputedCulling.DataModels
-  href: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox.html
   name: BoundingBox
   nameWithType: BoundingBox
   fullName: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[][]
+- uid: Global.PrecomputedChunkElementData[][]
   isExternal: true
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html
   name: PrecomputedChunkElementData[][]
   nameWithType: PrecomputedChunkElementData[][]
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData[][]
+  fullName: PrecomputedChunkElementData[][]
   nameWithType.vb: PrecomputedChunkElementData()()
-  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData()()
+  fullName.vb: PrecomputedChunkElementData()()
   name.vb: PrecomputedChunkElementData()()
   spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  - uid: Global.PrecomputedChunkElementData
     name: PrecomputedChunkElementData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html
+    isExternal: true
   - name: '['
   - name: ']'
   - name: '['
   - name: ']'
   spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData
+  - uid: Global.PrecomputedChunkElementData
     name: PrecomputedChunkElementData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedChunkElementData.html
+    isExternal: true
   - name: (
   - name: )
   - name: (
   - name: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize
+  name: Initialize
+  nameWithType: PrecomputedChunkData.Initialize
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.Initialize
+- uid: Global.PrecomputedArea
+  isExternal: true
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: PrecomputedArea
+- uid: Global.Scene
+  isExternal: true
+  name: Scene
+  nameWithType: Scene
+  fullName: Scene
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers
-  href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html#ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers(UnityEngine.Vector3@,ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea@,ProgLibrary.PrecomputedCulling.PrecomputedCamera@)
   name: GetVisibleRenderers
   nameWithType: PrecomputedChunkData.GetVisibleRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetVisibleRenderers
-- uid: UnityEngine.Vector3
-  commentId: T:UnityEngine.Vector3
-  parent: UnityEngine
+- uid: Global.Vector3
   isExternal: true
   name: Vector3
   nameWithType: Vector3
-  fullName: UnityEngine.Vector3
-- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
-  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
-  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  href: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea.html
-  name: PrecomputedArea
-  nameWithType: PrecomputedArea
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
+  fullName: Vector3
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCamera
   commentId: T:ProgLibrary.PrecomputedCulling.PrecomputedCamera
   parent: ProgLibrary.PrecomputedCulling
-  href: ProgLibrary.PrecomputedCulling.PrecomputedCamera.html
   name: PrecomputedCamera
   nameWithType: PrecomputedCamera
   fullName: ProgLibrary.PrecomputedCulling.PrecomputedCamera
-- uid: System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
-  commentId: T:System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+- uid: Global.List{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}
+  commentId: '!:Global.List{ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices}'
+  definition: Global.List`1
   name: List<PrecomputedVisibilityIndices>
   nameWithType: List<PrecomputedVisibilityIndices>
-  fullName: System.Collections.Generic.List<ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices>
+  fullName: List<ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices>
   nameWithType.vb: List(Of PrecomputedVisibilityIndices)
-  fullName.vb: System.Collections.Generic.List(Of ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
+  fullName.vb: List(Of ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices)
   name.vb: List(Of PrecomputedVisibilityIndices)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
     name: PrecomputedVisibilityIndices
-    href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.html
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
   - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
     name: PrecomputedVisibilityIndices
-    href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices.html
   - name: )
-- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
-  href: ProgLibrary.html
-  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
-  spec.csharp:
-  - uid: ProgLibrary
-    name: ProgLibrary
-    href: ProgLibrary.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling
-    name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
-    name: MonoBehaviours
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
-  spec.vb:
-  - uid: ProgLibrary
-    name: ProgLibrary
-    href: ProgLibrary.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling
-    name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
-  - name: .
-  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
-    name: MonoBehaviours
-    href: ProgLibrary.PrecomputedCulling.MonoBehaviours.html
 - uid: ProgLibrary.PrecomputedCulling
   commentId: N:ProgLibrary.PrecomputedCulling
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling
   nameWithType: ProgLibrary.PrecomputedCulling
   fullName: ProgLibrary.PrecomputedCulling
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
+- uid: Global.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+  - name: ''
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
-  - name: T
+  - name: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex
-  href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html#ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex(UnityEngine.Vector3@,System.Int32@,System.Int32@,System.Int32@)
   name: GetChunkIndex
   nameWithType: PrecomputedChunkData.GetChunkIndex
   fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetChunkIndex
 - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex
-  href: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.html#ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex(System.Int32,System.Int32,System.Int32,System.Int32)
   name: GetNeighbourhoodChunkIndex
   nameWithType: PrecomputedChunkData.GetNeighbourhoodChunkIndex
   fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.GetNeighbourhoodChunkIndex
-- uid: System.Collections.Generic.List{System.Int32}
-  commentId: T:System.Collections.Generic.List{System.Int32}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+- uid: Global.List{System.Int32}
+  commentId: '!:Global.List{System.Int32}'
+  definition: Global.List`1
   name: List<int>
   nameWithType: List<int>
-  fullName: System.Collections.Generic.List<int>
+  fullName: List<int>
   nameWithType.vb: List(Of Integer)
-  fullName.vb: System.Collections.Generic.List(Of Integer)
+  fullName.vb: List(Of Integer)
   name.vb: List(Of Integer)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
   - uid: System.Int32
     name: int
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
   - uid: System.Int32
     name: Integer
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex
+  name: AddAtIndex
+  nameWithType: PrecomputedChunkData.AddAtIndex
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData.AddAtIndex
+- uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
+  parent: ProgLibrary.PrecomputedCulling.DataModels
+  name: PrecomputedVisibilityIndices
+  nameWithType: PrecomputedVisibilityIndices
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices

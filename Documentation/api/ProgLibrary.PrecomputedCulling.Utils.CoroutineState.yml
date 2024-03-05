@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+  id: CoroutineState
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling.Utils.CoroutineState.Finished
+  langs:
+  - csharp
+  - vb
+  name: CoroutineState
+  nameWithType: CoroutineState
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+  type: Class
+  source:
+    id: CoroutineState
+    path: ''
+    startLine: 8163
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  syntax:
+    content: public class CoroutineState
+    content.vb: Public Class CoroutineState
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.Utils.CoroutineState.Finished
+  commentId: F:ProgLibrary.PrecomputedCulling.Utils.CoroutineState.Finished
+  id: Finished
+  parent: ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+  langs:
+  - csharp
+  - vb
+  name: Finished
+  nameWithType: CoroutineState.Finished
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CoroutineState.Finished
+  type: Field
+  source:
+    id: Finished
+    path: ''
+    startLine: 8165
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Utils
+  syntax:
+    content: public bool Finished
+    return:
+      type: System.Boolean
+    content.vb: Public Finished As Boolean
+references:
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

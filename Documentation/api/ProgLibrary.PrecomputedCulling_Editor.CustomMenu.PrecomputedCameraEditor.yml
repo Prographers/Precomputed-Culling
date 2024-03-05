@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+  id: PrecomputedCameraEditor
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedCameraEditor
+  nameWithType: PrecomputedCameraEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+  type: Class
+  source:
+    id: PrecomputedCameraEditor
+    path: ''
+    startLine: 11180
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  summary: "\nCustom inspector for <see cref=\"!:PrecomputedCamera\"></see> \n"
+  example: []
+  syntax:
+    content: 'public class PrecomputedCameraEditor : UnityEditor.Editor'
+    content.vb: Public Class PrecomputedCameraEditor Inherits UnityEditor.Editor
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: PrecomputedCameraEditor.OnInspectorGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 11204
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  summary: "\nDraw custom inspector\n"
+  example: []
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overload: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  name: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: PrecomputedCameraEditor.OnInspectorGUI
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor.OnInspectorGUI

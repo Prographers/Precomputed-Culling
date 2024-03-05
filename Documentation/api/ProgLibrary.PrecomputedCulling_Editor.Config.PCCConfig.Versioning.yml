@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  id: PCCConfig.Versioning
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionFreshTime
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionSetDate
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupDisplayCooldown
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupLastDisplayTime
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgain
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgainSetDate
+  langs:
+  - csharp
+  - vb
+  name: PCCConfig.Versioning
+  nameWithType: PCCConfig.Versioning
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  type: Class
+  source:
+    id: Versioning
+    path: ''
+    startLine: 10464
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  syntax:
+    content: public class PCCConfig.Versioning
+    content.vb: Public Class PCCConfig.Versioning
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion
+  id: LastKnownGitHubVersion
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: LastKnownGitHubVersion
+  nameWithType: PCCConfig.Versioning.LastKnownGitHubVersion
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion
+  type: Field
+  source:
+    id: LastKnownGitHubVersion
+    path: ''
+    startLine: 10474
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nThe last known version of PCC fetched from Git Hub releases.\n"
+  remarks: "\nIt&apos;s stored as serializable variant. To further use it, first convert to compute ready\n<see cref=\"!:Version\"></see> object.\n"
+  example: []
+  syntax:
+    content: public Version.Serializable LastKnownGitHubVersion
+    return:
+      type: Global.Version.Serializable
+    content.vb: Public LastKnownGitHubVersion As Version.Serializable
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionSetDate
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionSetDate
+  id: LastKnownGitHubVersionSetDate
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: LastKnownGitHubVersionSetDate
+  nameWithType: PCCConfig.Versioning.LastKnownGitHubVersionSetDate
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionSetDate
+  type: Field
+  source:
+    id: LastKnownGitHubVersionSetDate
+    path: ''
+    startLine: 10480
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nThe <see cref=\"!:DateTime\"></see> object binary serialized. Defines a moment in time when the\n<xref href=\"ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion\" data-throw-if-not-resolved=\"false\"></xref> was updated.\n"
+  example: []
+  syntax:
+    content: public long LastKnownGitHubVersionSetDate
+    return:
+      type: System.Int64
+    content.vb: Public LastKnownGitHubVersionSetDate As Long
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionFreshTime
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionFreshTime
+  id: LastKnownGitHubVersionFreshTime
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: LastKnownGitHubVersionFreshTime
+  nameWithType: PCCConfig.Versioning.LastKnownGitHubVersionFreshTime
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersionFreshTime
+  type: Field
+  source:
+    id: LastKnownGitHubVersionFreshTime
+    path: ''
+    startLine: 10485
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nDefines the maximum number of hours over which the <xref href=\"ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion\" data-throw-if-not-resolved=\"false\"></xref> is considered fresh.\n"
+  example: []
+  syntax:
+    content: public float LastKnownGitHubVersionFreshTime
+    return:
+      type: System.Single
+    content.vb: Public LastKnownGitHubVersionFreshTime As Single
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgain
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgain
+  id: VersionUpdatePopupNeverAgain
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: VersionUpdatePopupNeverAgain
+  nameWithType: PCCConfig.Versioning.VersionUpdatePopupNeverAgain
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgain
+  type: Field
+  source:
+    id: VersionUpdatePopupNeverAgain
+    path: ''
+    startLine: 10490
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nIndicates, whether user decided to not see Version Update Popup again.\n"
+  example: []
+  syntax:
+    content: public bool VersionUpdatePopupNeverAgain
+    return:
+      type: System.Boolean
+    content.vb: Public VersionUpdatePopupNeverAgain As Boolean
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgainSetDate
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgainSetDate
+  id: VersionUpdatePopupNeverAgainSetDate
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: VersionUpdatePopupNeverAgainSetDate
+  nameWithType: PCCConfig.Versioning.VersionUpdatePopupNeverAgainSetDate
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgainSetDate
+  type: Field
+  source:
+    id: VersionUpdatePopupNeverAgainSetDate
+    path: ''
+    startLine: 10496
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nThe <see cref=\"!:DateTime\"></see> object binary serialized. Defines a moment in time when user set\n<xref href=\"ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgain\" data-throw-if-not-resolved=\"false\"></xref> to TRUE, or 0 when set to FALSE.\n"
+  example: []
+  syntax:
+    content: public long VersionUpdatePopupNeverAgainSetDate
+    return:
+      type: System.Int64
+    content.vb: Public VersionUpdatePopupNeverAgainSetDate As Long
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupLastDisplayTime
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupLastDisplayTime
+  id: VersionUpdatePopupLastDisplayTime
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: VersionUpdatePopupLastDisplayTime
+  nameWithType: PCCConfig.Versioning.VersionUpdatePopupLastDisplayTime
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupLastDisplayTime
+  type: Field
+  source:
+    id: VersionUpdatePopupLastDisplayTime
+    path: ''
+    startLine: 10502
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nThe <see cref=\"!:DateTime\"></see> object binary serialized. Defines a moment in time when the Version Update Popup was\ndisplayed to user last time.\n"
+  example: []
+  syntax:
+    content: public long VersionUpdatePopupLastDisplayTime
+    return:
+      type: System.Int64
+    content.vb: Public VersionUpdatePopupLastDisplayTime As Long
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupDisplayCooldown
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupDisplayCooldown
+  id: VersionUpdatePopupDisplayCooldown
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: VersionUpdatePopupDisplayCooldown
+  nameWithType: PCCConfig.Versioning.VersionUpdatePopupDisplayCooldown
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupDisplayCooldown
+  type: Field
+  source:
+    id: VersionUpdatePopupDisplayCooldown
+    path: ''
+    startLine: 10508
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Config
+  summary: "\nWhen user dismiss Version Update Popup with a reminder, this is the number of hours which needs to pass to show\nthat popup again.\n"
+  example: []
+  syntax:
+    content: public float VersionUpdatePopupDisplayCooldown
+    return:
+      type: System.Single
+    content.vb: Public VersionUpdatePopupDisplayCooldown As Single
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Config
+  name: ProgLibrary.PrecomputedCulling_Editor.Config
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Config
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config
+    name: Config
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config
+    name: Config
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Version.Serializable
+  commentId: '!:Global.Version.Serializable'
+  isExternal: true
+  name: Serializable
+  nameWithType: Version.Serializable
+  fullName: Version.Serializable
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.LastKnownGitHubVersion
+  isExternal: true
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgain
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning.VersionUpdatePopupNeverAgain
+  isExternal: true

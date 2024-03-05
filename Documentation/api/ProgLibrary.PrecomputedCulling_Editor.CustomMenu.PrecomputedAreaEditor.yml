@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  id: PrecomputedAreaEditor
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedAreaEditor
+  nameWithType: PrecomputedAreaEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  type: Class
+  source:
+    id: PrecomputedAreaEditor
+    path: ''
+    startLine: 10597
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  summary: "\nCustom inspector for <see cref=\"!:PrecomputedArea\"></see> \n"
+  example: []
+  syntax:
+    content: 'public class PrecomputedAreaEditor : UnityEditor.Editor'
+    content.vb: Public Class PrecomputedAreaEditor Inherits UnityEditor.Editor
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: PrecomputedAreaEditor.OnInspectorGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 10684
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  summary: "\nDraw inspector GUI, update properties\n"
+  example: []
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overload: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI*
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI
+  id: OnSceneGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+  langs:
+  - csharp
+  - vb
+  name: OnSceneGUI()
+  nameWithType: PrecomputedAreaEditor.OnSceneGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI()
+  type: Method
+  source:
+    id: OnSceneGUI
+    path: ''
+    startLine: 10885
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  summary: "\nDraw Handles and cells\n"
+  example: []
+  syntax:
+    content: public void OnSceneGUI()
+    content.vb: Public Sub OnSceneGUI()
+  overload: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  name: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: PrecomputedAreaEditor.OnInspectorGUI
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnInspectorGUI
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI
+  name: OnSceneGUI
+  nameWithType: PrecomputedAreaEditor.OnSceneGUI
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor.OnSceneGUI

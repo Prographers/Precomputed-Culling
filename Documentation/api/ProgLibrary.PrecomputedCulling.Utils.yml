@@ -5,8 +5,12 @@ items:
   id: ProgLibrary.PrecomputedCulling.Utils
   children:
   - ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
+  - ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
   - ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  - ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+  - ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
   - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+  - ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
   langs:
   - csharp
   - vb
@@ -15,23 +19,76 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.Utils
   type: Namespace
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
 references:
-- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
-  commentId: T:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
-  href: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.html
-  name: PrecomputedAreaExtensions
-  nameWithType: PrecomputedAreaExtensions
-  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
-- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
-  commentId: T:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
-  href: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities.html
-  name: ComputeShaderUtilities
-  nameWithType: ComputeShaderUtilities
-  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
 - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
   commentId: T:ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
-  href: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils.html
   name: ArrayUtils
   nameWithType: ArrayUtils
   fullName: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
+- uid: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+  name: BoundingBoxExtensions
+  nameWithType: BoundingBoxExtensions
+  fullName: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+- uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+  name: ComputeShaderUtilities
+  nameWithType: ComputeShaderUtilities
+  fullName: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
+- uid: ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+  name: CoroutineState
+  nameWithType: CoroutineState
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+- uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+  parent: ProgLibrary.PrecomputedCulling.Utils
+  name: CullingReferenceHelper
+  nameWithType: CullingReferenceHelper
+  fullName: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+  name: PrecomputedAreaExtensions
+  nameWithType: PrecomputedAreaExtensions
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+- uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  commentId: T:ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  name: PrecomputedAreaExtensions.CameraIterator
+  nameWithType: PrecomputedAreaExtensions.CameraIterator
+  fullName: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+    name: PrecomputedAreaExtensions
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+    name: CameraIterator
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
+    name: PrecomputedAreaExtensions
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+    name: CameraIterator
+- uid: ProgLibrary.PrecomputedCulling.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling.Utils
+  name: ProgLibrary.PrecomputedCulling.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling.Utils
+  fullName: ProgLibrary.PrecomputedCulling.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Utils
+    name: Utils

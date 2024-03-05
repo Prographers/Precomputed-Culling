@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Bake
+  commentId: N:ProgLibrary.PrecomputedCulling.Bake
+  id: ProgLibrary.PrecomputedCulling.Bake
+  children:
+  - ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+  - ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+  - ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Bake
+  nameWithType: ProgLibrary.PrecomputedCulling.Bake
+  fullName: ProgLibrary.PrecomputedCulling.Bake
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+  parent: ProgLibrary.PrecomputedCulling.Bake
+  name: BaseRuntimeBakeController
+  nameWithType: BaseRuntimeBakeController
+  fullName: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+- uid: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+  name: DemoRuntimeBakeController
+  nameWithType: DemoRuntimeBakeController
+  fullName: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+- uid: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+  name: RuntimeBakeProcess
+  nameWithType: RuntimeBakeProcess
+  fullName: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+- uid: ProgLibrary.PrecomputedCulling.Bake
+  commentId: N:ProgLibrary.PrecomputedCulling.Bake
+  name: ProgLibrary.PrecomputedCulling.Bake
+  nameWithType: ProgLibrary.PrecomputedCulling.Bake
+  fullName: ProgLibrary.PrecomputedCulling.Bake
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake

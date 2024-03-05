@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  id: PrecomputedLoadMethod
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.Manual
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.OnChangeScene
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedLoadMethod
+  nameWithType: PrecomputedLoadMethod
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  type: Enum
+  source:
+    id: PrecomputedLoadMethod
+    path: ''
+    startLine: 4753
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  syntax:
+    content: public enum PrecomputedLoadMethod
+    content.vb: Public Enum PrecomputedLoadMethod
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.OnChangeScene
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.OnChangeScene
+  id: OnChangeScene
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  langs:
+  - csharp
+  - vb
+  name: OnChangeScene
+  nameWithType: PrecomputedLoadMethod.OnChangeScene
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.OnChangeScene
+  type: Field
+  source:
+    id: OnChangeScene
+    path: ''
+    startLine: 4755
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  syntax:
+    content: OnChangeScene = 0
+    return:
+      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.Manual
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.Manual
+  id: Manual
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  langs:
+  - csharp
+  - vb
+  name: Manual
+  nameWithType: PrecomputedLoadMethod.Manual
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod.Manual
+  type: Field
+  source:
+    id: Manual
+    path: ''
+    startLine: 4756
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  syntax:
+    content: Manual = 1
+    return:
+      type: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PrecomputedLoadMethod
+  nameWithType: PrecomputedLoadMethod
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod

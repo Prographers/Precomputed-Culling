@@ -17,27 +17,17 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
   type: Enum
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: ValidOccluderEnum
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 15
+    path: ''
+    startLine: 3138
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nOcclusion validation enum\n"
   example: []
   syntax:
     content: public enum ValidOccluderEnum
     content.vb: Public Enum ValidOccluderEnum
-  modifiers.csharp:
-  - public
-  - enum
-  modifiers.vb:
-  - Public
-  - Enum
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.Invalid
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.Invalid
   id: Invalid
@@ -50,15 +40,11 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.Invalid
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Invalid
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 20
+    path: ''
+    startLine: 3143
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nAll materials are invalid\n"
   example: []
@@ -66,12 +52,6 @@ items:
     content: Invalid = 0
     return:
       type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.PartiallyValid
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.PartiallyValid
   id: PartiallyValid
@@ -84,15 +64,11 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.PartiallyValid
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PartiallyValid
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 24
+    path: ''
+    startLine: 3147
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nPartially valid materials\n"
   example: []
@@ -100,12 +76,6 @@ items:
     content: PartiallyValid = 1
     return:
       type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.FullyValid
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.FullyValid
   id: FullyValid
@@ -118,15 +88,11 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.FullyValid
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: FullyValid
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 28
+    path: ''
+    startLine: 3151
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nOnly valid materials\n"
   example: []
@@ -134,12 +100,6 @@ items:
     content: FullyValid = 2
     return:
       type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.NotInitialized
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.NotInitialized
   id: NotInitialized
@@ -152,34 +112,48 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum.NotInitialized
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: NotInitialized
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 32
+    path: ''
+    startLine: 3155
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nPre initialize status\n"
   example: []
   syntax:
-    content: NotInitialized = 2147483647
+    content: NotInitialized
     return:
       type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData

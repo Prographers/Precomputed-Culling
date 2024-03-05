@@ -5,8 +5,6 @@ items:
   id: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer
   children:
   - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer
-  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline
-  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset
   langs:
   - csharp
   - vb
@@ -15,20 +13,10 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer
   type: Namespace
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
 references:
-- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline
-  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline
-  name: ColorIndexingRenderPipeline
-  nameWithType: ColorIndexingRenderPipeline
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipeline
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer
   commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer
   name: ColorIndexingCameraRenderer
   nameWithType: ColorIndexingCameraRenderer
   fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer
-- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset
-  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset
-  name: ColorIndexingRenderPipelineAsset
-  nameWithType: ColorIndexingRenderPipelineAsset
-  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingRenderPipelineAsset

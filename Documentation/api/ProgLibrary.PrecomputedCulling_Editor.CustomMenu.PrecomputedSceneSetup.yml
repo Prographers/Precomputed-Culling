@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
+  id: PrecomputedSceneSetup
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneSetup
+  nameWithType: PrecomputedSceneSetup
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
+  type: Class
+  source:
+    id: PrecomputedSceneSetup
+    path: ''
+    startLine: 11461
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  syntax:
+    content: 'public class PrecomputedSceneSetup : MonoBehaviour'
+    content.vb: Public Class PrecomputedSceneSetup Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  name: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -4,6 +4,8 @@ items:
   commentId: N:ProgLibrary.PrecomputedCulling_Editor.Bake
   id: ProgLibrary.PrecomputedCulling_Editor.Bake
   children:
+  - ProgLibrary.PrecomputedCulling_Editor.Bake.BasicEditorBakeProgress
+  - ProgLibrary.PrecomputedCulling_Editor.Bake.EditorBakeHelper
   - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess
   - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline
   langs:
@@ -14,17 +16,25 @@ items:
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake
   type: Namespace
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
 references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.BasicEditorBakeProgress
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Bake.BasicEditorBakeProgress
+  name: BasicEditorBakeProgress
+  nameWithType: BasicEditorBakeProgress
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.BasicEditorBakeProgress
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.EditorBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Bake.EditorBakeHelper
+  name: EditorBakeHelper
+  nameWithType: EditorBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.EditorBakeHelper
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess
   commentId: T:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess
-  href: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess.html
   name: PrecomputedBakeProcess
   nameWithType: PrecomputedBakeProcess
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline
   commentId: T:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline
-  href: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.html
   name: PrecomputedCullingPipeline
   nameWithType: PrecomputedCullingPipeline
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline

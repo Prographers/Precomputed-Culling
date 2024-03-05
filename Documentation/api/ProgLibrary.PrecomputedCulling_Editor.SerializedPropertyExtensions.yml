@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions
+  id: SerializedPropertyExtensions
+  parent: ProgLibrary.PrecomputedCulling_Editor
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue``1(SerializedProperty)
+  langs:
+  - csharp
+  - vb
+  name: SerializedPropertyExtensions
+  nameWithType: SerializedPropertyExtensions
+  fullName: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions
+  type: Class
+  source:
+    id: SerializedPropertyExtensions
+    path: ''
+    startLine: 9474
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor
+  summary: "\nAdvance SerializableProperty methods\n"
+  example: []
+  syntax:
+    content: public static class SerializedPropertyExtensions
+    content.vb: Public Module SerializedPropertyExtensions
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue``1(SerializedProperty)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue``1(SerializedProperty)
+  id: GetSerializedValue``1(SerializedProperty)
+  parent: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSerializedValue<T>(SerializedProperty)
+  nameWithType: SerializedPropertyExtensions.GetSerializedValue<T>(SerializedProperty)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue<T>(SerializedProperty)
+  type: Method
+  source:
+    id: GetSerializedValue
+    path: ''
+    startLine: 9483
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor
+  summary: "\nGet custom type values form SerializedProperty\n"
+  example: []
+  syntax:
+    content: public static T GetSerializedValue<T>(SerializedProperty property)
+    parameters:
+    - id: property
+      type: Global.SerializedProperty
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function GetSerializedValue(Of T)([property] As SerializedProperty) As T
+  overload: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue*
+  nameWithType.vb: SerializedPropertyExtensions.GetSerializedValue(Of T)(SerializedProperty)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue(Of T)(SerializedProperty)
+  name.vb: GetSerializedValue(Of T)(SerializedProperty)
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor
+  name: ProgLibrary.PrecomputedCulling_Editor
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor
+  fullName: ProgLibrary.PrecomputedCulling_Editor
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue
+  name: GetSerializedValue
+  nameWithType: SerializedPropertyExtensions.GetSerializedValue
+  fullName: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions.GetSerializedValue
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

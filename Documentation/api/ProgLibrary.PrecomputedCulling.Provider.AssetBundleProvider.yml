@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  id: AssetBundleProvider
+  parent: ProgLibrary.PrecomputedCulling.Provider
+  children:
+  - ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  - ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData(PrecomputedDataVariant)
+  - ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData
+  - ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AssetBundleProvider
+  nameWithType: AssetBundleProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  type: Class
+  source:
+    id: AssetBundleProvider
+    path: ''
+    startLine: 6030
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nProvider using Assetbundle for packing and loading data\n"
+  example: []
+  syntax:
+    content: 'public class AssetBundleProvider : IPrecomputedDataProvider'
+    content.vb: Public Class AssetBundleProvider Implements IPrecomputedDataProvider
+  inheritance:
+  - System.Object
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  id: GenerateData
+  parent: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: GenerateData()
+  nameWithType: AssetBundleProvider.GenerateData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData()
+  type: Method
+  source:
+    id: GenerateData
+    path: ''
+    startLine: 6071
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nBuild Assetbundle for current build target platform\n"
+  example: []
+  syntax:
+    content: public void GenerateData()
+    content.vb: Public Sub GenerateData()
+  overload: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData(PrecomputedDataVariant)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData(PrecomputedDataVariant)
+  id: GenerateData(PrecomputedDataVariant)
+  parent: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: GenerateData(PrecomputedDataVariant)
+  nameWithType: AssetBundleProvider.GenerateData(PrecomputedDataVariant)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData(PrecomputedDataVariant)
+  type: Method
+  source:
+    id: GenerateData
+    path: ''
+    startLine: 6086
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  syntax:
+    content: public void GenerateData(PrecomputedDataVariant variant)
+    parameters:
+    - id: variant
+      type: Global.PrecomputedDataVariant
+    content.vb: Public Sub GenerateData([variant] As PrecomputedDataVariant)
+  overload: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(System.Int32)
+  id: LoadData(System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadData(int)
+  nameWithType: AssetBundleProvider.LoadData(int)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(int)
+  type: Method
+  source:
+    id: LoadData
+    path: ''
+    startLine: 6097
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  summary: "\nChecks if asset bundle is already loaded.\nLoading the proper variant of the data from the assetbundle package\n"
+  example: []
+  syntax:
+    content: public PrecomputedDataVariant LoadData(int variantIndex)
+    parameters:
+    - id: variantIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: Global.PrecomputedDataVariant
+      description: ''
+    content.vb: Public Function LoadData(variantIndex As Integer) As PrecomputedDataVariant
+  overload: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  nameWithType.vb: AssetBundleProvider.LoadData(Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData(Integer)
+  name.vb: LoadData(Integer)
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData
+  id: LoadAllData
+  parent: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadAllData()
+  nameWithType: AssetBundleProvider.LoadAllData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData()
+  type: Method
+  source:
+    id: LoadAllData
+    path: ''
+    startLine: 6105
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider
+  syntax:
+    content: public List<PrecomputedDataVariant> LoadAllData()
+    return:
+      type: Global.List{PrecomputedDataVariant}
+    content.vb: Public Function LoadAllData() As List(Of PrecomputedDataVariant)
+  overload: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+references:
+- uid: ProgLibrary.PrecomputedCulling.Provider
+  commentId: N:ProgLibrary.PrecomputedCulling.Provider
+  name: ProgLibrary.PrecomputedCulling.Provider
+  nameWithType: ProgLibrary.PrecomputedCulling.Provider
+  fullName: ProgLibrary.PrecomputedCulling.Provider
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  parent: ProgLibrary.PrecomputedCulling.Provider
+  name: IPrecomputedDataProvider
+  nameWithType: IPrecomputedDataProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+  name: GenerateData
+  nameWithType: AssetBundleProvider.GenerateData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.GenerateData
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  name: GenerateData()
+  nameWithType: IPrecomputedDataProvider.GenerateData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+    name: GenerateData
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+    name: GenerateData
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  isExternal: true
+  name: GenerateData(PrecomputedDataVariant)
+  nameWithType: IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+    name: GenerateData
+  - name: (
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+    name: GenerateData
+  - name: (
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: )
+- uid: Global.PrecomputedDataVariant
+  isExternal: true
+  name: PrecomputedDataVariant
+  nameWithType: PrecomputedDataVariant
+  fullName: PrecomputedDataVariant
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData
+  name: LoadData
+  nameWithType: AssetBundleProvider.LoadData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadData
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  isExternal: true
+  name: LoadData(int)
+  nameWithType: IPrecomputedDataProvider.LoadData(int)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(int)
+  nameWithType.vb: IPrecomputedDataProvider.LoadData(Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(Integer)
+  name.vb: LoadData(Integer)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+    name: LoadData
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+    name: LoadData
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData
+  name: LoadAllData
+  nameWithType: AssetBundleProvider.LoadAllData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider.LoadAllData
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  name: LoadAllData()
+  nameWithType: IPrecomputedDataProvider.LoadAllData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+    name: LoadAllData
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+    name: LoadAllData
+  - name: (
+  - name: )
+- uid: Global.List{PrecomputedDataVariant}
+  commentId: '!:Global.List{PrecomputedDataVariant}'
+  definition: Global.List`1
+  name: List<PrecomputedDataVariant>
+  nameWithType: List<PrecomputedDataVariant>
+  fullName: List<PrecomputedDataVariant>
+  nameWithType.vb: List(Of PrecomputedDataVariant)
+  fullName.vb: List(Of PrecomputedDataVariant)
+  name.vb: List(Of PrecomputedDataVariant)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

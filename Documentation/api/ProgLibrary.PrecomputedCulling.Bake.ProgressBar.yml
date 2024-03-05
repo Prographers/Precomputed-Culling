@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  commentId: N:ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  id: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  children:
+  - ProgLibrary.PrecomputedCulling.Bake.ProgressBar.DemoRuntimeBakeProgress
+  - ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  nameWithType: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.DemoRuntimeBakeProgress
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.ProgressBar.DemoRuntimeBakeProgress
+  name: DemoRuntimeBakeProgress
+  nameWithType: DemoRuntimeBakeProgress
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.DemoRuntimeBakeProgress
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  parent: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  name: IBakeProgress
+  nameWithType: IBakeProgress
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  commentId: N:ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  name: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  nameWithType: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+    name: ProgressBar
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+    name: ProgressBar

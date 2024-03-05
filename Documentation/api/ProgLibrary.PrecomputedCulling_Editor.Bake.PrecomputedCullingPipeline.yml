@@ -5,10 +5,11 @@ items:
   id: PrecomputedCullingPipeline
   parent: ProgLibrary.PrecomputedCulling_Editor.Bake
   children:
+  - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.#ctor
   - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes
   - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeCurrent
-  - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData})
-  - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(System.Collections.Generic.List{UnityEditor.SceneAsset})
+  - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(List{PrecomputedSceneVariantData})
+  - ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(List{SceneAsset})
   langs:
   - csharp
   - vb
@@ -18,26 +19,43 @@ items:
   type: Class
   source:
     id: PrecomputedCullingPipeline
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\Bake\PrecomputedCullingPipeline.cs
-    startLine: 16
+    path: ''
+    startLine: 10305
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor.Bake
-  summary: Bake pipeline
+  summary: "\nBake pipeline\n"
   example: []
   syntax:
     content: public class PrecomputedCullingPipeline
     content.vb: Public Class PrecomputedCullingPipeline
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.#ctor
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.#ctor
+  id: '#ctor'
+  parent: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedCullingPipeline()
+  nameWithType: PrecomputedCullingPipeline.PrecomputedCullingPipeline()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.PrecomputedCullingPipeline()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10314
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Bake
+  syntax:
+    content: public PrecomputedCullingPipeline()
+    content.vb: Public Sub New()
+  overload: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.#ctor*
+  nameWithType.vb: PrecomputedCullingPipeline.New()
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.New()
+  name.vb: New()
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes
   commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes
   id: BakeAllMultipleScenes
@@ -51,81 +69,78 @@ items:
   type: Method
   source:
     id: BakeAllMultipleScenes
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\Bake\PrecomputedCullingPipeline.cs
-    startLine: 26
+    path: ''
+    startLine: 10325
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor.Bake
-  summary: Bake Multiple Scenes based on the MultipleScenesToBake settings
+  summary: "\nBake Multiple Scenes based on the MultipleScenesToBake settings\n"
   example: []
   syntax:
     content: public void BakeAllMultipleScenes()
     content.vb: Public Sub BakeAllMultipleScenes()
   overload: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes*
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData})
-  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData})
-  id: BakeScenes(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData})
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(List{PrecomputedSceneVariantData})
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(List{PrecomputedSceneVariantData})
+  id: BakeScenes(List{PrecomputedSceneVariantData})
   parent: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline
   langs:
   - csharp
   - vb
   name: BakeScenes(List<PrecomputedSceneVariantData>)
   nameWithType: PrecomputedCullingPipeline.BakeScenes(List<PrecomputedSceneVariantData>)
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(System.Collections.Generic.List<ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData>)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(List<PrecomputedSceneVariantData>)
   type: Method
   source:
     id: BakeScenes
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\Bake\PrecomputedCullingPipeline.cs
-    startLine: 36
+    path: ''
+    startLine: 10334
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor.Bake
-  summary: Iterate variants, load scenes and bake
+  summary: "\nIterate variants, load scenes and bake\n"
   example: []
   syntax:
     content: public void BakeScenes(List<PrecomputedSceneVariantData> multipleScenesToBake)
     parameters:
     - id: multipleScenesToBake
-      type: System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData}
+      type: Global.List{PrecomputedSceneVariantData}
       description: ''
     content.vb: Public Sub BakeScenes(multipleScenesToBake As List(Of PrecomputedSceneVariantData))
   overload: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes*
   nameWithType.vb: PrecomputedCullingPipeline.BakeScenes(List(Of PrecomputedSceneVariantData))
-  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(System.Collections.Generic.List(Of ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData))
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(List(Of PrecomputedSceneVariantData))
   name.vb: BakeScenes(List(Of PrecomputedSceneVariantData))
-- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(System.Collections.Generic.List{UnityEditor.SceneAsset})
-  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(System.Collections.Generic.List{UnityEditor.SceneAsset})
-  id: OpenScenes(System.Collections.Generic.List{UnityEditor.SceneAsset})
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(List{SceneAsset})
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(List{SceneAsset})
+  id: OpenScenes(List{SceneAsset})
   parent: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline
   langs:
   - csharp
   - vb
   name: OpenScenes(List<SceneAsset>)
   nameWithType: PrecomputedCullingPipeline.OpenScenes(List<SceneAsset>)
-  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(System.Collections.Generic.List<UnityEditor.SceneAsset>)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(List<SceneAsset>)
   type: Method
   source:
     id: OpenScenes
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\Bake\PrecomputedCullingPipeline.cs
-    startLine: 56
+    path: ''
+    startLine: 10354
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor.Bake
-  summary: >-
-    Load additive scene
-
-    Unload not matching scenes
+  summary: "\nLoad additive scene\nUnload not matching scenes\n"
   example: []
   syntax:
     content: public void OpenScenes(List<SceneAsset> sceneList)
     parameters:
     - id: sceneList
-      type: System.Collections.Generic.List{UnityEditor.SceneAsset}
+      type: Global.List{SceneAsset}
       description: ''
     content.vb: Public Sub OpenScenes(sceneList As List(Of SceneAsset))
   overload: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes*
   nameWithType.vb: PrecomputedCullingPipeline.OpenScenes(List(Of SceneAsset))
-  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(System.Collections.Generic.List(Of UnityEditor.SceneAsset))
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(List(Of SceneAsset))
   name.vb: OpenScenes(List(Of SceneAsset))
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeCurrent
   commentId: M:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeCurrent
@@ -140,12 +155,12 @@ items:
   type: Method
   source:
     id: BakeCurrent
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\Bake\PrecomputedCullingPipeline.cs
-    startLine: 84
+    path: ''
+    startLine: 10382
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor.Bake
-  summary: Bake current hierarchy scenes
+  summary: "\nBake current hierarchy scenes\n"
   example: []
   syntax:
     content: public void BakeCurrent()
@@ -154,423 +169,150 @@ items:
 references:
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake
   commentId: N:ProgLibrary.PrecomputedCulling_Editor.Bake
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling_Editor.Bake
   nameWithType: ProgLibrary.PrecomputedCulling_Editor.Bake
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor
     name: PrecomputedCulling_Editor
-    href: ProgLibrary.PrecomputedCulling_Editor.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor.Bake
     name: Bake
-    href: ProgLibrary.PrecomputedCulling_Editor.Bake.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor
     name: PrecomputedCulling_Editor
-    href: ProgLibrary.PrecomputedCulling_Editor.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor.Bake
     name: Bake
-    href: ProgLibrary.PrecomputedCulling_Editor.Bake.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.#ctor
+  name: PrecomputedCullingPipeline
+  nameWithType: PrecomputedCullingPipeline.PrecomputedCullingPipeline
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.PrecomputedCullingPipeline
+  nameWithType.vb: PrecomputedCullingPipeline.New
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.New
+  name.vb: New
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes
-  href: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.html#ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes
   name: BakeAllMultipleScenes
   nameWithType: PrecomputedCullingPipeline.BakeAllMultipleScenes
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeAllMultipleScenes
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes
-  href: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.html#ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes(System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData})
   name: BakeScenes
   nameWithType: PrecomputedCullingPipeline.BakeScenes
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeScenes
-- uid: System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData}
-  commentId: T:System.Collections.Generic.List{ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+- uid: Global.List{PrecomputedSceneVariantData}
+  commentId: '!:Global.List{PrecomputedSceneVariantData}'
+  definition: Global.List`1
   name: List<PrecomputedSceneVariantData>
   nameWithType: List<PrecomputedSceneVariantData>
-  fullName: System.Collections.Generic.List<ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData>
+  fullName: List<PrecomputedSceneVariantData>
   nameWithType.vb: List(Of PrecomputedSceneVariantData)
-  fullName.vb: System.Collections.Generic.List(Of ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData)
+  fullName.vb: List(Of PrecomputedSceneVariantData)
   name.vb: List(Of PrecomputedSceneVariantData)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  - uid: Global.PrecomputedSceneVariantData
     name: PrecomputedSceneVariantData
-    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.html
+    isExternal: true
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+  - uid: Global.PrecomputedSceneVariantData
     name: PrecomputedSceneVariantData
-    href: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData.html
+    isExternal: true
   - name: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
+- uid: Global.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+  - name: ''
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
-  - name: T
+  - name: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes
-  href: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.html#ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes(System.Collections.Generic.List{UnityEditor.SceneAsset})
   name: OpenScenes
   nameWithType: PrecomputedCullingPipeline.OpenScenes
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.OpenScenes
-- uid: System.Collections.Generic.List{UnityEditor.SceneAsset}
-  commentId: T:System.Collections.Generic.List{UnityEditor.SceneAsset}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+- uid: Global.List{SceneAsset}
+  commentId: '!:Global.List{SceneAsset}'
+  definition: Global.List`1
   name: List<SceneAsset>
   nameWithType: List<SceneAsset>
-  fullName: System.Collections.Generic.List<UnityEditor.SceneAsset>
+  fullName: List<SceneAsset>
   nameWithType.vb: List(Of SceneAsset)
-  fullName.vb: System.Collections.Generic.List(Of UnityEditor.SceneAsset)
+  fullName.vb: List(Of SceneAsset)
   name.vb: List(Of SceneAsset)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - uid: UnityEditor.SceneAsset
+  - uid: Global.SceneAsset
     name: SceneAsset
     isExternal: true
   - name: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: Global.List`1
     name: List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: (
   - name: Of
   - name: " "
-  - uid: UnityEditor.SceneAsset
+  - uid: Global.SceneAsset
     name: SceneAsset
     isExternal: true
   - name: )
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeCurrent*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeCurrent
-  href: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.html#ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeCurrent
   name: BakeCurrent
   nameWithType: PrecomputedCullingPipeline.BakeCurrent
   fullName: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline.BakeCurrent

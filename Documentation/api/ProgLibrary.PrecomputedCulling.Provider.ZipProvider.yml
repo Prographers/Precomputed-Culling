@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  commentId: N:ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  id: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  children:
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  nameWithType: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer
+  name: SimpleTextSerializer
+  nameWithType: SimpleTextSerializer
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  name: ZipProvider
+  nameWithType: ZipProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider

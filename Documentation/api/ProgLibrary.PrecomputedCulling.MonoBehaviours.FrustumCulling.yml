@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+  id: FrustumCulling
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling.isActive
+  langs:
+  - csharp
+  - vb
+  name: FrustumCulling
+  nameWithType: FrustumCulling
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+  type: Class
+  source:
+    id: FrustumCulling
+    path: ''
+    startLine: 4143
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  syntax:
+    content: 'public class FrustumCulling : PCCMonoBehaviour'
+    content.vb: Public Class FrustumCulling Inherits PCCMonoBehaviour
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling.isActive
+  commentId: F:ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling.isActive
+  id: isActive
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+  langs:
+  - csharp
+  - vb
+  name: isActive
+  nameWithType: FrustumCulling.isActive
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling.isActive
+  type: Field
+  source:
+    id: isActive
+    path: ''
+    startLine: 4145
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  syntax:
+    content: public bool isActive
+    return:
+      type: System.Boolean
+    content.vb: Public isActive As Boolean
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PCCMonoBehaviour
+  nameWithType: PCCMonoBehaviour
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

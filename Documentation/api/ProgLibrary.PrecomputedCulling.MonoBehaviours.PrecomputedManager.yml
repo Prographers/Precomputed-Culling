@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+  id: PrecomputedManager
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedManager
+  nameWithType: PrecomputedManager
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+  type: Class
+  source:
+    id: PrecomputedManager
+    path: ''
+    startLine: 4596
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nPrepares Precomputed Culling\n"
+  example: []
+  syntax:
+    content: 'public class PrecomputedManager : PCCMonoBehaviour'
+    content.vb: Public Class PrecomputedManager Inherits PCCMonoBehaviour
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake
+  commentId: M:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake
+  id: Awake
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: PrecomputedManager.Awake()
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 4613
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  summary: "\nInitialize controller\n"
+  example: []
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake()
+  overload: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake*
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: PCCMonoBehaviour
+  nameWithType: PCCMonoBehaviour
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake
+  name: Awake
+  nameWithType: PrecomputedManager.Awake
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager.Awake

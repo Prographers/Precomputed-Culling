@@ -1,0 +1,1132 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version
+  id: Version
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  children:
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16,System.String)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(System.Object)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Extension
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Major
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Minor
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Patch
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.ToString
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam(System.Boolean,System.Boolean)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(System.String,ProgLibrary.PrecomputedCulling.Versioning.Version@,System.Boolean)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.VersionDelimiter
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Zero
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: Version
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version
+  type: Struct
+  source:
+    id: Version
+    path: ''
+    startLine: 8342
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nDefines the immutable object which stores version related data in a way which provides easy comparision and\nconversion. The resulted version string can be one of the following: &quot;Major.Minor.Patch&quot;, or\n&quot;Major.Minor.Patch-Extension&quot;, both with the <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix\" data-throw-if-not-resolved=\"false\"></xref> at the beginning.\n"
+  remarks: 'Further readings: https://semver.org/'
+  example: []
+  syntax:
+    content: public readonly struct Version
+    content.vb: Public Structure Version
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix
+  id: Prefix
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: Version.Prefix
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix
+  type: Field
+  source:
+    id: Prefix
+    path: ''
+    startLine: 8344
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public const string Prefix = "v"
+    return:
+      type: System.String
+    content.vb: Public Const Prefix As String = "v"
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.VersionDelimiter
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.VersionDelimiter
+  id: VersionDelimiter
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: VersionDelimiter
+  nameWithType: Version.VersionDelimiter
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.VersionDelimiter
+  type: Field
+  source:
+    id: VersionDelimiter
+    path: ''
+    startLine: 8345
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public const char VersionDelimiter = '.'
+    return:
+      type: System.Char
+    content.vb: Public Const VersionDelimiter As Char = "."c
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter
+  id: ExtensionDelimiter
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: ExtensionDelimiter
+  nameWithType: Version.ExtensionDelimiter
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter
+  type: Field
+  source:
+    id: ExtensionDelimiter
+    path: ''
+    startLine: 8346
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public const char ExtensionDelimiter = '-'
+    return:
+      type: System.Char
+    content.vb: Public Const ExtensionDelimiter As Char = "-"c
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Zero
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Zero
+  id: Zero
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: Version.Zero
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Zero
+  type: Field
+  source:
+    id: Zero
+    path: ''
+    startLine: 8353
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nThe pre-cached <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object representing the zero version, which should be treated the same as\n&apos;default&apos; value of that type.\n"
+  example: []
+  syntax:
+    content: public static readonly Version Zero
+    return:
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    content.vb: Public Shared ReadOnly Zero As Version
+  seealso:
+  - linkId: ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+    commentId: P:ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Major
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Major
+  id: Major
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Major
+  nameWithType: Version.Major
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Major
+  type: Field
+  source:
+    id: Major
+    path: ''
+    startLine: 8355
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public readonly ushort Major
+    return:
+      type: System.UInt16
+    content.vb: Public ReadOnly Major As UShort
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Minor
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Minor
+  id: Minor
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Minor
+  nameWithType: Version.Minor
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Minor
+  type: Field
+  source:
+    id: Minor
+    path: ''
+    startLine: 8356
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public readonly ushort Minor
+    return:
+      type: System.UInt16
+    content.vb: Public ReadOnly Minor As UShort
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Patch
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Patch
+  id: Patch
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Patch
+  nameWithType: Version.Patch
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Patch
+  type: Field
+  source:
+    id: Patch
+    path: ''
+    startLine: 8357
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public readonly ushort Patch
+    return:
+      type: System.UInt16
+    content.vb: Public ReadOnly Patch As UShort
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Extension
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Extension
+  id: Extension
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: Version.Extension
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Extension
+  type: Field
+  source:
+    id: Extension
+    path: ''
+    startLine: 8362
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nOnly alphanumeric and dash -> Regex: [0-9A-Za-z-]\n"
+  example: []
+  syntax:
+    content: public readonly string Extension
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Extension As String
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+  commentId: P:ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+  id: IsDefault
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: IsDefault
+  nameWithType: Version.IsDefault
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+  type: Property
+  source:
+    id: IsDefault
+    path: ''
+    startLine: 8368
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nIndicates, whether this instance contains the default (zero) value.\n"
+  example: []
+  syntax:
+    content: public bool IsDefault { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public ReadOnly Property IsDefault As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault*
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16)
+  id: '#ctor(System.UInt16,System.UInt16,System.UInt16)'
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Version(ushort, ushort, ushort)
+  nameWithType: Version.Version(ushort, ushort, ushort)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Version(ushort, ushort, ushort)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8370
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public Version(ushort major, ushort minor, ushort patch)
+    parameters:
+    - id: major
+      type: System.UInt16
+    - id: minor
+      type: System.UInt16
+    - id: patch
+      type: System.UInt16
+    content.vb: Public Sub New(major As UShort, minor As UShort, patch As UShort)
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor*
+  nameWithType.vb: Version.New(UShort, UShort, UShort)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.New(UShort, UShort, UShort)
+  name.vb: New(UShort, UShort, UShort)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16,System.String)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(System.UInt16,System.UInt16,System.UInt16,System.String)
+  id: '#ctor(System.UInt16,System.UInt16,System.UInt16,System.String)'
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Version(ushort, ushort, ushort, string)
+  nameWithType: Version.Version(ushort, ushort, ushort, string)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Version(ushort, ushort, ushort, string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8372
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public Version(ushort major, ushort minor, ushort patch, string extension)
+    parameters:
+    - id: major
+      type: System.UInt16
+    - id: minor
+      type: System.UInt16
+    - id: patch
+      type: System.UInt16
+    - id: extension
+      type: System.String
+    content.vb: Public Sub New(major As UShort, minor As UShort, patch As UShort, extension As String)
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor*
+  nameWithType.vb: Version.New(UShort, UShort, UShort, String)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.New(UShort, UShort, UShort, String)
+  name.vb: New(UShort, UShort, UShort, String)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor(ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable)
+  id: '#ctor(ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable)'
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Version(Serializable)
+  nameWithType: Version.Version(Version.Serializable)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Version(ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8380
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public Version(Version.Serializable serializableVersion)
+    parameters:
+    - id: serializableVersion
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    content.vb: Public Sub New(serializableVersion As Version.Serializable)
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor*
+  nameWithType.vb: Version.New(Version.Serializable)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.New(ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable)
+  name.vb: New(Serializable)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(System.String,ProgLibrary.PrecomputedCulling.Versioning.Version@,System.Boolean)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(System.String,ProgLibrary.PrecomputedCulling.Versioning.Version@,System.Boolean)
+  id: TryParse(System.String,ProgLibrary.PrecomputedCulling.Versioning.Version@,System.Boolean)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: TryParse(string, out Version, bool)
+  nameWithType: Version.TryParse(string, out Version, bool)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(string, out ProgLibrary.PrecomputedCulling.Versioning.Version, bool)
+  type: Method
+  source:
+    id: TryParse
+    path: ''
+    startLine: 8404
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nParse provided <code data-dev-comment-type=\"paramref\" class=\"paramref\">versionString</code> and create the <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object, if able.\n"
+  remarks: "\nTODO - replace the returned bool to a &quot;reason&quot; enum which will explain why parsing failed. Keep overload with bool.\n"
+  example: []
+  syntax:
+    content: public static bool TryParse(string versionString, out Version version, bool hasPrefix = true)
+    parameters:
+    - id: versionString
+      type: System.String
+      description: String containing serialized <xref href="ProgLibrary.PrecomputedCulling.Versioning.Version" data-throw-if-not-resolved="false"></xref> object.
+    - id: version
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+      description: "\nThe <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object according to the provided string, non-default only if parsing\nended successfully.\n"
+    - id: hasPrefix
+      type: System.Boolean
+      description: "\nIndicates, whether the provided string contains the predefined <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix\" data-throw-if-not-resolved=\"false\"></xref>. Set to\nFALSE if it doesn&apos;t and to skip prefix checks.\n"
+    return:
+      type: System.Boolean
+      description: TRUE if parsed successfully, without any errors. FALSE otherwise.
+    content.vb: Public Shared Function TryParse(versionString As String, version As Version, hasPrefix As Boolean = True) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse*
+  nameWithType.vb: Version.TryParse(String, Version, Boolean)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(String, ProgLibrary.PrecomputedCulling.Versioning.Version, Boolean)
+  name.vb: TryParse(String, Version, Boolean)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: op_LessThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: operator <(Version, Version)
+  nameWithType: Version.operator <(Version, Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator <(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Operator
+  source:
+    id: op_LessThan
+    path: ''
+    startLine: 8468
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public static bool operator <(Version a, Version b)
+    parameters:
+    - id: a
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    - id: b
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <(a As Version, b As Version) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan*
+  nameWithType.vb: Version.<(Version, Version)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.<(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  name.vb: <(Version, Version)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: op_GreaterThan(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: operator >(Version, Version)
+  nameWithType: Version.operator >(Version, Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator >(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Operator
+  source:
+    id: op_GreaterThan
+    path: ''
+    startLine: 8473
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public static bool operator >(Version a, Version b)
+    parameters:
+    - id: a
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    - id: b
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator >(a As Version, b As Version) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan*
+  nameWithType.vb: Version.>(Version, Version)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.>(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  name.vb: '>(Version, Version)'
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: op_LessThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: operator <=(Version, Version)
+  nameWithType: Version.operator <=(Version, Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator <=(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Operator
+  source:
+    id: op_LessThanOrEqual
+    path: ''
+    startLine: 8478
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public static bool operator <=(Version a, Version b)
+    parameters:
+    - id: a
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    - id: b
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <=(a As Version, b As Version) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual*
+  nameWithType.vb: Version.<=(Version, Version)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.<=(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  name.vb: <=(Version, Version)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: op_GreaterThanOrEqual(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: operator >=(Version, Version)
+  nameWithType: Version.operator >=(Version, Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator >=(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Operator
+  source:
+    id: op_GreaterThanOrEqual
+    path: ''
+    startLine: 8483
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public static bool operator >=(Version a, Version b)
+    parameters:
+    - id: a
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    - id: b
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator >=(a As Version, b As Version) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual*
+  nameWithType.vb: Version.>=(Version, Version)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.>=(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  name.vb: '>=(Version, Version)'
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: op_Equality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Version, Version)
+  nameWithType: Version.operator ==(Version, Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator ==(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Operator
+  source:
+    id: op_Equality
+    path: ''
+    startLine: 8488
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public static bool operator ==(Version a, Version b)
+    parameters:
+    - id: a
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    - id: b
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Version, b As Version) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality*
+  nameWithType.vb: Version.=(Version, Version)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.=(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  name.vb: =(Version, Version)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: op_Inequality(ProgLibrary.PrecomputedCulling.Versioning.Version,ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Version, Version)
+  nameWithType: Version.operator !=(Version, Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator !=(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: ''
+    startLine: 8493
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public static bool operator !=(Version a, Version b)
+    parameters:
+    - id: a
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    - id: b
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Version, b As Version) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality*
+  nameWithType.vb: Version.<>(Version, Version)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.<>(ProgLibrary.PrecomputedCulling.Versioning.Version, ProgLibrary.PrecomputedCulling.Versioning.Version)
+  name.vb: <>(Version, Version)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(System.Object)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Version.Equals(object)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 8498
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals*
+  nameWithType.vb: Version.Equals(Object)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(Object)
+  name.vb: Equals(Object)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode
+  id: GetHashCode
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Version.GetHashCode()
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 8504
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode*
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ToString
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.ToString
+  id: ToString
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Version.ToString()
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 8522
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nConverts <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object to a string. That string can be used as a display value or serialized to a\nfile. Further, that string can be converted back to <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object via <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(System.String%2cProgLibrary.PrecomputedCulling.Versioning.Version%40%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref>\nmethod.\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.ToString*
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam(System.Boolean,System.Boolean)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam(System.Boolean,System.Boolean)
+  id: ToStringParam(System.Boolean,System.Boolean)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: ToStringParam(bool, bool)
+  nameWithType: Version.ToStringParam(bool, bool)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam(bool, bool)
+  type: Method
+  source:
+    id: ToStringParam
+    path: ''
+    startLine: 8533
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nThe same as <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.ToString\" data-throw-if-not-resolved=\"false\"></xref> but parameterized.\n"
+  example: []
+  syntax:
+    content: public string ToStringParam(bool includePrefix, bool includeExtension)
+    parameters:
+    - id: includePrefix
+      type: System.Boolean
+      description: Indicates, whether generated string should contain <xref href="ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix" data-throw-if-not-resolved="false"></xref>.
+    - id: includeExtension
+      type: System.Boolean
+      description: "\nIndicates, whether generated string should contain <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.Extension\" data-throw-if-not-resolved=\"false\"></xref>, which is\nappended with <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function ToStringParam(includePrefix As Boolean, includeExtension As Boolean) As String
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam*
+  nameWithType.vb: Version.ToStringParam(Boolean, Boolean)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam(Boolean, Boolean)
+  name.vb: ToStringParam(Boolean, Boolean)
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable
+  id: ToSerializable
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: ToSerializable()
+  nameWithType: Version.ToSerializable()
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable()
+  type: Method
+  source:
+    id: ToSerializable
+    path: ''
+    startLine: 8556
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nConvert this compute ready object to serializable <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public Version.Serializable ToSerializable()
+    return:
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+      description: ''
+    content.vb: Public Function ToSerializable() As Version.Serializable
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable*
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: CompareTo(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(Version)
+  nameWithType: Version.CompareTo(Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 8558
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public int CompareTo(Version other)
+    parameters:
+    - id: other
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As Version) As Integer
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo*
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: Equals(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version
+  langs:
+  - csharp
+  - vb
+  name: Equals(Version)
+  nameWithType: Version.Equals(Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 8573
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public bool Equals(Version other)
+    parameters:
+    - id: other
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Version) As Boolean
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Prefix
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling.Versioning
+  name: ProgLibrary.PrecomputedCulling.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling.Versioning
+  fullName: ProgLibrary.PrecomputedCulling.Versioning
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning
+    name: Versioning
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  name: Version
+  nameWithType: Version
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+  commentId: P:ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+  isExternal: true
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+  name: IsDefault
+  nameWithType: Version.IsDefault
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.IsDefault
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.#ctor
+  name: Version
+  nameWithType: Version.Version
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Version
+  nameWithType.vb: Version.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.New
+  name.vb: New
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  name: Version.Serializable
+  nameWithType: Version.Serializable
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+    name: Version
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    name: Serializable
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+    name: Version
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    name: Serializable
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse
+  name: TryParse
+  nameWithType: Version.TryParse
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan
+  name: operator <
+  nameWithType: Version.operator <
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator <
+  nameWithType.vb: Version.<
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.<
+  name.vb: <
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThan*
+    name: <
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan
+  name: operator >
+  nameWithType: Version.operator >
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator >
+  nameWithType.vb: Version.>
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.>
+  name.vb: '>'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThan*
+    name: '>'
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual
+  name: operator <=
+  nameWithType: Version.operator <=
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator <=
+  nameWithType.vb: Version.<=
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.<=
+  name.vb: <=
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_LessThanOrEqual*
+    name: <=
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual
+  name: operator >=
+  nameWithType: Version.operator >=
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator >=
+  nameWithType.vb: Version.>=
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.>=
+  name.vb: '>='
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_GreaterThanOrEqual*
+    name: '>='
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality
+  name: operator ==
+  nameWithType: Version.operator ==
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator ==
+  nameWithType.vb: Version.=
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Equality*
+    name: ==
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality
+  name: operator !=
+  nameWithType: Version.operator !=
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.operator !=
+  nameWithType.vb: Version.<>
+  fullName.vb: ProgLibrary.PrecomputedCulling.Versioning.Version.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.op_Inequality*
+    name: '!='
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.Equals
+  name: Equals
+  nameWithType: Version.Equals
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Equals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode
+  name: GetHashCode
+  nameWithType: Version.GetHashCode
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(System.String,ProgLibrary.PrecomputedCulling.Versioning.Version@,System.Boolean)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.TryParse(System.String,ProgLibrary.PrecomputedCulling.Versioning.Version@,System.Boolean)
+  isExternal: true
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ToString*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.ToString
+  name: ToString
+  nameWithType: Version.ToString
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.ToString
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ToString
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.ToString
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Extension
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Extension
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.ExtensionDelimiter
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam
+  name: ToStringParam
+  nameWithType: Version.ToStringParam
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.ToStringParam
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable
+  name: ToSerializable
+  nameWithType: Version.ToSerializable
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.ToSerializable
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo
+  name: CompareTo
+  nameWithType: Version.CompareTo
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.CompareTo

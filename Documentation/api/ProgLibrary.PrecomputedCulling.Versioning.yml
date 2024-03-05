@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling.Versioning
+  id: ProgLibrary.PrecomputedCulling.Versioning
+  children:
+  - ProgLibrary.PrecomputedCulling.Versioning.Version
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling.Versioning
+  fullName: ProgLibrary.PrecomputedCulling.Versioning
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  name: Version
+  nameWithType: Version
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  name: Version.Serializable
+  nameWithType: Version.Serializable
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+    name: Version
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    name: Serializable
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+    name: Version
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    name: Serializable
+- uid: ProgLibrary.PrecomputedCulling.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling.Versioning
+  name: ProgLibrary.PrecomputedCulling.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling.Versioning
+  fullName: ProgLibrary.PrecomputedCulling.Versioning
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning
+    name: Versioning

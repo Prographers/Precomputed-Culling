@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+  id: PrecomputedSceneSettingsEditor
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneSettingsEditor
+  nameWithType: PrecomputedSceneSettingsEditor
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+  type: Class
+  source:
+    id: PrecomputedSceneSettingsEditor
+    path: ''
+    startLine: 11277
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  summary: "\nCustom editor for <see cref=\"!:PrecomputedSceneSettings\"></see>\n"
+  example: []
+  syntax:
+    content: 'public class PrecomputedSceneSettingsEditor : UnityEditor.Editor'
+    content.vb: Public Class PrecomputedSceneSettingsEditor Inherits UnityEditor.Editor
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: PrecomputedSceneSettingsEditor.OnInspectorGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 11410
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  summary: "\nDraw custom inspector GUI. Settings, Variants list\n"
+  example: []
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overload: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  name: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+    name: CustomMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: PrecomputedSceneSettingsEditor.OnInspectorGUI
+  fullName: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor.OnInspectorGUI

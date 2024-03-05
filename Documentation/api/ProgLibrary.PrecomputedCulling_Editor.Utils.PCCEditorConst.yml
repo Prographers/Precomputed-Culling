@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+  id: PCCEditorConst
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PCCEditorConst
+  nameWithType: PCCEditorConst
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+  type: Class
+  source:
+    id: PCCEditorConst
+    path: ''
+    startLine: 15692
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  syntax:
+    content: public static class PCCEditorConst
+    content.vb: Public Module PCCEditorConst
+  inheritance:
+  - System.Object
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Utils
+  name: ProgLibrary.PrecomputedCulling_Editor.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Utils
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+    name: Utils
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+    name: Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

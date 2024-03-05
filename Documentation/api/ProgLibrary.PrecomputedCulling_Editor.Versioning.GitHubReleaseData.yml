@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  id: GitHubReleaseData
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.assets_url
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.body
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.html_url
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.name
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.published_at
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.tag_name
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.url
+  langs:
+  - csharp
+  - vb
+  name: GitHubReleaseData
+  nameWithType: GitHubReleaseData
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  type: Class
+  source:
+    id: GitHubReleaseData
+    path: ''
+    startLine: 15836
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public class GitHubReleaseData
+    content.vb: Public Class GitHubReleaseData
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.tag_name
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.tag_name
+  id: tag_name
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  langs:
+  - csharp
+  - vb
+  name: tag_name
+  nameWithType: GitHubReleaseData.tag_name
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.tag_name
+  type: Field
+  source:
+    id: tag_name
+    path: ''
+    startLine: 15839
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public string tag_name
+    return:
+      type: System.String
+    content.vb: Public tag_name As String
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.published_at
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.published_at
+  id: published_at
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  langs:
+  - csharp
+  - vb
+  name: published_at
+  nameWithType: GitHubReleaseData.published_at
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.published_at
+  type: Field
+  source:
+    id: published_at
+    path: ''
+    startLine: 15840
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public string published_at
+    return:
+      type: System.String
+    content.vb: Public published_at As String
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.name
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.name
+  id: name
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: GitHubReleaseData.name
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15841
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.body
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.body
+  id: body
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  langs:
+  - csharp
+  - vb
+  name: body
+  nameWithType: GitHubReleaseData.body
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.body
+  type: Field
+  source:
+    id: body
+    path: ''
+    startLine: 15842
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public string body
+    return:
+      type: System.String
+    content.vb: Public body As String
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.url
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.url
+  id: url
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: GitHubReleaseData.url
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 15843
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.assets_url
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.assets_url
+  id: assets_url
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  langs:
+  - csharp
+  - vb
+  name: assets_url
+  nameWithType: GitHubReleaseData.assets_url
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.assets_url
+  type: Field
+  source:
+    id: assets_url
+    path: ''
+    startLine: 15844
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public string assets_url
+    return:
+      type: System.String
+    content.vb: Public assets_url As String
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.html_url
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.html_url
+  id: html_url
+  parent: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  langs:
+  - csharp
+  - vb
+  name: html_url
+  nameWithType: GitHubReleaseData.html_url
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData.html_url
+  type: Field
+  source:
+    id: html_url
+    path: ''
+    startLine: 15845
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  syntax:
+    content: public string html_url
+    return:
+      type: System.String
+    content.vb: Public html_url As String
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Versioning
+  name: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+    name: Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

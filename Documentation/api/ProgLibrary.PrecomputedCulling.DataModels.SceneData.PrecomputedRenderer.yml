@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+  id: PrecomputedRenderer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.#ctor(UnityEngine.Renderer)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.IsMaterialTransparentList
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.Renderer
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedRenderer
+  nameWithType: PrecomputedRenderer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+  type: Struct
+  source:
+    id: PrecomputedRenderer
+    path: ''
+    startLine: 3161
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nStruct to cache renderers\n"
+  example: []
+  syntax:
+    content: public readonly struct PrecomputedRenderer
+    content.vb: Public Structure PrecomputedRenderer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.#ctor(UnityEngine.Renderer)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.#ctor(UnityEngine.Renderer)
+  id: '#ctor(UnityEngine.Renderer)'
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedRenderer(Renderer)
+  nameWithType: PrecomputedRenderer.PrecomputedRenderer(UnityEngine.Renderer)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.PrecomputedRenderer(UnityEngine.Renderer)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3167
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nConstructor\n"
+  example: []
+  syntax:
+    content: public PrecomputedRenderer(UnityEngine.Renderer renderer)
+    parameters:
+    - id: renderer
+      type: Global.UnityEngine.Renderer
+      description: ''
+    content.vb: Public Sub New(renderer As UnityEngine.Renderer)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.#ctor*
+  nameWithType.vb: PrecomputedRenderer.New(UnityEngine.Renderer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.New(UnityEngine.Renderer)
+  name.vb: New(Renderer)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.Renderer
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.Renderer
+  id: Renderer
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+  langs:
+  - csharp
+  - vb
+  name: Renderer
+  nameWithType: PrecomputedRenderer.Renderer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.Renderer
+  type: Field
+  source:
+    id: Renderer
+    path: ''
+    startLine: 3185
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nRenderer for cache\n"
+  example: []
+  syntax:
+    content: public readonly UnityEngine.Renderer Renderer
+    return:
+      type: Global.UnityEngine.Renderer
+    content.vb: Public ReadOnly Renderer As UnityEngine.Renderer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.IsMaterialTransparentList
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.IsMaterialTransparentList
+  id: IsMaterialTransparentList
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+  langs:
+  - csharp
+  - vb
+  name: IsMaterialTransparentList
+  nameWithType: PrecomputedRenderer.IsMaterialTransparentList
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.IsMaterialTransparentList
+  type: Field
+  source:
+    id: IsMaterialTransparentList
+    path: ''
+    startLine: 3190
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nDescribes which the shared materials are transparent\n"
+  example: []
+  syntax:
+    content: public readonly List<bool> IsMaterialTransparentList
+    return:
+      type: Global.List{System.Boolean}
+    content.vb: Public ReadOnly IsMaterialTransparentList As List(Of Boolean)
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.#ctor
+  name: PrecomputedRenderer
+  nameWithType: PrecomputedRenderer.PrecomputedRenderer
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.PrecomputedRenderer
+  nameWithType.vb: PrecomputedRenderer.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer.New
+  name.vb: New
+- uid: Global.UnityEngine.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: UnityEngine.Renderer
+  fullName: UnityEngine.Renderer
+- uid: Global.List{System.Boolean}
+  commentId: '!:Global.List{System.Boolean}'
+  definition: Global.List`1
+  name: List<bool>
+  nameWithType: List<bool>
+  fullName: List<bool>
+  nameWithType.vb: List(Of Boolean)
+  fullName.vb: List(Of Boolean)
+  name.vb: List(Of Boolean)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

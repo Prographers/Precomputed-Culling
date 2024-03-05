@@ -1,0 +1,525 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  id: ZipProvider
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  children:
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.#ctor(System.String)
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData
+  - ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ZipProvider
+  nameWithType: ZipProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  type: Class
+  source:
+    id: ZipProvider
+    path: ''
+    startLine: 6675
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  summary: "\nProvider using ZIP for packing and loading data.\nWe use this provider for runtime bakes.\n"
+  example: []
+  syntax:
+    content: 'public class ZipProvider : IPrecomputedDataProvider'
+    content.vb: Public Class ZipProvider Implements IPrecomputedDataProvider
+  inheritance:
+  - System.Object
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.#ctor(System.String)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: ZipProvider(string)
+  nameWithType: ZipProvider.ZipProvider(string)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.ZipProvider(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6721
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  summary: "\nBasic constructor to set all the necessary paths and initialize the cache.\n"
+  example: []
+  syntax:
+    content: public ZipProvider(string dataPath = null)
+    parameters:
+    - id: dataPath
+      type: System.String
+      description: Data path to the folder where the data is stored.
+    content.vb: Public Sub New(dataPath As String = Nothing)
+  overload: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.#ctor*
+  nameWithType.vb: ZipProvider.New(String)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.New(String)
+  name.vb: New(String)
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize
+  id: GetDataSize
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDataSize()
+  nameWithType: ZipProvider.GetDataSize()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize()
+  type: Method
+  source:
+    id: GetDataSize
+    path: ''
+    startLine: 6735
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  example: []
+  syntax:
+    content: public float GetDataSize()
+    return:
+      type: System.Single
+    content.vb: Public Function GetDataSize() As Single
+  overload: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize*
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime
+  id: GetCreateTime
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCreateTime()
+  nameWithType: ZipProvider.GetCreateTime()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime()
+  type: Method
+  source:
+    id: GetCreateTime
+    path: ''
+    startLine: 6745
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  example: []
+  syntax:
+    content: public DateTime GetCreateTime()
+    return:
+      type: Global.DateTime
+    content.vb: Public Function GetCreateTime() As DateTime
+  overload: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime*
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData
+  id: GenerateData
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: GenerateData()
+  nameWithType: ZipProvider.GenerateData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData()
+  type: Method
+  source:
+    id: GenerateData
+    path: ''
+    startLine: 6758
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  summary: "\nGenerate the data for the zip file.\n<remarks>Note that we can&apos;t generate single variant data with this provider.</remarks>\n"
+  example: []
+  syntax:
+    content: public void GenerateData()
+    content.vb: Public Sub GenerateData()
+  overload: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)
+  id: GenerateData(PrecomputedDataVariant)
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: GenerateData(PrecomputedDataVariant)
+  nameWithType: ZipProvider.GenerateData(PrecomputedDataVariant)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)
+  type: Method
+  source:
+    id: GenerateData
+    path: ''
+    startLine: 6768
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  summary: "\nGenerate the data and save it to the zip file.\nWe use it to serialize and save a new variant to the zip file.\n"
+  example: []
+  syntax:
+    content: public void GenerateData(PrecomputedDataVariant variant)
+    parameters:
+    - id: variant
+      type: Global.PrecomputedDataVariant
+      description: Variant to save to the zip file.
+    content.vb: Public Sub GenerateData([variant] As PrecomputedDataVariant)
+  overload: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData(System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData(System.Int32)
+  id: LoadData(System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadData(int)
+  nameWithType: ZipProvider.LoadData(int)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData(int)
+  type: Method
+  source:
+    id: LoadData
+    path: ''
+    startLine: 6811
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  summary: "\nLoad the data from the zip file.\nNote that new data will only be loaded if <xref href=\"ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)\" data-throw-if-not-resolved=\"false\"></xref> was called. Otherwise, we will use the data from the cache.\n"
+  example: []
+  syntax:
+    content: public PrecomputedDataVariant LoadData(int variantIndex)
+    parameters:
+    - id: variantIndex
+      type: System.Int32
+      description: Index of the variant to load.
+    return:
+      type: Global.PrecomputedDataVariant
+      description: Loaded variant.
+    content.vb: Public Function LoadData(variantIndex As Integer) As PrecomputedDataVariant
+  overload: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  nameWithType.vb: ZipProvider.LoadData(Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData(Integer)
+  name.vb: LoadData(Integer)
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData
+  id: LoadAllData
+  parent: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+  langs:
+  - csharp
+  - vb
+  name: LoadAllData()
+  nameWithType: ZipProvider.LoadAllData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData()
+  type: Method
+  source:
+    id: LoadAllData
+    path: ''
+    startLine: 6827
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  summary: "\nLoad all the data from the zip file.\nNote that new data will only be loaded if <xref href=\"ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)\" data-throw-if-not-resolved=\"false\"></xref> was called. Otherwise, we will use the data from the cache.\n"
+  example: []
+  syntax:
+    content: public List<PrecomputedDataVariant> LoadAllData()
+    return:
+      type: Global.List{PrecomputedDataVariant}
+      description: List of all the variants.
+    content.vb: Public Function LoadAllData() As List(Of PrecomputedDataVariant)
+  overload: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData*
+  implements:
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+references:
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  commentId: N:ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  name: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  nameWithType: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+    name: ZipProvider
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+    name: ZipProvider
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  parent: ProgLibrary.PrecomputedCulling.Provider
+  name: IPrecomputedDataProvider
+  nameWithType: IPrecomputedDataProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Provider
+  commentId: N:ProgLibrary.PrecomputedCulling.Provider
+  name: ProgLibrary.PrecomputedCulling.Provider
+  nameWithType: ProgLibrary.PrecomputedCulling.Provider
+  fullName: ProgLibrary.PrecomputedCulling.Provider
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.#ctor
+  name: ZipProvider
+  nameWithType: ZipProvider.ZipProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.ZipProvider
+  nameWithType.vb: ZipProvider.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize
+  name: GetDataSize
+  nameWithType: ZipProvider.GetDataSize
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetDataSize
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime
+  name: GetCreateTime
+  nameWithType: ZipProvider.GetCreateTime
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GetCreateTime
+- uid: Global.DateTime
+  commentId: '!:Global.DateTime'
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData
+  name: GenerateData
+  nameWithType: ZipProvider.GenerateData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  name: GenerateData()
+  nameWithType: IPrecomputedDataProvider.GenerateData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+    name: GenerateData
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData
+    name: GenerateData
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  isExternal: true
+  name: GenerateData(PrecomputedDataVariant)
+  nameWithType: IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+    name: GenerateData
+  - name: (
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.GenerateData(PrecomputedDataVariant)
+    name: GenerateData
+  - name: (
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: )
+- uid: Global.PrecomputedDataVariant
+  isExternal: true
+  name: PrecomputedDataVariant
+  nameWithType: PrecomputedDataVariant
+  fullName: PrecomputedDataVariant
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.GenerateData(PrecomputedDataVariant)
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData
+  name: LoadData
+  nameWithType: ZipProvider.LoadData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadData
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  isExternal: true
+  name: LoadData(int)
+  nameWithType: IPrecomputedDataProvider.LoadData(int)
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(int)
+  nameWithType.vb: IPrecomputedDataProvider.LoadData(Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(Integer)
+  name.vb: LoadData(Integer)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+    name: LoadData
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadData(System.Int32)
+    name: LoadData
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData
+  name: LoadAllData
+  nameWithType: ZipProvider.LoadAllData
+  fullName: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider.LoadAllData
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  commentId: M:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+  parent: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  name: LoadAllData()
+  nameWithType: IPrecomputedDataProvider.LoadAllData()
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+    name: LoadAllData
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider.LoadAllData
+    name: LoadAllData
+  - name: (
+  - name: )
+- uid: Global.List{PrecomputedDataVariant}
+  commentId: '!:Global.List{PrecomputedDataVariant}'
+  definition: Global.List`1
+  name: List<PrecomputedDataVariant>
+  nameWithType: List<PrecomputedDataVariant>
+  fullName: List<PrecomputedDataVariant>
+  nameWithType.vb: List(Of PrecomputedDataVariant)
+  fullName.vb: List(Of PrecomputedDataVariant)
+  name.vb: List(Of PrecomputedDataVariant)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

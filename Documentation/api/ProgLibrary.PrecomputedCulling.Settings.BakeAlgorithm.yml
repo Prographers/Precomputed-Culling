@@ -16,12 +16,12 @@ items:
   type: Enum
   source:
     id: BakeAlgorithm
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedSettingsArea.cs
-    startLine: 13
+    path: ''
+    startLine: 7632
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.Settings
-  summary: Types of algorithms
+  summary: "\nTypes of algorithms\n"
   example: []
   syntax:
     content: public enum BakeAlgorithm
@@ -39,10 +39,10 @@ items:
   type: Field
   source:
     id: FrustumDepthTest
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedSettingsArea.cs
-    startLine: 15
+    path: ''
+    startLine: 7634
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.Settings
   syntax:
     content: FrustumDepthTest = 0
@@ -61,12 +61,12 @@ items:
   type: Field
   source:
     id: ColorIdCubeMap
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling\Settings\PrecomputedSettingsArea.cs
-    startLine: 19
+    path: ''
+    startLine: 7638
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.Settings
-  summary: Map texture colors based algorithm
+  summary: "\nMap texture colors based algorithm\n"
   example: []
   syntax:
     content: ColorIdCubeMap = 1
@@ -75,38 +75,30 @@ items:
 references:
 - uid: ProgLibrary.PrecomputedCulling.Settings
   commentId: N:ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.Settings
   nameWithType: ProgLibrary.PrecomputedCulling.Settings
   fullName: ProgLibrary.PrecomputedCulling.Settings
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.Settings
     name: Settings
-    href: ProgLibrary.PrecomputedCulling.Settings.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.Settings
     name: Settings
-    href: ProgLibrary.PrecomputedCulling.Settings.html
 - uid: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
   commentId: T:ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm
   parent: ProgLibrary.PrecomputedCulling.Settings
-  href: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm.html
   name: BakeAlgorithm
   nameWithType: BakeAlgorithm
   fullName: ProgLibrary.PrecomputedCulling.Settings.BakeAlgorithm

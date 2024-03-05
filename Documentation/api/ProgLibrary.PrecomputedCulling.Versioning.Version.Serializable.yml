@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  id: Version.Serializable
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  children:
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Extension
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Major
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Minor
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Patch
+  - ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion
+  langs:
+  - csharp
+  - vb
+  name: Version.Serializable
+  nameWithType: Version.Serializable
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  type: Struct
+  source:
+    id: Serializable
+    path: ''
+    startLine: 8584
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nThe <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object which is ready to be serialized. This class is for serialization only! To make\nany calculations, first create the <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object using built-in constructor or\n<xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion\" data-throw-if-not-resolved=\"false\"></xref> method.\n"
+  example: []
+  syntax:
+    content: public struct Version.Serializable
+    content.vb: Public Structure Version.Serializable
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Major
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Major
+  id: Major
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  langs:
+  - csharp
+  - vb
+  name: Major
+  nameWithType: Version.Serializable.Major
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Major
+  type: Field
+  source:
+    id: Major
+    path: ''
+    startLine: 8587
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public ushort Major
+    return:
+      type: System.UInt16
+    content.vb: Public Major As UShort
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Minor
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Minor
+  id: Minor
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  langs:
+  - csharp
+  - vb
+  name: Minor
+  nameWithType: Version.Serializable.Minor
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Minor
+  type: Field
+  source:
+    id: Minor
+    path: ''
+    startLine: 8588
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public ushort Minor
+    return:
+      type: System.UInt16
+    content.vb: Public Minor As UShort
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Patch
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Patch
+  id: Patch
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  langs:
+  - csharp
+  - vb
+  name: Patch
+  nameWithType: Version.Serializable.Patch
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Patch
+  type: Field
+  source:
+    id: Patch
+    path: ''
+    startLine: 8589
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public ushort Patch
+    return:
+      type: System.UInt16
+    content.vb: Public Patch As UShort
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Extension
+  commentId: F:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Extension
+  id: Extension
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: Version.Serializable.Extension
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.Extension
+  type: Field
+  source:
+    id: Extension
+    path: ''
+    startLine: 8590
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  syntax:
+    content: public string Extension
+    return:
+      type: System.String
+    content.vb: Public Extension As String
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  id: FromVersion(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  langs:
+  - csharp
+  - vb
+  name: FromVersion(Version)
+  nameWithType: Version.Serializable.FromVersion(Version)
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion(ProgLibrary.PrecomputedCulling.Versioning.Version)
+  type: Method
+  source:
+    id: FromVersion
+    path: ''
+    startLine: 8597
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nCreates the serializable version of <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  example: []
+  syntax:
+    content: public static Version.Serializable FromVersion(Version version)
+    parameters:
+    - id: version
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+      description: ''
+    return:
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+      description: ''
+    content.vb: Public Shared Function FromVersion(version As Version) As Version.Serializable
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion*
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion
+  id: ToVersion
+  parent: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  langs:
+  - csharp
+  - vb
+  name: ToVersion()
+  nameWithType: Version.Serializable.ToVersion()
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion()
+  type: Method
+  source:
+    id: ToVersion
+    path: ''
+    startLine: 8610
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Versioning
+  summary: "\nConvert this serializable object to compute ready <xref href=\"ProgLibrary.PrecomputedCulling.Versioning.Version\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public Version ToVersion()
+    return:
+      type: ProgLibrary.PrecomputedCulling.Versioning.Version
+      description: ''
+    content.vb: Public Function ToVersion() As Version
+  overload: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  name: Version
+  nameWithType: Version
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion
+  commentId: M:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion
+  isExternal: true
+- uid: ProgLibrary.PrecomputedCulling.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling.Versioning
+  name: ProgLibrary.PrecomputedCulling.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling.Versioning
+  fullName: ProgLibrary.PrecomputedCulling.Versioning
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning
+    name: Versioning
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion
+  name: FromVersion
+  nameWithType: Version.Serializable.FromVersion
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.FromVersion
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  commentId: T:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  parent: ProgLibrary.PrecomputedCulling.Versioning
+  name: Version.Serializable
+  nameWithType: Version.Serializable
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+    name: Version
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    name: Serializable
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+    name: Version
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    name: Serializable
+- uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion
+  name: ToVersion
+  nameWithType: Version.Serializable.ToVersion
+  fullName: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable.ToVersion

@@ -3,19 +3,17 @@ items:
 - uid: ProgLibrary.PrecomputedCulling
   name: ProgLibrary.PrecomputedCulling
   items:
-  - uid: ProgLibrary.PrecomputedCulling.BoundingBoxExtensions
-    name: BoundingBoxExtensions
   - uid: ProgLibrary.PrecomputedCulling.PrecomputedCamera
     name: PrecomputedCamera
   - uid: ProgLibrary.PrecomputedCulling.PrecomputedController
     name: PrecomputedController
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedManager
-    name: PrecomputedManager
 - uid: ProgLibrary.PrecomputedCulling_Editor
   name: ProgLibrary.PrecomputedCulling_Editor
   items:
   - uid: ProgLibrary.PrecomputedCulling_Editor.BaseManualEditorWindow
     name: BaseManualEditorWindow
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CreatePrecomputedPackage
+    name: CreatePrecomputedPackage
   - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
     name: IManualEditorWindow
   - uid: ProgLibrary.PrecomputedCulling_Editor.LegendColorInfo
@@ -24,21 +22,118 @@ items:
     name: LegendColorInfo.ColorInfo
   - uid: ProgLibrary.PrecomputedCulling_Editor.PrecomputedHighlightTool
     name: PrecomputedHighlightTool
+  - uid: ProgLibrary.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
+    name: PrecomputedPlayStateNotifier
+  - uid: ProgLibrary.PrecomputedCulling_Editor.SerializedPropertyExtensions
+    name: SerializedPropertyExtensions
 - uid: ProgLibrary.PrecomputedCulling_Editor.Bake
   name: ProgLibrary.PrecomputedCulling_Editor.Bake
   items:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.BasicEditorBakeProgress
+    name: BasicEditorBakeProgress
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.EditorBakeHelper
+    name: EditorBakeHelper
   - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedBakeProcess
     name: PrecomputedBakeProcess
   - uid: ProgLibrary.PrecomputedCulling_Editor.Bake.PrecomputedCullingPipeline
     name: PrecomputedCullingPipeline
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config
+  name: ProgLibrary.PrecomputedCulling_Editor.Config
+  items:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+    name: PCCConfig
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+    name: PCCConfig.Versioning
+- uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  name: ProgLibrary.PrecomputedCulling_Editor.CustomMenu
+  items:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
+    name: PCCMonoBehaviourEditor
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
+    name: PrecomputedAreaEditor
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
+    name: PrecomputedCameraEditor
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
+    name: PrecomputedSceneSettingsEditor
+  - uid: ProgLibrary.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
+    name: PrecomputedSceneSetup
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  name: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  items:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions
+    name: EditorWindowExtensions
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+    name: PCCEditorWindow
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsVersionSection
+    name: PCCSettingsVersionSection
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+    name: PCCSettingsWindow
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
+    name: PCCSettingsWindow.SettingCategory
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCWelcomePopup
+    name: PCCWelcomePopup
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions
+    name: UIToolkitExtensions
 - uid: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
   name: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
   items:
   - uid: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow
     name: ReflectedOverlayWindow
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+  name: ProgLibrary.PrecomputedCulling_Editor.Utils
+  items:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+    name: PCCEditorConst
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+    name: PCCEditorConst.URLs
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+    name: PrecomputedEditorUtils
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  name: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  items:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+    name: GitHubReleaseData
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+    name: VersionValidator
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+    name: VersionValidator.Result
+- uid: ProgLibrary.PrecomputedCulling.Bake
+  name: ProgLibrary.PrecomputedCulling.Bake
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.Bake.BaseRuntimeBakeController
+    name: BaseRuntimeBakeController
+  - uid: ProgLibrary.PrecomputedCulling.Bake.DemoRuntimeBakeController
+    name: DemoRuntimeBakeController
+  - uid: ProgLibrary.PrecomputedCulling.Bake.RuntimeBakeProcess
+    name: RuntimeBakeProcess
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  name: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.DemoRuntimeBakeProgress
+    name: DemoRuntimeBakeProgress
+  - uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+    name: IBakeProgress
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers
+  name: ProgLibrary.PrecomputedCulling.BakeControllers
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedSpriteBakeController
+    name: PrecomputedSpriteBakeController
+  - uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+    name: PrecomputedTerrainBakeController
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper
+  name: ProgLibrary.PrecomputedCulling.BakeHelper
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+    name: BaseBakeHelper
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+    name: CommonBakeHelper
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+    name: RuntimeBakeHelper
 - uid: ProgLibrary.PrecomputedCulling.DataModels
   name: ProgLibrary.PrecomputedCulling.DataModels
   items:
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.AreaDataIndex
+    name: AreaDataIndex
   - uid: ProgLibrary.PrecomputedCulling.DataModels.BoundingBox
     name: BoundingBox
   - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedChunkData
@@ -49,6 +144,10 @@ items:
     name: PrecomputedDataVariant
   - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedGroupData
     name: PrecomputedGroupData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
+    name: PrecomputedSceneAreaData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
+    name: PrecomputedSceneVariantData
   - uid: ProgLibrary.PrecomputedCulling.DataModels.PrecomputedVisibilityIndices
     name: PrecomputedVisibilityIndices
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
@@ -60,10 +159,18 @@ items:
     name: PrecomputedLODGroupContainer
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedMeshRendererContainer
     name: PrecomputedMeshRendererContainer
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+    name: PrecomputedRenderer
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
+    name: PrecomputedRendererBakeContainer
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneData
     name: PrecomputedSceneData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+    name: PrecomputedSceneInfo
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneRuntimeData
     name: PrecomputedSceneRuntimeData
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.ValidOccluderEnum
+    name: ValidOccluderEnum
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   items:
@@ -73,53 +180,46 @@ items:
     name: PrecomputedRendererBaseContainer
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
     name: PrecomputedRendererContainer<T>
+    name.vb: PrecomputedRendererContainer(Of T)
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
   name: ProgLibrary.PrecomputedCulling.MonoBehaviours
   items:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+    name: FrustumCulling
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester
     name: IVisibilityTester
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.IVisibilityTester`1
     name: IVisibilityTester<TSettings>
+    name.vb: IVisibilityTester(Of TSettings)
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+    name: PCCMonoBehaviour
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedArea
     name: PrecomputedArea
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
     name: PrecomputedCullingRendererId
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
+    name: PrecomputedLoadMethod
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+    name: PrecomputedManager
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
+    name: PrecomputedSceneSettings
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+    name: IdCubemapCamera
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.PrecomputedSaveTexture
+    name: PrecomputedSaveTexture
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer
+  items:
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.Renderer.ColorIndexingCameraRenderer
+    name: ColorIndexingCameraRenderer
 - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
   name: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera
   items:
   - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCamera.CameraMatrixUtils
     name: CameraMatrixUtils
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CreatePrecomputedPackage
-    name: CreatePrecomputedPackage
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedPlayStateNotifier
-    name: PrecomputedPlayStateNotifier
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedSpriteBakeController
-    name: PrecomputedSpriteBakeController
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.PrecomputedTerrainBakeController
-    name: PrecomputedTerrainBakeController
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.SerializedPropertyExtensions
-    name: SerializedPropertyExtensions
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedAreaEditor
-    name: PrecomputedAreaEditor
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedCameraEditor
-    name: PrecomputedCameraEditor
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedMenuSettingsEditor
-    name: PrecomputedMenuSettingsEditor
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSettingsEditor
-    name: PrecomputedSceneSettingsEditor
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.CustomMenu.PrecomputedSceneSetup
-    name: PrecomputedSceneSetup
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.Utils
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.Utils
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
-    name: PrecomputedEditorUtils
 - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
   name: ProgLibrary.PrecomputedCulling.PrecomputedCulling_Tests
   items:
@@ -134,82 +234,27 @@ items:
   items:
   - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling_TestsPlay.CameraVisibleTests
     name: CameraVisibleTests
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels
+- uid: ProgLibrary.PrecomputedCulling.Provider
+  name: ProgLibrary.PrecomputedCulling.Provider
   items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.AreaDataIndex
-    name: AreaDataIndex
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneAreaData
-    name: PrecomputedSceneAreaData
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.PrecomputedSceneVariantData
-    name: PrecomputedSceneVariantData
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
-    name: PrecomputedSceneInfo
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedLoadMethod
-    name: PrecomputedLoadMethod
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.MonoBehaviours.PrecomputedSceneSettings
-    name: PrecomputedSceneSettings
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupController
-    name: RatingPopupController
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupEditor
-    name: RatingPopupEditor
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.RatingPopupFile
-    name: RatingPopupFile
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.URLAddresses
-    name: URLAddresses
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.WelcomePopupController
-    name: WelcomePopupController
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Popup.WelcomePopupEditor
-    name: WelcomePopupEditor
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Provider.AssetBundleProvider
+  - uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
     name: AssetBundleProvider
-- uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
-  name: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings
+  - uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+    name: IPrecomputedDataProvider
+- uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
+  name: ProgLibrary.PrecomputedCulling.Provider.ZipProvider
   items:
-  - uid: ProgLibrary.PrecomputedCulling.PrecomputedCulling.Settings.PrecomputedDataSettings
-    name: PrecomputedDataSettings
-- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
-  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config
+  - uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.SimpleTextSerializer
+    name: SimpleTextSerializer
+  - uid: ProgLibrary.PrecomputedCulling.Provider.ZipProvider.ZipProvider
+    name: ZipProvider
+- uid: ProgLibrary.PrecomputedCulling.Renderer
+  name: ProgLibrary.PrecomputedCulling.Renderer
   items:
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.Config.PCCConfig
-    name: PCCConfig
-- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
-  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.CustomMenu.PCCMonoBehaviourEditor
-    name: PCCMonoBehaviourEditor
-- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
-  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions
-    name: EditorWindowExtensions
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
-    name: PCCEditorWindow
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
-    name: PCCSettingsWindow
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.SettingCategory
-    name: PCCSettingsWindow.SettingCategory
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling_Editor.EditorWindows.PCCWelcomePopup
-    name: PCCWelcomePopup
-- uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours
-  name: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours
-  items:
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.FrustumCulling
-    name: FrustumCulling
-  - uid: ProgLibrary.PrecomputedCulling.Scripts.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
-    name: PCCMonoBehaviour
+  - uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+    name: CustomOcclusionScriptableRenderer
+  - uid: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+    name: RendererBakeAlgorithm
 - uid: ProgLibrary.PrecomputedCulling.Settings
   name: ProgLibrary.PrecomputedCulling.Settings
   items:
@@ -223,6 +268,8 @@ items:
     name: PrecomputedBakeTargetedFrustumSettings
   - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedBaseBakeSettings
     name: PrecomputedBaseBakeSettings
+  - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedDataSettings
+    name: PrecomputedDataSettings
   - uid: ProgLibrary.PrecomputedCulling.Settings.PrecomputedSettingsArea
     name: PrecomputedSettingsArea
   - uid: ProgLibrary.PrecomputedCulling.Settings.TextureResolution
@@ -232,13 +279,23 @@ items:
   items:
   - uid: ProgLibrary.PrecomputedCulling.Utils.ArrayUtils
     name: ArrayUtils
+  - uid: ProgLibrary.PrecomputedCulling.Utils.BoundingBoxExtensions
+    name: BoundingBoxExtensions
   - uid: ProgLibrary.PrecomputedCulling.Utils.ComputeShaderUtilities
     name: ComputeShaderUtilities
+  - uid: ProgLibrary.PrecomputedCulling.Utils.CoroutineState
+    name: CoroutineState
+  - uid: ProgLibrary.PrecomputedCulling.Utils.CullingReferenceHelper
+    name: CullingReferenceHelper
   - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions
     name: PrecomputedAreaExtensions
-- uid: Tests
-  name: Tests
+  - uid: ProgLibrary.PrecomputedCulling.Utils.PrecomputedAreaExtensions.CameraIterator
+    name: PrecomputedAreaExtensions.CameraIterator
+- uid: ProgLibrary.PrecomputedCulling.Versioning
+  name: ProgLibrary.PrecomputedCulling.Versioning
   items:
-  - uid: Tests.MainStructureTest
-    name: MainStructureTest
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version
+    name: Version
+  - uid: ProgLibrary.PrecomputedCulling.Versioning.Version.Serializable
+    name: Version.Serializable
 memberLayout: SamePage

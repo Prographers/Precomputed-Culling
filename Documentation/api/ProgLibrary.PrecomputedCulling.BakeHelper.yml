@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper
+  commentId: N:ProgLibrary.PrecomputedCulling.BakeHelper
+  id: ProgLibrary.PrecomputedCulling.BakeHelper
+  children:
+  - ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  - ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  - ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.BakeHelper
+  nameWithType: ProgLibrary.PrecomputedCulling.BakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper
+  name: BaseBakeHelper
+  nameWithType: BaseBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+  name: CommonBakeHelper
+  nameWithType: CommonBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.CommonBakeHelper
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  name: RuntimeBakeHelper
+  nameWithType: RuntimeBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper
+  commentId: N:ProgLibrary.PrecomputedCulling.BakeHelper
+  name: ProgLibrary.PrecomputedCulling.BakeHelper
+  nameWithType: ProgLibrary.PrecomputedCulling.BakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper
+    name: BakeHelper
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper
+    name: BakeHelper

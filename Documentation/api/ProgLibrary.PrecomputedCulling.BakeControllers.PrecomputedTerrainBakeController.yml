@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  id: PrecomputedTerrainBakeController
+  parent: ProgLibrary.PrecomputedCulling.BakeControllers
+  children:
+  - ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes
+  - ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedTerrainBakeController
+  nameWithType: PrecomputedTerrainBakeController
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  type: Class
+  source:
+    id: PrecomputedTerrainBakeController
+    path: ''
+    startLine: 1293
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeControllers
+  summary: "\nConverts Unity Terrains temporary to mesh to be visible during bake\n"
+  example: []
+  syntax:
+    content: public class PrecomputedTerrainBakeController
+    content.vb: Public Class PrecomputedTerrainBakeController
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes
+  id: CreateMeshes
+  parent: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  langs:
+  - csharp
+  - vb
+  name: CreateMeshes()
+  nameWithType: PrecomputedTerrainBakeController.CreateMeshes()
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes()
+  type: Method
+  source:
+    id: CreateMeshes
+    path: ''
+    startLine: 1309
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeControllers
+  summary: "\nConvert All Terrain to meshes\nCreate temporary objects with meshes\n"
+  example: []
+  syntax:
+    content: public void CreateMeshes()
+    content.vb: Public Sub CreateMeshes()
+  overload: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes*
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes
+  id: DestroyMeshes
+  parent: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController
+  langs:
+  - csharp
+  - vb
+  name: DestroyMeshes()
+  nameWithType: PrecomputedTerrainBakeController.DestroyMeshes()
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes()
+  type: Method
+  source:
+    id: DestroyMeshes
+    path: ''
+    startLine: 1364
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeControllers
+  summary: "\nDestroy all temporary objects with mesh\n"
+  example: []
+  syntax:
+    content: public void DestroyMeshes()
+    content.vb: Public Sub DestroyMeshes()
+  overload: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes*
+references:
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers
+  commentId: N:ProgLibrary.PrecomputedCulling.BakeControllers
+  name: ProgLibrary.PrecomputedCulling.BakeControllers
+  nameWithType: ProgLibrary.PrecomputedCulling.BakeControllers
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeControllers
+    name: BakeControllers
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeControllers
+    name: BakeControllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes
+  name: CreateMeshes
+  nameWithType: PrecomputedTerrainBakeController.CreateMeshes
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.CreateMeshes
+- uid: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes
+  name: DestroyMeshes
+  nameWithType: PrecomputedTerrainBakeController.DestroyMeshes
+  fullName: ProgLibrary.PrecomputedCulling.BakeControllers.PrecomputedTerrainBakeController.DestroyMeshes

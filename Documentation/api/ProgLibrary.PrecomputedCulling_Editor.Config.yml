@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Config
+  id: ProgLibrary.PrecomputedCulling_Editor.Config
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  - ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling_Editor.Config
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Config
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config
+  name: PCCConfig
+  nameWithType: PCCConfig
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  parent: ProgLibrary.PrecomputedCulling_Editor.Config
+  name: PCCConfig.Versioning
+  nameWithType: PCCConfig.Versioning
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+    name: PCCConfig
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+    name: Versioning
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig
+    name: PCCConfig
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config.PCCConfig.Versioning
+    name: Versioning
+- uid: ProgLibrary.PrecomputedCulling_Editor.Config
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Config
+  name: ProgLibrary.PrecomputedCulling_Editor.Config
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Config
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Config
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config
+    name: Config
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Config
+    name: Config

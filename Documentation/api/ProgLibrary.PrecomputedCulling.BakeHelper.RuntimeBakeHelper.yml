@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  id: RuntimeBakeHelper
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper
+  children:
+  - ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+  - ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+  - ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas
+  langs:
+  - csharp
+  - vb
+  name: RuntimeBakeHelper
+  nameWithType: RuntimeBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  type: Class
+  source:
+    id: RuntimeBakeHelper
+    path: ''
+    startLine: 1794
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  summary: "\nRuntime bake helper class.\nWe use it for the runtime baking process.\n"
+  example: []
+  syntax:
+    content: 'public class RuntimeBakeHelper : BaseBakeHelper'
+    content.vb: Public Class RuntimeBakeHelper Inherits BaseBakeHelper
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  inheritedMembers:
+  - ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.UnloadUnusedAssetsImmediate
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+  id: CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, string)
+  nameWithType: RuntimeBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, string)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, string)
+  type: Method
+  source:
+    id: CreateNewOcclusionData
+    path: ''
+    startLine: 1797
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  example: []
+  syntax:
+    content: public override PrecomputedData CreateNewOcclusionData(PrecomputedArea occlusionArea, PrecomputedDataVariant occlusionVariant, string path)
+    parameters:
+    - id: occlusionArea
+      type: Global.PrecomputedArea
+    - id: occlusionVariant
+      type: Global.PrecomputedDataVariant
+    - id: path
+      type: System.String
+    return:
+      type: Global.PrecomputedData
+    content.vb: Public Overrides Function CreateNewOcclusionData(occlusionArea As PrecomputedArea, occlusionVariant As PrecomputedDataVariant, path As String) As PrecomputedData
+  overridden: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData*
+  nameWithType.vb: RuntimeBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, String)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, String)
+  name.vb: CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, String)
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+  id: CreateSceneOcclusionVariant(System.Int32,System.String)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateSceneOcclusionVariant(int, string)
+  nameWithType: RuntimeBakeHelper.CreateSceneOcclusionVariant(int, string)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant(int, string)
+  type: Method
+  source:
+    id: CreateSceneOcclusionVariant
+    path: ''
+    startLine: 1807
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  example: []
+  syntax:
+    content: public override PrecomputedDataVariant CreateSceneOcclusionVariant(int variantIndex, string path)
+    parameters:
+    - id: variantIndex
+      type: System.Int32
+    - id: path
+      type: System.String
+    return:
+      type: Global.PrecomputedDataVariant
+    content.vb: Public Overrides Function CreateSceneOcclusionVariant(variantIndex As Integer, path As String) As PrecomputedDataVariant
+  overridden: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant*
+  nameWithType.vb: RuntimeBakeHelper.CreateSceneOcclusionVariant(Integer, String)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant(Integer, String)
+  name.vb: CreateSceneOcclusionVariant(Integer, String)
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas
+  id: FindGetAreas
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper
+  langs:
+  - csharp
+  - vb
+  name: FindGetAreas()
+  nameWithType: RuntimeBakeHelper.FindGetAreas()
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas()
+  type: Method
+  source:
+    id: FindGetAreas
+    path: ''
+    startLine: 1826
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.BakeHelper
+  example: []
+  syntax:
+    content: public override List<PrecomputedArea> FindGetAreas()
+    return:
+      type: Global.List{PrecomputedArea}
+    content.vb: Public Overrides Function FindGetAreas() As List(Of PrecomputedArea)
+  overridden: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.FindGetAreas
+  overload: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas*
+references:
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper
+  commentId: N:ProgLibrary.PrecomputedCulling.BakeHelper
+  name: ProgLibrary.PrecomputedCulling.BakeHelper
+  nameWithType: ProgLibrary.PrecomputedCulling.BakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper
+    name: BakeHelper
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper
+    name: BakeHelper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  commentId: T:ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper
+  name: BaseBakeHelper
+  nameWithType: BaseBakeHelper
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.UnloadUnusedAssetsImmediate
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.UnloadUnusedAssetsImmediate
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  name: UnloadUnusedAssetsImmediate()
+  nameWithType: BaseBakeHelper.UnloadUnusedAssetsImmediate()
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.UnloadUnusedAssetsImmediate()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.UnloadUnusedAssetsImmediate
+    name: UnloadUnusedAssetsImmediate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.UnloadUnusedAssetsImmediate
+    name: UnloadUnusedAssetsImmediate
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  isExternal: true
+  name: CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, string)
+  nameWithType: BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, string)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, string)
+  nameWithType.vb: BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, String)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, String)
+  name.vb: CreateNewOcclusionData(PrecomputedArea, PrecomputedDataVariant, String)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+    name: CreateNewOcclusionData
+  - name: (
+  - uid: Global.PrecomputedArea
+    name: PrecomputedArea
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateNewOcclusionData(PrecomputedArea,PrecomputedDataVariant,System.String)
+    name: CreateNewOcclusionData
+  - name: (
+  - uid: Global.PrecomputedArea
+    name: PrecomputedArea
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.PrecomputedDataVariant
+    name: PrecomputedDataVariant
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData
+  name: CreateNewOcclusionData
+  nameWithType: RuntimeBakeHelper.CreateNewOcclusionData
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateNewOcclusionData
+- uid: Global.PrecomputedArea
+  isExternal: true
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: PrecomputedArea
+- uid: Global.PrecomputedDataVariant
+  isExternal: true
+  name: PrecomputedDataVariant
+  nameWithType: PrecomputedDataVariant
+  fullName: PrecomputedDataVariant
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.PrecomputedData
+  isExternal: true
+  name: PrecomputedData
+  nameWithType: PrecomputedData
+  fullName: PrecomputedData
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  isExternal: true
+  name: CreateSceneOcclusionVariant(int, string)
+  nameWithType: BaseBakeHelper.CreateSceneOcclusionVariant(int, string)
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateSceneOcclusionVariant(int, string)
+  nameWithType.vb: BaseBakeHelper.CreateSceneOcclusionVariant(Integer, String)
+  fullName.vb: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateSceneOcclusionVariant(Integer, String)
+  name.vb: CreateSceneOcclusionVariant(Integer, String)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+    name: CreateSceneOcclusionVariant
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.CreateSceneOcclusionVariant(System.Int32,System.String)
+    name: CreateSceneOcclusionVariant
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant
+  name: CreateSceneOcclusionVariant
+  nameWithType: RuntimeBakeHelper.CreateSceneOcclusionVariant
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.CreateSceneOcclusionVariant
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.FindGetAreas
+  commentId: M:ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.FindGetAreas
+  parent: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper
+  name: FindGetAreas()
+  nameWithType: BaseBakeHelper.FindGetAreas()
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.FindGetAreas()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.FindGetAreas
+    name: FindGetAreas
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling.BakeHelper.BaseBakeHelper.FindGetAreas
+    name: FindGetAreas
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas
+  name: FindGetAreas
+  nameWithType: RuntimeBakeHelper.FindGetAreas
+  fullName: ProgLibrary.PrecomputedCulling.BakeHelper.RuntimeBakeHelper.FindGetAreas
+- uid: Global.List{PrecomputedArea}
+  commentId: '!:Global.List{PrecomputedArea}'
+  definition: Global.List`1
+  name: List<PrecomputedArea>
+  nameWithType: List<PrecomputedArea>
+  fullName: List<PrecomputedArea>
+  nameWithType.vb: List(Of PrecomputedArea)
+  fullName.vb: List(Of PrecomputedArea)
+  name.vb: List(Of PrecomputedArea)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedArea
+    name: PrecomputedArea
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedArea
+    name: PrecomputedArea
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

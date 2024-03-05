@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+  id: PrecomputedSceneInfo
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  children:
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.#ctor(System.Int32,System.Int32,System.Int32)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.BakeSpots
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Cells
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Occluders
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneInfo
+  nameWithType: PrecomputedSceneInfo
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+  type: Struct
+  source:
+    id: PrecomputedSceneInfo
+    path: ''
+    startLine: 3850
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nStores important information about the scene for access them in the variant settings\n"
+  example: []
+  syntax:
+    content: public struct PrecomputedSceneInfo
+    content.vb: Public Structure PrecomputedSceneInfo
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Occluders
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Occluders
+  id: Occluders
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+  langs:
+  - csharp
+  - vb
+  name: Occluders
+  nameWithType: PrecomputedSceneInfo.Occluders
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Occluders
+  type: Field
+  source:
+    id: Occluders
+    path: ''
+    startLine: 3856
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nAll possible occluders on scene \n"
+  example: []
+  syntax:
+    content: public int Occluders
+    return:
+      type: System.Int32
+    content.vb: Public Occluders As Integer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Cells
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Cells
+  id: Cells
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+  langs:
+  - csharp
+  - vb
+  name: Cells
+  nameWithType: PrecomputedSceneInfo.Cells
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.Cells
+  type: Field
+  source:
+    id: Cells
+    path: ''
+    startLine: 3860
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nAll cells in every <see cref=\"!:PrecomputedArea\"></see> on scene \n"
+  example: []
+  syntax:
+    content: public int Cells
+    return:
+      type: System.Int32
+    content.vb: Public Cells As Integer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.BakeSpots
+  commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.BakeSpots
+  id: BakeSpots
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+  langs:
+  - csharp
+  - vb
+  name: BakeSpots
+  nameWithType: PrecomputedSceneInfo.BakeSpots
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.BakeSpots
+  type: Field
+  source:
+    id: BakeSpots
+    path: ''
+    startLine: 3864
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nAll bake spots in every <see cref=\"!:PrecomputedArea\"></see> on scene\n"
+  example: []
+  syntax:
+    content: public int BakeSpots
+    return:
+      type: System.Int32
+    content.vb: Public BakeSpots As Integer
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.#ctor(System.Int32,System.Int32,System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.#ctor(System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedSceneInfo(int, int, int)
+  nameWithType: PrecomputedSceneInfo.PrecomputedSceneInfo(int, int, int)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.PrecomputedSceneInfo(int, int, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3872
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nDefault constructor\n"
+  example: []
+  syntax:
+    content: public PrecomputedSceneInfo(int occluders, int cells, int bakeSpots)
+    parameters:
+    - id: occluders
+      type: System.Int32
+      description: ''
+    - id: cells
+      type: System.Int32
+      description: ''
+    - id: bakeSpots
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(occluders As Integer, cells As Integer, bakeSpots As Integer)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.#ctor*
+  nameWithType.vb: PrecomputedSceneInfo.New(Integer, Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.New(Integer, Integer, Integer)
+  name.vb: New(Integer, Integer, Integer)
+references:
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.#ctor*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.#ctor
+  name: PrecomputedSceneInfo
+  nameWithType: PrecomputedSceneInfo.PrecomputedSceneInfo
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.PrecomputedSceneInfo
+  nameWithType.vb: PrecomputedSceneInfo.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedSceneInfo.New
+  name.vb: New

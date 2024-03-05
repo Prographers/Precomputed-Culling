@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Provider
+  commentId: N:ProgLibrary.PrecomputedCulling.Provider
+  id: ProgLibrary.PrecomputedCulling.Provider
+  children:
+  - ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  - ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.Provider
+  nameWithType: ProgLibrary.PrecomputedCulling.Provider
+  fullName: ProgLibrary.PrecomputedCulling.Provider
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+  name: AssetBundleProvider
+  nameWithType: AssetBundleProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.AssetBundleProvider
+- uid: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  commentId: T:ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+  parent: ProgLibrary.PrecomputedCulling.Provider
+  name: IPrecomputedDataProvider
+  nameWithType: IPrecomputedDataProvider
+  fullName: ProgLibrary.PrecomputedCulling.Provider.IPrecomputedDataProvider
+- uid: ProgLibrary.PrecomputedCulling.Provider
+  commentId: N:ProgLibrary.PrecomputedCulling.Provider
+  name: ProgLibrary.PrecomputedCulling.Provider
+  nameWithType: ProgLibrary.PrecomputedCulling.Provider
+  fullName: ProgLibrary.PrecomputedCulling.Provider
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Provider
+    name: Provider

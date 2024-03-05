@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions
+  id: UIToolkitExtensions
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay(VisualElement,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: UIToolkitExtensions
+  nameWithType: UIToolkitExtensions
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions
+  type: Class
+  source:
+    id: UIToolkitExtensions
+    path: ''
+    startLine: 12574
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public static class UIToolkitExtensions
+    content.vb: Public Module UIToolkitExtensions
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay(VisualElement,System.Boolean)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay(VisualElement,System.Boolean)
+  id: SetDisplay(VisualElement,System.Boolean)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetDisplay(VisualElement, bool)
+  nameWithType: UIToolkitExtensions.SetDisplay(VisualElement, bool)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay(VisualElement, bool)
+  type: Method
+  source:
+    id: SetDisplay
+    path: ''
+    startLine: 12588
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  summary: "\nChanges element <see cref=\"!:DisplayStyle\"></see>, so it is displayed or not. Displayed elements have its layout\ncalculated and handle events. Not displayed elements are ignored during layout phase and receive none (or close to\nnone) events. It is equivalent of gameObject.SetActive(bool).\n"
+  remarks: "\n<see cref=\"!:VisualElement.visible\"></see> property only affects rendering. Not visible elements are not rendered\nbut still layouted and handle events. <see cref=\"!:VisualElement.SetEnabled\"></see> changes the element interaction\nstate, just like &apos;interactable&apos; in buttons.\n"
+  example: []
+  syntax:
+    content: public static void SetDisplay(this VisualElement element, bool isDisplayed)
+    parameters:
+    - id: element
+      type: Global.VisualElement
+      description: ''
+    - id: isDisplayed
+      type: System.Boolean
+      description: Should element be displayed, or not.
+    content.vb: Public Shared Sub SetDisplay(element As VisualElement, isDisplayed As Boolean)
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay*
+  nameWithType.vb: UIToolkitExtensions.SetDisplay(VisualElement, Boolean)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay(VisualElement, Boolean)
+  name.vb: SetDisplay(VisualElement, Boolean)
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  name: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay
+  name: SetDisplay
+  nameWithType: UIToolkitExtensions.SetDisplay
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.UIToolkitExtensions.SetDisplay
+- uid: Global.VisualElement
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: VisualElement
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

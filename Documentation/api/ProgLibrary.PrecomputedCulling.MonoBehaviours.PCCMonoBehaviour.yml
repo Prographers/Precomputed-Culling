@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  id: PCCMonoBehaviour
+  parent: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PCCMonoBehaviour
+  nameWithType: PCCMonoBehaviour
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.PCCMonoBehaviour
+  type: Class
+  source:
+    id: PCCMonoBehaviour
+    path: ''
+    startLine: 4291
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  syntax:
+    content: 'public abstract class PCCMonoBehaviour : MonoBehaviour'
+    content.vb: Public MustInherit Class PCCMonoBehaviour Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.FrustumCulling
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedCullingRendererId
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.PrecomputedManager
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.MonoBehaviours
+    name: MonoBehaviours
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

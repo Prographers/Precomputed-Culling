@@ -1,0 +1,467 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  id: PrecomputedEditorUtils
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton(System.String,System.Single,System.String,SerializedProperty)
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize(System.Int32,System.Int32)
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot(System.Int32,TextureResolution)
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread(Action)
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread``1(Action{``0},``0)
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb(System.Double)
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedEditorUtils
+  nameWithType: PrecomputedEditorUtils
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  type: Class
+  source:
+    id: PrecomputedEditorUtils
+    path: ''
+    startLine: 15712
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nUtils for custom editor gui\n"
+  example: []
+  syntax:
+    content: public static class PrecomputedEditorUtils
+    content.vb: Public Module PrecomputedEditorUtils
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds(System.Double)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds(System.Double)
+  id: FormatMilliseconds(System.Double)
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: FormatMilliseconds(double)
+  nameWithType: PrecomputedEditorUtils.FormatMilliseconds(double)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds(double)
+  type: Method
+  source:
+    id: FormatMilliseconds
+    path: ''
+    startLine: 15724
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nChange milliseconds to minutes and seconds string format\n"
+  example: []
+  syntax:
+    content: public static string FormatMilliseconds(double milliseconds)
+    parameters:
+    - id: milliseconds
+      type: System.Double
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function FormatMilliseconds(milliseconds As Double) As String
+  overload: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds*
+  nameWithType.vb: PrecomputedEditorUtils.FormatMilliseconds(Double)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds(Double)
+  name.vb: FormatMilliseconds(Double)
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb(System.Double)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb(System.Double)
+  id: FormatKb(System.Double)
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: FormatKb(double)
+  nameWithType: PrecomputedEditorUtils.FormatKb(double)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb(double)
+  type: Method
+  source:
+    id: FormatKb
+    path: ''
+    startLine: 15735
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nChange kb to string format\n"
+  example: []
+  syntax:
+    content: public static string FormatKb(double kb)
+    parameters:
+    - id: kb
+      type: System.Double
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function FormatKb(kb As Double) As String
+  overload: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb*
+  nameWithType.vb: PrecomputedEditorUtils.FormatKb(Double)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb(Double)
+  name.vb: FormatKb(Double)
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton(System.String,System.Single,System.String,SerializedProperty)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton(System.String,System.Single,System.String,SerializedProperty)
+  id: DrawHorizontalElementWithHelpImgButton(System.String,System.Single,System.String,SerializedProperty)
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: DrawHorizontalElementWithHelpImgButton(string, float, string, SerializedProperty)
+  nameWithType: PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton(string, float, string, SerializedProperty)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton(string, float, string, SerializedProperty)
+  type: Method
+  source:
+    id: DrawHorizontalElementWithHelpImgButton
+    path: ''
+    startLine: 15752
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nDraw label and image help button e.g. referenced to documentation\n"
+  example: []
+  syntax:
+    content: public static void DrawHorizontalElementWithHelpImgButton(string labelText, float labelSize, string toolTip = null, SerializedProperty property = null)
+    parameters:
+    - id: labelText
+      type: System.String
+      description: ''
+    - id: labelSize
+      type: System.Single
+      description: ''
+    - id: toolTip
+      type: System.String
+      description: ''
+    - id: property
+      type: Global.SerializedProperty
+      description: ''
+    content.vb: Public Shared Sub DrawHorizontalElementWithHelpImgButton(labelText As String, labelSize As Single, toolTip As String = Nothing, [property] As SerializedProperty = Nothing)
+  overload: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton*
+  nameWithType.vb: PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton(String, Single, String, SerializedProperty)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton(String, Single, String, SerializedProperty)
+  name.vb: DrawHorizontalElementWithHelpImgButton(String, Single, String, SerializedProperty)
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot(System.Int32,TextureResolution)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot(System.Int32,TextureResolution)
+  id: EstimateTimePerSpot(System.Int32,TextureResolution)
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: EstimateTimePerSpot(int, TextureResolution)
+  nameWithType: PrecomputedEditorUtils.EstimateTimePerSpot(int, TextureResolution)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot(int, TextureResolution)
+  type: Method
+  source:
+    id: EstimateTimePerSpot
+    path: ''
+    startLine: 15774
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nEstimate time to bake one spot\n"
+  example: []
+  syntax:
+    content: public static double EstimateTimePerSpot(int occluders, TextureResolution textureResolution)
+    parameters:
+    - id: occluders
+      type: System.Int32
+      description: ''
+    - id: textureResolution
+      type: Global.TextureResolution
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function EstimateTimePerSpot(occluders As Integer, textureResolution As TextureResolution) As Double
+  overload: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot*
+  nameWithType.vb: PrecomputedEditorUtils.EstimateTimePerSpot(Integer, TextureResolution)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot(Integer, TextureResolution)
+  name.vb: EstimateTimePerSpot(Integer, TextureResolution)
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize(System.Int32,System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize(System.Int32,System.Int32)
+  id: EstimateBakeSize(System.Int32,System.Int32)
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: EstimateBakeSize(int, int)
+  nameWithType: PrecomputedEditorUtils.EstimateBakeSize(int, int)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize(int, int)
+  type: Method
+  source:
+    id: EstimateBakeSize
+    path: ''
+    startLine: 15785
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nEstimate size of bake\n"
+  example: []
+  syntax:
+    content: public static double EstimateBakeSize(int occluders, int cells)
+    parameters:
+    - id: occluders
+      type: System.Int32
+      description: ''
+    - id: cells
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function EstimateBakeSize(occluders As Integer, cells As Integer) As Double
+  overload: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize*
+  nameWithType.vb: PrecomputedEditorUtils.EstimateBakeSize(Integer, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize(Integer, Integer)
+  name.vb: EstimateBakeSize(Integer, Integer)
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread(Action)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread(Action)
+  id: ExecuteOnMainThread(Action)
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnMainThread(Action)
+  nameWithType: PrecomputedEditorUtils.ExecuteOnMainThread(Action)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread(Action)
+  type: Method
+  source:
+    id: ExecuteOnMainThread
+    path: ''
+    startLine: 15795
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nEnsures that, the provided <code data-dev-comment-type=\"paramref\" class=\"paramref\">callback</code> will be executed on the main Unity thread. Usable only in\nEditor.\n"
+  example: []
+  syntax:
+    content: public static void ExecuteOnMainThread(Action callback)
+    parameters:
+    - id: callback
+      type: Global.Action
+      description: ''
+    content.vb: Public Shared Sub ExecuteOnMainThread(callback As Action)
+  overload: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread*
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread``1(Action{``0},``0)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread``1(Action{``0},``0)
+  id: ExecuteOnMainThread``1(Action{``0},``0)
+  parent: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnMainThread<T>(Action<T>, T)
+  nameWithType: PrecomputedEditorUtils.ExecuteOnMainThread<T>(Action<T>, T)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread<T>(Action<T>, T)
+  type: Method
+  source:
+    id: ExecuteOnMainThread
+    path: ''
+    startLine: 15815
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.Utils
+  summary: "\nEnsures that, the provided <code data-dev-comment-type=\"paramref\" class=\"paramref\">callback</code> will be executed on the main Unity thread. Usable only in\nEditor.\n"
+  example: []
+  syntax:
+    content: public static void ExecuteOnMainThread<T>(Action<T> callback, T obj)
+    parameters:
+    - id: callback
+      type: Global.Action{{T}}
+      description: ''
+    - id: obj
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public Shared Sub ExecuteOnMainThread(Of T)(callback As Action(Of T), obj As T)
+  overload: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread*
+  nameWithType.vb: PrecomputedEditorUtils.ExecuteOnMainThread(Of T)(Action(Of T), T)
+  fullName.vb: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread(Of T)(Action(Of T), T)
+  name.vb: ExecuteOnMainThread(Of T)(Action(Of T), T)
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Utils
+  name: ProgLibrary.PrecomputedCulling_Editor.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Utils
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+    name: Utils
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+    name: Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds
+  name: FormatMilliseconds
+  nameWithType: PrecomputedEditorUtils.FormatMilliseconds
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatMilliseconds
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb
+  name: FormatKb
+  nameWithType: PrecomputedEditorUtils.FormatKb
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.FormatKb
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton
+  name: DrawHorizontalElementWithHelpImgButton
+  nameWithType: PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.DrawHorizontalElementWithHelpImgButton
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot
+  name: EstimateTimePerSpot
+  nameWithType: PrecomputedEditorUtils.EstimateTimePerSpot
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateTimePerSpot
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.TextureResolution
+  commentId: '!:Global.TextureResolution'
+  isExternal: true
+  name: TextureResolution
+  nameWithType: TextureResolution
+  fullName: TextureResolution
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize
+  name: EstimateBakeSize
+  nameWithType: PrecomputedEditorUtils.EstimateBakeSize
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.EstimateBakeSize
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread
+  name: ExecuteOnMainThread
+  nameWithType: PrecomputedEditorUtils.ExecuteOnMainThread
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils.ExecuteOnMainThread
+- uid: Global.Action
+  commentId: '!:Global.Action'
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.Action{{T}}
+  commentId: '!:Global.Action{``0}'
+  definition: Global.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

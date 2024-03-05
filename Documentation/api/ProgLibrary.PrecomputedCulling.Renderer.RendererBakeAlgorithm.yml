@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+  commentId: T:ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+  id: RendererBakeAlgorithm
+  parent: ProgLibrary.PrecomputedCulling.Renderer
+  children:
+  - ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.Algorithm
+  - ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.VisibilityTesterType
+  langs:
+  - csharp
+  - vb
+  name: RendererBakeAlgorithm
+  nameWithType: RendererBakeAlgorithm
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+  type: Class
+  source:
+    id: RendererBakeAlgorithm
+    path: ''
+    startLine: 6954
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nBake algorithms data\n"
+  example: []
+  syntax:
+    content: public class RendererBakeAlgorithm
+    content.vb: Public Class RendererBakeAlgorithm
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.Algorithm
+  commentId: F:ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.Algorithm
+  id: Algorithm
+  parent: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: Algorithm
+  nameWithType: RendererBakeAlgorithm.Algorithm
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.Algorithm
+  type: Field
+  source:
+    id: Algorithm
+    path: ''
+    startLine: 6960
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nAlgorithm\n"
+  example: []
+  syntax:
+    content: public BakeAlgorithm Algorithm
+    return:
+      type: Global.BakeAlgorithm
+    content.vb: Public Algorithm As BakeAlgorithm
+- uid: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.VisibilityTesterType
+  commentId: F:ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.VisibilityTesterType
+  id: VisibilityTesterType
+  parent: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: VisibilityTesterType
+  nameWithType: RendererBakeAlgorithm.VisibilityTesterType
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm.VisibilityTesterType
+  type: Field
+  source:
+    id: VisibilityTesterType
+    path: ''
+    startLine: 6974
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nVisibility tester type\n"
+  example: []
+  syntax:
+    content: public Type VisibilityTesterType
+    return:
+      type: Global.Type
+    content.vb: Public VisibilityTesterType As Type
+references:
+- uid: ProgLibrary.PrecomputedCulling.Renderer
+  commentId: N:ProgLibrary.PrecomputedCulling.Renderer
+  name: ProgLibrary.PrecomputedCulling.Renderer
+  nameWithType: ProgLibrary.PrecomputedCulling.Renderer
+  fullName: ProgLibrary.PrecomputedCulling.Renderer
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Renderer
+    name: Renderer
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Renderer
+    name: Renderer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.BakeAlgorithm
+  commentId: '!:Global.BakeAlgorithm'
+  isExternal: true
+  name: BakeAlgorithm
+  nameWithType: BakeAlgorithm
+  fullName: BakeAlgorithm
+- uid: Global.Type
+  commentId: '!:Global.Type'
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type

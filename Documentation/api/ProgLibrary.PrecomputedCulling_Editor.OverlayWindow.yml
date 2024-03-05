@@ -13,11 +13,10 @@ items:
   fullName: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow
   type: Namespace
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
 references:
 - uid: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow
   commentId: T:ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow
-  href: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow.html
   name: ReflectedOverlayWindow
   nameWithType: ReflectedOverlayWindow
   fullName: ProgLibrary.PrecomputedCulling_Editor.OverlayWindow.ReflectedOverlayWindow

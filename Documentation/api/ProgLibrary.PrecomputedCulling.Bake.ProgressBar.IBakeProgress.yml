@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  commentId: T:ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  id: IBakeProgress
+  parent: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  children:
+  - ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar
+  - ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue(System.String,System.String,System.Single,System.Boolean@)
+  langs:
+  - csharp
+  - vb
+  name: IBakeProgress
+  nameWithType: IBakeProgress
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  type: Interface
+  source:
+    id: IBakeProgress
+    path: ''
+    startLine: 1196
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  summary: "\nInterface for the bake progress indicator.\nWe use this class to show the progress of the bake.\n"
+  example: []
+  syntax:
+    content: public interface IBakeProgress
+    content.vb: Public Interface IBakeProgress
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue(System.String,System.String,System.Single,System.Boolean@)
+  commentId: M:ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue(System.String,System.String,System.Single,System.Boolean@)
+  id: SetProgressValue(System.String,System.String,System.Single,System.Boolean@)
+  parent: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  langs:
+  - csharp
+  - vb
+  name: SetProgressValue(string, string, float, out bool)
+  nameWithType: IBakeProgress.SetProgressValue(string, string, float, out bool)
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue(string, string, float, out bool)
+  type: Method
+  source:
+    id: SetProgressValue
+    path: ''
+    startLine: 1206
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  summary: "\nUsed to set the progress value of the bake.\nWe use this method to update the progress bar and get the information if the user canceled the bake.\n"
+  example: []
+  syntax:
+    content: void SetProgressValue(string processName, string title, float progressValue, out bool isCancelled)
+    parameters:
+    - id: processName
+      type: System.String
+      description: Name of the current process
+    - id: title
+      type: System.String
+      description: Title of the progress indicator
+    - id: progressValue
+      type: System.Single
+      description: Value of the progress (0-1)
+    - id: isCancelled
+      type: System.Boolean
+      description: True if the user canceled the bake
+    content.vb: Sub SetProgressValue(processName As String, title As String, progressValue As Single, isCancelled As Boolean)
+  overload: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue*
+  nameWithType.vb: IBakeProgress.SetProgressValue(String, String, Single, Boolean)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue(String, String, Single, Boolean)
+  name.vb: SetProgressValue(String, String, Single, Boolean)
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar
+  commentId: M:ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar
+  id: ClearProgressBar
+  parent: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress
+  langs:
+  - csharp
+  - vb
+  name: ClearProgressBar()
+  nameWithType: IBakeProgress.ClearProgressBar()
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar()
+  type: Method
+  source:
+    id: ClearProgressBar
+    path: ''
+    startLine: 1212
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  summary: "\nUsed to clear the progress bar.\nWe need it so we can hide the progress bar when the bake is done, canceled or failed.\n"
+  example: []
+  syntax:
+    content: void ClearProgressBar()
+    content.vb: Sub ClearProgressBar()
+  overload: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar*
+references:
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  commentId: N:ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  name: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  nameWithType: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+    name: ProgressBar
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake
+    name: Bake
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar
+    name: ProgressBar
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue
+  name: SetProgressValue
+  nameWithType: IBakeProgress.SetProgressValue
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.SetProgressValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar
+  name: ClearProgressBar
+  nameWithType: IBakeProgress.ClearProgressBar
+  fullName: ProgLibrary.PrecomputedCulling.Bake.ProgressBar.IBakeProgress.ClearProgressBar

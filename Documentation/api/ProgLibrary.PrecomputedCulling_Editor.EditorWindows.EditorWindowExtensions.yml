@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions
+  id: EditorWindowExtensions
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize(EditorWindow,Vector2)
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize(EditorWindow,Vector2)
+  langs:
+  - csharp
+  - vb
+  name: EditorWindowExtensions
+  nameWithType: EditorWindowExtensions
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions
+  type: Class
+  source:
+    id: EditorWindowExtensions
+    path: ''
+    startLine: 11588
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public static class EditorWindowExtensions
+    content.vb: Public Module EditorWindowExtensions
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize(EditorWindow,Vector2)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize(EditorWindow,Vector2)
+  id: EnsureMinSize(EditorWindow,Vector2)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions
+  langs:
+  - csharp
+  - vb
+  name: EnsureMinSize(EditorWindow, Vector2)
+  nameWithType: EditorWindowExtensions.EnsureMinSize(EditorWindow, Vector2)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize(EditorWindow, Vector2)
+  type: Method
+  source:
+    id: EnsureMinSize
+    path: ''
+    startLine: 11597
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  summary: "\nMakes sure the window size is at least the specified one. Doesn&apos;t affect docked windows. It disables the minimum\nsize restrictions.\n"
+  remarks: Smaller windows are resized, bigger are ignored. It affects each axis separately.
+  example: []
+  syntax:
+    content: public static void EnsureMinSize(this EditorWindow window, Vector2 size)
+    parameters:
+    - id: window
+      type: Global.EditorWindow
+      description: ''
+    - id: size
+      type: Global.Vector2
+      description: The desired minimum size.
+    content.vb: Public Shared Sub EnsureMinSize(window As EditorWindow, size As Vector2)
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize*
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize(EditorWindow,Vector2)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize(EditorWindow,Vector2)
+  id: SetSize(EditorWindow,Vector2)
+  isExtensionMethod: true
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSize(EditorWindow, Vector2)
+  nameWithType: EditorWindowExtensions.SetSize(EditorWindow, Vector2)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize(EditorWindow, Vector2)
+  type: Method
+  source:
+    id: SetSize
+    path: ''
+    startLine: 11615
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  summary: "\nSets window size to the desired one. Doesn&apos;t affect docked windows. Can&apos;t set zero. It disables the minimum size\nrestrictions.\n"
+  example: []
+  syntax:
+    content: public static void SetSize(this EditorWindow window, Vector2 size)
+    parameters:
+    - id: window
+      type: Global.EditorWindow
+      description: ''
+    - id: size
+      type: Global.Vector2
+      description: The desired size.
+    content.vb: Public Shared Sub SetSize(window As EditorWindow, size As Vector2)
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  name: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize
+  name: EnsureMinSize
+  nameWithType: EditorWindowExtensions.EnsureMinSize
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.EnsureMinSize
+- uid: Global.EditorWindow
+  isExternal: true
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: EditorWindow
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize
+  name: SetSize
+  nameWithType: EditorWindowExtensions.SetSize
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.EditorWindowExtensions.SetSize

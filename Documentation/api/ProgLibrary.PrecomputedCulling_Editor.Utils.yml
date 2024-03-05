@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Utils
+  id: ProgLibrary.PrecomputedCulling_Editor.Utils
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  - ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling_Editor.Utils
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Utils
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+  name: PCCEditorConst
+  nameWithType: PCCEditorConst
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  name: PCCEditorConst.URLs
+  nameWithType: PCCEditorConst.URLs
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+    name: PCCEditorConst
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+    name: URLs
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst
+    name: PCCEditorConst
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PCCEditorConst.URLs
+    name: URLs
+- uid: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils
+  name: PrecomputedEditorUtils
+  nameWithType: PrecomputedEditorUtils
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Utils.PrecomputedEditorUtils

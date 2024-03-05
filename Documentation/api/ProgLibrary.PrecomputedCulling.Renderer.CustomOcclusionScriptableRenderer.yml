@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  commentId: T:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  id: CustomOcclusionScriptableRenderer
+  parent: ProgLibrary.PrecomputedCulling.Renderer
+  children:
+  - ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.BakeAlgorithms
+  - ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester(PrecomputedArea,GameObject@)
+  - ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer(System.Int32)
+  - ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer(IVisibilityTester)
+  - ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility(IVisibilityTester,PrecomputedArea,Vector3,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CustomOcclusionScriptableRenderer
+  nameWithType: CustomOcclusionScriptableRenderer
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  type: Class
+  source:
+    id: CustomOcclusionScriptableRenderer
+    path: ''
+    startLine: 6999
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nCustom renderer scriptable object\n"
+  example: []
+  syntax:
+    content: 'public class CustomOcclusionScriptableRenderer : ScriptableObject'
+    content.vb: Public Class CustomOcclusionScriptableRenderer Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.BakeAlgorithms
+  commentId: F:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.BakeAlgorithms
+  id: BakeAlgorithms
+  parent: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  langs:
+  - csharp
+  - vb
+  name: BakeAlgorithms
+  nameWithType: CustomOcclusionScriptableRenderer.BakeAlgorithms
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.BakeAlgorithms
+  type: Field
+  source:
+    id: BakeAlgorithms
+    path: ''
+    startLine: 7026
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nBake algorithms data map\n"
+  example: []
+  syntax:
+    content: public List<RendererBakeAlgorithm> BakeAlgorithms
+    return:
+      type: Global.List{ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm}
+    content.vb: Public BakeAlgorithms As List(Of RendererBakeAlgorithm)
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer(IVisibilityTester)
+  commentId: M:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer(IVisibilityTester)
+  id: SetRenderer(IVisibilityTester)
+  parent: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  langs:
+  - csharp
+  - vb
+  name: SetRenderer(IVisibilityTester)
+  nameWithType: CustomOcclusionScriptableRenderer.SetRenderer(IVisibilityTester)
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer(IVisibilityTester)
+  type: Method
+  source:
+    id: SetRenderer
+    path: ''
+    startLine: 7032
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nAdd custom renderer to graphics settings\n"
+  example: []
+  syntax:
+    content: public int SetRenderer(IVisibilityTester visibilityTester)
+    parameters:
+    - id: visibilityTester
+      type: Global.IVisibilityTester
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function SetRenderer(visibilityTester As IVisibilityTester) As Integer
+  overload: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer*
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer(System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer(System.Int32)
+  id: RemoveRenderer(System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  langs:
+  - csharp
+  - vb
+  name: RemoveRenderer(int)
+  nameWithType: CustomOcclusionScriptableRenderer.RemoveRenderer(int)
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer(int)
+  type: Method
+  source:
+    id: RemoveRenderer
+    path: ''
+    startLine: 7060
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nRemove custom renderer from graphics settings\n"
+  example: []
+  syntax:
+    content: public void RemoveRenderer(int rendererIndex)
+    parameters:
+    - id: rendererIndex
+      type: System.Int32
+    content.vb: Public Sub RemoveRenderer(rendererIndex As Integer)
+  overload: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer*
+  nameWithType.vb: CustomOcclusionScriptableRenderer.RemoveRenderer(Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer(Integer)
+  name.vb: RemoveRenderer(Integer)
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility(IVisibilityTester,PrecomputedArea,Vector3,System.Int32)
+  commentId: M:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility(IVisibilityTester,PrecomputedArea,Vector3,System.Int32)
+  id: TestVisibility(IVisibilityTester,PrecomputedArea,Vector3,System.Int32)
+  parent: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  langs:
+  - csharp
+  - vb
+  name: TestVisibility(IVisibilityTester, PrecomputedArea, Vector3, int)
+  nameWithType: CustomOcclusionScriptableRenderer.TestVisibility(IVisibilityTester, PrecomputedArea, Vector3, int)
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility(IVisibilityTester, PrecomputedArea, Vector3, int)
+  type: Method
+  source:
+    id: TestVisibility
+    path: ''
+    startLine: 7079
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nGather <see cref=\"!:PrecomputedVisibilityIndices\"></see>\n"
+  example: []
+  syntax:
+    content: public IEnumerable<PrecomputedVisibilityIndices> TestVisibility(IVisibilityTester visibilityTester, PrecomputedArea precomputedArea, Vector3 cameraPosition, int rendererIndex)
+    parameters:
+    - id: visibilityTester
+      type: Global.IVisibilityTester
+      description: ''
+    - id: precomputedArea
+      type: Global.PrecomputedArea
+      description: ''
+    - id: cameraPosition
+      type: Global.Vector3
+      description: ''
+    - id: rendererIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: Global.IEnumerable{PrecomputedVisibilityIndices}
+      description: ''
+    content.vb: Public Function TestVisibility(visibilityTester As IVisibilityTester, precomputedArea As PrecomputedArea, cameraPosition As Vector3, rendererIndex As Integer) As IEnumerable(Of PrecomputedVisibilityIndices)
+  overload: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility*
+  nameWithType.vb: CustomOcclusionScriptableRenderer.TestVisibility(IVisibilityTester, PrecomputedArea, Vector3, Integer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility(IVisibilityTester, PrecomputedArea, Vector3, Integer)
+  name.vb: TestVisibility(IVisibilityTester, PrecomputedArea, Vector3, Integer)
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester(PrecomputedArea,GameObject@)
+  commentId: M:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester(PrecomputedArea,GameObject@)
+  id: PrepareVisibilityTester(PrecomputedArea,GameObject@)
+  parent: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer
+  langs:
+  - csharp
+  - vb
+  name: PrepareVisibilityTester(PrecomputedArea, ref GameObject)
+  nameWithType: CustomOcclusionScriptableRenderer.PrepareVisibilityTester(PrecomputedArea, ref GameObject)
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester(PrecomputedArea, ref GameObject)
+  type: Method
+  source:
+    id: PrepareVisibilityTester
+    path: ''
+    startLine: 7099
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.Renderer
+  summary: "\nConfigure bake tester camera\n"
+  example: []
+  syntax:
+    content: public IVisibilityTester PrepareVisibilityTester(PrecomputedArea precomputedArea, ref GameObject cameraObject)
+    parameters:
+    - id: precomputedArea
+      type: Global.PrecomputedArea
+      description: ''
+    - id: cameraObject
+      type: Global.GameObject
+      description: ''
+    return:
+      type: Global.IVisibilityTester
+      description: ''
+    content.vb: Public Function PrepareVisibilityTester(precomputedArea As PrecomputedArea, cameraObject As GameObject) As IVisibilityTester
+  overload: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester*
+  nameWithType.vb: CustomOcclusionScriptableRenderer.PrepareVisibilityTester(PrecomputedArea, GameObject)
+  fullName.vb: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester(PrecomputedArea, GameObject)
+  name.vb: PrepareVisibilityTester(PrecomputedArea, GameObject)
+references:
+- uid: ProgLibrary.PrecomputedCulling.Renderer
+  commentId: N:ProgLibrary.PrecomputedCulling.Renderer
+  name: ProgLibrary.PrecomputedCulling.Renderer
+  nameWithType: ProgLibrary.PrecomputedCulling.Renderer
+  fullName: ProgLibrary.PrecomputedCulling.Renderer
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Renderer
+    name: Renderer
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.Renderer
+    name: Renderer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm}
+  commentId: '!:Global.List{ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm}'
+  definition: Global.List`1
+  name: List<RendererBakeAlgorithm>
+  nameWithType: List<RendererBakeAlgorithm>
+  fullName: List<ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm>
+  nameWithType.vb: List(Of RendererBakeAlgorithm)
+  fullName.vb: List(Of ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm)
+  name.vb: List(Of RendererBakeAlgorithm)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+    name: RendererBakeAlgorithm
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.Renderer.RendererBakeAlgorithm
+    name: RendererBakeAlgorithm
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer
+  name: SetRenderer
+  nameWithType: CustomOcclusionScriptableRenderer.SetRenderer
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.SetRenderer
+- uid: Global.IVisibilityTester
+  isExternal: true
+  name: IVisibilityTester
+  nameWithType: IVisibilityTester
+  fullName: IVisibilityTester
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer
+  name: RemoveRenderer
+  nameWithType: CustomOcclusionScriptableRenderer.RemoveRenderer
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.RemoveRenderer
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility
+  name: TestVisibility
+  nameWithType: CustomOcclusionScriptableRenderer.TestVisibility
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.TestVisibility
+- uid: Global.PrecomputedArea
+  isExternal: true
+  name: PrecomputedArea
+  nameWithType: PrecomputedArea
+  fullName: PrecomputedArea
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.IEnumerable{PrecomputedVisibilityIndices}
+  commentId: '!:Global.IEnumerable{PrecomputedVisibilityIndices}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<PrecomputedVisibilityIndices>
+  nameWithType: IEnumerable<PrecomputedVisibilityIndices>
+  fullName: IEnumerable<PrecomputedVisibilityIndices>
+  nameWithType.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  fullName.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  name.vb: IEnumerable(Of PrecomputedVisibilityIndices)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Global.PrecomputedVisibilityIndices
+    name: PrecomputedVisibilityIndices
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PrecomputedVisibilityIndices
+    name: PrecomputedVisibilityIndices
+    isExternal: true
+  - name: )
+- uid: Global.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester
+  name: PrepareVisibilityTester
+  nameWithType: CustomOcclusionScriptableRenderer.PrepareVisibilityTester
+  fullName: ProgLibrary.PrecomputedCulling.Renderer.CustomOcclusionScriptableRenderer.PrepareVisibilityTester
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

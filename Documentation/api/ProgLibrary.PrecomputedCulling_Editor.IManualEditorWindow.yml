@@ -8,7 +8,7 @@ items:
   - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
   - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
   - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
-  - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+  - ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
   langs:
   - csharp
   - vb
@@ -18,10 +18,10 @@ items:
   type: Interface
   source:
     id: IManualEditorWindow
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\IManualEditorWindow.cs
-    startLine: 5
+    path: ''
+    startLine: 9012
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
   syntax:
     content: public interface IManualEditorWindow
@@ -39,12 +39,12 @@ items:
   type: Method
   source:
     id: OnEnable
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\IManualEditorWindow.cs
-    startLine: 10
+    path: ''
+    startLine: 9017
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On editor window enable
+  summary: "\nOn editor window enable\n"
   example: []
   syntax:
     content: void OnEnable()
@@ -63,12 +63,12 @@ items:
   type: Method
   source:
     id: OnDestroy
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\IManualEditorWindow.cs
-    startLine: 15
+    path: ''
+    startLine: 9022
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On editor window destroyed
+  summary: "\nOn editor window destroyed\n"
   example: []
   syntax:
     content: void OnDestroy()
@@ -87,116 +87,91 @@ items:
   type: Method
   source:
     id: OnFocus
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\IManualEditorWindow.cs
-    startLine: 20
+    path: ''
+    startLine: 9027
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On editor window focused
+  summary: "\nOn editor window focused\n"
   example: []
   syntax:
     content: void OnFocus()
     content.vb: Sub OnFocus()
   overload: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus*
-- uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
-  commentId: M:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
-  id: OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
+- uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView,Event)
+  id: OnSceneGUI(SceneView,Event)
   parent: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow
   langs:
   - csharp
   - vb
   name: OnSceneGUI(SceneView, Event)
   nameWithType: IManualEditorWindow.OnSceneGUI(SceneView, Event)
-  fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView, UnityEngine.Event)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(SceneView, Event)
   type: Method
   source:
     id: OnSceneGUI
-    path: D:\Repo_D\Prographers\perfect-culling\OcclusionCulling\Assets\ProgLibrary\PrecomputedCulling\Scripts\PrecomputedCulling_Editor\IManualEditorWindow.cs
-    startLine: 25
+    path: ''
+    startLine: 9032
   assemblies:
-  - PrecomputedCulling_Editor
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling_Editor
-  summary: On scene GUI
+  summary: "\nOn scene GUI\n"
   example: []
   syntax:
     content: void OnSceneGUI(SceneView sceneView, Event current)
     parameters:
     - id: sceneView
-      type: UnityEditor.SceneView
+      type: Global.SceneView
     - id: current
-      type: UnityEngine.Event
+      type: Global.Event
     content.vb: Sub OnSceneGUI(sceneView As SceneView, current As [Event])
   overload: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI*
 references:
 - uid: ProgLibrary.PrecomputedCulling_Editor
   commentId: N:ProgLibrary.PrecomputedCulling_Editor
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling_Editor
   nameWithType: ProgLibrary.PrecomputedCulling_Editor
   fullName: ProgLibrary.PrecomputedCulling_Editor
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor
     name: PrecomputedCulling_Editor
-    href: ProgLibrary.PrecomputedCulling_Editor.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling_Editor
     name: PrecomputedCulling_Editor
-    href: ProgLibrary.PrecomputedCulling_Editor.html
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
   name: OnEnable
   nameWithType: IManualEditorWindow.OnEnable
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnEnable
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
   name: OnDestroy
   nameWithType: IManualEditorWindow.OnDestroy
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnDestroy
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
   name: OnFocus
   nameWithType: IManualEditorWindow.OnFocus
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnFocus
 - uid: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI*
   commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI
-  href: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.html#ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI(UnityEditor.SceneView,UnityEngine.Event)
   name: OnSceneGUI
   nameWithType: IManualEditorWindow.OnSceneGUI
   fullName: ProgLibrary.PrecomputedCulling_Editor.IManualEditorWindow.OnSceneGUI
-- uid: UnityEditor.SceneView
-  commentId: T:UnityEditor.SceneView
-  parent: UnityEditor
+- uid: Global.SceneView
   isExternal: true
   name: SceneView
   nameWithType: SceneView
-  fullName: UnityEditor.SceneView
-- uid: UnityEngine.Event
-  commentId: T:UnityEngine.Event
-  parent: UnityEngine
+  fullName: SceneView
+- uid: Global.Event
   isExternal: true
   name: Event
   nameWithType: Event
-  fullName: UnityEngine.Event
-- uid: UnityEditor
-  commentId: N:UnityEditor
-  isExternal: true
-  name: UnityEditor
-  nameWithType: UnityEditor
-  fullName: UnityEditor
-- uid: UnityEngine
-  commentId: N:UnityEngine
-  isExternal: true
-  name: UnityEngine
-  nameWithType: UnityEngine
-  fullName: UnityEngine
+  fullName: Event

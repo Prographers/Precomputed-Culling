@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  commentId: N:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  id: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  children:
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  - ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.PrecomputedSaveTexture
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  nameWithType: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+  name: IdCubemapCamera
+  nameWithType: IdCubemapCamera
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.IdCubemapCamera
+- uid: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.PrecomputedSaveTexture
+  commentId: T:ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.PrecomputedSaveTexture
+  name: PrecomputedSaveTexture
+  nameWithType: PrecomputedSaveTexture
+  fullName: ProgLibrary.PrecomputedCulling.MonoBehaviours.CubeMapCamera.PrecomputedSaveTexture

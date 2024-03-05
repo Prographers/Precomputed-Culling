@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.Versioning
+  id: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  - ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  langs:
+  - csharp
+  - vb
+  name: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+  name: GitHubReleaseData
+  nameWithType: GitHubReleaseData
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.GitHubReleaseData
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+  name: VersionValidator
+  nameWithType: VersionValidator
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+- uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  name: VersionValidator.Result
+  nameWithType: VersionValidator.Result
+  fullName: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+    name: VersionValidator
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+    name: Result
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator
+    name: VersionValidator
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.Versioning.VersionValidator.Result
+    name: Result

@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+  id: PCCSettingsWindow
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  children:
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow
+  langs:
+  - csharp
+  - vb
+  name: PCCSettingsWindow
+  nameWithType: PCCSettingsWindow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+  type: Class
+  source:
+    id: PCCSettingsWindow
+    path: ''
+    startLine: 12191
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: 'public class PCCSettingsWindow : PCCEditorWindow'
+    content.vb: Public Class PCCSettingsWindow Inherits PCCEditorWindow
+  inheritance:
+  - System.Object
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  inheritedMembers:
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.MenuItemLocation
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.Root
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ContentRoot
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.VisualTreeSource
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.CreateGUI
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ValidateCreateGUIBasics
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureMinimumSize(EditorWindow)
+  - ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureExactSize(EditorWindow)
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow
+  id: ShowWindow
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: PCCSettingsWindow.ShowWindow()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow()
+  type: Method
+  source:
+    id: ShowWindow
+    path: ''
+    startLine: 12237
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: public static void ShowWindow()
+    content.vb: Public Shared Sub ShowWindow()
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow*
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI
+  id: OnCreateGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+  langs:
+  - csharp
+  - vb
+  name: OnCreateGUI()
+  nameWithType: PCCSettingsWindow.OnCreateGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI()
+  type: Method
+  source:
+    id: OnCreateGUI
+    path: ''
+    startLine: 12251
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: protected override void OnCreateGUI()
+    content.vb: Protected Overrides Sub OnCreateGUI()
+  overridden: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnCreateGUI
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI*
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized
+  id: OnLayoutInitialized
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow
+  langs:
+  - csharp
+  - vb
+  name: OnLayoutInitialized()
+  nameWithType: PCCSettingsWindow.OnLayoutInitialized()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized()
+  type: Method
+  source:
+    id: OnLayoutInitialized
+    path: ''
+    startLine: 12306
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  syntax:
+    content: protected override void OnLayoutInitialized()
+    content.vb: Protected Overrides Sub OnLayoutInitialized()
+  overridden: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnLayoutInitialized
+  overload: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized*
+references:
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  commentId: N:ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  name: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  nameWithType: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor
+    name: PrecomputedCulling_Editor
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+    name: EditorWindows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  commentId: T:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows
+  name: PCCEditorWindow
+  nameWithType: PCCEditorWindow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.MenuItemLocation
+  commentId: F:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.MenuItemLocation
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: MenuItemLocation
+  nameWithType: PCCEditorWindow.MenuItemLocation
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.MenuItemLocation
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.Root
+  commentId: P:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.Root
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: Root
+  nameWithType: PCCEditorWindow.Root
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.Root
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ContentRoot
+  commentId: P:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ContentRoot
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: ContentRoot
+  nameWithType: PCCEditorWindow.ContentRoot
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ContentRoot
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.VisualTreeSource
+  commentId: P:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.VisualTreeSource
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: VisualTreeSource
+  nameWithType: PCCEditorWindow.VisualTreeSource
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.VisualTreeSource
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.CreateGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.CreateGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: CreateGUI()
+  nameWithType: PCCEditorWindow.CreateGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.CreateGUI()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.CreateGUI
+    name: CreateGUI
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.CreateGUI
+    name: CreateGUI
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ValidateCreateGUIBasics
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ValidateCreateGUIBasics
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: ValidateCreateGUIBasics()
+  nameWithType: PCCEditorWindow.ValidateCreateGUIBasics()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ValidateCreateGUIBasics()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ValidateCreateGUIBasics
+    name: ValidateCreateGUIBasics
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.ValidateCreateGUIBasics
+    name: ValidateCreateGUIBasics
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureMinimumSize(EditorWindow)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureMinimumSize(EditorWindow)
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  isExternal: true
+  name: EnsureMinimumSize(EditorWindow)
+  nameWithType: PCCEditorWindow.EnsureMinimumSize(EditorWindow)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureMinimumSize(EditorWindow)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureMinimumSize(EditorWindow)
+    name: EnsureMinimumSize
+  - name: (
+  - uid: Global.EditorWindow
+    name: EditorWindow
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureMinimumSize(EditorWindow)
+    name: EnsureMinimumSize
+  - name: (
+  - uid: Global.EditorWindow
+    name: EditorWindow
+    isExternal: true
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureExactSize(EditorWindow)
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureExactSize(EditorWindow)
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  isExternal: true
+  name: EnsureExactSize(EditorWindow)
+  nameWithType: PCCEditorWindow.EnsureExactSize(EditorWindow)
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureExactSize(EditorWindow)
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureExactSize(EditorWindow)
+    name: EnsureExactSize
+  - name: (
+  - uid: Global.EditorWindow
+    name: EditorWindow
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.EnsureExactSize(EditorWindow)
+    name: EnsureExactSize
+  - name: (
+  - uid: Global.EditorWindow
+    name: EditorWindow
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow
+  name: ShowWindow
+  nameWithType: PCCSettingsWindow.ShowWindow
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.ShowWindow
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnCreateGUI
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnCreateGUI
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: OnCreateGUI()
+  nameWithType: PCCEditorWindow.OnCreateGUI()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnCreateGUI()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnCreateGUI
+    name: OnCreateGUI
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnCreateGUI
+    name: OnCreateGUI
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI
+  name: OnCreateGUI
+  nameWithType: PCCSettingsWindow.OnCreateGUI
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnCreateGUI
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnLayoutInitialized
+  commentId: M:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnLayoutInitialized
+  parent: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow
+  name: OnLayoutInitialized()
+  nameWithType: PCCEditorWindow.OnLayoutInitialized()
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnLayoutInitialized()
+  spec.csharp:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnLayoutInitialized
+    name: OnLayoutInitialized
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCEditorWindow.OnLayoutInitialized
+    name: OnLayoutInitialized
+  - name: (
+  - name: )
+- uid: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized*
+  commentId: Overload:ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized
+  name: OnLayoutInitialized
+  nameWithType: PCCSettingsWindow.OnLayoutInitialized
+  fullName: ProgLibrary.PrecomputedCulling_Editor.EditorWindows.PCCSettingsWindow.OnLayoutInitialized

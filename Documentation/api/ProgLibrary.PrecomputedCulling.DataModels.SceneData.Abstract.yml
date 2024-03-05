@@ -15,25 +15,22 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   type: Namespace
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.html
   name: IPrecomputedRendererContainer
   nameWithType: IPrecomputedRendererContainer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer.html
   name: PrecomputedRendererBaseContainer
   nameWithType: PrecomputedRendererBaseContainer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
   commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
-  href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
   name: PrecomputedRendererContainer<T>
   nameWithType: PrecomputedRendererContainer<T>
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer<T>
@@ -43,14 +40,12 @@ references:
   spec.csharp:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
     name: PrecomputedRendererContainer
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
   - name: <
   - name: T
   - name: '>'
   spec.vb:
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer`1
     name: PrecomputedRendererContainer
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererContainer-1.html
   - name: (
   - name: Of
   - name: " "
@@ -58,47 +53,36 @@ references:
   - name: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  href: ProgLibrary.html
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
   spec.csharp:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
     name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
     name: Abstract
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html
   spec.vb:
   - uid: ProgLibrary
     name: ProgLibrary
-    href: ProgLibrary.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling
     name: PrecomputedCulling
-    href: ProgLibrary.PrecomputedCulling.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels
     name: DataModels
-    href: ProgLibrary.PrecomputedCulling.DataModels.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
     name: SceneData
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.html
   - name: .
   - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
     name: Abstract
-    href: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.html

@@ -5,8 +5,8 @@ items:
   id: PrecomputedRendererBakeContainer
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   children:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer)
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(IPrecomputedRendererContainer)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(PrecomputedRendererBaseContainer)
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.BaseContainer
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GetRenderers
@@ -15,6 +15,7 @@ items:
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccluder
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder(System.Boolean)
+  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId
   - ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show
   langs:
@@ -25,51 +26,19 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
   type: Class
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: PrecomputedRendererBakeContainer
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 38
+    path: ''
+    startLine: 3206
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nAdditional container for scene object for baking process\n"
   example: []
   syntax:
-    content: >-
-      [Serializable]
-
-      public class PrecomputedRendererBakeContainer : IPrecomputedRendererContainer
-    content.vb: >-
-      <Serializable>
-
-      Public Class PrecomputedRendererBakeContainer
-
-          Implements IPrecomputedRendererContainer
+    content: 'public class PrecomputedRendererBakeContainer : IPrecomputedRendererContainer'
+    content.vb: Public Class PrecomputedRendererBakeContainer Inherits IPrecomputedRendererContainer
   inheritance:
   - System.Object
-  implements:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
-  attributes:
-  - type: System.SerializableAttribute
-    ctor: System.SerializableAttribute.#ctor
-    arguments: []
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.BaseContainer
   commentId: F:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.BaseContainer
   id: BaseContainer
@@ -82,48 +51,36 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.BaseContainer
   type: Field
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: BaseContainer
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 46
+    path: ''
+    startLine: 3214
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nBase runtime container for a renderer\n"
   example: []
   syntax:
     content: public PrecomputedRendererBaseContainer BaseContainer
     return:
-      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+      type: Global.PrecomputedRendererBaseContainer
     content.vb: Public BaseContainer As PrecomputedRendererBaseContainer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
-  id: '#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)'
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(PrecomputedRendererBaseContainer)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(PrecomputedRendererBaseContainer)
+  id: '#ctor(PrecomputedRendererBaseContainer)'
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
   langs:
   - csharp
   - vb
   name: PrecomputedRendererBakeContainer(PrecomputedRendererBaseContainer)
   nameWithType: PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer(PrecomputedRendererBaseContainer)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer(PrecomputedRendererBaseContainer)
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 52
+    path: ''
+    startLine: 3225
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nDefault constructor\n"
   example: []
@@ -131,35 +88,30 @@ items:
     content: public PrecomputedRendererBakeContainer(PrecomputedRendererBaseContainer container)
     parameters:
     - id: container
-      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+      type: Global.PrecomputedRendererBaseContainer
       description: ''
     content.vb: Public Sub New(container As PrecomputedRendererBaseContainer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer)
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer)
-  id: '#ctor(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer)'
+  nameWithType.vb: PrecomputedRendererBakeContainer.New(PrecomputedRendererBaseContainer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.New(PrecomputedRendererBaseContainer)
+  name.vb: New(PrecomputedRendererBaseContainer)
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(IPrecomputedRendererContainer)
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor(IPrecomputedRendererContainer)
+  id: '#ctor(IPrecomputedRendererContainer)'
   parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
   langs:
   - csharp
   - vb
   name: PrecomputedRendererBakeContainer(IPrecomputedRendererContainer)
   nameWithType: PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer(IPrecomputedRendererContainer)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer(ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer(IPrecomputedRendererContainer)
   type: Constructor
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: .ctor
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 61
+    path: ''
+    startLine: 3234
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nDefault constructor\n"
   example: []
@@ -167,14 +119,13 @@ items:
     content: public PrecomputedRendererBakeContainer(IPrecomputedRendererContainer container)
     parameters:
     - id: container
-      type: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
+      type: Global.IPrecomputedRendererContainer
       description: ''
     content.vb: Public Sub New(container As IPrecomputedRendererContainer)
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PrecomputedRendererBakeContainer.New(IPrecomputedRendererContainer)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.New(IPrecomputedRendererContainer)
+  name.vb: New(IPrecomputedRendererContainer)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccluder
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccluder
   id: IsOccluder
@@ -187,15 +138,11 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccluder
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: IsOccluder
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 69
+    path: ''
+    startLine: 3242
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nCan object occlude other objects, to make them not visible\n"
   example: []
@@ -206,12 +153,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsOccluder As Boolean
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccluder*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccludee
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccludee
   id: IsOccludee
@@ -224,15 +165,11 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccludee
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: IsOccludee
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 74
+    path: ''
+    startLine: 3257
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nCan this object be occluded and thus optimized to be not visible\n"
   example: []
@@ -243,12 +180,6 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsOccludee As Boolean
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccludee*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder(System.Boolean)
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder(System.Boolean)
   id: IsValidOccluder(System.Boolean)
@@ -256,20 +187,16 @@ items:
   langs:
   - csharp
   - vb
-  name: IsValidOccluder(Boolean)
-  nameWithType: PrecomputedRendererBakeContainer.IsValidOccluder(Boolean)
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder(System.Boolean)
+  name: IsValidOccluder(bool)
+  nameWithType: PrecomputedRendererBakeContainer.IsValidOccluder(bool)
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder(bool)
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: IsValidOccluder
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 85
+    path: ''
+    startLine: 3277
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nTest if given renderer is a valid occluder or occludee\n"
   remarks: "\nThis value is cached per renderer\n"
@@ -284,13 +211,9 @@ items:
       description: ''
     content.vb: Public Function IsValidOccluder(isTransparentValid As Boolean = False) As ValidOccluderEnum
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder*
-  exceptions:
-  - type: System.ArgumentOutOfRangeException
-    commentId: T:System.ArgumentOutOfRangeException
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: PrecomputedRendererBakeContainer.IsValidOccluder(Boolean)
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder(Boolean)
+  name.vb: IsValidOccluder(Boolean)
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GetRenderers
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GetRenderers
   id: GetRenderers
@@ -303,32 +226,48 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GetRenderers()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: GetRenderers
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 123
+    path: ''
+    startLine: 3315
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   summary: "\nProvides general renderer iteration over bake container\n"
   example: []
   syntax:
     content: public IEnumerable<(MeshRenderer Renderer, MeshFilter Filter)> GetRenderers()
     return:
-      type: System.Collections.Generic.IEnumerable{System.ValueTuple{UnityEngine.MeshRenderer,UnityEngine.MeshFilter}}
+      type: Global.IEnumerable{System.ValueTuple{MeshRenderer,MeshFilter}}
       description: ''
-    content.vb: Public Function GetRenderers As IEnumerable(Of(Renderer As MeshRenderer, Filter As MeshFilter)(Of MeshRenderer , MeshFilter))
+    content.vb: Public Function GetRenderers() As IEnumerable(Of (Renderer As MeshRenderer, Filter As MeshFilter))
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GetRenderers*
-  exceptions:
-  - type: System.ArgumentOutOfRangeException
-    commentId: T:System.ArgumentOutOfRangeException
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers
+  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers
+  id: PrecomputedRenderers
+  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer
+  langs:
+  - csharp
+  - vb
+  name: PrecomputedRenderers()
+  nameWithType: PrecomputedRendererBakeContainer.PrecomputedRenderers()
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers()
+  type: Method
+  source:
+    id: PrecomputedRenderers
+    path: ''
+    startLine: 3337
+  assemblies:
+  - cs.temp.dll
+  namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  summary: "\nCreate/return a list of cache precomputed renderers\n"
+  example: []
+  syntax:
+    content: public List<PrecomputedRenderer> PrecomputedRenderers()
+    return:
+      type: Global.List{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer}
+      description: ''
+    content.vb: Public Function PrecomputedRenderers() As List(Of PrecomputedRenderer)
+  overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers*
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId
   id: RendererId
@@ -341,15 +280,11 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: RendererId
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 166
+    path: ''
+    startLine: 3378
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   example: []
   syntax:
@@ -359,14 +294,6 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property RendererId As Integer
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId*
-  implements:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.RendererId
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show
   id: Show
@@ -379,27 +306,17 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Show
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 169
+    path: ''
+    startLine: 3381
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   example: []
   syntax:
     content: public void Show()
-    content.vb: Public Sub Show
+    content.vb: Public Sub Show()
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show*
-  implements:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Hide
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Hide
   id: Hide
@@ -412,27 +329,17 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Hide()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: Hide
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 175
+    path: ''
+    startLine: 3387
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   example: []
   syntax:
     content: public void Hide()
-    content.vb: Public Sub Hide
+    content.vb: Public Sub Hide()
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Hide*
-  implements:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid
   commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid
   id: IsValid
@@ -445,29 +352,19 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid()
   type: Method
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: IsValid
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 181
+    path: ''
+    startLine: 3393
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   example: []
   syntax:
     content: public bool IsValid()
     return:
       type: System.Boolean
-    content.vb: Public Function IsValid As Boolean
+    content.vb: Public Function IsValid() As Boolean
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid*
-  implements:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject
   commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject
   id: GameObject
@@ -480,352 +377,85 @@ items:
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject
   type: Property
   source:
-    remote:
-      path: OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-      branch: develop
-      repo: git@bitbucket.org:prographers/perfect-culling.git
     id: GameObject
-    path: ../../../Unity/perfect-culling/OcclusionCulling/Assets/Scripts/ProgLibrary/PrecomputedCulling/PrecomputedCulling/DataModels/SceneData/PrecomputedRendererBakeContainer.cs
-    startLine: 187
+    path: ''
+    startLine: 3399
   assemblies:
-  - PrecomputedCulling
+  - cs.temp.dll
   namespace: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   example: []
   syntax:
     content: public GameObject GameObject { get; }
     parameters: []
     return:
-      type: UnityEngine.GameObject
+      type: Global.GameObject
     content.vb: Public ReadOnly Property GameObject As GameObject
   overload: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject*
-  implements:
-  - ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.GameObject
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
 references:
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData
   name: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+  spec.csharp:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
+  spec.vb:
+  - uid: ProgLibrary
+    name: ProgLibrary
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling
+    name: PrecomputedCulling
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels
+    name: DataModels
+  - name: .
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData
+    name: SceneData
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  name: IPrecomputedRendererContainer
-  nameWithType: IPrecomputedRendererContainer
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  commentId: N:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  name: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  nameWithType: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
-  commentId: T:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract
+- uid: Global.PrecomputedRendererBaseContainer
+  isExternal: true
   name: PrecomputedRendererBaseContainer
   nameWithType: PrecomputedRendererBaseContainer
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.PrecomputedRendererBaseContainer
+  fullName: PrecomputedRendererBaseContainer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.#ctor
   name: PrecomputedRendererBakeContainer
   nameWithType: PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRendererBakeContainer
+  nameWithType.vb: PrecomputedRendererBakeContainer.New
+  fullName.vb: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.New
+  name.vb: New
+- uid: Global.IPrecomputedRendererContainer
+  commentId: '!:Global.IPrecomputedRendererContainer'
+  isExternal: true
+  name: IPrecomputedRendererContainer
+  nameWithType: IPrecomputedRendererContainer
+  fullName: IPrecomputedRendererContainer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccluder*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccluder
   name: IsOccluder
@@ -835,17 +465,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccludee*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccludee
   name: IsOccludee
   nameWithType: PrecomputedRendererBakeContainer.IsOccludee
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsOccludee
-- uid: System.ArgumentOutOfRangeException
-  commentId: T:System.ArgumentOutOfRangeException
-  isExternal: true
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValidOccluder
   name: IsValidOccluder
@@ -862,271 +492,182 @@ references:
   name: GetRenderers
   nameWithType: PrecomputedRendererBakeContainer.GetRenderers
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GetRenderers
-- uid: System.Collections.Generic.IEnumerable{System.ValueTuple{UnityEngine.MeshRenderer,UnityEngine.MeshFilter}}
-  commentId: T:System.Collections.Generic.IEnumerable{System.ValueTuple{UnityEngine.MeshRenderer,UnityEngine.MeshFilter}}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<(T1, T2)<MeshRenderer, MeshFilter>>
-  nameWithType: IEnumerable<(T1, T2)<MeshRenderer, MeshFilter>>
-  fullName: System.Collections.Generic.IEnumerable<System.ValueTuple<UnityEngine.MeshRenderer, UnityEngine.MeshFilter>>
-  nameWithType.vb: IEnumerable(Of (T1, T2)(Of MeshRenderer, MeshFilter))
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.ValueTuple(Of UnityEngine.MeshRenderer, UnityEngine.MeshFilter))
-  name.vb: IEnumerable(Of (T1, T2)(Of MeshRenderer, MeshFilter))
+- uid: Global.IEnumerable{System.ValueTuple{MeshRenderer,MeshFilter}}
+  commentId: '!:Global.IEnumerable{System.ValueTuple{MeshRenderer,MeshFilter}}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<(MeshRenderer Renderer, MeshFilter Filter)>
+  nameWithType: IEnumerable<(MeshRenderer Renderer, MeshFilter Filter)>
+  fullName: IEnumerable<(MeshRenderer Renderer, MeshFilter Filter)>
+  nameWithType.vb: IEnumerable(Of (Renderer As MeshRenderer, Filter As MeshFilter))
+  fullName.vb: IEnumerable(Of (Renderer As MeshRenderer, Filter As MeshFilter))
+  name.vb: IEnumerable(Of (Renderer As MeshRenderer, Filter As MeshFilter))
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
+  - uid: Global.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: UnityEngine.MeshRenderer
+  - name: (
+  - uid: Global.MeshRenderer
     name: MeshRenderer
-    nameWithType: MeshRenderer
-    fullName: UnityEngine.MeshRenderer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: UnityEngine.MeshFilter
+  - name: " "
+  - uid: System.ValueTuple{MeshRenderer,MeshFilter}.Renderer
+    name: Renderer
+  - name: ','
+  - name: " "
+  - uid: Global.MeshFilter
     name: MeshFilter
-    nameWithType: MeshFilter
-    fullName: UnityEngine.MeshFilter
     isExternal: true
+  - name: " "
+  - uid: System.ValueTuple{MeshRenderer,MeshFilter}.Filter
+    name: Filter
+  - name: )
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
+  - uid: Global.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: UnityEngine.MeshRenderer
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{MeshRenderer,MeshFilter}.Renderer
+    name: Renderer
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: Global.MeshRenderer
     name: MeshRenderer
-    nameWithType: MeshRenderer
-    fullName: UnityEngine.MeshRenderer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: UnityEngine.MeshFilter
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{MeshRenderer,MeshFilter}.Filter
+    name: Filter
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: Global.MeshFilter
     name: MeshFilter
-    nameWithType: MeshFilter
-    fullName: UnityEngine.MeshFilter
     isExternal: true
   - name: )
-    nameWithType: )
-    fullName: )
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
+- uid: Global.IEnumerable`1
   isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
+  - uid: Global.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
   - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
   - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
+  - uid: Global.IEnumerable`1
     name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
   - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
+- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers*
+  commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers
+  name: PrecomputedRenderers
+  nameWithType: PrecomputedRendererBakeContainer.PrecomputedRenderers
+  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.PrecomputedRenderers
+- uid: Global.List{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer}
+  commentId: '!:Global.List{ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer}'
+  definition: Global.List`1
+  name: List<PrecomputedRenderer>
+  nameWithType: List<PrecomputedRenderer>
+  fullName: List<ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer>
+  nameWithType.vb: List(Of PrecomputedRenderer)
+  fullName.vb: List(Of ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer)
+  name.vb: List(Of PrecomputedRenderer)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+    name: PrecomputedRenderer
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRenderer
+    name: PrecomputedRenderer
+  - name: )
+- uid: Global.List`1
   isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId
   name: RendererId
   nameWithType: PrecomputedRendererBakeContainer.RendererId
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.RendererId
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.RendererId
-  commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.RendererId
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  name: RendererId
-  nameWithType: IPrecomputedRendererContainer.RendererId
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.RendererId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show
   name: Show
   nameWithType: PrecomputedRendererBakeContainer.Show
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Show
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  name: Show()
-  nameWithType: IPrecomputedRendererContainer.Show()
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show()
-  spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show
-    name: Show
-    nameWithType: IPrecomputedRendererContainer.Show
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show
-    name: Show
-    nameWithType: IPrecomputedRendererContainer.Show
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Show
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Hide*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Hide
   name: Hide
   nameWithType: PrecomputedRendererBakeContainer.Hide
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.Hide
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  name: Hide()
-  nameWithType: IPrecomputedRendererContainer.Hide()
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide()
-  spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide
-    name: Hide
-    nameWithType: IPrecomputedRendererContainer.Hide
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide
-    name: Hide
-    nameWithType: IPrecomputedRendererContainer.Hide
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.Hide
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid
   name: IsValid
   nameWithType: PrecomputedRendererBakeContainer.IsValid
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.IsValid
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid
-  commentId: M:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  name: IsValid()
-  nameWithType: IPrecomputedRendererContainer.IsValid()
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid()
-  spec.csharp:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid
-    name: IsValid
-    nameWithType: IPrecomputedRendererContainer.IsValid
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid
-    name: IsValid
-    nameWithType: IPrecomputedRendererContainer.IsValid
-    fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.IsValid
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject*
   commentId: Overload:ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject
   name: GameObject
   nameWithType: PrecomputedRendererBakeContainer.GameObject
   fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.PrecomputedRendererBakeContainer.GameObject
-- uid: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.GameObject
-  commentId: P:ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.GameObject
-  parent: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer
-  name: GameObject
-  nameWithType: IPrecomputedRendererContainer.GameObject
-  fullName: ProgLibrary.PrecomputedCulling.DataModels.SceneData.Abstract.IPrecomputedRendererContainer.GameObject
-- uid: UnityEngine.GameObject
-  commentId: T:UnityEngine.GameObject
-  parent: UnityEngine
+- uid: Global.GameObject
   isExternal: true
   name: GameObject
   nameWithType: GameObject
-  fullName: UnityEngine.GameObject
-- uid: UnityEngine
-  commentId: N:UnityEngine
-  isExternal: true
-  name: UnityEngine
-  nameWithType: UnityEngine
-  fullName: UnityEngine
+  fullName: GameObject
