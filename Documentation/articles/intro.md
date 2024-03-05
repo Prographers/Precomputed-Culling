@@ -9,12 +9,12 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 
 **Links:**
 
-| Name | Link |
-| ---- | ---- |
-| Documentation and API reference | https://prographers.github.io/Precomputed-Culling |
-| Project page | https://prographers.com/precomputed-culling/ |
-| Documentation repository | https://github.com/Prographers/Precomputed-Culling/ |
-| **Asset Store** | https://assetstore.unity.com/packages/slug/221372 |
+| Name                            | Link                                                |
+|---------------------------------|-----------------------------------------------------|
+| Documentation and API reference | https://prographers.github.io/Precomputed-Culling   |
+| Project page                    | https://prographers.com/precomputed-culling/        |
+| Documentation repository        | https://github.com/Prographers/Precomputed-Culling/ |
+| **Asset Store**                 | https://assetstore.unity.com/packages/slug/221372   |
 
 ### Features:
 - Support for URP and HDRP
@@ -34,11 +34,10 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 - Examples and Demos
 - Support via email or discord
 - Superior performance
-- 
+- Bake in runtime or before build
+
 *Not recommended to use in 2D games, intended use is for example leaves on the 3D trees or far away rocks.
 
-### Limitations:
-- Required to bake scenes and their variants before build.
 
 ### Roadmap:
 - Support for Legacy (built-in)
@@ -57,15 +56,15 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 
 ## Basic Usage:
 
-For more advanced usages visit https://prographers.com/Precomputed-Culling/ or the related section in the repository https://github.com/Prographers/Precomputed-Culling/
+For more advanced usages visit https://prographers.com/precomputed-culling/ or the related section in the repository https://github.com/Prographers/Precomputed-Culling/
 
 1. Open the main scene where you want to initialize your setup
 2. In the top menu, press Tools->Precomputed Culling->Setup
 3. Adjust Precomputed Volume/Area to match the play area of your player (note you can have multiple areas)
 4. Adjust cell density and camera control (Find the best setting between bake Quality and Bake time and performance).
-4. Start baking either in Tools->Precomputed Culling->Bake or in Area
-5. Wait for bake to finish
-6. Enjoy an increase in performance
+5. Start baking either in Tools->Precomputed Culling->Bake or in Area
+6. Wait for bake to finish
+7. Enjoy an increase in performance
 
 ## Recommendation:
 ### Open world areas: 

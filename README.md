@@ -9,13 +9,13 @@ Open world scenes with flat chunked terrain, gained us 10-25%. From 47fps to 60f
 
 **Links:**
 
-| Name | Link |
-| ---- | ---- |
-| Documentation and API reference | https://prographers.github.io/Precomputed-Culling |
-| Project page | https://prographers.com/precomputed-culling/ |
-| Documentation repository | https://github.com/Prographers/Precomputed-Culling/ |
-| Discord | https://discord.gg/55gM3s3pdR |
-| **Asset Store** | https://assetstore.unity.com/packages/slug/221372 |
+| Name                            | Link                                                |
+|---------------------------------|-----------------------------------------------------|
+| Documentation and API reference | https://prographers.github.io/Precomputed-Culling   |
+| Project page                    | https://prographers.com/precomputed-culling/        |
+| Documentation repository        | https://github.com/Prographers/Precomputed-Culling/ |
+| Discord                         | https://discord.gg/55gM3s3pdR                       |
+| **Asset Store**                 | https://assetstore.unity.com/packages/slug/221372   |
 
 ### Features:
 - Support for URP and HDRP
@@ -57,14 +57,14 @@ For more advanced usages visit https://prographers.com/precomputed-culling/ or t
 2. In the top menu, press Tools->Precomputed Culling->Setup
 3. Adjust Precomputed Volume/Area to match the play area of your player (note you can have multiple areas)
 4. Adjust cell density and camera control (Find the best setting between bake Quality and Bake time and performance).
-4. Start baking either in Tools->Precomputed Culling->Bake or in Area
-5. Wait for bake to finish
-6. Enjoy an increase in performance
+5. Start baking either in Tools->Precomputed Culling->Bake or in Area
+6. Wait for bake to finish
+7. Enjoy an increase in performance
 
 ## Recommendation:
 ### Open world areas: 
  - Chunk size should be around 5 meters in width by 5 meters height by top jump height.
- - At least 3 cameras in the middle. At top of jump height; At eye level; At Croutch eye level (add the fourth one if the prone position is allowed)
+ - At least 3 cameras in the middle. At top of jump height; At eye level; At Crouch eye level (add the fourth one if the prone position is allowed)
  - Allow for taking data from neighboring cells at distance of 1 reduce aggressiveness of the algorithm
  - Set runtime pixel requirement to 50-100 pixels
  - Allow for baking terrain
@@ -72,11 +72,11 @@ For more advanced usages visit https://prographers.com/precomputed-culling/ or t
 
 ### Small Areas (building):
  - Chunk size should be around 1 meter by 1 meter by the height of the building
- - At least 18 cameras. All spread out within the cell. At top of jump height; At eye level; At Croutch eye level.
+ - At least 18 cameras. All spread out within the cell. At top of jump height; At eye level; At Crouch eye level.
  - (Optional if experiencing artifacts) Allow for taking data from neighboring cells in distance of 1 reduce aggressiveness of the algorithm
  - Set runtime pixel requirement to 0 - 25 pixels
  - Allow for baking transparent between 1 or 2 layers
 
 More dense areas should have a bigger priority than less dense areas.
 
-Please rate us at Asset Store 5 stars if you find this plugin usefull!
+Please rate us at Asset Store 5 stars if you find this plugin useful!

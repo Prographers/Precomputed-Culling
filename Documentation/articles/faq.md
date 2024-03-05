@@ -8,18 +8,18 @@ Frustum culling is a technique used to cull objects that are not visible from th
 
 Frustum culling does not remove from the rendering objects that are behind of other objects.
 
-| Type | Visualsation | 
-| --- | --- |
-| **Precomputed culling off** | <img src="../images/culing_off.png" width="200" />|
-| **Precomputed culling on** | <img src="../images/culing_on.png" width="200" /> |
+| Type                        | Visualization                                      | 
+|-----------------------------|----------------------------------------------------|
+| **Precomputed culling off** | <img src="../images/culing_off.png" width="200" /> |
+| **Precomputed culling on**  | <img src="../images/culing_on.png" width="200" />  |
 
 # When should I use precomputed culling
 
-Precomputed culling should be used for virtualy any 3D project. From fully open worlds, to closed, corridor based scenes. Scene with hundreds or thousands of objects usually without any culling algorithm can have significant GPU impact. Using precomputed culling can save a lot of GPU resources.
+Precomputed culling should be used for virtually any 3D project. From fully open worlds, to closed, corridor based scenes. Scene with hundreds or thousands of objects usually without any culling algorithm can have significant GPU impact. Using precomputed culling can save a lot of GPU resources.
 
 For **open world games**, in long view distant scenes you can save between **10-25% of GPU usage** ,depending on the scenery and occlusion level.
 
-For **indor levels**, you can save up to **90% of the GPU usage**, depending on the scenery and occlusion level.
+For **indoor levels**, you can save up to **90% of the GPU usage**, depending on the scenery and occlusion level.
 
 # How often should I bake culling data
 
@@ -36,7 +36,7 @@ We recommend setting up CI pipeline that would bake culling after any scene chan
 
 We created this asset for 3 main reasons.
 
-1. Umbra doesn't support multi-scene setups, or addative scene setups.
+1. Umbra doesn't support multi-scene setups, or additive scene setups.
 2. Umbra bakes are low quality and bleed a lot of objects.
 3. We often had issues with baking in batch mode.
 
@@ -46,7 +46,7 @@ With our solution we tried to address those issues and improve upon them.
 
 We added features like:
  - Variants bake
- - Quality controll with pixel visiblity
+ - Quality control with pixel visibility
  - Multiple areas with priorities
  - and many more...
 
