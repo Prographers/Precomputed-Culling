@@ -5,7 +5,7 @@
       href: faq.md
     - name: Quick Start
       href: quickstart.md
+    - name: Runtime bakes
+      href: runtime-bake.md
     - name: Features
       href: features.md
-- name: WIP
-  href: Wip.md
