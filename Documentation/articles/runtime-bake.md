@@ -15,6 +15,8 @@ This guide will show you how to set up and use runtime occlusion culling.
 5. Assign the PrecomputedData to the correct PrecomputedArea.
    See the DemoRuntimeBakeController for an example of how to use the runtime bake system.
 
+**Note:** If you have a lot of objects to be considered during the bake, you can use `Tools > PrecomputedCulling > Setup meshes` to automatically add and setup PrecomputedCullingRendererId to all renderers in the scene.
+
 ## How it Works
 
 Culling data generated during the bake is saved to a zip file located at StreamingAssets/PrecomputedData/PrecomputedData.zip. This file contains all the baked data separated into files for each bake. Data is serialized by a custom serializer called SimpleTextSerializer. Then, while loading, the data is unpacked and deserialized. The culling process works exactly the same as in the case of the pre-baked data.
