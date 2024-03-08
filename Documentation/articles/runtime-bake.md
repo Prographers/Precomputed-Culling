@@ -1,6 +1,7 @@
 # Runtime Bake Guide
 
 This guide will show you how to set up and use runtime occlusion culling.
+There is a demo scene in the `Examples/Scenes/RuntimeDemo/RuntimeBakingDemo.unity` folder that shows how to use the runtime bake system.
 
 ## Setup
 
@@ -15,7 +16,7 @@ This guide will show you how to set up and use runtime occlusion culling.
 5. Assign the PrecomputedData to the correct PrecomputedArea.
    See the DemoRuntimeBakeController for an example of how to use the runtime bake system.
 
-**Note:** If you have a lot of objects to be considered during the bake, you can use `Tools > PrecomputedCulling > Setup meshes` to automatically add and setup PrecomputedCullingRendererId to all renderers in the scene.
+**Note:** If you have a lot of objects to be considered during the bake, you can use `Tools > PrecomputedCulling > Setup meshes` to automatically add and setup PrecomputedCullingRendererId to all renderers in the scene. This is only for setting up from the editor. In your solution, you'll probably want to add and setup PrecomputedCullingRendererId to the renderers manually.
 
 ## How it Works
 
