@@ -75,7 +75,8 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="runtime-bake-guide">Runtime Bake Guide</h1>
 
-<p>This guide will show you how to set up and use runtime occlusion culling.</p>
+<p>This guide will show you how to set up and use runtime occlusion culling.
+There is a demo scene in the <code>Examples/Scenes/RuntimeDemo/RuntimeBakingDemo.unity</code> folder that shows how to use the runtime bake system.</p>
 <h2 id="setup">Setup</h2>
 <ol>
 <li>Create or open a scene on which you want to enable runtime baking.</li>
@@ -92,7 +93,7 @@
 <li>Assign the PrecomputedData to the correct PrecomputedArea.
 See the DemoRuntimeBakeController for an example of how to use the runtime bake system.</li>
 </ol>
-<p><strong>Note:</strong> If you have a lot of objects to be considered during the bake, you can use <code>Tools &gt; PrecomputedCulling &gt; Setup meshes</code> to automatically add and setup PrecomputedCullingRendererId to all renderers in the scene.</p>
+<p><strong>Note:</strong> If you have a lot of objects to be considered during the bake, you can use <code>Tools &gt; PrecomputedCulling &gt; Setup meshes</code> to automatically add and setup PrecomputedCullingRendererId to all renderers in the scene. This is only for setting up from the editor. In your solution, you'll probably want to add and setup PrecomputedCullingRendererId to the renderers manually.</p>
 <h2 id="how-it-works">How it Works</h2>
 <p>Culling data generated during the bake is saved to a zip file located at StreamingAssets/PrecomputedData/PrecomputedData.zip. This file contains all the baked data separated into files for each bake. Data is serialized by a custom serializer called SimpleTextSerializer. Then, while loading, the data is unpacked and deserialized. The culling process works exactly the same as in the case of the pre-baked data.</p>
 <h2 id="customization">Customization</h2>
